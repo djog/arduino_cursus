@@ -88,6 +88,10 @@ Wat is Arduino?
 
 \end_layout
 
+\begin_layout Section
+Overzicht
+\end_layout
+
 \begin_layout Enumerate
 Wat weten jullie al?
 \end_layout
@@ -304,15 +308,15 @@ Wat we doen is divers:
 \end_layout
 
 \begin_layout Itemize
-Elektronica
+Ontwerpen: Fritzing
+\end_layout
+
+\begin_layout Itemize
+Bouwen: Elektronica
 \end_layout
 
 \begin_layout Itemize
 Programmeren: Arduino IDE
-\end_layout
-
-\begin_layout Itemize
-Ontwerpen: Fritzing
 \end_layout
 
 \begin_layout Standard

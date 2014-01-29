@@ -68,7 +68,7 @@ figs-within-sections
 \begin_body
 
 \begin_layout Title
-Hoe sluit ik een LED aan?
+Arduino cursus introductie
 \end_layout
 
 \begin_layout Author
@@ -93,27 +93,19 @@ Overzicht
 \end_layout
 
 \begin_layout Enumerate
-Fritzing
+Wie zijn wij?
 \end_layout
 
 \begin_layout Enumerate
-Er is een probleem?
+Wie zijn jullie? Wat willen julie?
 \end_layout
 
 \begin_layout Enumerate
-Wat weten we?
+Wat willen we?
 \end_layout
 
 \begin_layout Enumerate
-Er is een probleem?
-\end_layout
-
-\begin_layout Enumerate
-Hoe gaan we daar mee om?
-\end_layout
-
-\begin_layout Enumerate
-Opdracht: vind dit uit! Noteer in je logboek
+Hoe doen we dat?
 \end_layout
 
 \begin_layout Standard
@@ -124,174 +116,41 @@ Opdracht: vind dit uit! Noteer in je logboek
 \end_layout
 
 \begin_layout Section
-Fritzing
+Wie zijn wij?
 \end_layout
 
 \begin_layout Itemize
-Vrije software
-\end_layout
-
-\begin_layout Itemize
-Linux, Mac OS X, Windows
-\end_layout
-
-\begin_layout Standard
-\begin_inset Graphics
-	filename Fritzing_1.png
-	lyxscale 25
-	scale 25
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Fritzing installatie
-\end_layout
-
-\begin_layout Itemize
-\begin_inset listings
-inline false
-status open
-
-\begin_layout Plain Layout
-
-sudo apt-get install fritzing
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset listings
-inline false
-status open
-
-\begin_layout Plain Layout
-
-yum install fritzing
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Download van 
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-fritzing.org/download
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Opdracht
-\end_layout
-
-\begin_layout Itemize
-Installeer Fritzing
-\end_layout
-
-\begin_layout Itemize
-Bekijk wat Fritzing kan: 'Breadboard view', 'Schematic' en 'PCB'
-\end_layout
-
-\begin_layout Itemize
-Ontwerp: stroomschema van een LED die altijd brandt
-\end_layout
-
-\begin_layout Standard
-Welk probleem kom je tegen?
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Er is een probleem?
-\end_layout
-
-\begin_layout Standard
-Ja: je kunt een LED niet direct op een Arduino aansluiten
-\end_layout
-
-\begin_layout Itemize
-Hoe kun je dat merken?
-\end_layout
-
-\begin_layout Itemize
-Dat gaan we doen! 
+Peter 
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-Experiment
+Voorstellen: Waarvoor kun je mij het best aanspreken? Elektronica, voorbeelden
+ van andere projecten
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Weet veel van elektronica
 \end_layout
 
 \begin_layout Itemize
-Waarom is dat zo?
+Werkt veel met Arduino, kent veel Arduino projecten
 \end_layout
 
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Wat weten we?
-\end_layout
-
-\begin_layout Enumerate
-Wat is volt?
-\end_layout
-
-\begin_layout Enumerate
-Wie weet hoeveel volt een LED gebruikt?
-\end_layout
-
-\begin_layout Enumerate
-Wie weet hoeveel volt een Arduino levert? 
+\end_deeper
+\begin_layout Itemize
+Richèl
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-Dit staat op een Arduino te lezen!
+Voorstellen: Waarvoor kun je mij het best aanspreken? Software
 \end_layout
 
 \end_inset
@@ -299,6 +158,16 @@ Dit staat op een Arduino te lezen!
 
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Weet veel van programmeren
+\end_layout
+
+\begin_layout Itemize
+Weet veel van les geven
+\end_layout
+
+\end_deeper
 \begin_layout Standard
 \begin_inset Newpage newpage
 \end_inset
@@ -307,81 +176,31 @@ Dit staat op een Arduino te lezen!
 \end_layout
 
 \begin_layout Section
-Antwoorden
+Wie zijn jullie?
 \end_layout
 
-\begin_layout Enumerate
-Volt = de hoeveelheid energie die stroom levert 
+\begin_layout Itemize
+Wie ben jij?
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-Bewust zo vaag geformuleerd
+Rondje voorstellen: naam
 \end_layout
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Enumerate
-Een LED (diffuus, zonder [...]) gebruikt 1,8-2,5 Volt (zie volgende slide)
-\end_layout
-
-\begin_layout Enumerate
-Een Arduino levert 3,3 of 5,0 Volt
-\end_layout
-
-\begin_layout Standard
-Wat kun hieraan doen?
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Antwoorden
-\end_layout
-
-\begin_layout Standard
-\begin_inset Graphics
-	filename LedDatasheet.png
-	lyxscale 40
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Wat kun hieraan doen?
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Hoe hoge spanningen tegen te gaan?
 \end_layout
 
 \begin_layout Itemize
-Met een weerstand!
-\end_layout
+Wat wil je?
+\begin_inset Note Note
+status open
 
-\begin_layout Standard
-\begin_inset Graphics
-	filename ArduinoCourseConnectLed.png
-	lyxscale 25
-	scale 25
+\begin_layout Plain Layout
+Rondje ideeen voor (korte) einddoelen
+\end_layout
 
 \end_inset
 
@@ -396,22 +215,131 @@ Met een weerstand!
 \end_layout
 
 \begin_layout Section
-Welke weerstand?
+Vorm cursus
 \end_layout
 
 \begin_layout Itemize
-Proberen: start met hoge weerstand en ga omlaag
+De vorm van de cursus is vrij
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Niveau van de uitleg hoger/lager?
 \end_layout
 
 \begin_layout Itemize
-Berekenen
+Uitleg door deelnemers?
+\end_layout
+
+\begin_layout Itemize
+Wedstrijd?
+\end_layout
+
+\begin_layout Itemize
+Grote projecten?
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Samen zoeken naar onze favoriete vorm
 \end_layout
 
 \begin_layout Standard
-\begin_inset Graphics
-	filename OkaphoneLedCalculator.png
-	lyxscale 25
-	scale 25
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Vorm cursus vandaag
+\end_layout
+
+\begin_layout Itemize
+Schoolse traject
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+begint bij de basis
+\end_layout
+
+\begin_layout Itemize
+stap-voor-stap uitleg, oefening en nabespreking
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Projectgebaseerde traject
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+vrij
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Hoe handelen we?
+\end_layout
+
+\begin_layout Itemize
+Concentreren: we zijn alleen bezig met Arduino
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Geen mobiel, geen Facebook, geen onzin
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Uittesten: fouten maken is goed
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Geen angst voor schade, geen opzettelijk stuk maken
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Slim: we gedragen ons als Einsteins
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Geen fysiek spelen op de afdeling
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Samen: we proberen het goede voorbeeld te geven en ons best te doen 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Geen anderen tot last zijn
+\end_layout
 
 \end_inset
 
@@ -426,22 +354,43 @@ Berekenen
 \end_layout
 
 \begin_layout Section
-Welke weerstand?
+Tijdsindeling avond
 \end_layout
 
 \begin_layout Itemize
-Zij Bracht ROzen Op GErrits GRaf Bij Vies GRIJS Weer
+☑ introductie
 \end_layout
 
-\begin_layout Standard
-\begin_inset Graphics
-	filename Weerstandcalculator.png
-	lyxscale 25
-	scale 35
+\begin_layout Itemize
+☐ Wat is Arduino?
+\end_layout
 
-\end_inset
+\begin_layout Itemize
+☐ Ontwerp: LED
+\end_layout
 
+\begin_layout Itemize
+20:30-21:00 pauze
+\end_layout
 
+\begin_layout Itemize
+☐ Bouwen: LED
+\end_layout
+
+\begin_layout Itemize
+☐ Programmeren: LED
+\end_layout
+
+\begin_layout Itemize
+☐ Ontwerp: schakelbare LED
+\end_layout
+
+\begin_layout Itemize
+☐ Bouwen: schakelbare LED
+\end_layout
+
+\begin_layout Itemize
+☐ Programmeren: schakelbare LED
 \end_layout
 
 \begin_layout Standard
@@ -449,37 +398,6 @@ Zij Bracht ROzen Op GErrits GRaf Bij Vies GRIJS Weer
 \end_inset
 
 
-\end_layout
-
-\begin_layout Section
-Bouwen!
-\end_layout
-
-\begin_layout Itemize
-Wat gebeurt er als je de LED omdraait?
-\end_layout
-
-\begin_layout Itemize
-Welke problemen loop je tegen aan?
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Geniet
-\end_layout
-
-\begin_layout Itemize
-Wat zijn logische volgende stappen?
-\end_layout
-
-\begin_layout Itemize
-Welke problemen loop je tegen aan?
 \end_layout
 
 \end_body

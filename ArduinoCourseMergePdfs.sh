@@ -4,9 +4,9 @@ lyx -e pdf2 `find . | egrep "\.lyx"`
 # Concatenate all PDFs in the correct order
 pdfunite \
   ArduinoCourseIntroduction.pdf \
-  ArduinoCourseMindset.pdf \
   ArduinoCourseWhatIsArduino.pdf \
   ArduinoCourseConnectLed.pdf \
+  ArduinoCourseMindset.pdf \
   ArduinoCourseAll.pdf
 
 #Convert ArduinoCourseAll.pdf to handout format (4 columns, 2 rows)

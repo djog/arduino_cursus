@@ -68,7 +68,7 @@ figs-within-sections
 \begin_body
 
 \begin_layout Title
-Hoe sluit ik een LED aan?
+Wat is Arduino?
 \end_layout
 
 \begin_layout Author
@@ -88,32 +88,24 @@ Hoe sluit ik een LED aan?
 
 \end_layout
 
-\begin_layout Section
-Overzicht
+\begin_layout Enumerate
+Wat weten jullie al?
 \end_layout
 
 \begin_layout Enumerate
-Fritzing
+Wat is een mindmap?
 \end_layout
 
 \begin_layout Enumerate
-Er is een probleem?
+Maken mindmap
 \end_layout
 
 \begin_layout Enumerate
-Wat weten we?
+Wat is Arduino volgens Richèl
 \end_layout
 
 \begin_layout Enumerate
-Er is een probleem?
-\end_layout
-
-\begin_layout Enumerate
-Hoe gaan we daar mee om?
-\end_layout
-
-\begin_layout Enumerate
-Opdracht: vind dit uit! Noteer in je logboek
+Conclusie
 \end_layout
 
 \begin_layout Standard
@@ -124,22 +116,33 @@ Opdracht: vind dit uit! Noteer in je logboek
 \end_layout
 
 \begin_layout Section
-Fritzing
+Wat weten jullie?
 \end_layout
 
 \begin_layout Itemize
-Vrije software
+Wij willen weten wat jullie al weten!
 \end_layout
 
 \begin_layout Itemize
-Linux, Mac OS X, Windows
+Hiervoor hebben we een mindmap van jullie nodig
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Wat is een mindmap?
 \end_layout
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename Fritzing_1.png
-	lyxscale 25
-	scale 25
+	filename ArduinoCourseExampleConceptMap.jpg
+	lyxscale 50
+	scale 50
 
 \end_inset
 
@@ -154,107 +157,16 @@ Linux, Mac OS X, Windows
 \end_layout
 
 \begin_layout Section
-Fritzing installatie
+Maken mindmap
 \end_layout
 
 \begin_layout Itemize
-\begin_inset listings
-inline false
-status open
-
-\begin_layout Plain Layout
-
-sudo apt-get install fritzing
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset listings
-inline false
-status open
-
-\begin_layout Plain Layout
-
-yum install fritzing
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Download van 
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-fritzing.org/download
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Opdracht
-\end_layout
-
-\begin_layout Itemize
-Installeer Fritzing
-\end_layout
-
-\begin_layout Itemize
-Bekijk wat Fritzing kan: 'Breadboard view', 'Schematic' en 'PCB'
-\end_layout
-
-\begin_layout Itemize
-Ontwerp: stroomschema van een LED die altijd brandt
-\end_layout
-
-\begin_layout Standard
-Welk probleem kom je tegen?
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Er is een probleem?
-\end_layout
-
-\begin_layout Standard
-Ja: je kunt een LED niet direct op een Arduino aansluiten
-\end_layout
-
-\begin_layout Itemize
-Hoe kun je dat merken?
-\end_layout
-
-\begin_layout Itemize
-Dat gaan we doen! 
+Opdracht: maak een mindmap met de tekst 'Arduino' in het midden 
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-Experiment
+Hierdoor kunnen wij zien wat de leerlingen al weten
 \end_layout
 
 \end_inset
@@ -263,7 +175,7 @@ Experiment
 \end_layout
 
 \begin_layout Itemize
-Waarom is dat zo?
+Mijn voorbeeld is maar een voorbeeld: alles mag!
 \end_layout
 
 \begin_layout Standard
@@ -274,92 +186,18 @@ Waarom is dat zo?
 \end_layout
 
 \begin_layout Section
-Wat weten we?
-\end_layout
-
-\begin_layout Enumerate
-Wat is volt?
-\end_layout
-
-\begin_layout Enumerate
-Wie weet hoeveel volt een LED gebruikt?
-\end_layout
-
-\begin_layout Enumerate
-Wie weet hoeveel volt een Arduino levert? 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Dit staat op een Arduino te lezen!
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Antwoorden
-\end_layout
-
-\begin_layout Enumerate
-Volt = de hoeveelheid energie die stroom levert 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Bewust zo vaag geformuleerd
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-Een LED (diffuus, zonder [...]) gebruikt 1,8-2,5 Volt (zie volgende slide)
-\end_layout
-
-\begin_layout Enumerate
-Een Arduino levert 3,3 of 5,0 Volt
-\end_layout
-
-\begin_layout Standard
-Wat kun hieraan doen?
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Antwoorden
+Wat is Arduino volgens Richèl?
 \end_layout
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename LedDatasheet.png
-	lyxscale 40
-	scale 40
+	filename ArduinoCourseRichelConceptMap.jpg
+	lyxscale 50
+	scale 50
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-Wat kun hieraan doen?
 \end_layout
 
 \begin_layout Standard
@@ -370,18 +208,14 @@ Wat kun hieraan doen?
 \end_layout
 
 \begin_layout Section
-Hoe hoge spanningen tegen te gaan?
-\end_layout
-
-\begin_layout Itemize
-Met een weerstand!
+Wat is Arduino volgens Richèl?
 \end_layout
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename ArduinoCourseConnectLed.png
-	lyxscale 25
-	scale 25
+	filename ArduinoCourseRichelConceptMapWithFocus.png
+	lyxscale 50
+	scale 50
 
 \end_inset
 
@@ -396,22 +230,14 @@ Met een weerstand!
 \end_layout
 
 \begin_layout Section
-Welke weerstand?
-\end_layout
-
-\begin_layout Itemize
-Proberen: start met hoge weerstand en ga omlaag
-\end_layout
-
-\begin_layout Itemize
-Berekenen
+Elektronica
 \end_layout
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename OkaphoneLedCalculator.png
-	lyxscale 25
-	scale 25
+	filename ArduinoCourseExampleElectronics.png
+	lyxscale 80
+	scale 80
 
 \end_inset
 
@@ -426,18 +252,14 @@ Berekenen
 \end_layout
 
 \begin_layout Section
-Welke weerstand?
-\end_layout
-
-\begin_layout Itemize
-Zij Bracht ROzen Op GErrits GRaf Bij Vies GRIJS Weer
+Software
 \end_layout
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename Weerstandcalculator.png
-	lyxscale 25
-	scale 35
+	filename ArduinoCourseExampleCode.png
+	lyxscale 50
+	scale 50
 
 \end_inset
 
@@ -452,15 +274,18 @@ Zij Bracht ROzen Op GErrits GRaf Bij Vies GRIJS Weer
 \end_layout
 
 \begin_layout Section
-Bouwen!
+Ontwerpen
 \end_layout
 
-\begin_layout Itemize
-Wat gebeurt er als je de LED omdraait?
-\end_layout
+\begin_layout Standard
+\begin_inset Graphics
+	filename ArduinoCourseExampleSchematic.png
+	lyxscale 30
+	scale 30
 
-\begin_layout Itemize
-Welke problemen loop je tegen aan?
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -471,15 +296,27 @@ Welke problemen loop je tegen aan?
 \end_layout
 
 \begin_layout Section
-Geniet
+Conclusie
+\end_layout
+
+\begin_layout Standard
+Wat we doen is divers:
 \end_layout
 
 \begin_layout Itemize
-Wat zijn logische volgende stappen?
+Elektronica
 \end_layout
 
 \begin_layout Itemize
-Welke problemen loop je tegen aan?
+Programmeren: Arduino IDE
+\end_layout
+
+\begin_layout Itemize
+Ontwerpen: Fritzing
+\end_layout
+
+\begin_layout Standard
+Wij bouwen dit stap voor stap op
 \end_layout
 
 \end_body

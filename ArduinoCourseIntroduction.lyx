@@ -215,15 +215,33 @@ Rondje ideeen voor (korte) einddoelen
 \end_layout
 
 \begin_layout Section
-Wat willen we?
+Vorm cursus
 \end_layout
 
 \begin_layout Itemize
-Jullie: gave projecten kunnen maken
+De vorm van de cursus is vrij
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Niveau van de uitleg hoger/lager?
 \end_layout
 
 \begin_layout Itemize
-Richèl en Peter: dat jullie gave projecten kunnen maken 
+Uitleg door deelnemers?
+\end_layout
+
+\begin_layout Itemize
+Wedstrijd?
+\end_layout
+
+\begin_layout Itemize
+Grote projecten?
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Samen zoeken naar onze favoriete vorm
 \end_layout
 
 \begin_layout Standard
@@ -234,24 +252,30 @@ Richèl en Peter: dat jullie gave projecten kunnen maken
 \end_layout
 
 \begin_layout Section
-Wat gaan we doen?
+Vorm cursus vandaag
 \end_layout
 
 \begin_layout Itemize
-Vandaag
+Schoolse traject
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Wat is Arduino? Wat weten jullie al?
+begint bij de basis
 \end_layout
 
 \begin_layout Itemize
-Wat is je droomproject?
+stap-voor-stap uitleg, oefening en nabespreking
 \end_layout
 
+\end_deeper
 \begin_layout Itemize
-Lampje aansluiten op Arduino (met weerstand)
+Projectgebaseerde traject
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+vrij
 \end_layout
 
 \end_deeper
@@ -263,7 +287,7 @@ Lampje aansluiten op Arduino (met weerstand)
 \end_layout
 
 \begin_layout Section
-Hoe doen we dat?
+Hoe handelen we?
 \end_layout
 
 \begin_layout Itemize
@@ -334,11 +358,15 @@ Tijdsindeling avond
 \end_layout
 
 \begin_layout Itemize
-19:00-19:45 1e onderwerp, vandaag: introductie
+☑ introductie
 \end_layout
 
 \begin_layout Itemize
-19:45-20:30 2e onderwerp, vandaag: wat is Arduino? Wat weten we al?
+☐ Wat is Arduino?
+\end_layout
+
+\begin_layout Itemize
+☐ Ontwerp: LED
 \end_layout
 
 \begin_layout Itemize
@@ -346,11 +374,23 @@ Tijdsindeling avond
 \end_layout
 
 \begin_layout Itemize
-21:00-22:00 3e onderwerp: hoe sluiten we een lampje aan op een Arduino?
+☐ Bouwen: LED
 \end_layout
 
 \begin_layout Itemize
-Tijd over: stroomschema tekenen
+☑ Programmeren: LED
+\end_layout
+
+\begin_layout Itemize
+☐ Ontwerp: schakelbare LED
+\end_layout
+
+\begin_layout Itemize
+☐ Bouwen: schakelbare LED
+\end_layout
+
+\begin_layout Itemize
+☐ Programmeren: schakelbare LED
 \end_layout
 
 \begin_layout Standard
