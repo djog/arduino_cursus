@@ -1,0 +1,99 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2013.11.27)  29 JAN 2014 15:13
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**\PassOptionsToClass{handout}{beamer}\input{talk}pdflatex -jobname ArduinoCour
+seAllHandouts.pdf \PassOptionsToClass{handout}{beamer}\input{ArduinoCourseAll}
+
+*^^C
+! Text line contains an invalid character.
+<*> ^^C
+       
+? 
+! Interruption.
+<to be read again> 
+                   \par 
+<*> ^^C
+       
+? 
+
+Overfull \hbox (20.0pt too wide) detected at line 0
+[]
+ []
+
+
+*
+! Interruption.
+<*> 
+    
+? 
+(Please type a command or say `\end')
+*
+! Interruption.
+<*> 
+    
+? 
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*quit
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+<*> q
+     uit
+? 
+! Interruption.
+\GenericError  ...                                
+                                                  \endgroup 
+<*> q
+     uit
+? 
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+
+*
+! Interruption.
+<*> 
+    
+? 
+
+Overfull \hbox (20.0pt too wide) detected at line 0
+[] 
+ []
+
+(Please type a command or say `\end')
+*
+! Interruption.
+<*> 
+    
+? 
+(Please type a command or say `\end')
+*
+! Emergency stop.
+<*> 
+    
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 6 strings out of 495031
+ 169 string characters out of 6181530
+ 45720 words of memory out of 5000000
+ 3313 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 4i,0n,5p,172b,14s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

@@ -1,0 +1,9 @@
+De Jonge Onderzoekers start met Arduino cursus voor jong-volwassenen
+
+Met een Arduino ('Ar-dwie-noo') worden de gaafste dingen gemaakt, misschien ook door jou! Een Arduino is een goedkoop programmeerbaar schakelbord om wat-dan-ook (ja, ook robots!) mee aan te sturen. Handig dus, voor de technische Jonge Onderzoeker.
+
+De cursus Arduino bij De Jonge Onderzoekers, voor leerlingen van 12-18 jaar is op de vrijdagavonden, van 19:00-22:00, beginnend op 31 januari. Je hoeft geen voorkennis te hebben. In de cursus leer je stroomschema's tekenen met Fritzing, elektrische schakelingen maken en C++ programmeren in de Arduino programmeeromgeving.
+
+
+
+

@@ -1,0 +1,36 @@
+This document is Dutch, as this Arduino course will be given primarily to Dutch children in the ages 12-18 years old.
+
+Elke dag
+- verdieping
+- schema tekenen
+- programmeren
+- bouwen 
+
+* Dag 1
+  * OK: Arduino cursus introductie , wat willen de leerlingen bouwen (ArduinoCourseIntroduction)? 
+  * OK: Wat is Arduino? Wat weten de leerlingen al (ArduinoCourseWhatIsArduino)?
+  * OK: Hoe sluit ik een LED aan op een Arduino, en met welke weerstand (ArduinoCourseConnectLed)?
+* Dag 2
+  * OK: Arduino en werkwijze (ArduinoCourseMindset), leerdoelen: goede vragen, werkbare leerroute
+  * Hoe programmeer ik met Arduino -> Blinker voorbeeld
+  * Hoe teken ik een schakeling met een LED en Arduino -> Fritzing
+  * Hoe schakel ik een LED met een Arduino -> Blinker + LED
+* Dag 3:
+  * Wat kan ik meten? multimeter
+  * Hoe debug ik mijn code? writeSerial
+
+* OK: Lampje branden op spanning van Aduino , leerdoel: selecteren weerstand, eerste aanraking Arduino
+* Programmeren #1: Hello World, leerdoel: writeSerial
+* Output #1: LEDje , leerdoelen: setPinMode, writeDigital, nut weerstand, richting LED, broodbord 
+* Input #1: Drukknop, leerdoelen: readDigital, loshangende input, pull-down resistor 
+* Project #1: LEDje en drukknop, leerdoelen: leerlingen zelfstandig de twee thema's verbinden
+
+
+
+1.3 Verder
+
+* Afhankelijk van leerlingen
+
+* Afhankelijk van onze ideeen
+
+

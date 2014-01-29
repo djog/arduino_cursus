@@ -1,0 +1,63 @@
+This document is Dutch, as this Arduino course will be given primarily to Dutch children in the ages 12-18 years old.
+
+Doelen:
+- Kinderen de basis van Ardino bij te brengen, opdat ze zelf verder kunnen
+- Kinderen de basis van electronica bij te brengen, opdat ze zelf verder kunnen
+- Kinderen de basis van programmeren bij te brengen, opdat ze zelf verder kunnen
+- Kinderen leren problemen op te lossen, geen 'handje vasthouden'
+
+Subdoelen:
+- Richel: iedereen mag instromen
+- Richel: leerlingen moeten altijd in kunnen stromen
+- Richel: de leerlingen doen blijken dat leren niet altijd leuk is, maar altijd bevredigend is aan het eind
+- Richel: de leerlingen ermee om leren gaan dat Engels de lingua franca van het internet is
+- Peter: zelf ontdekken toepassingen Arduino
+
+- Eigenschappen omgeving
+  - Richel: 
+    - 2x laptop met Linux en Arduino IDE
+    - draadloze router (Richel neemt router mee, Peter zorgt voor de rest)
+    - woordenboek EN-NE
+  - Peter: 
+    - 1x laptop met Windows Vista en Arduino IDE
+    - UTP kabel voor router
+    - 2x USB stick met Arduino IDE, voor op lokale computers
+    - Bijkopen: 1x breadboard per leerling
+    - Zorgt voor de financiele dingen
+    - Maakt afspraak kosten per leerling per cursus
+  - 2 Windows computers, staan niet in de buurt
+  - ?whiteboard
+  - beamer (Richel sluit aan)
+
+
+Wanneer geslaagd:
+- Richel: als de leerlingen zelfstandig verder kunnen
+- Richel: als de leerlingen mij hebben verbaasd
+- Peter: als de leerlingen iets maken waaraan ik nooit gedacht zou hebben
+
+Vorm:
+- Kinderen kunnen een USB stick meenemen om hun programma's op op te slaan
+  (eventueel later GitHub)
+- Kinderen proberen zelf een laptop mee te nemen, 
+- Geen reader, downloaden voorbeelden van web
+- Presentaties klein, danwel op whiteboard
+- Elk kind krijgt een aantekeningenschrift van ons, nemen ze huis
+
+Eigenschappen begeleiders (volgens Richel):
+- Richel:
+  - sterke punten
+    - didactisch, 'de man die je doet leren'
+    - doelgericht, 'de man die je doet leren; die slimme vragen van je verwacht'
+    - trots, 'de man die iets van je verwacht'
+    - 'Er bestaan geen domme vragen, wel luie vragen'
+- Peter: 
+  - sterke punten: 
+    - sociaal, 'de man waar je altijd een praatje mee kunt maken', 
+    - vergevend: 'de man bij wie je 'dommere' vragen durft te stellen'
+    - ervaring, 'de man die al veel heeft gewerkt met Arduino'
+    - ideeen, 'de man die al veel Arduino projecten heeft gezien'
+    - 'Er bestaan geen domme vragen, wel luie vragen'
+
+Data:
+- vrijdag 31 januari t/m 4 juli, 26 weken
+
