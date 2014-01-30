@@ -1,0 +1,298 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass report
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a6paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation landscape
+\suppress_date false
+\use_refstyle 1
+\backgroundcolor #000000
+\fontcolor #ffffff
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Hoe lees ik input?
+\end_layout
+
+\begin_layout Author
+(C) Richèl Bilderbeek 
+\begin_inset Graphics
+	filename CC-BY-NC-SA.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Overzicht
+\end_layout
+
+\begin_layout Enumerate
+Doel
+\end_layout
+
+\begin_layout Enumerate
+Hoe ontwerpen?
+\end_layout
+
+\begin_layout Enumerate
+Arduino IDE
+\end_layout
+
+\begin_layout Enumerate
+Bouwen!
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Doel
+\end_layout
+
+\begin_layout Quote
+Een machine maken die reageert op een drukknop
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Hoe ontwerpen?
+\end_layout
+
+\begin_layout Itemize
+Waar denk je dat de Arduino dit mee kan?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Ontwerp
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename ArduinoCourseSwitchLedFritzing.png
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+En nu?
+\end_layout
+
+\begin_layout Itemize
+Programmeren!
+\end_layout
+
+\begin_layout Itemize
+Met Arduino IDE ('Integrated Development Environment' ≈ 'Programmeeromgeving')
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Arduino IDE
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename ArduinoIdeBlink.png
+	lyxscale 75
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Arduino IDE installatie
+\end_layout
+
+\begin_layout Itemize
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+sudo apt-get install arduino
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+yum install arduino
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Download van 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://arduino.cc/en/main/software
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Opdracht
+\end_layout
+
+\begin_layout Itemize
+Installeer Arduino IDE
+\end_layout
+
+\begin_layout Itemize
+Bekijk wat de Arduino IDE kan: de voorbeelden, het uploaden
+\end_layout
+
+\begin_layout Itemize
+Ontwerp: stroomschema van een LED die knippert
+\end_layout
+
+\begin_layout Itemize
+Programmeer: vind de code van een LED die knippert
+\end_layout
+
+\begin_layout Itemize
+Bouwen!
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

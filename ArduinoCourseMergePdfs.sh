@@ -6,8 +6,10 @@ pdfunite \
   ArduinoCourseIntroduction.pdf \
   ArduinoCourseWhatIsArduino.pdf \
   ArduinoCourseConnectLed.pdf \
+  ArduinoCourseSwitchLed.pdf \
+  ArduinoCourseReadInput.pdf \
   ArduinoCourseMindset.pdf \
-  ArduinoCourseAll.pdf
+  ArduinoCourseAll.pdf  #Output
 
 #Convert ArduinoCourseAll.pdf to handout format (4 columns, 2 rows)
 java -cp Multivalent.jar tool.pdf.Impose -dim 4x2 -paper 84x29.7cm ArduinoCourseAll.pdf
