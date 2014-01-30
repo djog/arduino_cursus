@@ -120,8 +120,7 @@ Doel
 \end_layout
 
 \begin_layout Quote
-Een machine maken die een LED na een seconde aan doet, en deze een seconde
- later weer uit doet
+Een machine maken die reageert op een drukknop
 \end_layout
 
 \begin_layout Standard
@@ -132,22 +131,23 @@ Een machine maken die een LED na een seconde aan doet, en deze een seconde
 \end_layout
 
 \begin_layout Section
-Hoe ontwerpen?
+Opdracht: ontwerp
 \end_layout
 
 \begin_layout Itemize
-Waar denk je dat de Arduino dit mee kan?
+Teken in Fritzing een schema met een drukknop die reageert op een drukknop
 \end_layout
 
-\begin_layout Standard
-\begin_inset Graphics
-	filename FritzingArduino.png
-	lyxscale 50
-	scale 50
+\begin_layout Itemize
+De pinnen die spanning leveren, kunnen ook spanning meten
+\end_layout
 
-\end_inset
+\begin_layout Itemize
+Pinnen reageren op 0V ('laag') en 5V ('hoog')
+\end_layout
 
-
+\begin_layout Itemize
+Gebruik (digitale) poort 2 als input
 \end_layout
 
 \begin_layout Standard
@@ -158,12 +158,13 @@ Waar denk je dat de Arduino dit mee kan?
 \end_layout
 
 \begin_layout Section
-Ontwerp
+Ontwerp: waarom onjuist?
 \end_layout
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename ArduinoCourseSwitchLedFritzing.png
+	filename ArduinoCourseReadInputNaive.png
+	lyxscale 75
 	scale 75
 
 \end_inset
@@ -179,33 +180,25 @@ Ontwerp
 \end_layout
 
 \begin_layout Section
-En nu?
+Waarom onjuist?
 \end_layout
 
 \begin_layout Itemize
-Programmeren!
+Als de drukknop open is, is de spanning op de input onbepaalt: dit kan elke
+ waarde tussen nul en vijf Volt zijn!
 \end_layout
 
 \begin_layout Itemize
-Met Arduino IDE ('Integrated Development Environment' ≈ 'Programmeeromgeving')
+Dit wordt een zwevende input genoemd
 \end_layout
 
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Arduino IDE
+\begin_layout Itemize
+Hoe dit op te lossen?
 \end_layout
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename ArduinoIdeBlink.png
-	lyxscale 75
-	scale 40
+	filename ArduinoCourseReadInputNaiveDetail.png
 
 \end_inset
 
@@ -220,48 +213,35 @@ Arduino IDE
 \end_layout
 
 \begin_layout Section
-Arduino IDE installatie
+Ontwerp: oplossing
 \end_layout
 
 \begin_layout Itemize
-\begin_inset listings
-inline false
-status open
-
-\begin_layout Plain Layout
-
-sudo apt-get install arduino
+Verbind de input via een weerstand met de Aarde
 \end_layout
 
+\begin_layout Itemize
+Hierdoor kan restspanning wegvloeien tot nul Volt
+\end_layout
+
+\begin_layout Itemize
+Dit wordt een pull-down weerstand genoemd
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
 \end_inset
 
 
 \end_layout
 
-\begin_layout Itemize
-\begin_inset listings
-inline false
-status open
-
-\begin_layout Plain Layout
-
-yum install arduino
+\begin_layout Section
+Ontwerp: oplossing
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Download van 
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-http://arduino.cc/en/main/software
-\end_layout
+\begin_layout Standard
+\begin_inset Graphics
+	filename ArduinoCourseReadInputCorrectBreadboard.png
 
 \end_inset
 
@@ -276,27 +256,16 @@ http://arduino.cc/en/main/software
 \end_layout
 
 \begin_layout Section
-Opdracht
+Ontwerp: oplossing
 \end_layout
 
-\begin_layout Itemize
-Installeer Arduino IDE
-\end_layout
+\begin_layout Standard
+\begin_inset Graphics
+	filename ArduinoCourseReadInputCorrectSchematic.png
 
-\begin_layout Itemize
-Bekijk wat de Arduino IDE kan: de voorbeelden, het uploaden
-\end_layout
+\end_inset
 
-\begin_layout Itemize
-Ontwerp: stroomschema van een LED die knippert
-\end_layout
 
-\begin_layout Itemize
-Programmeer: vind de code van een LED die knippert
-\end_layout
-
-\begin_layout Itemize
-Bouwen!
 \end_layout
 
 \begin_layout Standard

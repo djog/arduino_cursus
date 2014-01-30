@@ -163,10 +163,6 @@ Voorstellen: Waarvoor kun je mij het best aanspreken? Software
 Weet veel van programmeren
 \end_layout
 
-\begin_layout Itemize
-Weet veel van les geven
-\end_layout
-
 \end_deeper
 \begin_layout Standard
 \begin_inset Newpage newpage
@@ -180,7 +176,7 @@ Wie zijn jullie?
 \end_layout
 
 \begin_layout Itemize
-Wie ben jij?
+Hoe heet je?
 \begin_inset Note Note
 status open
 
@@ -194,7 +190,7 @@ Rondje voorstellen: naam
 \end_layout
 
 \begin_layout Itemize
-Wat wil je?
+Wat wil je doen?
 \begin_inset Note Note
 status open
 
@@ -228,7 +224,7 @@ Niveau van de uitleg hoger/lager?
 \end_layout
 
 \begin_layout Itemize
-Uitleg door deelnemers?
+Uitleg door deelnemers/specialisten?
 \end_layout
 
 \begin_layout Itemize
@@ -256,7 +252,7 @@ Vorm cursus vandaag
 \end_layout
 
 \begin_layout Itemize
-Schoolse traject
+☛ Schoolse traject
 \end_layout
 
 \begin_deeper
@@ -266,6 +262,16 @@ begint bij de basis
 
 \begin_layout Itemize
 stap-voor-stap uitleg, oefening en nabespreking
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Liever te traag, dan te snel
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -366,7 +372,7 @@ Tijdsindeling avond
 \end_layout
 
 \begin_layout Itemize
-☐ Ontwerp: LED
+☐ Ontwerp: LED, Fritzing
 \end_layout
 
 \begin_layout Itemize
@@ -378,11 +384,11 @@ Tijdsindeling avond
 \end_layout
 
 \begin_layout Itemize
-☑ Programmeren: LED
+☐ Ontwerp: schakelbare LED
 \end_layout
 
 \begin_layout Itemize
-☐ Ontwerp: schakelbare LED
+☐ Programmeren: schakelbare LED, Arduino IDE
 \end_layout
 
 \begin_layout Itemize
@@ -390,7 +396,11 @@ Tijdsindeling avond
 \end_layout
 
 \begin_layout Itemize
-☐ Programmeren: schakelbare LED
+☐ Ontwerp, programmeren, bouwen: drukknop
+\end_layout
+
+\begin_layout Itemize
+21:50 Afsluiting
 \end_layout
 
 \begin_layout Standard
