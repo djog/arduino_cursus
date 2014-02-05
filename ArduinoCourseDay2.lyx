@@ -81,5 +81,43 @@ Dag 2
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Vandaag
+\end_layout
+
+\begin_layout Enumerate
+shortCircuit: kortsluiting & breadboard
+\end_layout
+
+\begin_layout Enumerate
+analogRead: belangrijk basisschakelingen met weerstandjes
+\end_layout
+
+\begin_layout Enumerate
+readInput: nog een belangrijke basisschakeling met een drukknop
+\end_layout
+
+\begin_layout Enumerate
+Per groepje: solderen bij Tonnie & bouwen met sensoren en motortje
+\end_layout
+
+\begin_layout Enumerate
+Einddoel: een zo ingewikkeld mogelijke machine bouwen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document

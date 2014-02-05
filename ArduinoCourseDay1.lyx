@@ -81,5 +81,39 @@ Dag 1
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Vandaag
+\end_layout
+
+\begin_layout Enumerate
+Introduction: introductie
+\end_layout
+
+\begin_layout Enumerate
+WhatIsArduino: wat is een Arduino?
+\end_layout
+
+\begin_layout Enumerate
+ConnectLed: een LEDje aansluiten
+\end_layout
+
+\begin_layout Enumerate
+SwitchLed: een LEDje laten knipperen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document

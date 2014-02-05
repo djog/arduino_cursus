@@ -97,15 +97,19 @@ Doel
 \end_layout
 
 \begin_layout Enumerate
-Hoe ontwerpen?
+Vraag
 \end_layout
 
 \begin_layout Enumerate
-Arduino IDE
+Naief & experiment
 \end_layout
 
 \begin_layout Enumerate
-Bouwen!
+Zo werkt het
+\end_layout
+
+\begin_layout Enumerate
+Slim & experiment
 \end_layout
 
 \begin_layout Standard
@@ -120,7 +124,15 @@ Doel
 \end_layout
 
 \begin_layout Itemize
-Reageren op een drukknop
+Kunnen reageren op een drukknop
+\end_layout
+
+\begin_layout Itemize
+Een nieuwe basisschakelingen leren
+\end_layout
+
+\begin_layout Itemize
+Dit niet kennen = domme fouten gaan maken
 \end_layout
 
 \begin_layout Standard
@@ -131,23 +143,20 @@ Reageren op een drukknop
 \end_layout
 
 \begin_layout Section
-Opdracht: ontwerp
+Vraag
 \end_layout
 
 \begin_layout Itemize
-Teken in Fritzing een schema met een drukknop die reageert op een drukknop
+Bouw een machine die kan reageren op een drukknop
 \end_layout
 
 \begin_layout Itemize
-De pinnen die spanning leveren, kunnen ook spanning meten
+Gebruik je kennis van 'analogRead'
 \end_layout
 
 \begin_layout Itemize
-Pinnen reageren op 0V ('laag') en 5V ('hoog')
-\end_layout
-
-\begin_layout Itemize
-Gebruik (digitale) poort 2 als input
+...
+ dit gaat echter anders dan verwacht!
 \end_layout
 
 \begin_layout Standard
@@ -170,6 +179,52 @@ Ontwerp: naief
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Opdracht
+\end_layout
+
+\begin_layout Itemize
+Bouw dit!
+\end_layout
+
+\begin_layout Itemize
+Wat voorspel je?
+\end_layout
+
+\begin_layout Itemize
+Gebruik weer programma 'Examples | Basics | AnalogReadSerial'
+\end_layout
+
+\begin_layout Itemize
+Wat meet je als de schakelaar wel/niet ingedrukt is? 
+\end_layout
+
+\begin_layout Itemize
+(tijd over: probeer de schakeling te laten werken)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Doen...
+\end_layout
+
+\begin_layout Itemize
+Volgende slide de oplossing...
 \end_layout
 
 \begin_layout Standard
@@ -281,55 +336,27 @@ Ontwerp: oplossing
 \end_layout
 
 \begin_layout Section
-Programma
-\end_layout
-
-\begin_layout Standard
-\begin_inset Graphics
-	filename /home/richel/GitHubs/ArduinoCourse/AnalogReadSelectCode.png
-	lyxscale 50
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Programma
-\end_layout
-
-\begin_layout Standard
-\begin_inset Graphics
-	filename /home/richel/GitHubs/ArduinoCourse/AnalogReadCode.png
-	lyxscale 50
-	scale 33
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Bouwen!
+Opdracht
 \end_layout
 
 \begin_layout Itemize
-Welke problemen kom je tegen?
+Bouw dit!
+\end_layout
+
+\begin_layout Itemize
+Wat voorspel je?
+\end_layout
+
+\begin_layout Itemize
+Gebruik weer programma 'Examples | Basics | AnalogReadSerial'
+\end_layout
+
+\begin_layout Itemize
+Wat meet je als de schakelaar wel/niet ingedrukt is? 
+\end_layout
+
+\begin_layout Itemize
+(tijd over: gebruik analogWrite naar een LEDje)
 \end_layout
 
 \begin_layout Standard
