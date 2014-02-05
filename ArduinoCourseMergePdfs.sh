@@ -12,6 +12,7 @@ pdfunite \
   ArduinoCourseSwitchLed.pdf \
   ArduinoCourseDay2.pdf \
   ArduinoCourseShortCircuit.pdf \
+  ArduinoCourseAnalogRead.pdf \
   ArduinoCourseReadInput.pdf \
   ArduinoCourseDay3.pdf \
   ArduinoCourseDay4.pdf \
