@@ -148,7 +148,7 @@ Opdracht
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename AnalogReadBreadboard1.png
+	filename AnalogReadBreadboard.png
 	lyxscale 50
 	scale 40
 
@@ -170,9 +170,9 @@ Opdracht
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename AnalogReadSchematic1.png
+	filename AnalogReadSchematic.png
 	lyxscale 50
-	scale 50
+	scale 40
 
 \end_inset
 
