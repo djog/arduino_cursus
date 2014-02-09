@@ -5,19 +5,21 @@ lyx -e pdf2 `find . | egrep "\.lyx"`
 
 # Concatenate all PDFs in the correct order
 pdfunite \
-  ArduinoCourseDay1.pdf \
+  ArduinoCourseDay01_Start.pdf \
   ArduinoCourseIntroduction.pdf \
   ArduinoCourseWhatIsArduino.pdf \
   ArduinoCourseConnectLed.pdf \
   ArduinoCourseSwitchLed.pdf \
-  ArduinoCourseDay2.pdf \
+  ArduinoCourseDay01_Exercises.pdf \
+  ArduinoCourseDay02_Start.pdf \
   ArduinoCourseShortCircuit.pdf \
   ArduinoCourseAnalogRead.pdf \
   ArduinoCourseReadInput.pdf \
+  ArduinoCourseDay02_Exercises.pdf \
+  ArduinoCourseDay03_Start.pdf \
   ArduinoCourseReadSensor.pdf \
   ArduinoCourseSolarMotor.pdf \
-  ArduinoCourseDay3.pdf \
-  ArduinoCourseDay4.pdf \
+  ArduinoCourseDay04_Start.pdf \
   ArduinoCourseMindset.pdf \
   ArduinoCourseAll.pdf  #Output
 
