@@ -81,5 +81,35 @@ Dag 3
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Vandaag
+\end_layout
+
+\begin_layout Enumerate
+RgbLed: aansluiten RGB led
+\end_layout
+
+\begin_layout Enumerate
+Cpp01: C++ basis
+\end_layout
+
+\begin_layout Enumerate
+ReadSensor: lezen van een sensor
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document

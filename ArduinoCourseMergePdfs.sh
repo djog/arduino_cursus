@@ -17,6 +17,7 @@ pdfunite \
   ArduinoCourseReadInput.pdf \
   ArduinoCourseDay02_Exercises.pdf \
   ArduinoCourseDay03_Start.pdf \
+  ArduinoCourseCpp01.pdf \
   ArduinoCourseReadSensor.pdf \
   ArduinoCourseSolarMotor.pdf \
   ArduinoCourseDay04_Start.pdf \
