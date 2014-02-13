@@ -299,7 +299,6 @@ collect2: error: ld returned 1 exit status
 \end_layout
 
 \begin_layout Standard
-
 Kern:
 \end_layout
 
@@ -606,6 +605,18 @@ nog veel meer
 
 \end_layout
 
+\begin_layout Section
+Ombouwen van data type
+\end_layout
+
+\begin_layout Itemize
+Soms gebeurt dit stiekum of per ongeluk
+\end_layout
+
+\begin_layout Itemize
+Maar dit kan ook open en expres, met static_cast
+\end_layout
+
 \begin_layout Standard
 \begin_inset listings
 inline false
@@ -613,26 +624,315 @@ status open
 
 \begin_layout Plain Layout
 
-const int pin_led = 2;
+const int waarde 
 \end_layout
 
 \begin_layout Plain Layout
 
+  = analogRead(A0);
 \end_layout
 
 \begin_layout Plain Layout
 
-void setup()
+const double voltage 
 \end_layout
 
 \begin_layout Plain Layout
 
-{
+  = static_cast<double>(waarde) 
 \end_layout
 
 \begin_layout Plain Layout
 
-  pinMode(pin_led,OUTPUT);
+  / 1024.0;
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+if statement
+\end_layout
+
+\begin_layout Itemize
+Als je iets soms wel en soms niet wil
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+if (analogRead(A0) < 512) { digitalWrite(2,HIGH); }
+\end_layout
+
+\begin_layout Plain Layout
+
+else { digitalWrite(2,LOW); }
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Teken
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Spreek uit
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+==
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+is gelijk aan
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+!= 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+is ongelijk aan
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+<
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+is kleiner dan
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+<=
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+is kleiner of gelijk dan
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+>
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+is groter dan
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+>=
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+is groter of gelijk dan
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+for loop
+\end_layout
+
+\begin_layout Itemize
+Als je een teller wilt laten lopen
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+for (int teller=0; teller!=255; ++teller)
+\end_layout
+
+\begin_layout Plain Layout
+
+{ 
+\end_layout
+
+\begin_layout Plain Layout
+
+  analogWrite(2,teller); 
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Lees dit als:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Zet een int genaamd 'teller' op de beginwaarde nul
+\end_layout
+
+\begin_layout Enumerate
+Doe de code tussen accolades zo lang 'teller' niet gelijk is aan 255
+\end_layout
+
+\begin_layout Enumerate
+Na de code tussen accolades: tel één op bij teller ('++teller') en ga naar
+ stap 2
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Testen
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+void setup() 
+\end_layout
+
+\begin_layout Plain Layout
+
+{ 
+\end_layout
+
+\begin_layout Plain Layout
+
+  Serial.begin(9600); 
 \end_layout
 
 \begin_layout Plain Layout
@@ -646,37 +946,32 @@ void setup()
 
 \begin_layout Plain Layout
 
-void loop()
+void loop() 
 \end_layout
 
 \begin_layout Plain Layout
 
-{
+{   
 \end_layout
 
 \begin_layout Plain Layout
 
-  const int wachttijd = 1000; //milliseconden
+  const double x = 2.0 / 7.0; Serial.println(x);   
 \end_layout
 
 \begin_layout Plain Layout
 
-  digitalWrite(pin_led,HIGH);
+  const int i = 123; Serial.println(i);   
 \end_layout
 
 \begin_layout Plain Layout
 
-  delay(wachttijd);
+  const bool b = true; Serial.println(b);
 \end_layout
 
 \begin_layout Plain Layout
 
-  digitalWrite(pin_led,LOW);
-\end_layout
-
-\begin_layout Plain Layout
-
-  delay(wachttijd);
+  for (int i=0; i!=255; ++i) Serial.println(i);  
 \end_layout
 
 \begin_layout Plain Layout
@@ -684,6 +979,36 @@ void loop()
 }
 \end_layout
 
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Opdracht
+\end_layout
+
+\begin_layout Itemize
+Zoek een toepassing voor een if statement
+\end_layout
+
+\begin_layout Itemize
+Zoek een toepassing voor een for loop
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
 \end_inset
 
 
