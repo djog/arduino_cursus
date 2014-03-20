@@ -1,0 +1,335 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Project: kleurensensor 
+\end_layout
+
+\begin_layout Author
+(C) Richèl Bilderbeek 
+\begin_inset Graphics
+	filename /home/richel/GitHubs/ArduinoCourse/CC-BY-NC-SA.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introductie
+\end_layout
+
+\begin_layout Standard
+Een lichtsensor
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+ook wel 'licht-afhankelijk weerstand' of 'LDR' ('Light Dependent Resistance')
+ genoemd
+\end_layout
+
+\end_inset
+
+ kan geen kleur herkennen.
+ Met behulp van een RGB LED kan dit wel.
+\end_layout
+
+\begin_layout Standard
+Dit project bestaat uit meerdere onderdelen:
+\end_layout
+
+\begin_layout Itemize
+Aansluiten lichtsensor
+\end_layout
+
+\begin_layout Itemize
+Aansluiten RGB LED
+\end_layout
+
+\begin_layout Itemize
+LED laten reageren op sensor
+\end_layout
+
+\begin_layout Itemize
+Omprogrammeren naar kleurensensor
+\end_layout
+
+\begin_layout Section
+Aansluiten lichtsensor
+\end_layout
+
+\begin_layout Standard
+Als je naief bent, sluit je een lichtsensor aan als in figuur 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:SensorNaieve"
+
+\end_inset
+
+.
+ Om de waarde van een lichtsensor te lezen, kun je het voorbeeldprogramma
+ AnalogReadSerial
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+File -> Examples -> 01.
+ Basics -> AnalogReadSerial
+\end_layout
+
+\end_inset
+
+ gebruiken.
+\end_layout
+
+\begin_layout Itemize
+Kun je niet voorspellen welke waarde je gaat meten? Bouw dit schema en noteer
+ het resultaat.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename SensorNaive.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:SensorNaieve"
+
+\end_inset
+
+Lichtsensor naief aangesloten
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Als je weet dat figuur 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:SensorNaieve"
+
+\end_inset
+
+ niet werkt, bouw je figuur 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:SensorCorrect"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename SensorCorrect.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:SensorCorrect"
+
+\end_inset
+
+Lichtsensor juist aangesloten
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Schrijf op welke waarde je meet in het donker en in het volle licht
+\end_layout
+
+\begin_layout Section
+Aansluiten RGB LED
+\end_layout
+
+\begin_layout Standard
+Een RGB LED aansluiten gaat als figuur 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:ConnectRgbLed"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename RgbLed.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:ConnectRgbLed"
+
+\end_inset
+
+Aansluiten RGB LED
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Om een lampje aan te sturen kun je gebruik maken van het voorbeeld Blink
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+File -> Examples -> 01.
+ Basics -> Blink
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+LED laten reageren op sensor
+\end_layout
+
+\begin_layout Section
+Omprogrammeren naar kleurensensor
+\end_layout
+
+\end_body
+\end_document
