@@ -21,6 +21,8 @@ pdfunite \
   ArduinoCourseReadSensor.pdf \
   ArduinoCourseSolarMotor.pdf \
   ArduinoCourseDay04_Start.pdf \
+  ArduinoCourseConnectDcMotor.pdf \
+  ArduinoCourseProjectColorSensor.pdf \
   ArduinoCourseMindset.pdf \
   ArduinoCourseAll.pdf  #Output
 
