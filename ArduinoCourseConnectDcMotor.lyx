@@ -239,7 +239,7 @@ Goed idee
 \end_layout
 
 \begin_layout Section
-NPN transistor
+Transistor
 \end_layout
 
 \begin_layout Standard
@@ -254,7 +254,7 @@ NPN transistor
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename NpnTransistorBreadboardLegend.png
+	filename NpnTransistorBreadboardLegend2.png
 	lyxscale 50
 	scale 50
 
@@ -338,7 +338,7 @@ Beter
 \begin_inset Graphics
 	filename ArduinoCourseConnectDcMotorTransistorNoDiodeSchematic.png
 	lyxscale 50
-	scale 40
+	scale 50
 
 \end_inset
 
@@ -353,20 +353,23 @@ Beter
 \end_layout
 
 \begin_layout Section
-Beter
+Motor
 \end_layout
 
 \begin_layout Itemize
-Een motor kan een terugslag hebben, waardoor er stroom de andere kant op
- kan gaan lopen
+Een motor kan een terugslag hebben 
 \end_layout
 
 \begin_layout Itemize
-Dit kan de Arduino beschadigen!
+Hierdoor wil de motor een omgekeerde stroom laten lopen 
 \end_layout
 
 \begin_layout Itemize
-Er is een onderdeel waardoor stroom maar een kant op kan lopen...
+Dit kan de Arduino beschadigen! 
+\end_layout
+
+\begin_layout Itemize
+Er is een onderdeel die deze omgekeerde stroom kan laten lopen 
 \end_layout
 
 \begin_layout Standard
@@ -428,11 +431,15 @@ Diode
 \end_layout
 
 \begin_layout Itemize
-Stroom loopt van plus naar min
+Eenrichtingsweg voor stroom 
 \end_layout
 
 \begin_layout Itemize
-Bijvoorbeeld van 5V naar GND
+Stroom loopt van plus naar min 
+\end_layout
+
+\begin_layout Itemize
+Bijvoorbeeld van 5V naar GND 
 \end_layout
 
 \begin_layout Standard
@@ -443,18 +450,23 @@ Bijvoorbeeld van 5V naar GND
 \end_layout
 
 \begin_layout Section
-Goed
+Transistor
 \end_layout
 
-\begin_layout Standard
-\begin_inset Graphics
-	filename ArduinoCourseConnectDcMotorTransistorDiodeBreadboard.png
-	lyxscale 50
-	scale 50
+\begin_layout Itemize
+Een transistor heeft weinig weerstand 
+\end_layout
 
-\end_inset
+\begin_layout Itemize
+Het is gemakkelijk per ongeluk B-E kort te sluiten 
+\end_layout
 
+\begin_layout Itemize
+Zet dus een weerstand voor de B 
+\end_layout
 
+\begin_layout Itemize
+Begin met een hoge weerstand, bijvoorbeeld 10 kOhm
 \end_layout
 
 \begin_layout Standard
@@ -465,22 +477,15 @@ Goed
 \end_layout
 
 \begin_layout Section
-Goed
+Correct
 \end_layout
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename ArduinoCourseConnectDcMotorTransistorDiodeSchematic.png
-	lyxscale 50
+	filename ArduinoCourseConnectDcMotorCorrectBreadboard.png
+	lyxscale 40
 	scale 40
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
 \end_inset
 
 
