@@ -1,0 +1,295 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass report
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a6paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation landscape
+\suppress_date false
+\use_refstyle 1
+\backgroundcolor #000000
+\fontcolor #ffffff
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Oefening: Hoe sluit ik een LED aan?
+\end_layout
+
+\begin_layout Author
+(C) Richèl Bilderbeek 
+\begin_inset Graphics
+	filename CC-BY-NC-SA.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Doel
+\end_layout
+
+\begin_layout Enumerate
+Hoe sluit je een LED aan? 
+\end_layout
+
+\begin_layout Enumerate
+Wat maakt wel en niet uit?
+\end_layout
+
+\begin_layout Enumerate
+Hoe zit dit er als stroomschema uit? 
+\end_layout
+
+\begin_layout Enumerate
+Hoe loopt elektrische stroom?
+\end_layout
+
+\begin_layout Enumerate
+Hoe ziet dit er als printplaat uit?
+\end_layout
+
+\begin_layout Enumerate
+Hoe soldeer je dit op een printplaat?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Hoe sluit je een LED aan?
+\end_layout
+
+\begin_layout Itemize
+Laad het Fritzing bestand 'ArduinoCourseConnectLedExercise.fzz', ga naar
+ 'Breadboard' 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename ArduinoCourseConnectLedExerciseBreadboard.png
+	lyxscale 25
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Wat maakt wel en niet uit?
+\end_layout
+
+\begin_layout Itemize
+De acht schema's verschillen in:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+volgorde: LED of weerstand links
+\end_layout
+
+\begin_layout Itemize
+richting weerstand: bruine of gouden bandje links
+\end_layout
+
+\begin_layout Itemize
+richting LED: lange of korte pootje links
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Bouw de acht schema's
+\end_layout
+
+\begin_layout Itemize
+Teken de (vier) schema's na die werken
+\end_layout
+
+\begin_layout Itemize
+Wat maakt dus wel en niet uit?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Hoe ziet dit als stroomschema eruit?
+\end_layout
+
+\begin_layout Itemize
+Laad het Fritzing bestand 'ArduinoCourseConnectLedExercise.fzz', ga naar
+ 'Schematic' 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename ArduinoCourseConnectLedExerciseSchematic.png
+	lyxscale 25
+	scale 20
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Hoe loopt elektrische stroom?
+\end_layout
+
+\begin_layout Itemize
+Wat is het symbool voor een weerstand?
+\end_layout
+
+\begin_layout Itemize
+Wat is het symbool voor een LED?
+\end_layout
+
+\begin_layout Itemize
+Loopt stroom van GND naar 5V of van 5V naar GND? Er is een symbool die dit
+ voorkauwt!
+\end_layout
+
+\begin_layout Itemize
+Teken de (twee) verschillende stroomschema's die werken
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Hoe ziet dit als printplaat eruit?
+\end_layout
+
+\begin_layout Itemize
+Laad het Fritzing bestand 'ArduinoCourseConnectLedExercise.fzz', ga naar
+ PCB' 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename ArduinoCourseConnectLedExercisePcb.png
+	lyxscale 25
+	scale 20
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Hoe soldeer je dit op een printplaat?
+\end_layout
+
+\begin_layout Itemize
+Welke markering is voor een weestandje? In welk gat moet het pootje aan
+ de kant van het bruine bandje? Of maakt dat niet uit?
+\end_layout
+
+\begin_layout Itemize
+Welke markering is voor een LED? In welk gat moet het lange pootje? Of maakt
+ dat niet uit?
+\end_layout
+
+\begin_layout Itemize
+Teken een printplaat schema over dat werkt en noteer hoe je dit moet solderen
+\end_layout
+
+\end_body
+\end_document
