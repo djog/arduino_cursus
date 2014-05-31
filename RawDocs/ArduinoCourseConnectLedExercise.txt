@@ -1,0 +1,20 @@
+Hometrainer (C) 2009 Richel Bilderbeek
+-,Stroom loopt van ...,Plus naar min,Min naar plus,Kan beide
+-,Stroom loopt van ...,5V naar GND,GND naar 5V,Kan beide
+LedRedBreadboardBentLegStraightLeg.png,De 'L' van LED staat voor ...,Light,Lamp,Low-power,Low-current,Little
+LedRedBreadboardBentLegStraightLeg.png,De 'E' van LED staat voor ...,Emitting,Exciting,Electric,Electronic,Extra
+LedRedBreadboardBentLegStraightLeg.png,De 'D' van LED staat voor ...,Diode,Device,Delay,Design,Durable
+LedRedBreadboardBentLegStraightLeg.png,Het linker pootje moet aan de kant van ...,5V,GND,Kan beide
+LedRedBreadboardStraightLegBentLeg.png,Het linker pootje moet aan de kant van ...,GND,5V,Kan beide
+LedRedBreadboardLongLegShortLeg.png,Het linker pootje moet aan de kant van ...,5V,GND,Kan beide
+LedRedBreadboardShortLegLongLeg.png,Het linker pootje moet aan de kant van ...,5V,GND,Kan beide
+LedSchematicArrowToRight.png,De linker kant moet aan de kant van ...,5V,GND,Kan beide
+LedSchematicArrowToLeft.png,De linker kant moet aan de kant van ...,GND,5V,Kan beide
+LedPcb.png,Het vierkantje moet aan de kant van ...,5V,GND,Kan beide
+LedPcb.png,Het rondje moet aan de kant van ...,GND,5V,Kan beide
+Resistance1kOhmBreadboardGoldRight.png,Een weerstand zorgt ervoor dat de (1) ... niet te (2) ... wordt ,(1) stroom (2) hoog,(1) spanning (2) hoog,(1) stroom (2) laag,(1) spanning (2) laag
+Resistance1kOhmBreadboardGoldLeft.png,De linker kant moet aan de kant van ...,Maakt niet uit,5V,GND
+Resistance1kOhmBreadboardGoldRight.png,De linker kant moet aan de kant van ...,Maakt niet uit,5V,GND
+ResistanceSchematic.png,De linker kant moet aan de kant van ...,Maakt niet uit,5V,GND
+ResistancePcb.png,De linker kant moet aan de kant van ...,Maakt niet uit,5V,GND
+-,Een weerstand en LED zijn in serie aangesloten tussen 5V en GND. De LED brand niet. Wat kan er mis zijn?,De pootjes van de LED zitten verkeerd om,De pootjes van de weerstand zitten verkeerd om,De volgorde van LED en weerstand is verkeerd om
