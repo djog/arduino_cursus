@@ -1,14 +1,12 @@
-ArduinoCourse
-=============
+# ArduinoCourse
 
-Nederlands 
-----------
+## Nederlands 
 
 (English: see below)
 
 Dit is de GitHub van de Nederlandse Arduino cursus gegeven bij De Jonge Onderzoekers te Groningen.
 
-# Over de cursus
+### Over de cursus
  * Wanneer: elke vrijdagavond 
  * Hoe laat: van 19:00-22:00 (pauze van 20:30-21:00)
  * Waar: De Jonge Onderzoekers Groningen (www.djog.nl)
@@ -18,19 +16,23 @@ Dit is de GitHub van de Nederlandse Arduino cursus gegeven bij De Jonge Onderzoe
  * Meenemen: Arduino (als je die hebt), laptop (als je die hebt), electronica (als je dat hebt)
  * Wanneer instromen: altijd!
 
-# Folder structuur van deze GitHub
+### [inhoudsopgave](TableOfContents.md)
+Zie [TableOfContents.md](TableOfContents.md) voor een overzicht van de presentaties en oefeningen.
+
+### Folder structuur van deze GitHub
+
+[TableOfContents.md](TableOfContents.md): [inhoudsopgave](TableOfContents.md) van alle documenten
  * Code: Bevat Arduino code gebruikt in de lessen
  * Docs: De ruwe LyX documenten, inclusief de gebruikte Fritzing schema's and plaatjes
  * Pdfs: PDF documenten, bevat de presentaties en oefeningen
 
-# Ideeen, reacties en/of feedback?
+### Ideeen, reacties en/of feedback?
  * Ga naar Issue #12 'Ideeen, reacties en/of feedback' en voeg daar een commentaar toe
 
-# Nieuwsbrief
+### Nieuwsbrief
  * Ga naar Issue #11 'Nieuwsbrief' en 'Watch' deze. Heb je zelf wat te melden, voeg dan daar een commentaar toe
 
-English
--------
+## English
 
 Dutch Arduino course given at De Jonge Onderzoekers Groningen.
 
@@ -38,8 +40,7 @@ Dutch Arduino course given at De Jonge Onderzoekers Groningen.
 * Docs: Raw LyX documents, with Fritzing schematics and pictures used. 
 * Pdfs: PDF documents
 
-About the course
-----------------
+### About the course
 
  * Frequency: Weekly
  * Day: Fridays
