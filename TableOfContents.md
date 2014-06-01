@@ -11,19 +11,17 @@ Beginners: begin bij LED, voorbeelden met ':beginner:' zijn voor beginners.
 
 ## 7-segment display
 
-Fritzing:
- * Digital -> Output -> 7Segment_direct: aansluiten van een 7-segment display
- * Digital -> Output -> Timer: 595 chip, 7-segment display, 2 drukknoppen
+ * ![Fritzing](RawDocs/Fritzing.png) Digital -> Output -> 7Segment_direct: aansluiten van een 7-segment display
+ * ![Fritzing](RawDocs/Fritzing.png) Digital -> Output -> Timer: 595 chip, 7-segment display, 2 drukknoppen
 
 ## Aanraakschakelaar
 
-Fritzing:
- * :beginner: Analog -> Input -> Touchswitch: twee transistoren met een aanraakschakelaar
+ * ![Fritzing](RawDocs/Fritzing.png) :beginner: Analog -> Input -> Touchswitch: twee transistoren met een aanraakschakelaar
 
 ## analogRead
 
- * :beginner: [analogRead en de spanningsdeler](Pdfs/ArduinoCourseAnalogRead.pdf)
- * :beginner: [Hoe lees ik input?](Pdfs/ArduinoCourseReadInput.pdf)
+ * ![Fritzing](RawDocs/Fritzing.png) :beginner: [analogRead en de spanningsdeler](Pdfs/ArduinoCourseAnalogRead.pdf)
+ * ![Fritzing](RawDocs/Fritzing.png) :beginner: [Hoe lees ik input?](Pdfs/ArduinoCourseReadInput.pdf)
 
 ## Arduino
 
@@ -46,10 +44,9 @@ Zie Gelijkspanningsmotor
  * :beginner: [Hoe lees ik input?](Pdfs/ArduinoCourseReadInput.pdf)
  * :beginner: [Dag 2 oefeneningen](Pdfs/ArduinoCourseDay02_Exercises.pdf)
 
-Fritzing:
- * :beginner: Digital -> Input -> Button: een drukknop met een LEDje
- * :beginner: Digital -> Output -> Traffic light: twee verkeerslichten met een drukknop
- * Digital -> Output -> Timer: 595 chip, 7-segment display, 2 drukknoppen
+ * ![Fritzing](RawDocs/Fritzing.png) :beginner: Digital -> Input -> Button: een drukknop met een LEDje
+ * ![Fritzing](RawDocs/Fritzing.png) :beginner: Digital -> Output -> Traffic light: twee verkeerslichten met een drukknop
+ * ![Fritzing](RawDocs/Fritzing.png) Digital -> Output -> Timer: 595 chip, 7-segment display, 2 drukknoppen
 
 ## Gelijkspanningsmotor
 
@@ -65,20 +62,17 @@ Fritzing:
 
 ## Krachtsensor
 
-Fritzing:
- * :beginner: Analog -> Input -> AnalogInputFSR: een krachtsensor en LEDje
+ * ![Fritzing](RawDocs/Fritzing.png) :beginner: Analog -> Input -> AnalogInputFSR: een krachtsensor en LEDje
 
 ## Kwikschakelaar
 
-Fritzing:
- * :beginner: Digital -> Input -> TiltSwitch: een kwikschakelaar
+ * ![Fritzing](RawDocs/Fritzing.png) :beginner: Digital -> Input -> TiltSwitch: een kwikschakelaar
 
 ## LCD display
 
  * [Hoe sluit ik een LCD scherm aan?](Pdfs/ArduinoCourseConnectLcd.pdf)
 
-Fritzing:
- * :beginner: Light -> LCD -> LiquidCrystalDisplay: LCD scherm met potmeter
+ * ![Fritzing](RawDocs/Fritzing.png) :beginner: Light -> LCD -> LiquidCrystalDisplay: LCD scherm met potmeter
 
 ## LED
 
@@ -88,45 +82,36 @@ Fritzing:
  * :beginner: [Hoe schakel ik een LED?](Pdfs/ArduinoCourseSwitchLed.pdf)
  * :beginner: [Oefening: hoe schakel ik een LED?](Pdfs/ArduinoCourseSwitchLedExercise.pdf)
 
-Arduino IDE:
- *  
-
-Fritzing:
- * :beginner: Digital -> Output -> Blink: een LEDje
- * :beginner: Digital -> Output -> Loop: zes LEDjes
+ * ![Fritzing](RawDocs/Fritzing.png) :beginner: Digital -> Output -> Blink: een LEDje
+ * ![Fritzing](RawDocs/Fritzing.png) :beginner: Digital -> Output -> Loop: zes LEDjes
 
 ## LED matrix, 5x8
 
-Fritzing:
- * Digital -> Output -> LED-Matrix_simple: aansluiten van een 5x8 LED matrix
+ * ![Fritzing](RawDocs/Fritzing.png) Digital -> Output -> LED-Matrix_simple: aansluiten van een 5x8 LED matrix
 
 ## Infrarood sensor
 
-Fritzing:
- * :beginner: Analog -> Input -> Parking-Assistant: twee IR sensors, 10 LEDjes 
+ * ![Fritzing](RawDocs/Fritzing.png) :beginner: Analog -> Input -> Parking-Assistant: twee IR sensors, 10 LEDjes 
 
 ## Lichtsensor
 
  * :beginner: [Hoe lees ik een sensor?](Pdfs/ArduinoCourseReadSensor.pdf)
 
-Fritzing:
- * :beginner: Analog -> Input -> Photocell: een lichtsensor die een LED laat reageren
+ * ![Fritzing](RawDocs/Fritzing.png) :beginner: Analog -> Input -> Photocell: een lichtsensor die een LED laat reageren
 
 ## Piezo
 
-Fritzing:
- * :beginner: Analog -> Input -> Knock: een piezo die reageert op kloppen
- * :beginner: Analog -> Output -> Melody: een piezo die een muziekje gaat afspelen
- * :beginner: Analog -> Output -> Window_Alarm: raamalarm met een piezo en Reed contact
+ * ![Fritzing](RawDocs/Fritzing.png) :beginner: Analog -> Input -> Knock: een piezo die reageert op kloppen
+ * ![Fritzing](RawDocs/Fritzing.png) :beginner: Analog -> Output -> Melody: een piezo die een muziekje gaat afspelen
+ * ![Fritzing](RawDocs/Fritzing.png) :beginner: Analog -> Output -> Window_Alarm: raamalarm met een piezo en Reed contact
 
 ## Potmeter
 
  * :beginner: [Hoe sluit ik een potmeter aan?](Pdfs/ArduinoCourseConnectPotMeter.pdf)
 
-Fritzing:
- * :beginner: Analog -> Input -> AnalogInputPot: een potmeter en LEDje
- * :beginner: Analog -> Output -> AnalogInputPot: een potmeter en LEDje
- * :beginner: Light -> LCD -> LiquidCrystalDisplay: LCD scherm met potmeter
+ * ![Fritzing](RawDocs/Fritzing.png) :beginner: Analog -> Input -> AnalogInputPot: een potmeter en LEDje
+ * ![Fritzing](RawDocs/Fritzing.png) :beginner: Analog -> Output -> AnalogInputPot: een potmeter en LEDje
+ * ![Fritzing](RawDocs/Fritzing.png) :beginner: Light -> LCD -> LiquidCrystalDisplay: LCD scherm met potmeter
 
 ## Projecten
 
@@ -139,46 +124,37 @@ Fritzing:
 
 ## Reedcontact
 
-Fritzing:
- * :beginner: Analog -> Output -> Window_Alarm: raamalarm met een piezo en Reedcontact
+ * ![Fritzing](RawDocs/Fritzing.png) :beginner: Analog -> Output -> Window_Alarm: raamalarm met een piezo en Reedcontact
 
 ## RGB LED
 
-Fritzing:
- * :beginner: Analog -> Output -> RGB_LED: RGB LED
- * Analog -> Output -> Mood-Light: super flux (?) RGB LED
+ * ![Fritzing](RawDocs/Fritzing.png) :beginner: Analog -> Output -> RGB_LED: RGB LED
+ * ![Fritzing](RawDocs/Fritzing.png) Analog -> Output -> Mood-Light: super flux (?) RGB LED
 
 ## Servo
 
-Fritzing:
- * :beginner: Motion -> Motors -> Servo: een servo motor met een potmeter
+ * ![Fritzing](RawDocs/Fritzing.png) :beginner: Motion -> Motors -> Servo: een servo motor met een potmeter
 
 ## Shift register
 
-Fritzing:
- * Digital -> Output -> Shift_Register: Met een shift register 8 LEDjes aansturen met 3 Arduino pinnen
- * Digital -> Output -> Shift_Register_2x: Met twee shift registers 16 LEDjes aansturen met 3 Arduino pinnen
+ * ![Fritzing](RawDocs/Fritzing.png) Digital -> Output -> Shift_Register: Met een shift register 8 LEDjes aansturen met 3 Arduino pinnen
+ * ![Fritzing](RawDocs/Fritzing.png) Digital -> Output -> Shift_Register_2x: Met twee shift registers 16 LEDjes aansturen met 3 Arduino pinnen
 
 ## Temperatuursensor
 
-Fritzing:
- * Analog -> Input -> TemperatureSensorLM35: de LM35 temperatuursensor en meerdere LEDjes
-
+ * ![Fritzing](RawDocs/Fritzing.png) Analog -> Input -> TemperatureSensorLM35: de LM35 temperatuursensor en meerdere LEDjes
 
 ## Thermistor
 
-Fritzing:
- * :beginner: Analog -> Input -> AnalogInputThermistor: een thermistor en LEDje
+ * ![Fritzing](RawDocs/Fritzing.png) :beginner: Analog -> Input -> AnalogInputThermistor: een thermistor en LEDje
 
 ## Timer
 
-Fritzing:
- * Digital -> Output -> Timer: 595 chip, 7-segment display, 2 drukknoppen
+ * ![Fritzing](RawDocs/Fritzing.png) Digital -> Output -> Timer: 595 chip, 7-segment display, 2 drukknoppen
 
 ## Transistor
 
-Fritzing:
- * :beginner: Analog -> Input -> Touchswitch: twee transistoren met een aanraakschakelaar
+ * ![Fritzing](RawDocs/Fritzing.png) :beginner: Analog -> Input -> Touchswitch: twee transistoren met een aanraakschakelaar
 
 ## Werkwijze
 
