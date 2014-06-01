@@ -34,6 +34,12 @@ Beginners: begin bij LED, voorbeelden met ':beginner:' zijn voor beginners.
 ## C++
 
  * ![Richel](RawDocs/R.png) :beginner: [C++ basis: variabelen, conversie, if, for, testen](Pdfs/ArduinoCourseCpp01.pdf)
+ * ![ArduinoIDE](RawDocs/ArduinoIdeIcon.png) :beginner: Examples -> 0.5 Control -> IfStatementConditional
+ * ![ArduinoIDE](RawDocs/ArduinoIdeIcon.png) :beginner: Examples -> 0.5 Control -> switchCase
+ * ![ArduinoIDE](RawDocs/ArduinoIdeIcon.png) :beginner: Examples -> 0.5 Control -> switchCase2
+ * ![ArduinoIDE](RawDocs/ArduinoIdeIcon.png) :beginner: Examples -> 0.5 Control -> whileStatementConditional
+ * ![ArduinoIDE](RawDocs/ArduinoIdeIcon.png) Examples -> 0.5 Control -> ForLoopIteration
+ * ![ArduinoIDE](RawDocs/ArduinoIdeIcon.png) Examples -> 0.5 Control -> Arrays
 
 ## DC motor
 
