@@ -7,8 +7,7 @@ Beginners: begin bij LED, voorbeelden met ':beginner:' zijn voor beginners.
 
 ## 595 chip
 
-Fritzing:
- * Digital -> Output -> Timer: 595 chip, 7-segment display, 2 drukknoppen
+ * ![Fritzing](RawDocs/Fritzing.png) Digital -> Output -> Timer: 595 chip, 7-segment display, 2 drukknoppen
 
 ## 7-segment display
 
