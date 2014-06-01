@@ -32,6 +32,10 @@ Zie [TableOfContents.md](TableOfContents.md) voor een overzicht van de presentat
 ### Nieuwsbrief
  * Ga naar Issue #11 'Nieuwsbrief' en 'Watch' deze. Heb je zelf wat te melden, voeg dan daar een commentaar toe
 
+### Projecten
+
+Projecten zijn te vinden onder [Projects.md](Projects.md).
+
 ## English
 
 Dutch Arduino course given at De Jonge Onderzoekers Groningen.

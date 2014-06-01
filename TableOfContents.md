@@ -41,6 +41,7 @@ Niveaus:
 ## C++
 
  * ![Richel](RawDocs/R.png) ![Easy](RawDocs/EasyIcon.png) [C++ basis: variabelen, conversie, if, for, testen](Pdfs/ArduinoCourseCpp01.pdf)
+ * ![ArduinoIde](RawDocs/ArduinoIdeIcon.png) ![Easy](RawDocs/EasyIcon.png) 01. Basics -> Blink
  * ![ArduinoIDE](RawDocs/ArduinoIdeIcon.png) ![Easy](RawDocs/EasyIcon.png) Examples -> 0.5 Control -> IfStatementConditional
  * ![ArduinoIDE](RawDocs/ArduinoIdeIcon.png) ![Easy](RawDocs/EasyIcon.png) Examples -> 0.5 Control -> switchCase
  * ![ArduinoIDE](RawDocs/ArduinoIdeIcon.png) ![Easy](RawDocs/EasyIcon.png) Examples -> 0.5 Control -> switchCase2
@@ -90,10 +91,9 @@ Zie Gelijkspanningsmotor
 
  * ![Richel](RawDocs/R.png) ![Easy](RawDocs/EasyIcon.png) [Hoe sluit ik een LED aan?](Pdfs/ArduinoCourseConnectLed.pdf)
  * ![Richel](RawDocs/R.png) ![Easy](RawDocs/EasyIcon.png) [Oefening: hoe sluit ik een LED aan?](Pdfs/ArduinoCourseConnectLedExercise.pdf)
-
  * ![Richel](RawDocs/R.png) ![Easy](RawDocs/EasyIcon.png) [Hoe schakel ik een LED?](Pdfs/ArduinoCourseSwitchLed.pdf)
  * ![Richel](RawDocs/R.png) ![Easy](RawDocs/EasyIcon.png) [Oefening: hoe schakel ik een LED?](Pdfs/ArduinoCourseSwitchLedExercise.pdf)
-
+ * ![ArduinoIde](RawDocs/ArduinoIdeIcon.png) ![Easy](RawDocs/EasyIcon.png) 01. Basics -> Blink
  * ![Fritzing](RawDocs/Fritzing.png) ![Easy](RawDocs/EasyIcon.png) Digital -> Output -> Blink: een LEDje
  * ![Fritzing](RawDocs/Fritzing.png) ![Easy](RawDocs/EasyIcon.png) Digital -> Output -> Loop: zes LEDjes
 
@@ -125,9 +125,9 @@ Zie Gelijkspanningsmotor
  * ![Fritzing](RawDocs/Fritzing.png) ![Easy](RawDocs/EasyIcon.png) Analog -> Output -> AnalogInputPot: een potmeter en LEDje
  * ![Fritzing](RawDocs/Fritzing.png) ![Easy](RawDocs/EasyIcon.png) Light -> LCD -> LiquidCrystalDisplay: LCD scherm met potmeter
 
-## Projecten
+## [Projecten](Projects.md)
 
- * ![Richel](RawDocs/R.png) [Project: Kleurensensor](Pdfs/ArduinoCourseProjectColorSensor.pdf)
+Zie [Projects.md](Projects.md).
 
 ## Pull-down weerstand
 
