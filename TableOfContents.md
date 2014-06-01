@@ -25,15 +25,15 @@ Beginners: begin bij LED, voorbeelden met ':beginner:' zijn voor beginners.
 
 ## Arduino
 
- * :beginner: [Wat is Arduino?](Pdfs/ArduinoCourseWhatIsArduino.pdf)
+ * ![Richel](RawDocs/R.png) :beginner: [Wat is Arduino?](Pdfs/ArduinoCourseWhatIsArduino.pdf)
 
 ## Breadboard
 
- * :beginner: [Kortsluiting en breadboard](Pdfs/ArduinoCourseShortCircuit.pdf)
+ * ![Richel](RawDocs/R.png) :beginner: [Kortsluiting en breadboard](Pdfs/ArduinoCourseShortCircuit.pdf)
 
 ## C++
 
- * :beginner: [C++ basis: variabelen, conversie, if, for, testen](Pdfs/ArduinoCourseCpp01.pdf)
+ * ![Richel](RawDocs/R.png) :beginner: [C++ basis: variabelen, conversie, if, for, testen](Pdfs/ArduinoCourseCpp01.pdf)
 
 ## DC motor
 
@@ -41,8 +41,8 @@ Zie Gelijkspanningsmotor
 
 ## Drukknop
 
- * :beginner: [Hoe lees ik input?](Pdfs/ArduinoCourseReadInput.pdf)
- * :beginner: [Dag 2 oefeneningen](Pdfs/ArduinoCourseDay02_Exercises.pdf)
+ * ![Richel](RawDocs/R.png) :beginner: [Hoe lees ik input?](Pdfs/ArduinoCourseReadInput.pdf)
+ * ![Richel](RawDocs/R.png) :beginner: [Dag 2 oefeneningen](Pdfs/ArduinoCourseDay02_Exercises.pdf)
 
  * ![Fritzing](RawDocs/Fritzing.png) :beginner: Digital -> Input -> Button: een drukknop met een LEDje
  * ![Fritzing](RawDocs/Fritzing.png) :beginner: Digital -> Output -> Traffic light: twee verkeerslichten met een drukknop
@@ -50,15 +50,15 @@ Zie Gelijkspanningsmotor
 
 ## Gelijkspanningsmotor
 
- * [Hoe sluit ik een gelijkspanningsmotor aan?](Pdfs/ArduinoCourseConnectDcMotor.pdf)
+ * ![Richel](RawDocs/R.png) [Hoe sluit ik een gelijkspanningsmotor aan?](Pdfs/ArduinoCourseConnectDcMotor.pdf)
 
 ## Kleurensensor
 
- * [Project: Kleurensensor](Pdfs/ArduinoCourseProjectColorSensor.pdf)
+ * ![Richel](RawDocs/R.png) [Project: Kleurensensor](Pdfs/ArduinoCourseProjectColorSensor.pdf)
 
 ## Kortsluiting
 
- * :beginner: [Kortsluiting en breadboard](Pdfs/ArduinoCourseShortCircuit.pdf)
+ * ![Richel](RawDocs/R.png) :beginner: [Kortsluiting en breadboard](Pdfs/ArduinoCourseShortCircuit.pdf)
 
 ## Krachtsensor
 
@@ -70,17 +70,16 @@ Zie Gelijkspanningsmotor
 
 ## LCD display
 
- * [Hoe sluit ik een LCD scherm aan?](Pdfs/ArduinoCourseConnectLcd.pdf)
-
+ * ![Richel](RawDocs/R.png) [Hoe sluit ik een LCD scherm aan?](Pdfs/ArduinoCourseConnectLcd.pdf)
  * ![Fritzing](RawDocs/Fritzing.png) :beginner: Light -> LCD -> LiquidCrystalDisplay: LCD scherm met potmeter
 
 ## LED
 
- * :beginner: [Hoe sluit ik een LED aan?](Pdfs/ArduinoCourseConnectLed.pdf)
- * :beginner: [Oefening: hoe sluit ik een LED aan?](Pdfs/ArduinoCourseConnectLedExercise.pdf)
+ * ![Richel](RawDocs/R.png) :beginner: [Hoe sluit ik een LED aan?](Pdfs/ArduinoCourseConnectLed.pdf)
+ * ![Richel](RawDocs/R.png) :beginner: [Oefening: hoe sluit ik een LED aan?](Pdfs/ArduinoCourseConnectLedExercise.pdf)
 
- * :beginner: [Hoe schakel ik een LED?](Pdfs/ArduinoCourseSwitchLed.pdf)
- * :beginner: [Oefening: hoe schakel ik een LED?](Pdfs/ArduinoCourseSwitchLedExercise.pdf)
+ * ![Richel](RawDocs/R.png) :beginner: [Hoe schakel ik een LED?](Pdfs/ArduinoCourseSwitchLed.pdf)
+ * ![Richel](RawDocs/R.png) :beginner: [Oefening: hoe schakel ik een LED?](Pdfs/ArduinoCourseSwitchLedExercise.pdf)
 
  * ![Fritzing](RawDocs/Fritzing.png) :beginner: Digital -> Output -> Blink: een LEDje
  * ![Fritzing](RawDocs/Fritzing.png) :beginner: Digital -> Output -> Loop: zes LEDjes
@@ -95,7 +94,7 @@ Zie Gelijkspanningsmotor
 
 ## Lichtsensor
 
- * :beginner: [Hoe lees ik een sensor?](Pdfs/ArduinoCourseReadSensor.pdf)
+ * ![Richel](RawDocs/R.png) :beginner: [Hoe lees ik een sensor?](Pdfs/ArduinoCourseReadSensor.pdf)
 
  * ![Fritzing](RawDocs/Fritzing.png) :beginner: Analog -> Input -> Photocell: een lichtsensor die een LED laat reageren
 
@@ -107,7 +106,7 @@ Zie Gelijkspanningsmotor
 
 ## Potmeter
 
- * :beginner: [Hoe sluit ik een potmeter aan?](Pdfs/ArduinoCourseConnectPotMeter.pdf)
+ * ![Richel](RawDocs/R.png) :beginner: [Hoe sluit ik een potmeter aan?](Pdfs/ArduinoCourseConnectPotMeter.pdf)
 
  * ![Fritzing](RawDocs/Fritzing.png) :beginner: Analog -> Input -> AnalogInputPot: een potmeter en LEDje
  * ![Fritzing](RawDocs/Fritzing.png) :beginner: Analog -> Output -> AnalogInputPot: een potmeter en LEDje
@@ -115,12 +114,12 @@ Zie Gelijkspanningsmotor
 
 ## Projecten
 
- * [Project: Kleurensensor](Pdfs/ArduinoCourseProjectColorSensor.pdf)
+ * ![Richel](RawDocs/R.png) [Project: Kleurensensor](Pdfs/ArduinoCourseProjectColorSensor.pdf)
 
 ## Pull-down weerstand
 
- * :beginner: [Hoe lees ik input?](Pdfs/ArduinoCourseReadInput.pdf)
- * :beginner: [Hoe lees ik een sensor?](Pdfs/ArduinoCourseReadSensor.pdf)
+ * ![Richel](RawDocs/R.png) :beginner: [Hoe lees ik input?](Pdfs/ArduinoCourseReadInput.pdf)
+ * ![Richel](RawDocs/R.png) :beginner: [Hoe lees ik een sensor?](Pdfs/ArduinoCourseReadSensor.pdf)
 
 ## Reedcontact
 
@@ -158,15 +157,15 @@ Zie Gelijkspanningsmotor
 
 ## Werkwijze
 
- * :beginner: [Werkwijze](Pdfs/ArduinoCourseMindset.pdf)
+ * ![Richel](RawDocs/R.png) :beginner: [Werkwijze](Pdfs/ArduinoCourseMindset.pdf)
 
 ## Zonnemotor
 
- * [Zonnemotor](Pdfs/ArduinoCourseSolarMotor.pdf)
+ * ![Richel](RawDocs/R.png) [Zonnemotor](Pdfs/ArduinoCourseSolarMotor.pdf)
 
 ## Zwevende input
 
- * :beginner: [Hoe lees ik input?](Pdfs/ArduinoCourseReadInput.pdf)
+ * ![Richel](RawDocs/R.png) :beginner: [Hoe lees ik input?](Pdfs/ArduinoCourseReadInput.pdf)
 
 
 Table Of Contents
