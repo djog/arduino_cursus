@@ -1,4 +1,4 @@
-Hometrainer (C) 2009 Richel Bilderbeek
+Hometrainer2 (C) 2009 Richel Bilderbeek
 -,Stroom loopt van ...,Plus naar min,Min naar plus,Kan beide
 -,Stroom loopt van ...,5V naar GND,GND naar 5V,Kan beide
 LedRedBreadboardBentLegStraightLeg.png,De 'L' van LED staat voor ...,Light,Lamp,Low-power,Low-current,Little
