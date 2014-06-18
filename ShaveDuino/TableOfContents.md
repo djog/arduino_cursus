@@ -1,7 +1,7 @@
 Table of Contents
 =================
 
-
+Where to dremel a hole in the casing:
 ![Shaver casing](CasingWithDremeledHole.png)
 
  * [Stroomschema ShaveDuino](Modular-shaver Arduino1-4.PDF)
