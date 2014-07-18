@@ -328,5 +328,302 @@ Wat is een array?
 
 \end_layout
 
+\begin_layout Section
+Hoe gebruik je een array?
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+int getallen[] = {1,4,8};
+\end_layout
+
+\begin_layout Plain Layout
+
+const int eerste_getal = getallen[0];
+\end_layout
+
+\begin_layout Plain Layout
+
+getallen[2] = 9;
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Oplossing probleem, naief
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+const int pins[] = { 2,3,4,5,6,7,8,9,10,11,12 }; 
+\end_layout
+
+\begin_layout Plain Layout
+
+const int n_pins = 12;
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+void setup() 
+\end_layout
+
+\begin_layout Plain Layout
+
+{   
+\end_layout
+
+\begin_layout Plain Layout
+
+  //C++ begint bij index nul te tellen   
+\end_layout
+
+\begin_layout Plain Layout
+
+  pinMode(pins[ 0],OUTPUT); 
+\end_layout
+
+\begin_layout Plain Layout
+
+  pinMode(pins[ 1],OUTPUT);   
+\end_layout
+
+\begin_layout Plain Layout
+
+  //...
+\end_layout
+
+\begin_layout Plain Layout
+
+  pinMode(pins[10],OUTPUT);   
+\end_layout
+
+\begin_layout Plain Layout
+
+  pinMode(pins[11],OUTPUT);   
+\end_layout
+
+\begin_layout Plain Layout
+
+  //Nee, pins[12] bestaat niet, 
+\end_layout
+
+\begin_layout Plain Layout
+
+  //omdat C++ bij index nul begint te tellen!      
+\end_layout
+
+\begin_layout Plain Layout
+
+  //pinMode(pins[12],OUTPUT); 
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Oplossing probleem
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+const int pins[] = { 2,3,4,5,6,7,8,9,10,11,12 }; 
+\end_layout
+
+\begin_layout Plain Layout
+
+const int n_pins = 12;
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+void setup() 
+\end_layout
+
+\begin_layout Plain Layout
+
+{   
+\end_layout
+
+\begin_layout Plain Layout
+
+  //Vaak in boeken: 'for(int i=0; i<n_pins; i++)'
+\end_layout
+
+\begin_layout Plain Layout
+
+  for (int i{0}; i!=n_pins; ++i) 
+\end_layout
+
+\begin_layout Plain Layout
+
+  {      
+\end_layout
+
+\begin_layout Plain Layout
+
+    pinMode(pins[i],OUTPUT);    
+\end_layout
+
+\begin_layout Plain Layout
+
+  } 
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Oplossing probleem
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+void loop() 
+\end_layout
+
+\begin_layout Plain Layout
+
+{   
+\end_layout
+
+\begin_layout Plain Layout
+
+  for (int i{0}; i!=n_pins; ++i)
+\end_layout
+
+\begin_layout Plain Layout
+
+  {     
+\end_layout
+
+\begin_layout Plain Layout
+
+    digitalWrite(pins[i],HIGH);   
+\end_layout
+
+\begin_layout Plain Layout
+
+  }   
+\end_layout
+
+\begin_layout Plain Layout
+
+  delay(1000);   
+\end_layout
+
+\begin_layout Plain Layout
+
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+  for (int i{0}; i!=n_pins; ++i)
+\end_layout
+
+\begin_layout Plain Layout
+
+  {     
+\end_layout
+
+\begin_layout Plain Layout
+
+    digitalWrite(pins[i],HIGH);   
+\end_layout
+
+\begin_layout Plain Layout
+
+  }   
+\end_layout
+
+\begin_layout Plain Layout
+
+  delay(1000); 
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
