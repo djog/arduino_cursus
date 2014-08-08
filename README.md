@@ -10,8 +10,8 @@ Dit is de GitHub van de Nederlandse Arduino cursus gegeven bij De Jonge Onderzoe
  * Wanneer: elke vrijdagavond 
  * Hoe laat: van 19:00-22:00 (pauze van 20:30-21:00)
  * Waar: De Jonge Onderzoekers Groningen (www.djog.nl)
- * Periode: januari tot de zomervakantie (?juni?)
- * Kosten: 10 euro eenmalig
+ * Periode: 22 augustus tot kerstvakantoe
+ * Kosten: 20 euro eenmalig
  * Leeftijd: 10 jaar en ouder
  * Meenemen: Arduino (als je die hebt), laptop (als je die hebt), electronica (als je dat hebt)
  * Wanneer instromen: altijd!
@@ -50,8 +50,8 @@ Dutch Arduino course given at De Jonge Onderzoekers Groningen.
  * Day: Fridays
  * Time: 19:00-22:00 
  * Location: De Jonge Onderzoekers Groningen (www.djog.nl)
- * Time span: from January to the Summer Holidays (?June?)
- * Costs: 10 euro, once
+ * Time span: from the 22nd of August to the Christmas holidays
+ * Costs: 20 euro, once
  * Age: 10 years old and above
  * What to bring: Arduino (if available), laptop (if available), electronics (if available)
  * When to enter: anytime!
