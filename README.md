@@ -1,8 +1,9 @@
 # ArduinoCourse
 
-## Nederlands 
-
 (English: see below)
+
+![Poster](Misc/Poster2014September.png)
+
 
 Dit is de GitHub van de Nederlandse Arduino cursus gegeven bij De Jonge Onderzoekers te Groningen.
 
