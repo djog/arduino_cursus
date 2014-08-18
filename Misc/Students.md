@@ -1,5 +1,6 @@
 # Leerlingen
 
-Blogs van de Arduino cursus (oud-)leerlingen
+Blogs van de Arduino cursus (oud-)leerlingen (gesorteerd op achternaam).
 
- * (https://friesewoudloper.wordpress.com)[Willy Bakker]
+ * [Willy Bakker](https://friesewoudloper.wordpress.com)
+ * [Joke Kort](http://www.usage.nl)
