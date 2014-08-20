@@ -1,0 +1,831 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass report
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a6paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation landscape
+\suppress_date false
+\use_refstyle 1
+\backgroundcolor #000000
+\fontcolor #ffffff
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Hoe voeg ik code samen?
+\end_layout
+
+\begin_layout Author
+(C) Richèl Bilderbeek 
+\begin_inset Graphics
+	filename CC-BY-NC-SA.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Overzicht
+\end_layout
+
+\begin_layout Enumerate
+Standaard volgorde
+\end_layout
+
+\begin_layout Enumerate
+Regels samenvoegen
+\end_layout
+
+\begin_layout Enumerate
+Conclusie
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Standaard volgorde
+\end_layout
+
+\begin_layout Itemize
+Includes
+\end_layout
+
+\begin_layout Itemize
+Globale variabelen
+\end_layout
+
+\begin_layout Itemize
+Functies, waaronder 'setup' en 'loop'
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+#include <LiquidCrystal.h>
+\end_layout
+
+\begin_layout Plain Layout
+
+LiquidCrystal lcd(12,11,5,4,3,2);
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+void ZegHallo() { lcd.print("Hello World!"); }
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+void setup() { lcd.begin(16, 2); }
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+void loop() { ZegHallo(); } 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Samenvoegen includes
+\end_layout
+
+\begin_layout Itemize
+Hou de includes bij de includes
+\end_layout
+
+\begin_layout Itemize
+Elke volgorde is goed
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+#include <Servo.h>
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+en
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+#include <LiquidCrystal.h>
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+wordt bijvoorbeeld
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+#include <LiquidCrystal.h>
+\end_layout
+
+\begin_layout Plain Layout
+
+#include <Servo.h>
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Samenvoegen globale variabelen
+\end_layout
+
+\begin_layout Itemize
+Hou de globale variabelen bij de globale variabelen
+\end_layout
+
+\begin_layout Itemize
+Houdt de volgorde aan van de losse programma's
+\end_layout
+
+\begin_layout Itemize
+Check of bijvoorbeeld pinnummers niet dubbel worden gebruikt
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+const int pin_servo{9};
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+en
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+const int pin_led_red{8};
+\end_layout
+
+\begin_layout Plain Layout
+
+const int pin_led_red{pin_led_red + 1};
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+wordt
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+const int pin_servo{9};
+\end_layout
+
+\begin_layout Plain Layout
+
+const int pin_led_red{10};
+\end_layout
+
+\begin_layout Plain Layout
+
+const int pin_led_red{pin_led_red + 1};
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Samenvoegen normale functies
+\end_layout
+
+\begin_layout Itemize
+Hou de niet-setup en niet-loop functies bij de functies
+\end_layout
+
+\begin_layout Itemize
+Houdt de volgorde aan van de losse programma's
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+void DraaiServo() { /* */}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+en
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+void ZetAan() { /* */}
+\end_layout
+
+\begin_layout Plain Layout
+
+void ZetUit() { /* */}
+\end_layout
+
+\begin_layout Plain Layout
+
+void Knipper() { /* Roept ZetAan en ZetUit aan */ }
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+wordt
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+void DraaiServo() { /* */}
+\end_layout
+
+\begin_layout Plain Layout
+
+void ZetAan() { /* */}
+\end_layout
+
+\begin_layout Plain Layout
+
+void ZetUit() { /* */}
+\end_layout
+
+\begin_layout Plain Layout
+
+void Knipper() { /* Roept ZetAan en ZetUit aan */ }
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Samenvoegen setup functies
+\end_layout
+
+\begin_layout Itemize
+Voeg de code van de setup functie samen tot een setup functie
+\end_layout
+
+\begin_layout Itemize
+Houdt de volgorde aan van de losse stukken code
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+void setup() { my_servo.attach(pin_servo); }
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+en
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+void setup() { const int breedte{16}; const int hoogte{2}; 
+\end_layout
+
+\begin_layout Plain Layout
+
+  my_lcd.begin(breedte,hoogte); }
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+wordt
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+void setup() { 
+\end_layout
+
+\begin_layout Plain Layout
+
+  my_servo.attach(pin_servo); 
+\end_layout
+
+\begin_layout Plain Layout
+
+  const int breedte{16}; const int hoogte{2};
+\end_layout
+
+\begin_layout Plain Layout
+
+  my_lcd.begin(breedte,hoogte);
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Samenvoegen loop functies
+\end_layout
+
+\begin_layout Itemize
+Voeg de code van de loop functie samen tot een loop functie
+\end_layout
+
+\begin_layout Itemize
+Houdt de volgorde aan van de losse stukken code
+\end_layout
+
+\begin_layout Itemize
+Bedenk wat je wilt dat het samengevoegde programma doet
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Voorbeeld
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+void loop() 
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\begin_layout Plain Layout
+
+  for(int pos{0}; pos!=180; ++pos) 
+\end_layout
+
+\begin_layout Plain Layout
+
+  {
+\end_layout
+
+\begin_layout Plain Layout
+
+    myservo.write(pos); 
+\end_layout
+
+\begin_layout Plain Layout
+
+    delay(1000);
+\end_layout
+
+\begin_layout Plain Layout
+
+  }
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+en
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+void loop() 
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\begin_layout Plain Layout
+
+  Serial.println(analogRead(pin_sensor));
+\end_layout
+
+\begin_layout Plain Layout
+
+  delay(1000);
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Naieve samenvoeging
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+void loop() 
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\begin_layout Plain Layout
+
+  for(int pos{0}; pos!=180; ++pos) 
+\end_layout
+
+\begin_layout Plain Layout
+
+  {
+\end_layout
+
+\begin_layout Plain Layout
+
+    myservo.write(pos); 
+\end_layout
+
+\begin_layout Plain Layout
+
+    delay(1000);
+\end_layout
+
+\begin_layout Plain Layout
+
+  }
+\end_layout
+
+\begin_layout Plain Layout
+
+  Serial.println(analogRead(pin_sensor));
+\end_layout
+
+\begin_layout Plain Layout
+
+  delay(1000);
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Juiste samenvoeging
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+void loop() 
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\begin_layout Plain Layout
+
+  for(int pos{0}; pos!=180; ++pos) 
+\end_layout
+
+\begin_layout Plain Layout
+
+  {
+\end_layout
+
+\begin_layout Plain Layout
+
+    Serial.println(analogRead(pin_sensor));
+\end_layout
+
+\begin_layout Plain Layout
+
+    myservo.write(pos); 
+\end_layout
+
+\begin_layout Plain Layout
+
+    delay(1000);
+\end_layout
+
+\begin_layout Plain Layout
+
+  }
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Conclusie
+\end_layout
+
+\begin_layout Itemize
+De includes zijn gemakkelijk samen te voegen
+\end_layout
+
+\begin_layout Itemize
+Let op bij het samen voegen van globale variabelen
+\end_layout
+
+\begin_layout Itemize
+Normale functies zijn gemakkelijk samen te voegen
+\end_layout
+
+\begin_layout Itemize
+De setup functies zijn gemakkelijk samen te voegen
+\end_layout
+
+\begin_layout Itemize
+Bij het samenvoegen van de loop functies moet het meest worden nagedacht
+\end_layout
+
+\end_body
+\end_document
