@@ -8,6 +8,7 @@ pdfunite \
   ArduinoCourseDay01_Start.pdf \
   ArduinoCourseIntroduction.pdf \
   ArduinoCourseWhatIsArduino.pdf \
+  ArduinoCourseMindset.pdf \
   ArduinoCourseConnectLed.pdf \
   ArduinoCourseSwitchLed.pdf \
   ArduinoCourseDay01_Exercises.pdf \
@@ -15,15 +16,17 @@ pdfunite \
   ArduinoCourseShortCircuit.pdf \
   ArduinoCourseAnalogRead.pdf \
   ArduinoCourseReadInput.pdf \
-  ArduinoCourseDay02_Exercises.pdf \
   ArduinoCourseDay03_Start.pdf \
   ArduinoCourseCpp01.pdf \
   ArduinoCourseReadSensor.pdf \
   ArduinoCourseSolarMotor.pdf \
   ArduinoCourseDay04_Start.pdf \
+  ArduinoCourseConnectPotMeter.pdf \
+  ArduinoCourseConnectLcd.pdf \
   ArduinoCourseConnectDcMotor.pdf \
   ArduinoCourseProjectColorSensor.pdf \
-  ArduinoCourseMindset.pdf \
+  ArduinoCourseMergeCode.pdf \
+  ArduinoCourseArray.pdf \
   ArduinoCourseAll.pdf  #Output
 
 #Convert ArduinoCourseAll.pdf to handout format (4 columns, 2 rows)
@@ -34,3 +37,5 @@ mv ArduinoCourseAll-up.pdf ArduinoCourseAllHandouts.pdf
 
 #Negate the resulting PDF
 convert ArduinoCourseAllHandouts.pdf -negate ArduinoCourseAllHandoutsNegated.pdf
+
+mv *.pdf ../Pdfs

@@ -66,7 +66,7 @@ Project: kleurensensor
 \begin_layout Author
 (C) Richèl Bilderbeek 
 \begin_inset Graphics
-	filename /home/richel/GitHubs/ArduinoCourse/CC-BY-NC-SA.png
+	filename CC-BY-NC-SA.png
 
 \end_inset
 
@@ -295,7 +295,6 @@ sideways false
 status collapsed
 
 \begin_layout Plain Layout
-
 \begin_inset listings
 inline false
 status open

@@ -88,20 +88,217 @@ Hoe sluit ik een LCD schermpje aan?
 
 \end_layout
 
+\begin_layout Section
+Overzicht
+\end_layout
+
+\begin_layout Enumerate
+Doel
+\end_layout
+
+\begin_layout Enumerate
+Hardware
+\end_layout
+
+\begin_layout Enumerate
+Software
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Doel
+\end_layout
+
+\begin_layout Enumerate
+Hoe sluit ik een LCD display aan?
+\end_layout
+
+\begin_layout Enumerate
+Hoe gebruik ik het LCD display in mijn code?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Hardware
+\end_layout
+
+\begin_layout Enumerate
+Veel draden, maar met Fritzing en Arduino IDE kun je bedenken hoe je een
+ LCD aan moet sluiten
+\end_layout
+
+\begin_layout Enumerate
+Twee keuzes: contrast en backlight
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Contrast: pin 3, verbinden naar GND of met potmeter
+\end_layout
+
+\begin_layout Enumerate
+Backlight: verbinden (samen met 220 Ohm) of niet
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Hardware
+\end_layout
+
 \begin_layout Standard
 \begin_inset Graphics
-	filename ArduinoCourseConnectLcdBreadboard.png
+	filename ArduinoCourseConnectLcdBreadboard1.png
 	lyxscale 50
-	scale 75
+	scale 50
 
 \end_inset
 
 
-\begin_inset Note Note
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Hardware
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename ArduinoCourseConnectLcdBreadboard2.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Hardware
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename ArduinoCourseConnectLcdBreadboard3.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Software
+\end_layout
+
+\begin_layout Itemize
+Voorbeeld in Arduino IDE: Examples | LiquidCrystal | Hello World
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
 status open
 
 \begin_layout Plain Layout
-From http://arduino.cc/en/Tutorial/LiquidCrystal
+
+#include <LiquidCrystal.h>
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+void setup() { 
+\end_layout
+
+\begin_layout Plain Layout
+
+ lcd.begin(16, 2); 
+\end_layout
+
+\begin_layout Plain Layout
+
+ lcd.print("hello, world!"); 
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+void loop() { 
+\end_layout
+
+\begin_layout Plain Layout
+
+ lcd.setCursor(0, 1); 
+\end_layout
+
+\begin_layout Plain Layout
+
+ lcd.print(millis()/1000); 
+\end_layout
+
+\begin_layout Plain Layout
+
+} 
 \end_layout
 
 \end_inset
@@ -109,6 +306,94 @@ From http://arduino.cc/en/Tutorial/LiquidCrystal
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Software
+\end_layout
+
+\begin_layout Itemize
+In Arduino IDE, 'Help | Refeference', dan 'Libraries | LiquidCrystal':
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+begin(int letters, int regels): bepaal schermgrootte 
+\end_layout
+
+\begin_layout Itemize
+clear(): maak scherm leeg
+\end_layout
+
+\begin_layout Itemize
+setCursor(int x, int y): bepaal positie cursor
+\end_layout
+
+\begin_layout Itemize
+print(...): zet tekst op het scherm, vanaf de cursor 
+\end_layout
+
+\begin_layout Itemize
+createChar(int index, byte karakter[8]): sla een eigen 5x8 karakter op
+\end_layout
+
+\begin_layout Itemize
+write(int index): zet een karakter op het scherm, vanaf de cursor 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Software
+\end_layout
+
+\begin_layout Itemize
+In Arduino IDE, 'Help | Refeference', dan 'Libraries | LiquidCrystal':
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+home(): setCursor(0,0)
+\end_layout
+
+\begin_layout Itemize
+cursor(), noCursor(): maak cursor zichtbaar/onzichtbaar
+\end_layout
+
+\begin_layout Itemize
+blink(), noBlink(): laat cursor wel/niet knipperen
+\end_layout
+
+\begin_layout Itemize
+display(), noDisplay(): laat tekst wel/niet ziet
+\end_layout
+
+\begin_layout Itemize
+scrollDisplayLeft(), scrollDisplayRight(): verplaats alle tekst met cursor
+ naar links/rechts
+\end_layout
+
+\begin_layout Itemize
+autoscroll(), noAutoscroll(): zet autoscroll aan/uit
+\end_layout
+
+\begin_layout Itemize
+leftToRight(), rightToLeft(): richting tekst is links-naar-rechts/rechts-naar-li
+nks
+\end_layout
+
+\end_deeper
 \begin_layout Standard
 \begin_inset Newpage newpage
 \end_inset
