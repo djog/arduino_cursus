@@ -1,0 +1,1264 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass report
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a6paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation landscape
+\suppress_date false
+\use_refstyle 1
+\backgroundcolor #000000
+\fontcolor #ffffff
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+7-segment display & functies
+\end_layout
+
+\begin_layout Author
+(C) Richèl Bilderbeek 
+\begin_inset Graphics
+	filename CC-BY-NC-SA.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Doel
+\end_layout
+
+\begin_layout Itemize
+Herhaling functies: hoe trek ik een functie uit een stuk code?
+\end_layout
+
+\begin_layout Itemize
+Hoe stuur ik een 7-segment display aan op een handige manier?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+gebruik van functies voor leesbaarheid
+\end_layout
+
+\begin_layout Itemize
+gebruik van functie argumenten, voor een optie voor het type 7-segment display
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Voorbeeld if-statement en ?: operator
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Overzicht
+\end_layout
+
+\begin_layout Enumerate
+Naief 
+\end_layout
+
+\begin_layout Enumerate
+Functies (met globale variabelen)
+\end_layout
+
+\begin_layout Enumerate
+Functies (met lokale variabelen)
+\end_layout
+
+\begin_layout Enumerate
+Code met enkel lokale variabelen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Pins
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename 7_segment_display_labeled.svg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Beginpunt, zonder functies
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+const int pin_a = 3;
+\end_layout
+
+\begin_layout Plain Layout
+
+//...
+\end_layout
+
+\begin_layout Plain Layout
+
+const int pin_g = 9;
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+void setup() { 
+\end_layout
+
+\begin_layout Plain Layout
+
+  pinMode(pin_a,OUTPUT); 
+\end_layout
+
+\begin_layout Plain Layout
+
+  //...
+\end_layout
+
+\begin_layout Plain Layout
+
+  pinMode(pin_g,OUTPUT); 
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Beginpunt, zonder functies
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+void loop() { 
+\end_layout
+
+\begin_layout Plain Layout
+
+  //Laat 1 zien
+\end_layout
+
+\begin_layout Plain Layout
+
+  digitalWrite(pin_e,HIGH);
+\end_layout
+
+\begin_layout Plain Layout
+
+  digitalWrite(pin_f,HIGH);
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+  delay(1000);
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+  //Zet 1 uit
+\end_layout
+
+\begin_layout Plain Layout
+
+  digitalWrite(pin_e,LOW);
+\end_layout
+
+\begin_layout Plain Layout
+
+  digitalWrite(pin_f,LOW);
+\end_layout
+
+\begin_layout Plain Layout
+
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+  delay(1000);
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Functie
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename VoidLaatEenZien.png
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Beginpunt, zonder functies
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+void loop() 
+\end_layout
+
+\begin_layout Plain Layout
+
+{ 
+\end_layout
+
+\begin_layout Plain Layout
+
+  {
+\end_layout
+
+\begin_layout Plain Layout
+
+    //Laat 1 zien
+\end_layout
+
+\begin_layout Plain Layout
+
+    digitalWrite(pin_e,HIGH);
+\end_layout
+
+\begin_layout Plain Layout
+
+    digitalWrite(pin_f,HIGH);
+\end_layout
+
+\begin_layout Plain Layout
+
+  }
+\end_layout
+
+\begin_layout Plain Layout
+
+  delay(1000);
+\end_layout
+
+\begin_layout Plain Layout
+
+  {
+\end_layout
+
+\begin_layout Plain Layout
+
+    //Zet 1 uit
+\end_layout
+
+\begin_layout Plain Layout
+
+    digitalWrite(pin_e,LOW);
+\end_layout
+
+\begin_layout Plain Layout
+
+    digitalWrite(pin_f,LOW);
+\end_layout
+
+\begin_layout Plain Layout
+
+  }
+\end_layout
+
+\begin_layout Plain Layout
+
+  delay(1000);
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Beginpunt, met functies
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+void LaatEenZien() {
+\end_layout
+
+\begin_layout Plain Layout
+
+  digitalWrite(pin_e,HIGH);
+\end_layout
+
+\begin_layout Plain Layout
+
+  digitalWrite(pin_f,HIGH);
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+void ZetEenUit() {
+\end_layout
+
+\begin_layout Plain Layout
+
+  digitalWrite(pin_e,LOW);
+\end_layout
+
+\begin_layout Plain Layout
+
+  digitalWrite(pin_f,LOW);
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+void loop() { 
+\end_layout
+
+\begin_layout Plain Layout
+
+  LaatEenZien();
+\end_layout
+
+\begin_layout Plain Layout
+
+  delay(1000);
+\end_layout
+
+\begin_layout Plain Layout
+
+  ZetEenUit();
+\end_layout
+
+\begin_layout Plain Layout
+
+  delay(1000);
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Schone functie
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+void LaatEenZien() {
+\end_layout
+
+\begin_layout Plain Layout
+
+  digitalWrite(pin_a,LOW);
+\end_layout
+
+\begin_layout Plain Layout
+
+  digitalWrite(pin_b,LOW);
+\end_layout
+
+\begin_layout Plain Layout
+
+  digitalWrite(pin_c,LOW);
+\end_layout
+
+\begin_layout Plain Layout
+
+  digitalWrite(pin_d,LOW);
+\end_layout
+
+\begin_layout Plain Layout
+
+  digitalWrite(pin_e,HIGH);
+\end_layout
+
+\begin_layout Plain Layout
+
+  digitalWrite(pin_f,HIGH);
+\end_layout
+
+\begin_layout Plain Layout
+
+  digitalWrite(pin_g,LOW);
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Schone functie
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+void LaatNiksZien() {
+\end_layout
+
+\begin_layout Plain Layout
+
+  digitalWrite(pin_a,LOW);
+\end_layout
+
+\begin_layout Plain Layout
+
+  digitalWrite(pin_b,LOW);
+\end_layout
+
+\begin_layout Plain Layout
+
+  digitalWrite(pin_c,LOW);
+\end_layout
+
+\begin_layout Plain Layout
+
+  digitalWrite(pin_d,LOW);
+\end_layout
+
+\begin_layout Plain Layout
+
+  digitalWrite(pin_e,LOW);
+\end_layout
+
+\begin_layout Plain Layout
+
+  digitalWrite(pin_f,LOW);
+\end_layout
+
+\begin_layout Plain Layout
+
+  digitalWrite(pin_g,LOW);
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Schone functie
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+void loop() {
+\end_layout
+
+\begin_layout Plain Layout
+
+  LaatEenZien();
+\end_layout
+
+\begin_layout Plain Layout
+
+  delay(1000);
+\end_layout
+
+\begin_layout Plain Layout
+
+  LaatNiksZien()
+\end_layout
+
+\begin_layout Plain Layout
+
+  delay(1000);
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Volgende stap
+\end_layout
+
+\begin_layout Itemize
+Twee typen 7-segment displays:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+5 V op pin 14 ('common anode')
+\end_layout
+
+\begin_layout Itemize
+GND op pin 14 ('common cathode')
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Eerdere code werkte alleen op 5V op pin
+\end_layout
+
+\begin_layout Itemize
+In andere geval moeten HIGH en LOW worden omgedraaid
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Functie
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename VoidLaatEenZienMetArgument.png
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Begin groot
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+void loop() {
+\end_layout
+
+\begin_layout Plain Layout
+
+  const bool pin_heeft_vijf_volt = true; //Of false
+\end_layout
+
+\begin_layout Plain Layout
+
+  LaatEenZien(pin_heeft_vijf_volt);
+\end_layout
+
+\begin_layout Plain Layout
+
+  delay(1000);
+\end_layout
+
+\begin_layout Plain Layout
+
+  LaatNiksZien(pin_heeft_vijf_volt)
+\end_layout
+
+\begin_layout Plain Layout
+
+  delay(1000);
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Functie, naief
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+void LaatNiksZien(const bool is_vijf_volt_gedeeld) {
+\end_layout
+
+\begin_layout Plain Layout
+
+  if (is_vijf_volt_gedeeld)
+\end_layout
+
+\begin_layout Plain Layout
+
+  {
+\end_layout
+
+\begin_layout Plain Layout
+
+    digitalWrite(pin_a,LOW);
+\end_layout
+
+\begin_layout Plain Layout
+
+    //...
+\end_layout
+
+\begin_layout Plain Layout
+
+    digitalWrite(pin_g,LOW);
+\end_layout
+
+\begin_layout Plain Layout
+
+  }
+\end_layout
+
+\begin_layout Plain Layout
+
+  else
+\end_layout
+
+\begin_layout Plain Layout
+
+  {
+\end_layout
+
+\begin_layout Plain Layout
+
+    digitalWrite(pin_a,HIGH);
+\end_layout
+
+\begin_layout Plain Layout
+
+    //...
+\end_layout
+
+\begin_layout Plain Layout
+
+    digitalWrite(pin_g,HIGH);
+\end_layout
+
+\begin_layout Plain Layout
+
+  }
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Functie, slim
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+void LaatNiksZien(const bool is_vijf_volt_gedeeld) {  
+\end_layout
+
+\begin_layout Plain Layout
+
+  int uit = LOW;
+\end_layout
+
+\begin_layout Plain Layout
+
+  if (is_vijf_volt_gedeeld == true) uit = LOW;
+\end_layout
+
+\begin_layout Plain Layout
+
+  digitalWrite(pin_a,uit);
+\end_layout
+
+\begin_layout Plain Layout
+
+  //..
+\end_layout
+
+\begin_layout Plain Layout
+
+  digitalWrite(pin_g,uit);
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Functie, slimst
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+void LaatNiksZien(const bool is_vijf_volt_gedeeld) {  
+\end_layout
+
+\begin_layout Plain Layout
+
+  const int uit = is_vijf_volt_gedeeld ? LOW : HIGH;
+\end_layout
+
+\begin_layout Plain Layout
+
+  digitalWrite(pin_a,uit);
+\end_layout
+
+\begin_layout Plain Layout
+
+  //..
+\end_layout
+
+\begin_layout Plain Layout
+
+  digitalWrite(pin_g,uit);
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Verdere verbeteringen
+\end_layout
+
+\begin_layout Itemize
+Alle functies werken met pin_a t/m pin_g
+\end_layout
+
+\begin_layout Itemize
+Onmogelijk om met twee 7-segment displays the werken!
+\end_layout
+
+\begin_layout Itemize
+Oplossing: gebruik functies die ook de pin-nummers moeten weten
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename 7segmentdisplays.jpg
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Functie
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename VoidLaatEenZienMetArgumenten.png
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Begin groot
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+void loop() {
+\end_layout
+
+\begin_layout Plain Layout
+
+  const bool pin_links_heeft_vijf_volt = true; //Of false
+\end_layout
+
+\begin_layout Plain Layout
+
+  LaatEenZien(
+\end_layout
+
+\begin_layout Plain Layout
+
+    pin_links_heeft_vijf_volt, 
+\end_layout
+
+\begin_layout Plain Layout
+
+    pin_links_a, /* ...
+ */, pin_links_g
+\end_layout
+
+\begin_layout Plain Layout
+
+  );
+\end_layout
+
+\begin_layout Plain Layout
+
+  delay(1000);
+\end_layout
+
+\begin_layout Plain Layout
+
+  LaatNiksZien(
+\end_layout
+
+\begin_layout Plain Layout
+
+    pin_links_heeft_vijf_volt, 
+\end_layout
+
+\begin_layout Plain Layout
+
+    pin_links_a, /* ...
+ */, pin_links_g
+\end_layout
+
+\begin_layout Plain Layout
+
+  );
+\end_layout
+
+\begin_layout Plain Layout
+
+  delay(1000);
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Functie
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+void LaatNiksZien(
+\end_layout
+
+\begin_layout Plain Layout
+
+  const bool is_vijf_volt_gedeeld,
+\end_layout
+
+\begin_layout Plain Layout
+
+  const int pin_a,
+\end_layout
+
+\begin_layout Plain Layout
+
+  //...
+\end_layout
+
+\begin_layout Plain Layout
+
+  const int pin_g
+\end_layout
+
+\begin_layout Plain Layout
+
+) 
+\end_layout
+
+\begin_layout Plain Layout
+
+{  
+\end_layout
+
+\begin_layout Plain Layout
+
+  const int uit = is_vijf_volt_gedeeld ? LOW : HIGH;
+\end_layout
+
+\begin_layout Plain Layout
+
+  digitalWrite(pin_a,uit);
+\end_layout
+
+\begin_layout Plain Layout
+
+  //..
+\end_layout
+
+\begin_layout Plain Layout
+
+  digitalWrite(pin_g,uit);
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Verdere verbeteringen
+\end_layout
+
+\begin_layout Itemize
+Het is veel typewerk steeds alle pinnummers door te geven
+\end_layout
+
+\begin_layout Itemize
+Een klasse kan de pinnummers onthouden (zoals LiquidCrystal ook doet), dan
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
