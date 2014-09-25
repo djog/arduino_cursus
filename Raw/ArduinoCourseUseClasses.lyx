@@ -1,0 +1,300 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass report
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a6paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation landscape
+\suppress_date false
+\use_refstyle 1
+\backgroundcolor #000000
+\fontcolor #ffffff
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Hoe gebruik ik een klasse?
+\end_layout
+
+\begin_layout Author
+(C) Richèl Bilderbeek 
+\begin_inset Graphics
+	filename CC-BY-NC-SA.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Doel
+\end_layout
+
+\begin_layout Itemize
+Kunnen gebruiken van klassen van anderen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Overzicht
+\end_layout
+
+\begin_layout Enumerate
+Hoe maak je een klasse vindbaar voor de Arduino IDE?
+\end_layout
+
+\begin_layout Enumerate
+Hoe weet je wat een klasse kan?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Klasse vindbaar maken
+\end_layout
+
+\begin_layout Standard
+Meerdere manieren:
+\end_layout
+
+\begin_layout Itemize
+Kopieren van .h en .cpp naar folder van je programma
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Voordeel: intuitief, klasse gemakkelijk te bekijken
+\end_layout
+
+\begin_layout Itemize
+Nadeel: onnodige kopieen van de klasse
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Doe 'Sketch | Import library | Add library'
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Voordeel: klasse blijft op een plek
+\end_layout
+
+\begin_layout Itemize
+Nadeel: klasse iets moeilijker te vinden
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Kopieren
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename ArduinoCourseUseClassesCopy.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Importeren
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename ArduinoCourseUseClassesAdd.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Klasse gebruik
+\end_layout
+
+\begin_layout Itemize
+Lees de handleiding
+\end_layout
+
+\begin_layout Itemize
+Lees het public gedeelte van de .h file
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+na het woord public
+\end_layout
+
+\begin_layout Itemize
+na het woord struct
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Klasse gebruik
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+bool IsPwmPin(const int pin);
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+struct PwmLed {   
+\end_layout
+
+\begin_layout Plain Layout
+
+  PwmLed(const int pin);   
+\end_layout
+
+\begin_layout Plain Layout
+
+  int GetPin() const;  
+\end_layout
+
+\begin_layout Plain Layout
+
+  void SetBrightness(const int brightness);   
+\end_layout
+
+\begin_layout Plain Layout
+
+  private:   
+\end_layout
+
+\begin_layout Plain Layout
+
+  //...
+\end_layout
+
+\begin_layout Plain Layout
+
+};
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
