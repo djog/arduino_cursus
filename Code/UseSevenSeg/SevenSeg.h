@@ -19,7 +19,7 @@ class SevenSeg {
     const bool cathode;
     const int seven_seg_pins[8];
     /*const*/ static int seven_seg_digits[10][7]; // http://www.hacktronics.com/Tutorials/arduino-and-7-segment-led.html
-    //const int seven_seg_abc[][];
+    //const int seven_seg_hex[][];
 };
 
 int SevenSeg::seven_seg_digits[10][7] = {                  { 1,1,1,1,1,1,0 },  // = 0
@@ -31,7 +31,7 @@ int SevenSeg::seven_seg_digits[10][7] = {                  { 1,1,1,1,1,1,0 },  /
                                                            { 1,0,1,1,1,1,1 },  // = 6
                                                            { 1,1,1,0,0,0,0 },  // = 7
                                                            { 1,1,1,1,1,1,1 },  // = 8
-                                                           { 1,1,1,0,0,1,1 },  // = 9
+                                                           { 1,1,1,0,0,1,1 }   // = 9
                                          };
                                          
 SevenSeg::SevenSeg(const int pinSegA, const int pinSegB, const int pinSegC, const int pinSegD, const int pinSegE, const int pinSegF, const int pinSegG, const int pinDot, const bool isCathode)
