@@ -8,26 +8,18 @@
   
 class SevenSeg {
   private:
-    int first_pin;
-    int last_pin;
     const bool cathode;
     static int seven_seg_digits[10][7]; // http://www.hacktronics.com/Tutorials/arduino-and-7-segment-led.html
+    const int seven_seg_pins[9];
  
   public:
-    //constructor initializes display
-    SevenSeg(const int firstPin, const int lastPin, const bool isCathode = true);
-    SevenSeg() : SevenSeg(2,9) {} // delegating constructor
+    SevenSeg(const int firstPin, const int secondPin, const int thirdPin, const int fourthPin, const int fifthPin, const int sixthPin, const int seventhPin, const int eightPin, const int ninthPin, const bool isCathode = true);
+//    SevenSeg() : SevenSeg() {} // delegating constructor
 
-    int getFirstPin() const { return first_pin; }
-    int getLastPin() const { return last_pin; }
-    void setFirstPin(const int pin) { first_pin = pin; }
-    void setLastPin(const int pin) { last_pin = pin; }
-    
     //class features
     void writeDigit(const int digit) const;
     void writeDot(const bool on = true) const;
-    void countBackwards(const int startDigit = 9, const int endDigit = 0, const int delayTime = 1000) const;    
-    void countForwards(const int startDigit = 0, const int endDigit = 9, const int delayTime = 1000) const;
+    void clearScreen() const;
     void countRange(const int firstDigit, const int lastDigit, const int delayTime = 1000) const;
 };
 
@@ -42,13 +34,12 @@ int SevenSeg::seven_seg_digits[10][7] = {                  { 1,1,1,1,1,1,0 },  /
                                                            { 1,1,1,1,1,1,1 },  // = 8
                                                            { 1,1,1,0,0,1,1 }   // = 9
                                          };
-SevenSeg::SevenSeg(const int firstPin, const int lastPin, bool isCathode) 
-  : first_pin(firstPin),
-    last_pin(lastPin),
+                                         
+SevenSeg::SevenSeg(const int firstPin, const int secondPin, const int thirdPin, const int fourthPin, const int fifthPin, const int sixthPin, const int seventhPin, const int eightPin, const int ninthPin, const bool isCathode)
+  : seven_seg_pins{firstPin,secondPin,thirdPin,fourthPin,fifthPin,sixthPin,seventhPin,eightPin,ninthPin}, 
     cathode(isCathode)
-{
-
-      if (!cathode) { // is display a common anode?
+ {
+    if (!cathode) { // is display a common anode?
         for (int r = 0; r != 10; ++r) {
           for (int c = 0; c != 7; ++c) { // converting display from common cathode to common anode
             if (seven_seg_digits[r][c] == 1) { seven_seg_digits[r][c] = 0; }
@@ -56,11 +47,10 @@ SevenSeg::SevenSeg(const int firstPin, const int lastPin, bool isCathode)
           }
         }
       }
-
   
-  for (int pin = getFirstPin(); pin <= getLastPin(); ++pin) 
+  for (int n = 0; n < 8; ++n) 
   {
-      pinMode(pin, OUTPUT);
+      pinMode(seven_seg_pins[n], OUTPUT);
   } 
   writeDot(0); // turn dot off (1 = on, 0 = off)
 } 
@@ -68,42 +58,35 @@ SevenSeg::SevenSeg(const int firstPin, const int lastPin, bool isCathode)
 void SevenSeg::writeDigit(int digit) const
 {
   if (digit > 9) { digit = 9; }
-  int pin = getFirstPin();
   for (int counter = 0; counter != 7; ++counter) 
   {
-    digitalWrite(pin, seven_seg_digits[digit][counter]);
-    ++pin;
+    digitalWrite(seven_seg_pins[counter], seven_seg_digits[digit][counter]);
   }
 }  
 
 void SevenSeg::writeDot(bool dot) const
 {
   if (!cathode && dot == true) { dot = false; } else if (!cathode && dot == false) { dot = true; } // common anode fix
-  digitalWrite(getLastPin(), dot);
+  digitalWrite(seven_seg_pins[8], dot);
 }
 
-void SevenSeg::countBackwards(int startDigit, const int endDigit, const int delayTime) const 
+void SevenSeg::clearScreen() const
 {
-  startDigit += 1; // preventing int n to turn negative
-  for (int n = startDigit; n > endDigit; n--) {
-    writeDigit(n - 1); // correction
-    delay(delayTime);
-  }
+
 }
     
-void SevenSeg::countForwards(const int startDigit, const int endDigit, const int delayTime) const 
-{
-  for (int n = startDigit; n <= endDigit; n++) {
-    writeDigit(n);
-    delay(delayTime);
-  }  
-}
-
 void SevenSeg::countRange(const int startDigit, const int endDigit, const int delayTime) const 
 {
   if (startDigit < endDigit) {
-    countForwards(startDigit, endDigit, delayTime);
+    for (int n = startDigit; n <= endDigit; n++) {
+      writeDigit(n);
+      delay(delayTime);
+    }  
   } else {
-        countBackwards(startDigit, endDigit, delayTime);
+      int corrected = startDigit + 1; // preventing int n to turn negative
+        for (int n = corrected; n > endDigit; n--) {
+          writeDigit(n - 1); // correction
+        delay(delayTime);
+      }
   }
 }
