@@ -7,10 +7,9 @@
 class SevenSeg {
   public:
     SevenSeg(const int pinSegA, const int pinSegB, const int pinSegC, const int pinSegD, const int pinSegE, const int pinSegF, const int pinSegG, const int pinDot, const bool isCathode = true);
-
-    void writeDigit(const int digit) const;
+    void clearDisplay(const int duration = 0) const; // duration in ms
+    void writeDigit(const int digit) const; // 0..15
     void writeDot(const bool on = true) const; // (1 = on, 0 = off)
-    void clearDisplay(const int duration = 0) const;
     void writeError() const; // E.
  
   private:
