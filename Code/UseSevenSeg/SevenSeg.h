@@ -72,7 +72,7 @@ void SevenSeg::clearDisplay(const int duration) const {
     
 void SevenSeg::writeError() const { 
   writeDigit(14); 
-  writeDot();
+  writeDot(1);
 }
 
 int SevenSeg::commonCathodeOrAnode(const int input) const {
