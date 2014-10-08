@@ -58,12 +58,12 @@ void SevenSeg::writeDigit(int digit) const {
 }  
 
 void SevenSeg::writeDot(bool dot) const {
-  if (!cathode && dot == true) { dot = false; } else if (!cathode && dot == false) { dot = true; } // common anode fix
-  digitalWrite(seven_seg_pins[8], dot);
+  int output = cathode ? dot : swapBinary(dot); // common anode fix
+  digitalWrite(seven_seg_pins[8], output);
 }
 
 void SevenSeg::clearDisplay(const int delayTime) const {
-  int output = cathode ? 0 : 1;
+  int output = cathode ? 0 : 1; // common anode fix
   for (int n = 0; n < 8; ++n) { digitalWrite(seven_seg_pins[n], output); }
   writeDot(0);
   delay(delayTime);
