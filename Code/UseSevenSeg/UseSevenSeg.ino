@@ -20,7 +20,7 @@ void countFromTo(const int firstDigit, const int lastDigit, const int delayTime 
 void setup() {}
 
 void loop() {
-  MySevenSeg.writeDigit(1); // Usage: (0..9)
+  MySevenSeg.writeDigit(1); // Usage: (0..15)
   MySevenSeg.clearDisplay(); 
   
   MySevenSeg.writeDigit(8);
