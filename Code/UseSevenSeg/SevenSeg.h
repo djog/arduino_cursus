@@ -14,7 +14,7 @@ class SevenSeg {
     void writeError() const; // E.
  
   private:
-    int commonCathodeOrAnode(const int input) const; // fixing common pin output
+    bool commonCathodeOrAnode(const bool input) const; // fixing common pin output
     const bool cathode;
     const int seven_seg_pins[8];
     static const int seven_seg_digits[16][7]; // http://www.hacktronics.com/Tutorials/arduino-and-7-segment-led.html
@@ -50,20 +50,20 @@ void SevenSeg::writeDigit(int digit) const {
   if (digit < 0 || digit > 16) { writeError(); } // error catch
   else {
     for (int n = 0; n != 8; ++n) {
-      int output = commonCathodeOrAnode(seven_seg_digits[digit][n]);
+      bool output = commonCathodeOrAnode(seven_seg_digits[digit][n]);
       digitalWrite(seven_seg_pins[n], output); 
     } 
   }
 }  
 
 void SevenSeg::writeDot(bool dot) const {
-  int output = commonCathodeOrAnode(dot);
+  bool output = commonCathodeOrAnode(dot);
   digitalWrite(seven_seg_pins[8], output);
 }
 
 void SevenSeg::clearDisplay(const int duration) const {
   for (int n = 0; n < 8; ++n) {
-    int output = commonCathodeOrAnode(0);
+    bool output = commonCathodeOrAnode(0);
     digitalWrite(seven_seg_pins[n], output); 
   }
   writeDot(0);
@@ -75,7 +75,7 @@ void SevenSeg::writeError() const {
   writeDot(1);
 }
 
-int SevenSeg::commonCathodeOrAnode(const int input) const {
+bool SevenSeg::commonCathodeOrAnode(const bool input) const {
   if (cathode) {
     return input;
   } else {
