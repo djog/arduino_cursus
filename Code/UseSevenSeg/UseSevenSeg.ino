@@ -21,11 +21,11 @@ void setup() {}
 
 void loop() {
   MySevenSeg.writeDigit(1); // Usage: (0..9)
-  MySevenSeg.clearDisplay();
+  MySevenSeg.clearDisplay(); 
   
   MySevenSeg.writeDigit(8);
-  MySevenSeg.clearDisplay();
+  MySevenSeg.clearDisplay(1000); // Usage: (delayTime). Default: delayTime = 0 (ms) 
   
   countFromTo(9,2,500); // Usage: (firstDigit, lastDigit, delayTime). Default: delayTime = 1000 (ms) 
-  MySevenSeg.clearDisplay(3000); // Usage: (delayTime). Default: delayTime = 1000 (ms) 
+  MySevenSeg.clearDisplay(3000);
 }
