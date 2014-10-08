@@ -28,4 +28,11 @@ void loop() {
   
   countFromTo(9,2,500); // Usage: (firstDigit, lastDigit, delayTime). Default: delayTime = 1000 (ms) 
   MySevenSeg.clearDisplay(3000);
+  
+  // a+b
+  int a = 2;
+  int b = 5;
+  MySevenSeg.writeDigit(a);
+  MySevenSeg.writeDigit(b);
+  MySevenSeg.writeDigit(a+b); 
 }
