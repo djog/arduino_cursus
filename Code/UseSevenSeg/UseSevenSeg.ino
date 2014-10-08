@@ -25,14 +25,18 @@ void loop() {
   
   MySevenSeg.writeDigit(8);
   MySevenSeg.clearDisplay(1000); // Usage: (delayTime). Default: delayTime = 0 (ms) 
-  
-  countFromTo(9,2,500); // Usage: (firstDigit, lastDigit, delayTime). Default: delayTime = 1000 (ms) 
-  MySevenSeg.clearDisplay(3000);
-  
-  // a+b
+
+  // Calculation example
   int a = 2;
   int b = 5;
   MySevenSeg.writeDigit(a);
   MySevenSeg.writeDigit(b);
   MySevenSeg.writeDigit(a+b); 
+  
+  // Counter example
+  countFromTo(9,2,500); // Usage: (firstDigit, lastDigit, delayTime). Default: delayTime = 1000 (ms) 
+  MySevenSeg.clearDisplay(3000);
+  
+  // Stopwatch example
+  // ...
 }
