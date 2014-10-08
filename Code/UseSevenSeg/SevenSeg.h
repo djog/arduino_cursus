@@ -1,5 +1,5 @@
 /* 
-    SevenSeg class for use with a 7 Segment LED
+    SevenSeg class for use with a 7 Segment LED featuring a common cathode or common anode pin
  */
  
 #include <Arduino.h>
@@ -14,8 +14,7 @@ class SevenSeg {
     void writeError() const; // E.
  
   private:
-    int swapBinary(const int input) const { return (input == 1) ? 0 : 1; } // 1 to 0 and 0 to 1
-    
+    int commonCathodeOrAnode(const int input) const; // fixing common pin output
     const bool cathode;
     const int seven_seg_pins[8];
     static const int seven_seg_digits[16][7]; // http://www.hacktronics.com/Tutorials/arduino-and-7-segment-led.html
@@ -51,20 +50,22 @@ void SevenSeg::writeDigit(int digit) const {
   if (digit < 0 || digit > 16) { writeError(); } // error catch
   else {
     for (int n = 0; n != 8; ++n) {
-      int output = cathode ? seven_seg_digits[digit][n] : swapBinary(seven_seg_digits[digit][n]); // common anode fix
+      int output = commonCathodeOrAnode(seven_seg_digits[digit][n]);
       digitalWrite(seven_seg_pins[n], output); 
     } 
   }
 }  
 
 void SevenSeg::writeDot(bool dot) const {
-  int output = cathode ? dot : swapBinary(dot); // common anode fix
+  int output = commonCathodeOrAnode(dot);
   digitalWrite(seven_seg_pins[8], output);
 }
 
 void SevenSeg::clearDisplay(const int delayTime) const {
-  int output = cathode ? 0 : 1; // common anode fix
-  for (int n = 0; n < 8; ++n) { digitalWrite(seven_seg_pins[n], output); }
+  for (int n = 0; n < 8; ++n) {
+    int output = commonCathodeOrAnode(0);
+    digitalWrite(seven_seg_pins[n], output); 
+  }
   writeDot(0);
   delay(delayTime);
 }
@@ -72,4 +73,12 @@ void SevenSeg::clearDisplay(const int delayTime) const {
 void SevenSeg::writeError() const { 
   writeDigit(14); 
   writeDot();
+}
+
+int SevenSeg::commonCathodeOrAnode(const int input) const {
+  if (cathode) {
+    return input;
+  } else {
+    return (input == 1) ? 0 : 1; // 1 to 0 and 0 to 1
+  }
 }
