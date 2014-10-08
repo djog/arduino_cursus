@@ -10,7 +10,7 @@ class SevenSeg {
 
     void writeDigit(const int digit) const;
     void writeDot(const bool on = true) const; // (1 = on, 0 = off)
-    void clearDisplay(const int delayTime = 0) const;
+    void clearDisplay(const int duration = 0) const;
     void writeError() const; // E.
  
   private:
@@ -61,13 +61,13 @@ void SevenSeg::writeDot(bool dot) const {
   digitalWrite(seven_seg_pins[8], output);
 }
 
-void SevenSeg::clearDisplay(const int delayTime) const {
+void SevenSeg::clearDisplay(const int duration) const {
   for (int n = 0; n < 8; ++n) {
     int output = commonCathodeOrAnode(0);
     digitalWrite(seven_seg_pins[n], output); 
   }
   writeDot(0);
-  delay(delayTime);
+  delay(duration);
 }
     
 void SevenSeg::writeError() const { 
