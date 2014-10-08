@@ -1,109 +1,88 @@
 /* 
-    New class SevenSeg{}; added to file with setup() and loop() at the bottom.
-    Author: remer (remernl at Github)
-    License: Creative-commons http://creativecommons.org/licenses/by-sa/4.0/
+    SevenSeg class for use with a 7 Segment LED featuring a common cathode or common anode pin
  */
  
- #include <Arduino.h>
+#include <Arduino.h>
   
 class SevenSeg {
-  private:
-    int first_pin;
-    int last_pin;
-    const bool cathode;
-    static int seven_seg_digits[10][7]; // http://www.hacktronics.com/Tutorials/arduino-and-7-segment-led.html
- 
   public:
-    //constructor initializes display
-    SevenSeg(const int firstPin, const int lastPin, const bool isCathode = true);
-    SevenSeg() : SevenSeg(2,9) {} // delegating constructor
+    SevenSeg(const int pinSegA, const int pinSegB, const int pinSegC, const int pinSegD, const int pinSegE, const int pinSegF, const int pinSegG, const int pinDot, const bool isCathode = true);
 
-    int getFirstPin() const { return first_pin; }
-    int getLastPin() const { return last_pin; }
-    void setFirstPin(const int pin) { first_pin = pin; }
-    void setLastPin(const int pin) { last_pin = pin; }
+    void clearDisplay(const int duration = 0) const; // duration in ms
+    void writeDigit(const int digit); // 0..15
+    void writeDot(const bool on = true) const; // (1 = on, 0 = off)
+    void writeError(); // E.
     
-    //class features
-    void writeDigit(const int digit) const;
-    void writeDot(const bool on = true) const;
-    void countBackwards(const int startDigit = 9, const int endDigit = 0, const int delayTime = 1000) const;    
-    void countForwards(const int startDigit = 0, const int endDigit = 9, const int delayTime = 1000) const;
-    void countRange(const int firstDigit, const int lastDigit, const int delayTime = 1000) const;
+    int getCurrentDigit() const { return current_digit; }
+ 
+  private:
+    bool commonCathodeOrAnode(const bool input) const; // fixing common pin output
+    int current_digit;
+    const bool cathode;
+    const int seven_seg_pins[8];
+    static const int seven_seg_digits[16][7]; // http://www.hacktronics.com/Tutorials/arduino-and-7-segment-led.html
 };
 
-int SevenSeg::seven_seg_digits[10][7] = {                  { 1,1,1,1,1,1,0 },  // = 0
-                                                           { 0,1,1,0,0,0,0 },  // = 1
-                                                           { 1,1,0,1,1,0,1 },  // = 2
-                                                           { 1,1,1,1,0,0,1 },  // = 3
-                                                           { 0,1,1,0,0,1,1 },  // = 4
-                                                           { 1,0,1,1,0,1,1 },  // = 5
-                                                           { 1,0,1,1,1,1,1 },  // = 6
-                                                           { 1,1,1,0,0,0,0 },  // = 7
-                                                           { 1,1,1,1,1,1,1 },  // = 8
-                                                           { 1,1,1,0,0,1,1 }   // = 9
+const int SevenSeg::seven_seg_digits[16][7] = {            { 1,1,1,1,1,1,0 },  // =  0
+                                                           { 0,1,1,0,0,0,0 },  // =  1
+                                                           { 1,1,0,1,1,0,1 },  // =  2
+                                                           { 1,1,1,1,0,0,1 },  // =  3
+                                                           { 0,1,1,0,0,1,1 },  // =  4
+                                                           { 1,0,1,1,0,1,1 },  // =  5
+                                                           { 1,0,1,1,1,1,1 },  // =  6
+                                                           { 1,1,1,0,0,0,0 },  // =  7
+                                                           { 1,1,1,1,1,1,1 },  // =  8
+                                                           { 1,1,1,0,0,1,1 },  // =  9
+                                                                               // hexadecimal support             
+                                                           { 1,1,1,0,1,1,1 },  // = 10 = A
+                                                           { 0,0,1,1,1,1,1 },  // = 11 = b
+                                                           { 1,0,0,1,1,1,0 },  // = 12 = C
+                                                           { 0,1,1,1,1,0,1 },  // = 13 = d
+                                                           { 1,0,0,1,1,1,1 },  // = 14 = E
+                                                           { 1,0,0,0,1,1,1 }   // = 15 = F
                                          };
-SevenSeg::SevenSeg(const int firstPin, const int lastPin, bool isCathode) 
-  : first_pin(firstPin),
-    last_pin(lastPin),
-    cathode(isCathode)
-{
-
-      if (!cathode) { // is display a common anode?
-        for (int r = 0; r != 10; ++r) {
-          for (int c = 0; c != 7; ++c) { // converting display from common cathode to common anode
-            if (seven_seg_digits[r][c] == 1) { seven_seg_digits[r][c] = 0; }
-            else { seven_seg_digits[r][c] = 1; }
-          }
-        }
-      }
-
-  
-  for (int pin = getFirstPin(); pin <= getLastPin(); ++pin) 
-  {
-      pinMode(pin, OUTPUT);
-  } 
-  writeDot(0); // turn dot off (1 = on, 0 = off)
+                                         
+SevenSeg::SevenSeg(const int pinSegA, const int pinSegB, const int pinSegC, const int pinSegD, const int pinSegE, const int pinSegF, const int pinSegG, const int pinDot, const bool isCathode)
+  : seven_seg_pins{pinSegA,pinSegB,pinSegC,pinSegD,pinSegE,pinSegF,pinSegG,pinDot}, 
+    cathode(isCathode) {
+  for (int n = 0; n < 8; ++n) { pinMode(seven_seg_pins[n], OUTPUT); }
+  clearDisplay();
 } 
 
-void SevenSeg::writeDigit(int digit) const
-{
-  if (digit > 9) { digit = 9; }
-  int pin = getFirstPin();
-  for (int counter = 0; counter != 7; ++counter) 
-  {
-    digitalWrite(pin, seven_seg_digits[digit][counter]);
-    ++pin;
+void SevenSeg::writeDigit(const int digit) {
+  current_digit = digit;
+  if (digit < 0 || digit > 16) { writeError(); } // error catch
+  else {
+    for (int n = 0; n != 8; ++n) {
+      bool output = commonCathodeOrAnode(seven_seg_digits[digit][n]);
+      digitalWrite(seven_seg_pins[n], output); 
+    } 
   }
 }  
 
-void SevenSeg::writeDot(bool dot) const
-{
-  if (!cathode && dot == true) { dot = false; } else if (!cathode && dot == false) { dot = true; } // common anode fix
-  digitalWrite(getLastPin(), dot);
+void SevenSeg::writeDot(bool dot) const {
+  bool output = commonCathodeOrAnode(dot);
+  digitalWrite(seven_seg_pins[8], output);
 }
 
-void SevenSeg::countBackwards(int startDigit, const int endDigit, const int delayTime) const 
-{
-  startDigit += 1; // preventing int n to turn negative
-  for (int n = startDigit; n > endDigit; n--) {
-    writeDigit(n - 1); // correction
-    delay(delayTime);
+void SevenSeg::clearDisplay(const int duration) const {
+  for (int n = 0; n < 8; ++n) {
+    bool output = commonCathodeOrAnode(0);
+    digitalWrite(seven_seg_pins[n], output); 
   }
+  writeDot(0);
+  delay(duration);
 }
     
-void SevenSeg::countForwards(const int startDigit, const int endDigit, const int delayTime) const 
-{
-  for (int n = startDigit; n <= endDigit; n++) {
-    writeDigit(n);
-    delay(delayTime);
-  }  
+void SevenSeg::writeError() { 
+  writeDigit(14); 
+  writeDot(1);
 }
 
-void SevenSeg::countRange(const int startDigit, const int endDigit, const int delayTime) const 
-{
-  if (startDigit < endDigit) {
-    countForwards(startDigit, endDigit, delayTime);
+bool SevenSeg::commonCathodeOrAnode(const bool input) const {
+  if (cathode) {
+    return input;
   } else {
-        countBackwards(startDigit, endDigit, delayTime);
+    return (input == 1) ? 0 : 1; // 1 to 0 and 0 to 1
   }
 }
