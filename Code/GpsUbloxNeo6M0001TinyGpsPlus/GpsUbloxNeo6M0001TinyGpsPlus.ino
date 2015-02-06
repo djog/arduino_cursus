@@ -1,14 +1,36 @@
+/*
+  GpsUbloxNeo6M0001TinyGpsPlus
+  (C) 2015 Richel Bilderbeek
+
+  aangepast van 'FullExample', geschreven door Mikal Hart, van http://arduiniana.org/libraries/tinygpsplus/
+*/
+
+/*
+
+Aansluiting:
+
+# A  G
+3 TX RX
+4 RX TX
+
+#: Arduino pin nummer
+A: De naam die de Arduino pin heeft
+G: De naam van de pin op de GPS
+TX: Transmit: zend
+RX: Receive: ontvang
+
+Dat de namen omkeren is logisch: de zendpin van de Arduino moet verbonden zijn met de
+ontvang pin van de GPS en omgekeert. Dit kan wel verwarrend zijn met aansluiten.
+
+*/
+
 #include <TinyGPS++.h>
 #include <SoftwareSerial.h>
-/*
-   This sample code demonstrates the normal use of a TinyGPS++ (TinyGPSPlus) object.
-   It requires the use of SoftwareSerial, and assumes that you have a
-   4800-baud serial GPS device hooked up on pins 4(rx) and 3(tx).
-*/
-static const int RXPin = 4, TXPin = 3;
-static const uint32_t GPSBaud = 9600;
 
-// The TinyGPS++ object
+const int RXPin = 4; //Gezien van de Arduino, moet verbonden worden met GPS pin TX
+const int TXPin = 3; //Gezien van de Arduino, moet verbonden worden met GPS pin RX
+const int GPSBaud = 9600; //Eigenschap van ublox Neo 6M-000-1, zie eventueel data sheet
+
 TinyGPSPlus gps;
 
 // The serial connection to the GPS device
@@ -19,19 +41,18 @@ void setup()
   Serial.begin(9600);
   ss.begin(GPSBaud);
 
-  Serial.println(F("FullExample.ino"));
-  Serial.println(F("An extensive example of many interesting TinyGPS++ features"));
-  Serial.print(F("Testing TinyGPS++ library v. ")); Serial.println(TinyGPSPlus::libraryVersion());
-  Serial.println(F("by Mikal Hart"));
+  Serial.print("TinyGPS++ library v. "); Serial.print(TinyGPSPlus::libraryVersion());
+  Serial.println(" by Mikal Hart");
   Serial.println();
-  Serial.println(F("Sats HDOP Latitude   Longitude   Fix  Date       Time     Date Alt    Course Speed Card  Distance Course Card  Chars Sentences Checksum"));
-  Serial.println(F("          (deg)      (deg)       Age                      Age  (m)    --- from GPS ----  ---- to London  ----  RX    RX        Fail"));
-  Serial.println(F("---------------------------------------------------------------------------------------------------------------------------------------"));
+  Serial.println("Sats HDOP Latitude   Longitude   Fix  Date       Time     Date Alt    Course Speed Card  Distance Course Card  Chars Sentences Checksum");
+  Serial.println("          (deg)      (deg)       Age                      Age  (m)    --- from GPS ----  ---- to London  ----  RX    RX        Fail");
+  Serial.println("---------------------------------------------------------------------------------------------------------------------------------------");
 }
 
 void loop()
 {
-  static const double LONDON_LAT = 51.508131, LONDON_LON = -0.128002;
+  const double LONDON_LAT = 51.508131;
+  const double LONDON_LON = -0.128002;
 
   printInt(gps.satellites.value(), gps.satellites.isValid(), 5);
   printInt(gps.hdop.value(), gps.hdop.isValid(), 5);
@@ -44,7 +65,7 @@ void loop()
   printFloat(gps.speed.kmph(), gps.speed.isValid(), 6, 2);
   printStr(gps.course.isValid() ? TinyGPSPlus::cardinal(gps.course.value()) : "*** ", 6);
 
-  unsigned long distanceKmToLondon =
+  const unsigned long distanceKmToLondon =
     (unsigned long)TinyGPSPlus::distanceBetween(
       gps.location.lat(),
       gps.location.lng(),
@@ -52,7 +73,7 @@ void loop()
       LONDON_LON) / 1000;
   printInt(distanceKmToLondon, gps.location.isValid(), 9);
 
-  double courseToLondon =
+  const double courseToLondon =
     TinyGPSPlus::courseTo(
       gps.location.lat(),
       gps.location.lng(),
@@ -61,7 +82,7 @@ void loop()
 
   printFloat(courseToLondon, gps.location.isValid(), 7, 2);
 
-  const char *cardinalToLondon = TinyGPSPlus::cardinal(courseToLondon);
+  const char * const cardinalToLondon = TinyGPSPlus::cardinal(courseToLondon);
 
   printStr(gps.location.isValid() ? cardinalToLondon : "*** ", 6);
 
@@ -78,9 +99,9 @@ void loop()
 
 // This custom version of delay() ensures that the gps object
 // is being "fed".
-static void smartDelay(unsigned long ms)
+void smartDelay(const unsigned long ms)
 {
-  unsigned long start = millis();
+  const unsigned long start = millis();
   do 
   {
     while (ss.available())
@@ -88,7 +109,7 @@ static void smartDelay(unsigned long ms)
   } while (millis() - start < ms);
 }
 
-static void printFloat(float val, bool valid, int len, int prec)
+void printFloat(const float val, const bool valid, int len, const int prec)
 {
   if (!valid)
   {
@@ -108,7 +129,7 @@ static void printFloat(float val, bool valid, int len, int prec)
   smartDelay(0);
 }
 
-static void printInt(unsigned long val, bool valid, int len)
+void printInt(const unsigned long val, const bool valid, const int len)
 {
   char sz[32] = "*****************";
   if (valid)
@@ -122,7 +143,7 @@ static void printInt(unsigned long val, bool valid, int len)
   smartDelay(0);
 }
 
-static void printDateTime(TinyGPSDate &d, TinyGPSTime &t)
+void printDateTime(TinyGPSDate &d, TinyGPSTime &t)
 {
   if (!d.isValid())
   {
@@ -150,7 +171,7 @@ static void printDateTime(TinyGPSDate &d, TinyGPSTime &t)
   smartDelay(0);
 }
 
-static void printStr(const char *str, int len)
+void printStr(const char * const str, const int len)
 {
   int slen = strlen(str);
   for (int i=0; i<len; ++i)
