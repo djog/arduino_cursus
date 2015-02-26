@@ -6,6 +6,8 @@
   
   2015-02-08: v 1.0: initial version
   2015-02-08: v 1.1: removed need to call Update
+  2015-02-26: v 1.2: added Update to GetMsecs
+  
 */
 
 struct LongTimer
@@ -18,6 +20,7 @@ struct LongTimer
   ///The number of msecs passed since the program started
   unsigned long GetMsecs() const 
   { 
+    Update();
     return m_cur_msec;   
   }
 
@@ -48,7 +51,7 @@ struct LongTimer
   
   int GetCnt() const { return m_cnt; }
 
-  static String GetVersion() { return "1.1"; }
+  static String GetVersion() { return "1.2"; }
 
   private:
   ///How often has millis overflown?
