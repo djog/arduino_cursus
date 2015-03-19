@@ -8,8 +8,10 @@ Als dit gelukt is, gaat het groene lampje vanzelf branden.
 
 ## Pinnnummers
 
-Het linker rode LEDje zit op pin 13
-Het rechter rode LEDje zit op pin 12
+ * Het linker rode LEDje zit op pin 13
+ * Het rechter rode LEDje zit op pin 12
+
+Het groene LEDje kun je niet aansturen.
 
 ## Extra informatie voor de begeleiders
 
