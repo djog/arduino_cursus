@@ -164,9 +164,9 @@ void WriteToShiftRegister(const byte value)
   digitalWrite(datapin, LOW);
   digitalWrite(clockpin, LOW);
 
-  for (int i=7; i>=0; i--)  
+  for (int i=7; i>=0; --i)  
   {
-    digitalWrite(clockpin, 0);
+    digitalWrite(clockpin, LOW);
 
     //if the value passed to myDataOut and a bitmask result 
     // true then... so if we are at i=6 and our value is
