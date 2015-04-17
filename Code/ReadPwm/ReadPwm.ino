@@ -13,7 +13,7 @@ void setup()
 */
 int GetPwm(const int pin_read)
 {
-  const int dist_micro_sec_int = pulseIn(pin_read,HIGH,1000);
+  const int dist_micro_sec_int = pulseIn(pin_read,HIGH);
   Serial.println(String("dist_micro_sec_int: ") + String(dist_micro_sec_int)); 
   if (dist_micro_sec_int == 0){
     if(digitalRead(pin_read) == LOW) return 0;
@@ -25,7 +25,7 @@ int GetPwm(const int pin_read)
   const double period_micro_sec = (1.0 / 490.0) * (1000.0 * 1000.0); //microsecond
   Serial.print("period_micro_sec: "); //10 digits
   Serial.println(period_micro_sec,10); 
-  const double f = dist_micro_sec / period_micro_sec * 1.151; //compensate for rounding fault
+  const double f = dist_micro_sec / period_micro_sec;
   Serial.print("f: "); 
   Serial.println(f); 
   const double pwm = f * 255.0;
