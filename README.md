@@ -19,6 +19,9 @@ Dit is de GitHub van de Nederlandse Arduino cursus gegeven bij De Jonge Onderzoe
 
 Leermateriaal: we gebruiken het boek [Interactief Ontwerpen Met Arduino](https://sites.google.com/site/hwcontwerpen/interactief-ontwerpen-met-arduino) ([PDF](Boeken/interactief ontwerpen met arduino.pdf)) (we hebben een aantal boekjes gedrukt om te gebruiken) en ons eigen materiaal op deze GitHub.
 
+### [FAQ](Faq.md)
+
+Zie [FAQ](Faq.md) voor de veelgestelde vragen.
 
 
 ### [inhoudsopgave](TableOfContents.md)
