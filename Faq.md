@@ -2,6 +2,14 @@
 
 Dit zijn de veelgestelde vragen.
 
+## Mag ik games maken?
+
+Jazeker! Sterker nog, het programmeren van games is een van de leukste manieren om electronica en programmeren te leren.
+
+## Mag ik gamen?
+
+Nee. De vrijdagavond is een cursus avond, waarbij leren voorop staat. Gamen draagt niet bij aan het leren programmeren. Heb je *zelf* een spel geprogrammeerd, dan krijg je de ruimte om het spel te laten zien en te laten testen. Het grootste deel van het testen zal buiten de cursustijd gebeuren.
+
 ## Debian
 
 ### Probleem
