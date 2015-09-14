@@ -9,11 +9,13 @@ Dit is de GitHub van de Nederlandse Arduino cursus gegeven bij De Jonge Onderzoe
 
 ### Over de cursus
  * Wanneer: elke vrijdagavond 
- * Hoe laat: van 19:00-22:00 (pauze van 20:30-21:00)
+ * Hoe laat: 
+   * Nano's (8-12): 18:15-20:00 (deur open vanaf 18:00, pauze van 19:00-19:15)
+   * Uno's (12-18): 19:15-22:00 (inloop vanaf 19:00, pauze van 20:30-20:45)
  * Waar: De Jonge Onderzoekers Groningen (www.djog.nl)
  * Periode: 22 augustus tot kerstvakantie
  * Kosten: 20 euro eenmalig
- * Leeftijd: 10-99 jaar
+ * Leeftijd: 8-18 jaar
  * Meenemen: Arduino (als je die hebt), laptop (als je die hebt), electronica (als je dat hebt)
  * Wanneer instromen: altijd!
 
