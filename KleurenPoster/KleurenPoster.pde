@@ -25,6 +25,13 @@ arduino.addChild(middle_);
 arduino.addChild(middle);
 arduino.addChild(end);
 
+//Colors
+color[] c = new color[5];
+c[0] = color(#00878F);
+c[1] =  color(#62AEB2);
+c[2] =  color(#E47128);
+c[3] =  color(#E5AD24);
+c[4] =  color(#8C7965);
 //Background
 PImage logo = loadImage("djoglogo.png");
 size(1000, 1414);
@@ -38,7 +45,7 @@ for (int i=w/2; i!=width+w/2; i+=w) {
     translate(i, o);
     rotate(random(TWO_PI));
     scale(map(1, 0, 50, 0, w));
-    color s = color(random(255));
+    color s = c[int(random(5))];
     begin.setStroke(s);
     end.setStroke(s);
     middle.setStroke(s);
@@ -49,7 +56,7 @@ for (int i=w/2; i!=width+w/2; i+=w) {
 }
 
 //Text
-fill(255);
+fill(255,150);
 noStroke();
 rect(width/2, height/2, width*.75, height*.75);
 fill(0);
@@ -76,4 +83,4 @@ text(text[10], width/8, height/8+(6*32+4*26+5*16)*2);
 textAlign(RIGHT, BOTTOM);
 text(text[11], width*7/8, height*7/8);
 image(logo, width-472, height-76);
-save("poster.jpg");
+save("poster_kleur.jpg");
