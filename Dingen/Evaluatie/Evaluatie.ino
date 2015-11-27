@@ -1,7 +1,4 @@
-Evaluatie Dojo
-
 Op een Arduino avond vind ik de sfeer
-( ) super leuk     
 ( ) leuk
 ( ) gaat wel       
 ( ) niet leuk
