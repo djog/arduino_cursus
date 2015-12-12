@@ -1,0 +1,150 @@
+Evaluatie Arduino 11 december 2015
+
+Nano's:
+
+Op een Arduino avond vind ik de sfeer:
+[4x] leuk
+[3x] gaat wel
+[--] leuk
+
+De uitleg vind ik meestal:
+[6x] goed te snappen
+[1x] met moeite te snappen
+[--] niet te snappen
+
+Ik vind dat ik:
+[5x] veel geleerd heb
+[2x] een beetje geleerd heb
+[--] weinig geleerd heb
+
+Ik vind dat de leraren dit erg goed doen:
+ * Heel leuke lessen
+ * en ook leuk vinden, ja
+ * Lessen geven
+ * Uitleggen
+ * Hulp bieden aan de leerlingen
+ * Helpen
+ * Ik vind wel dat ze weinig uitleggen voor iedereen
+
+
+Ik vind dat de leraren dit meer moeten doen:
+ * Meer gezamelijk iets uitleggen
+ * Niets
+ * Niet perse
+ * Een heel klein beetje beter uitleggen
+ * Weet ik niet
+ * Code besprekingen
+ * Weet ik niet
+
+Als ik iets aan de cursus mocht veranderen, dan zou ik:
+ * Iets betere sfeer en iets minder saai en ietsiepietsie langere pauze
+ * Langere pauze
+ * Niks veranderen
+ * Iets minder saai soms & gezelligere sfeer & iets langere pauze & Peter en Richel bepalen te veel
+ * Solderen
+ * Weet ik niet
+ * Liedroos lustgeren
+
+Als ik de cursus een cijfer zou moeten geven, dan geef ik een:
+ * 10
+ * 9-
+ * 9.5
+ * 2x 9
+ * 8.5
+ * 8
+Gemiddelde: 8.9
+
+Gesprek Nano's:
+
+ * Docenten bepalen te veel
+ * Pauze is te kort
+ * Niet altijd de aandacht erbij wegens school
+ * Peter: goede docent, bepaalt veel
+ * Richel: goede docent, bepaalt veel
+ * Boek = OK
+ * Evaluatie is het minst leuke onderdeel van de cursus
+
+
+Uno's:
+
+Op een Arduino avond vind ik de sfeer:
+[3x] leuk
+[--] gaat wel
+[--] leuk
+
+De uitleg vind ik meestal:
+[3x] goed te snappen
+[2x] met moeite te snappen
+[--] niet te snappen
+
+Ik vind dat ik:
+[2x] veel geleerd heb
+[1x] een beetje geleerd heb
+[--] weinig geleerd heb
+
+Ik vind dat de leraren dit erg goed doen:
+ * ?!? ;B
+ * Uitleggen, helpen
+ * Uitleg geven
+
+Ik vind dat de leraren dit meer moeten doen:
+ * Hoeft niks te veranderen
+ * :D
+ * Meer grapjes
+
+Als ik iets aan de cursus mocht veranderen, dan zou ik:
+ * Groter assortiment snoep
+ * Groter assortiment snoep en lagere prijzen
+ * Groter assortiment aan snoep
+
+Als ik de cursus een cijfer zou moeten geven, dan geef ik een:
+ * 8.9
+ * 8.0
+ * 7.5
+Gemiddelde: 8.2
+
+
+
+
+Docenten
+ * Een blokje met electronische oplossingen zou goed zijn
+ * Inplaats van Fritzing plaatjes de schematische representatie laten aansluiten zou goed zijn
+ * Uitstapjes naar complexere componenten zou goed zijn 
+ * De Nano's zijn gedisciplineerd
+ * De prestaties van de Uno's zijn erg wisselend
+ * De interacties tussen Uno's kan zijn van opbouwend tot totaal afleidend
+ * Gebruiken boek is een goed idee
+ * 2x 'gratis' ranja in de pauze is een prima idee (begroot op 10 euro)
+ * Eindpresentatie met ouders en bestuur
+ * 2x Lestijd Uno's verplaatsen naar 19:00-21:00 is prima
+ * 'Hulpdocenten' op de hoogte brengen van de lesplannen is handig: dan kunnen ze eventueel dingen meenemen
+
+Ouders
+ * Voor nieuwe leerlingen zou weer code besproken moeten worden 
+ * Meer aandacht voor rustige leerlingen:  zeg ze ook dat ze voor zichzelf op mogen komen
+ * 2x Lestijd Uno's verplaatsen naar 19:00-21:00 is prima
+
+Interpretatie Nano's door Richel:
+De Nano's en docenten vinden de werksfeer goed.
+De Nano's vinden de sfeer te serieus en teveel bepaald door de leerlingen.
+Ik denk dat de docenten inderdaad veel bepalen, 
+doordat we zo gestructureerd werken.
+De Nano's willen graag iets meer uitleg, vooral over code.
+De docenten hebben juist elk hun idee 
+welke hardware meer te verdiepen.
+
+Ik denk dat we de Nano's meer inspraak zouden moeten geven, 
+omdat ze dat graag willen. 
+Ik ben erg tevreden dat de docenten zo serieus 
+met hun taak bezig zijn
+Ik hoop dat de hardware leerweg goed voorbereid 
+en uitgedacht zal worden, met een tastbaar eindproduct op een eindpresentatie.
+
+
+Interpretatie Uno's door Richel:
+
+
+
+
+Wijzigingen (voorstel):
+ * Lestijd Uno's van 19:00-21:00
