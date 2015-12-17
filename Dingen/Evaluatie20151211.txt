@@ -152,10 +152,10 @@ pubers te halen.
 
 Ik denk dat we weinig anders kunnen dan op huidige voet doorgaan.
 
-
 Wijzigingen (voorstel):
  * Lestijd Uno's van 19:00-21:00
- * Peter is hoofd van het onderwijs voor de Nano's
- * Jan is hoofd van het onderwijs voor de Uno's
- * Richel doet de administratie
+ * Peter is hoofd van het onderwijs voor de Nano's, met sidekicks Anko en Cora
+ * Peter brengt de sidekicks vantevoren (zegge zondag) op de hoogte van zijn lesplannen, opdat dez
+ * Jan is hoofd van het onderwijs voor de Uno's, met sidekick Bastiaan
+ * Richel doet de administratie, observeert, bespreekt lessen en geeft lessen op verzoek
  * Presentatie aan het eind van de periode
