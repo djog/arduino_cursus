@@ -7,6 +7,7 @@ Dit is de GitHub van de Nederlandse Arduino cursus gegeven bij De Jonge Onderzoe
 ### Over de cursus
 
 Groep | Nano's | Uno's | Mega's
+---|---|---
 Leeftijd | 8-12 | 12-18 | 18+
 Inloop | 18:00 | 19:00 | 20:00
 Start les | 18:15 | 19:15 | 20:15
