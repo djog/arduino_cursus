@@ -1,6 +1,6 @@
 # Arduino cursus bij De Jonge Onderzoekers
 
-![Poster](Publiciteit/Poster/Poster2014September.png)
+![Poster](Publiciteit/Poster/poster.jpg)
 
 Dit is de GitHub van de Nederlandse Arduino cursus gegeven bij De Jonge Onderzoekers te Groningen.
 
