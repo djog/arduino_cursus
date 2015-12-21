@@ -7,7 +7,7 @@ Dit is de GitHub van de Nederlandse Arduino cursus gegeven bij De Jonge Onderzoe
 ### Over de cursus
 
  * Wanneer: elke vrijdagavond, behalve in de kerstvakantie. Eerste les in 2016 is op 8 januari
- * Hoe laat: zie bovenstaand lesrooster
+ * Hoe laat: het lesrooster:
 
 Groep | Nano's | Uno's | Mega's
 ---|---|---|---
@@ -18,8 +18,8 @@ Pauze les | 19:00 | 20:00 | 21:00
 Vervolg les | 19:15 | 20:15 | 21:15
 Einde les | 20:00 | 21:00 | 22:00
 
- * Waar: De Jonge Onderzoekers Groningen (www.djog.nl)
- * Periode: 22 augustus tot kerstvakantie
+ * Waar: De Jonge Onderzoekers Groningen (www.djog.nl), Dirk Huizingastraat 13
+ * Periode: 8 januari 2016 tot zomervakantie
  * Kosten: 20 euro eenmalig
  * Leeftijd: 8-28 jaar
  * Meenemen: Arduino (als je die hebt), laptop (als je die hebt), electronica (als je dat hebt)
