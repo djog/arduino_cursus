@@ -68,3 +68,15 @@ Volgens de leerlingen wel. In de twee enquetes per jaar scoort de cursus gemidde
 ## Wat is de missie van de cursus?
 
 De missie van De Jonge Onderzoekers is: '[Het] exploiteren van een activiteitencentrum met als doel kinderen op een uitdagende en creatieve manier met techniek en wetenschap in aanraking te laten komen'. De missie van de Arduino cursus heeft veel overlap hiermee. We vinden het belangrijk dat de kinderen iets leren, uitgedaagd worden en hun creativiteit gebruiken om iets te maken. Leerlingen krijgen kort uitleg, werken in het begin een boek door, maar worden ook gestimuleerd elkaar te helpen, zelf les te geven en mee te beslissen.
+
+## Sfeerimpressies
+
+Hier stonden Amaija, Noemie, Redmar en Richel op OrbitFest 2015: 
+
+![Amaija, Noemie, Redmar en Richel op OrbitFest 2015 #1](Publiciteit/20151218OrbitFest.jpg)
+![Amaija, Noemie, Redmar en Richel op OrbitFest 2015 #2](Publiciteit/20151218OrbitFest_2.jpg)
+![Redmar op OrbitFest 2015 Facebook](Publiciteit/20151218OrbitFest.png)
+
+Op de cursus krijgt elke leerling een logboek:
+
+![Een logboek is handig op de cursus](Dingen/Log.jpeg)
