@@ -5,7 +5,7 @@ Nano's:
 Op een Arduino avond vind ik de sfeer:
 [4x] leuk
 [3x] gaat wel
-[--] leuk
+[--] niet leuk
 
 De uitleg vind ik meestal:
 [6x] goed te snappen
@@ -70,7 +70,7 @@ Uno's:
 Op een Arduino avond vind ik de sfeer:
 [3x] leuk
 [--] gaat wel
-[--] leuk
+[--] niet leuk
 
 De uitleg vind ik meestal:
 [3x] goed te snappen
