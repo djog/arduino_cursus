@@ -48,3 +48,10 @@ Bijvoorbeeld:
 ```
 sudo usermod -aG dialout richel
 ```
+
+Mocht je nu je code niet kunnen uploaden, door onderstaande error, druk dan op de Arduino reset knop voor het uploaden.
+
+```
+avrdude: stk500_getsync(): not in sync: resp=0x00
+avrdude: stk500_disable(): protocol error, expect=0x14, resp=0x51
+```
