@@ -27,6 +27,8 @@ Einde les | 20:00 | 21:00 | 22:00
 
 Leermateriaal: we gebruiken het boek [Interactief Ontwerpen Met Arduino](https://sites.google.com/site/hwcontwerpen/interactief-ontwerpen-met-arduino) ([PDF](Boeken/interactief ontwerpen met arduino.pdf)) (we hebben een aantal boekjes gedrukt om te gebruiken) en ons eigen materiaal op deze GitHub.
 
+Op vrijdag 8 juli is er een eindpresentatie, waarin elke leerling iets presenteert.
+
 ### Vragen
 
 ## Ik ben jonger dan acht jaar oud, ben ik welkom?
