@@ -1,5 +1,7 @@
 # Arduino cursus bij De Jonge Onderzoekers
 
+[![IRC Network](https://img.shields.io/badge/irc-%23ArduinoGroningen-blue.svg "IRC Freenode")](https://webchat.freenode.net/?channels=ArduinoGroningen)
+
 ![Arduino](Dingen/Arduino.jpg)
 
 Dit is de GitHub van de Nederlandse Arduino cursus gegeven bij De Jonge Onderzoekers te Groningen.
