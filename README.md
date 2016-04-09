@@ -4,7 +4,7 @@
 
 # [Open dag 16 April](Dingen/OpenDag20160416.md)
 
-![Arduino](Dingen/Arduino.jpg)
+<img src="Dingen/Arduino.jpg" alt="Arduino" width="300" height="300">
 
 Dit is de GitHub van de Nederlandse Arduino cursus gegeven bij De Jonge Onderzoekers te Groningen.
 
