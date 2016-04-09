@@ -2,6 +2,8 @@
 
 [![IRC Network](https://img.shields.io/badge/irc-%23ArduinoGroningen-blue.svg "IRC Freenode")](https://webchat.freenode.net/?channels=ArduinoGroningen)
 
+# [Open dag 16 April](Dingen/OpenDag20160416.md)
+
 ![Arduino](Dingen/Arduino.jpg)
 
 Dit is de GitHub van de Nederlandse Arduino cursus gegeven bij De Jonge Onderzoekers te Groningen.
