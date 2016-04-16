@@ -86,3 +86,13 @@ Hier stonden Amaia, Noemie, Redmar en Richel op OrbitFest 2015:
 Op de cursus krijgt elke leerling een logboek:
 
 ![Een logboek is handig op de cursus](Dingen/Log.jpeg)
+
+Open dag DJO op 17 april 2016:
+
+![Open dag DJOG 2016-04-17](20160417OpenDag1.jpg)
+![Open dag DJOG 2016-04-17](20160417OpenDag2.jpg)
+![Open dag DJOG 2016-04-17](20160417OpenDag3.jpg)
+![Open dag DJOG 2016-04-17](20160417OpenDag4.jpg)
+![Open dag DJOG 2016-04-17](20160417OpenDag5.jpg)
+![Open dag DJOG 2016-04-17](20160417OpenDag6.jpg)
+
