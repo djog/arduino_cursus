@@ -89,10 +89,10 @@ Op de cursus krijgt elke leerling een logboek:
 
 Open dag DJO op 17 april 2016:
 
-![Open dag DJOG 2016-04-17](20160417OpenDag1.jpg)
-![Open dag DJOG 2016-04-17](20160417OpenDag2.jpg)
-![Open dag DJOG 2016-04-17](20160417OpenDag3.jpg)
-![Open dag DJOG 2016-04-17](20160417OpenDag4.jpg)
-![Open dag DJOG 2016-04-17](20160417OpenDag5.jpg)
-![Open dag DJOG 2016-04-17](20160417OpenDag6.jpg)
+![Open dag DJOG 2016-04-17](Publiciteit/20160417OpenDag1.jpg)
+![Open dag DJOG 2016-04-17](Publiciteit/20160417OpenDag2.jpg)
+![Open dag DJOG 2016-04-17](Publiciteit/20160417OpenDag3.jpg)
+![Open dag DJOG 2016-04-17](Publiciteit/20160417OpenDag4.jpg)
+![Open dag DJOG 2016-04-17](Publiciteit/20160417OpenDag5.jpg)
+![Open dag DJOG 2016-04-17](Publiciteit/20160417OpenDag6.jpg)
 
