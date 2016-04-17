@@ -1,8 +1,6 @@
 Inhoudsopgave
 =============
 
-(English: see below)
-
 Beginners: begin bij LED.
 
 Niveaus:
@@ -179,9 +177,3 @@ Zie [Projects.md](Projects.md).
 ## Zwevende input
 
  * ![Richel](RawDocs/R.png) ![Easy](RawDocs/EasyIcon.png) [Hoe lees ik input?](Pdfs/ArduinoCourseReadInput.pdf)
-
-
-Table Of Contents
-=================
-
-Too bad, this is in Dutch only, as the students are Dutch.
