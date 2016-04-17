@@ -1,4 +1,4 @@
-This document is Dutch, as this Arduino course will be given primarily to Dutch children in the ages 12-18 years old.
+# Visie
 
 # Lesdoelen
  - leerlingen de basis van Ardino bij te brengen, opdat ze zelfstandig verder kunnen
@@ -9,6 +9,7 @@ This document is Dutch, as this Arduino course will be given primarily to Dutch 
 # Vorm
  - leerlingen mogen altijd instromen
  - elke leeftijd mag instromen (hoewel leerlingen van onder de tien jaar het vaak te moeilijk vinden)
+ - jongeren gaan voor volwassenen
  - leerlingen mogen vrij bewegen tussen de Arduino cursus, Makercourse en Lego Mindostorms
  - leerlingen zijn vrij projecten te kiezen, te wisselen en te verzinnen
  - leerlingen geven een richting aan wat er elke avond behandeld wordt. Hierin telt de mening van jong-volwassenen zwaarder
@@ -30,4 +31,3 @@ This document is Dutch, as this Arduino course will be given primarily to Dutch 
  - 2e jaar (2015): focus op de groei van kennis en leerlingaantallen. Leerlingen en vrijwilligers helpen met het werven van leerlingen. Verdieping van de lesstof, liefst gepresenteerd door leerlingen zelf. Ook verdieping van didactiek, door lessen na te bespreken. Ook samenwerking met UOCG (lerarenopleiding)
  - 3e jaar (2016): focus op verbreding. Verhoging diversiteit van technieken (hout, metaal, 3D printen, Lego, Raspberry Pi), ook door versterking van samenwerking met andere groepen. Start van meerdaagse projecten, die de regionale publiciteit waardig zijn. Ervaren leerlingen nemen ook de onderwijskundige taken op zich
  - 4e jaar (2017): focus op verdieping. Groterer projecten die landelijke publiciteit halen. Samenwerking met het bedrijfsleven
-
