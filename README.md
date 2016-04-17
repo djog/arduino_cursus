@@ -32,8 +32,8 @@ Leermateriaal: we gebruiken het boek [Interactief Ontwerpen Met Arduino](https:/
 
 Op vrijdag 8 juli is er een eindpresentatie, waarin elke leerling iets presenteert.
 
-## [Veelgestelde vragen](FAQ.md)
+## [Veelgestelde vragen](Faq.md)
 
-Klik [hier](FAQ.md)
+Klik [hier](Faq.md)
 
 
