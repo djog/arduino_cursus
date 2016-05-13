@@ -6,7 +6,7 @@
 Wie: leerlingen van de Arduino cursus
  * Nano's ( 7-12 jaar): 18:00-20:15
  * Uno's  (12-18 jaar): 19:45-21:30
-Wanneer: 8 juli 2016
+Wanneer: 1 juli 2016
 Hoe laat: 19:00-21:00
 Waar: De Jonge Onderzoekers, Dirk Huizingastraat 13
 -------------------------------------------------------------------------
