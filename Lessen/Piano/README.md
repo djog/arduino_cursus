@@ -41,19 +41,44 @@ Lage tonen hebben een lage frequentie.
 De Arduino werkt met frequenties.
 
 De eerste noot van Vader Jacob is de laagste noot op de piano van het plaatje.
-Er staat het getal `131` bij. Om die noot op de Arduino af te spelen:
+Er staat het getal `131` bij. Dit is de frequentie van die muzieknoot.
+Om die noot op de Arduino af te spelen:
 
 ```
 void setup() 
 {
   pinMode(8, OUTPUT);
-  tone(8, 131, 1000);
+  tone(8, 131, 750);
   delay(1000);
 }
 
 void loop() {}
 ```
 
-## Erkenningen
+Om de eerste twee noten te spelen:
 
- * [C_major_scale_letter_notation.png](C_major_scale_letter_notation.png) by Hyacinth at the English language Wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=18152026
+```
+void setup() 
+{
+  pinMode(8, OUTPUT);
+  tone(8, 131, 750);
+  delay(1000);
+  tone(8, 147, 750);
+  delay(1000);
+}
+
+void loop() {}
+```
+
+
+## Opdrachten
+
+ * Sluit de Arduino aan met een piezo
+ * Upload de code met een muzieknoot:
+   * Wat betekent `pinMode(8, OUTPUT)`? Tip: op welke pin zit de piezo?
+   * Wat betekent `tone(8, 131, 750)`? Tips: (1) op welke pin zit de piezo? (2) wat is de frequentie van de muzieknoot? (3) hoe lang duurt de toon?
+   * Wat betekent `delay(1000)`? Tip: deze kennen we al uit les 1 `Blink`
+ * Upload de code met twee muzieknoten:
+   * Wat gebeurt er als je `tone(8, 131, 750)` vervangt door `tone(8, 131, 1000)`?
+   * Waarom staan de `delay`s er? Tip: haal ze weg en luister wat er gebeurt
+ * Maak nu zelf Vader Jacob
