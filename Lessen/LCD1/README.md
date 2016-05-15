@@ -1,4 +1,4 @@
-# LCD
+# LCD les 1
 
 Een LCD is een onderdeel om iets te tonen, zoals letters en symbolen. 
 LCD betekent 'Liquid Crystal Display', dit is Engels voor 'Vloeibare Kristallen Scherm'
