@@ -6,7 +6,7 @@
 
 Sluit de Arduino als volgt aan:
 
-![Aansluiten van Blink Blink Blink](BlinkBlinkBlinkBreadboard.png.png)
+![Aansluiten van Blink Blink Blink](BlinkBlinkBlinkBreadboard.png)
 
  * LEDje: dit lampje heeft een richting. De lange poot moet aan de kant van pin 13 zitten
  * Weerstand: dit is duizend (bruin-zwart-rood-goud) Ohm. Ook 330 (oranje-oranje-zwart-goud) Ohm is goed 
