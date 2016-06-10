@@ -1,5 +1,3 @@
-
-```
 int knopPin = 2;
 int ledPin = 13;
 int toestandKnop = 0;
@@ -34,5 +32,3 @@ digitalWrite(groen, LOW);
   digitalWrite(rood, HIGH);
   }
 }
-
-```
