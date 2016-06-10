@@ -46,6 +46,37 @@ De missie van De Jonge Onderzoekers is: '[Het] exploiteren van een activiteitenc
 
 Jazeker! Klik [hier](Publiciteit/README.md) voor de plaatsen waar we zijn geweest (en foto's van hebben)
 
+## Ik wil een onderdeel kopen. Kan dat?
+
+Jazeker, dat kan bij Peter. Dit zijn de prijzen:
+
+Naam|Verkoopprijs (euro
+---|---
+Arduino Uno + snoer|15,00
+Breadboard|3,50
+Set soepele snoertjes male-male|3,00
+10 weerstandjes|0,10
+Led rood|0,07
+led groen|0,07
+led geel|0,07
+led RGB|0,70
+led wit helder|0,25
+Drukschakelaar (buttonswitch)|0,30
+instelpotmeter (Insteldraaiknopje)|0,30
+Servo|4,00
+Transistor|0,15
+Relais|1,80
+Electromotor|1,00
+Scheepsschroef|0,20
+Luidspreker|0,60
+Lichtsensor (LDR)|0,70
+Temperatuursensor (NTC)|0,70
+Werkboek|4,00
+Druksensor|9,50
+Set snoertjes male - female|2,00 
+
+Op deze prijzen maken we geen winst. We bieden dit enkel aan als service om leerlingen ook thuis aan de slag te kunnen laten gaan.
+
 ## In de Arduino IDE is de 'Serial Port' menu-optie grijs. Ik heb Debian
 
 Word super-user:
@@ -86,3 +117,8 @@ Mocht je nu je code niet kunnen uploaden, door onderstaande error, druk dan op d
 avrdude: stk500_getsync(): not in sync: resp=0x00
 avrdude: stk500_disable(): protocol error, expect=0x14, resp=0x51
 ```
+
+
+
+
+
