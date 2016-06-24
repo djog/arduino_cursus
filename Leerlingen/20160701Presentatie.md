@@ -3,6 +3,7 @@
 ## Nano's
 
 Geboortedatum|Naam|Onderwerp
+---|---|---
 2007-03-16|Redmar|Dobbelsteen
 2006-08-09|Enzo|Knop
 2006-06-20|Amaia|?
@@ -16,6 +17,8 @@ Geboortedatum|Naam|Onderwerp
 
 ## Uno's
 
+Geboortedatum|Naam|Onderwerp
+---|---|---
 2004-04-07|Jorn|Ultrapong
 2002-01-03|Same|Platformgame
 2001-10-29|Sander|?machine
