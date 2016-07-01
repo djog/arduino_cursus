@@ -8,7 +8,7 @@ Geboortedatum|Naam|Onderwerp
 2006-08-09|Enzo|Knop: [Prezi](http://prezi.com/zpngvuyxcfno) [Filmpje](Enzo/EnzoKnop20160701.mp4)
 2006-06-20|Amaia|?
 2006-05-20|Bastiaan|LCD
-2006-01-10|Yin|Afwezig, laat ? zien bij oefenpresentatie
+2006-01-10|Yin|-
 2004-06-30|Noemie|?
 2004-05-26|Maartje|Beveiligingssysteem
 ?|Jort|?auto
@@ -23,4 +23,4 @@ Geboortedatum|Naam|Onderwerp
 2002-01-03|Same|Platformgame
 2001-10-29|Sander|?machine
 ?|Friedo|?
-?|Julian|Afwezig :-(
+?|Julian|-
