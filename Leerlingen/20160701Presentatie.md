@@ -5,7 +5,7 @@
 Geboortedatum|Naam|Onderwerp
 ---|---|---
 2007-03-16|Redmar|Dobbelsteen
-2006-08-09|Enzo|Knop
+2006-08-09|Enzo|[Prezi over knop](http://prezi.com/zpngvuyxcfno)
 2006-06-20|Amaia|?
 2006-05-20|Bastiaan|LCD
 2006-01-10|Yin|Afwezig, laat ? zien bij oefenpresentatie
