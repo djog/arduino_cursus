@@ -6,13 +6,12 @@ Geboortedatum|Naam|Onderwerp
 ---|---|---
 2007-03-16|Redmar|Dobbelsteen
 2006-08-09|Enzo|Knop
-2006-06-20|Amaia|?
+?|Jort|?auto
+2006-06-20|Amaia + Noemie|?
 2006-05-20|Bastiaan|LCD
 2006-01-10|Yin|Afwezig, laat ? zien bij oefenpresentatie
-2004-06-30|Noemie|?
-2004-05-26|Maartje|Beveiligingssysteem
-?|Jort|?auto
 ?|Rik|?
+2004-05-26|Maartje|Beveiligingssysteem
 ?|Tije|?
 
 ## Uno's
