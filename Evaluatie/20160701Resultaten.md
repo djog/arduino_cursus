@@ -1,24 +1,27 @@
 # Arduino cursus evaluatie 1 juli 2016
 
 Ik kom vooral bij de Arduino cursus om iets te leren 
-[9x] mee eens
-[2x] geen mening
-[ ] niet mee eens
+
+ * [9x] mee eens
+ * [2x] geen mening
+ * [__] niet mee eens
 
 Ik zou willen dat we serieuzer werkten 
-[ ] mee eens
-[5x] geen mening
-[6x] niet mee eens
+
+ * [__] mee eens
+ * [5x] geen mening
+ * [6x] niet mee eens
 
 Op een Arduino avond vind ik de sfeer
-[11x] gezellig
-[ ] gaat wel
-[ ] vervelend
+
+ * [11x] gezellig
+ * [__] gaat wel
+ * [__] vervelend
 
 Ik vind dat ik dit seizoen
-[8x] veel geleerd heb
-[3x] een beetje geleerd
-[ ] weinig geleerd heb
+ * [8x] veel geleerd heb
+ * [3x] een beetje geleerd
+ * [__] weinig geleerd heb
 
 Ik vind dat Anko ...
  * aardig is en veel weet over arduino
