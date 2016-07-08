@@ -30,11 +30,12 @@ Einde les | 20:00 | 21:00 | 22:00
 
 Leermateriaal: we gebruiken het boek [Interactief Ontwerpen Met Arduino](https://sites.google.com/site/hwcontwerpen/interactief-ontwerpen-met-arduino) ([PDF](Boeken/interactief ontwerpen met arduino.pdf)) (we hebben een aantal boekjes gedrukt om te gebruiken) en ons eigen materiaal op deze GitHub.
 
-Op vrijdag 1 juli is er een eindpresentatie, waarin elke leerling iets presenteert:
+## Vakantieperiode
 
-![Presentatie20160701](Dingen/Presentatie20160701.png)
+Het is (voor ons al) vakantie! Wij blijven gewoon doorgaan :-) De cursusprijs van de vakantie is 10 euro. Ga je op vakantie? Dit is geen probleem:
+je bent in de vakantie ook welkom op de donderdagavond, bij de [Dojo](https://www.github.com/richelbilderbeek/Dojo).
 
-Het rooster van de presentaties staat [hier](Leerlingen/20160701Presentatie.md).
+In september begint het volgende seizoen.
 
 ## [Veelgestelde vragen](Faq.md)
 
