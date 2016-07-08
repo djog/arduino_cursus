@@ -41,7 +41,7 @@ In september begint het volgende seizoen.
 
 Er is een hackathon in de vakantie:
 
-![Flyer hackathon](Publiciteit/FlyerHackathon.png)
+![Flyer hackathon](Publiciteit/HackathonFlyer.png)
 
 Meer weten, zie [de Hackathon2016 GitHub](https://github.com/richelbilderbeek/Hackathon2016)
 
