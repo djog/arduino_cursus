@@ -37,6 +37,14 @@ je bent in de vakantie ook welkom op de donderdagavond, bij de [Dojo](https://ww
 
 In september begint het volgende seizoen.
 
+## Hackathon
+
+Er is een hackathon in de vakantie:
+
+![Flyer hackathon](Publiciteit/FlyerHackathon.png)
+
+Meer weten, zie [de Hackathon2016 GitHub](https://github.com/richelbilderbeek/Hackathon2016)
+
 ## [Veelgestelde vragen](Faq.md)
 
 Klik [hier](Faq.md)
