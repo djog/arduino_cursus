@@ -4,6 +4,29 @@ Op de cursus krijgt elke leerling een logboek:
 
 ![Een logboek is handig op de cursus](Logboek.jpeg)
 
+## Maakplek
+
+Hier leggen de leerlingen op de [maakplek](http://www.maakplek.nl) uit hoe Arduino werkt:
+
+![20160531 maakplek](20160521Maakplek1.jpg)
+![20160531 maakplek](20160521Maakplek2.jpg)
+![20160531 maakplek](20160521Maakplek3.jpg)
+![20160531 maakplek](20160521Maakplek4.jpg)
+![20160531 maakplek](20160521Maakplek5.jpg)
+![20160531 maakplek](20160521Maakplek6.jpg)
+![20160531 maakplek](20160521Maakplek7.jpg)
+![20160531 maakplek](20160521Maakplek8.jpg)
+![20160531 maakplek](20160521Maakplek9.jpg)
+![20160531 maakplek](20160521Maakplek10.jpg)
+![20160531 maakplek](20160521Maakplek11.jpg)
+![20160531 maakplek](20160521Maakplek12.jpg)
+![20160531 maakplek](20160521Maakplek13.jpg)
+![20160531 maakplek](20160521Maakplek14.jpg)
+![20160531 maakplek](20160521Maakplek15.jpg)
+![20160531 maakplek](20160521Maakplek16.jpg)
+![20160531 maakplek](20160521Maakplek17.jpg)
+![20160531 maakplek](20160521Maakplek18.jpg)
+
 ## Opnames Zapp
 
 Hier wordt een van onze leerlingen gefilmd voor Zapp.
@@ -32,3 +55,46 @@ na bedtijd uit hoe Arduino werkt.
 ![OrbitFest 2015 #1](20151218OrbitFest.jpg)
 ![OrbitFest 2015 #2](20151218OrbitFest_2.jpg)
 ![OrbitFest 2015 Facebook](20151218OrbitFest.png)
+
+## Debat
+
+Hier hebben twee leerlingen zelf een les georganiseerd: een debat! 
+
+![Debat](2015Debat1.jpg)
+![Debat](2015Debat2.jpg)
+![Debat](2015Debat3.jpg)
+![Debat](2015Debat4.jpg)
+![Debat](2015Debat5.jpg)
+![Debat](2015Debat6.jpg)
+
+## Stroomdeeltje spelen
+
+Hier spelen de leerlingen een stroomdeeltje.
+Dit is een van Richel's favoriete lessen!
+
+![2015 Stroomdeeltje spelen](2015StroomdeeltjeSpelen1.jpg)
+![2015 Stroomdeeltje spelen](2015StroomdeeltjeSpelen2.jpg)
+![2015 Stroomdeeltje spelen](2015StroomdeeltjeSpelen3.jpg)
+![2015 Stroomdeeltje spelen](2015StroomdeeltjeSpelen4.jpg)
+![2015 Stroomdeeltje spelen](2015StroomdeeltjeSpelen5.jpg)
+![2015 Stroomdeeltje spelen](2015StroomdeeltjeSpelen6.jpg)
+![2015 Stroomdeeltje spelen](2015StroomdeeltjeSpelen7.jpg)
+
+## Les speaker
+
+Hier geven twee leerlingen les in het aansluiten van een speaker
+
+![20151027 les speaker](20151027_1.jpg)
+![20151027 les speaker](20151027_2.jpg)
+
+## Bezoek
+
+Hier hadden we bezoek van een middelbare scholier
+die aan zijn profielwerkstuk wilde werken.
+
+![20151027 les speaker](20151027_3.jpg)
+
+2015TheorieWeerstanden1.jpg
+2015TheorieWeerstanden2.jpg
+2015TheorieWeerstanden3.jpg
+2015TheorieWeerstanden4.jpg
