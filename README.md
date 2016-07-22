@@ -35,6 +35,8 @@ Leermateriaal: we gebruiken het boek [Interactief Ontwerpen Met Arduino](https:/
 Het is (voor ons al) vakantie! Wij blijven gewoon doorgaan :-) De cursusprijs van de vakantie is 10 euro. Ga je op vakantie? Dit is geen probleem:
 je bent in de vakantie ook welkom op de donderdagavond, bij de [Dojo](https://www.github.com/richelbilderbeek/Dojo).
 
+![Zomervakantielessen](Publiciteit/Zomervakantielessen.png)
+
 In september begint het volgende seizoen.
 
 ## Hackathon
