@@ -2,6 +2,7 @@
 
 Arduino lessen die je zo kunt doen.
 
+ * [Arduino en Processing](Arduino_en_processing/README.md)
  * [Les 1a: Blink](Blink/README.md)
  * [Les 1b: Blink Blink Blink](BlinkBlinkBlink/README.md)
  * [Blink snelheid](BlinkSnelheid/README.md)
