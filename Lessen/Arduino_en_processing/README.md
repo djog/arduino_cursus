@@ -50,7 +50,7 @@ Dit doet de code:
  * `Serial.write(analogRead(A0) / 4)`: dit doe ik in stukjes:
     * `Serial.write()`: stuur een teken naar de seriele kabel
     * `analogRead(A0)`: meet de spanning op pin `A0`. Een spanning van 5 volt wordt het getal `1023`   
-    * `analogRead(A0) / 4`: meet de spanning op pin `A0` en deel deze door vier. Een spanning van 5 volt wordt hierdoor getal `255`, dit is een handig getal om in Processing te gebruiken.   
+    * `analogRead(A0) / 4`: meet de spanning op pin `A0` en deel deze door vier. Een spanning van 5 volt wordt hierdoor getal `255`, dit is een handig getal om in Processing te gebruiken   
     * `Serial.write(analogRead(A0) / 4)`: meet de spanning op pin `A0`, deel deze door vier en stuur dat getal door de seriele kabel 
  * `delay(10)`: wacht tien milliseconden
 
@@ -71,12 +71,38 @@ Dit is de code voor Processing:
 import processing.serial.*;
 Serial poort;
 
-void setup(){
+void setup()
+{
+  size(500, 500);
   println(Serial.list());
   poort = new Serial(this, Serial.list()[0], 9600);
 }
 
-void draw(){
-
+void draw()
+{
+  while(poort.available() > 0) {
+    int getal = poort.read();
+    background(getal);
+  }
 }
 ```
+
+Processing leest hiermee wat er binnenkomt op de seriele poort.
+
+Dit doet de code:
+
+ * `import processing.serial.*;` : haal alle code op die nodig is om met een seriele poort te praten 
+ * `Serial poort` : maak een nieuwe seriele poort en noemen deze `poort`
+ * `void setup(){}` : de `setup` functie is een functie die een keer wordt gedaan bij het opstarten. Wat er gebeurt staat tussen de accolades
+ * `size(500, 500);` : maak een scherm met een grootte van 500 bij 500 pixels
+ * `println(Serial.list());` : print een lijst met alle seriele poorten naar de console (het zwarte gedeelte onder in de Processing omgeving)
+ * `poort = new Serial(this, Serial.list()[0], 9600);` : dit doe ik in stukjes:
+  * `poort = new Serial()` : maak van `poort` een nieuwe seriele poort...
+  * `this,` : ...die in dit bestand wordt gebruikt...
+  * `Serial.list()[0],` : ...en de eerste op de lijst van seriele poorten is (meestal is dit de Arduino, anders moet je het getal `0` aanpassen)...
+  * `9600` : en 9600 karakters per seconde ontvangt
+ * `void draw() {}`: de `draw` functie is een functie die de hele tijd wordt gedaan na het opstarten. Wat er gebeurt staat tussen de accolades
+ * `while(poort.available() > 0) {}` : doe wat tussen de accolades staat alleen als er wat binnenkomt op de seriele poort
+ * `int getal ` : maak een heel getal aan met de naam `getal`
+ * `= poort.read();` : maak `getal` wat er binnenkomt op de seriele poort
+ * `background(getal);` : lees `getal` als een grijstint en maak dat de achtergrondkleur. Bij 0 is de achtergrond zwart, bij 255 is hij wit
