@@ -19,7 +19,7 @@ Zo sluit je de potmeter aan:
 
 Dit zijn de aansluitingen:
 
- * `5V`: de vijf volt pin moet naar de eene kant van de potmeter
+ * `5V`: de vijf volt pin moet naar de ene kant van de potmeter
  * `GND`: de aarde moet naar de andere kant van de potmeter
  * `A0`: afhankelijk van de stand van de potmeter, komt er nul tot vijf volt op `A0` te staan
 
@@ -50,7 +50,7 @@ Dit doet de code:
  * `Serial.write(analogRead(A0) / 4)`: dit doe ik in stukjes:
     * `Serial.write()`: stuur een teken naar de seriele kabel
     * `analogRead(A0)`: meet de spanning op pin `A0`. Een spanning van 5 volt wordt het getal `1023`   
-    * `analogRead(A0) / 4`: meet de spanning op pin `A0` en deel deze door vier. Een spanning van 5 volt wordt hierdoor getal `255`   
+    * `analogRead(A0) / 4`: meet de spanning op pin `A0` en deel deze door vier. Een spanning van 5 volt wordt hierdoor getal `255`, dit is een handig getal om in Processing te gebruiken.   
     * `Serial.write(analogRead(A0) / 4)`: meet de spanning op pin `A0`, deel deze door vier en stuur dat getal door de seriele kabel 
  * `delay(10)`: wacht tien milliseconden
 
@@ -59,4 +59,24 @@ Dit doet de code:
  * Sluit het stroomschema zoals het plaatje
  * Zet de code op je Arduino
  * Start de code en klink op de `Serial Monitor` knop rechtsboven. Wat zie je? Zorg dat de Arduino de voorletter van je voornaam doorstuurt
+ * Als je niets ziet, kijk dan of de het getal rechtsonder in de Serial Monitor wel op `9600` staat!
 
+## Processing laten luisteren
+
+Als je nog geen Processing hebt, download het dan [hier!](https://processing.org/download)
+
+Dit is de code voor Processing:
+
+```
+import processing.serial.*;
+Serial poort;
+
+void setup(){
+  println(Serial.list());
+  poort = new Serial(this, Serial.list()[0], 9600);
+}
+
+void draw(){
+
+}
+```
