@@ -106,3 +106,10 @@ Dit doet de code:
  * `int getal ` : maak een heel getal aan met de naam `getal`
  * `= poort.read();` : maak `getal` wat er binnenkomt op de seriele poort
  * `background(getal);` : lees `getal` als een grijstint en maak dat de achtergrondkleur. Bij 0 is de achtergrond zwart, bij 255 is hij wit
+
+
+## Opdrachten
+* Zet de code in Processing
+* Run je code door op de play knop linksboven te drukken
+* Draai aan de potmeter, wat zie je?
+* Wat zou er gebeuren als je `analogRead(A0)` niet door vier deelt in de Arduino code? Probeer het uit!
