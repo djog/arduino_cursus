@@ -33,6 +33,7 @@ void setup()
   Serial.begin(9600);
   links.begin(9600);
   rechts.begin(9600);
+  pinMode(8, OUTPUT);
 }
 
 String LeesLinks()
