@@ -72,6 +72,17 @@ void loop()
     const String s = LeesLinks();
     Serial.print("Ik lees van links: ");
     Serial.println(s);
+    
+    //Ga piepen als de eerste, tweede of derde letter een A is
+    if ( (s.length() >= 1 && s.substring(0, 1) == "A")
+      || (s.length() >= 2 && s.substring(1, 1) == "A")
+      || (s.length() >= 3 && s.substring(2, 1) == "A")
+    )
+    {
+      tone(8,440,100);
+      delay(100);
+    }
+    
     if (s.length() > 1)
     {
       Serial.print("Ik stuur door naar rechts: ");
