@@ -1,4 +1,14 @@
-# Chatrooms
+# Chatroom
+
+Met dit project kun je chatten met je buren.
+
+## Stroomschema
+
+Sluit zoveel Arduino's aan in een cirkel als volgt:
+
+![Stroomschema](SoftwareSerialChatRoom.png)
+
+## Code
 
 ```
 /*
