@@ -120,6 +120,7 @@ Dit is wat alles betekent:
  * In de code, verander de waarde van `drempelwaarde`. Wat gebeurt er?
  * In de code, verander de waarde van `samples`. Wat gebeurt er?
  * Vervang de weerstand van een miljoen Ohm door een weerstand van tien miljoen Ohm (bruin, zwart, blauw, goud). Wat doet de machine anders? Wat is nu een goede waarde voor `drempelwaarde` en `samples`?
+ * Haal de adapter uit je laptop. Wat doet de machine?
 
 ## Verder
 
