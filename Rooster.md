@@ -4,9 +4,9 @@ Dit rooster is nog een voorstel.
 
 ## Nano's
 
-Dag|Docent|Hoofdstuk|Leerdoelen
+Dag|Docent|Hoofdstuk|Lesplan
 ---|---|---|---
-9 sep|R|Les 0, 1a (1b)|Stroomschema, Blink
+9 sep|R|Les 0, 1a (1b)|[Stroomschema, Blink](Lesplannen/Introductie/README.md)
 16 sep|R|Les 1b (1c)|Variabelen
 23 sep|R|Les 1d (1c)|For loop
 30 sep|R|Les 1c (2)|For loop
