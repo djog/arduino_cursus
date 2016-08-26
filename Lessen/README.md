@@ -17,4 +17,6 @@ Arduino lessen die je zo kunt doen.
 
 ## Electriciteit
 
- * [Stroomdeeltje spelen](StroomdeeltjeSpelen.md)
+ * [Stroomdeeltje spelen 1](StroomdeeltjeSpelen1/README.md)
+ * Stroomdeeltje spelen 2: weerstanden in parallel en serie
+ * Stroomdeeltje spelen 3: spanningsdeler

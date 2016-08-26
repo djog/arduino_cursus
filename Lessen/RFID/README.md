@@ -20,8 +20,17 @@ Merk op: je moet een redelijk nieuwe versie van de Arduino IDE hebben! Anders kr
 een foutmelding (`class [iets] not found`).
 
  * In je browser, ga naar [miguelbalboa zijn rfid GitHub](https://github.com/miguelbalboa/rfid)
+
+![De GitHub van miguelbalboa](GitHub.png)
+
  * Op deze GitHub website, klik op 'Download zip'. Nu download je browser een zip bestand
+
+![Het zip bestand downloaden](Downloaden.png)
+
  * In de Arduino IDE, kies 'Add library' en dubbelklik op het gedownloade zip bestand
+
+![Het zip bestand kiezen](ZipKiezen.png)
+
  * Nu, in de Arduino IDE, staat er bij de `Voorbeelden`/`Examples` het kopje `rfid`
  * Een goed eerste programma is `rfid | dumpInfo` te kiezen, uploaden op je Arduino, en er een tag bij te houden
 
