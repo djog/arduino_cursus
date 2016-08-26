@@ -14,3 +14,7 @@ Arduino lessen die je zo kunt doen.
  * [Piano](Piano/README.md)
  * [Processing (op de Dojo GitHub)](https://github.com/richelbilderbeek/Dojo/tree/master/LessenProcessing)
  * [RFID](RFID/README.md)
+
+## Electriciteit
+
+ * [Stroomdeeltje spelen](StroomdeeltjeSpelen.md)
