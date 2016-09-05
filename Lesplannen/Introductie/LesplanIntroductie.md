@@ -48,9 +48,9 @@ Lesdoelen:
 
 Dit is afhankelijk van of de leerling een eigen laptop heeft.
 
- * [Processing opstarten op cursus laptop](../LessenProcessing/ProcessingOpstartenOpCursusLaptop/README.md)
- * [Processing installeren op Linux](../LessenProcessing/ProcessingInstallerenOpLinux/README.md)
- * [Processing installeren op Windows](../LessenProcessing/ProcessingInstallerenOpWindows/README.md)
+ * [Arduino opstarten op cursus laptop](../Lessen/ArduinoOpstartenOpCursusLaptop/README.md)
+ * [Arduino installeren op Linux](../Lessen/ArduinoInstallerenOpLinux/README.md)
+ * [Arduino installeren op Windows](../Lessen/ArduinoInstallerenOpWindows/README.md)
 
  * Zoek op de GitHub naar de les 'Een mooi programma' en probeer Processing te starten
  * Gelukt? Help dan de anderen. Iedereen klaar? Start dan 'Een mooi programma'
