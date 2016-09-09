@@ -6,6 +6,8 @@
 Lesdoelen:
  * Waar staat de GitHub van de cursus?
  * Hoe werkt de cursus?
+ * Stroom gaat van plus naar min
+ * Stroom gaat door een draad en niet door de lucht
  * Hoe start ik Arduino op een laptop van de cursus?
  * Hoe copy-paste ik?
  * Hoe zet ik een programm op de Arduino?
@@ -42,174 +44,23 @@ Lesdoelen:
    * Wat is de laatste les?
  * Klaar? Start Arduino alvast
 
-# Hoe start ik Arduino?
+# Electriciteit: woordweb
 
-18:50-19:10
+# Electriciteit: stroompje spelen
 
-Dit is afhankelijk van of de leerling een eigen laptop heeft.
+ * 2x plus
+ * 2x min
+ * Twee draden
+ * Als een draad een potentiaalverschil heeft, gaat geen
+   stroom lopen in de andere
 
- * [Arduino opstarten op cursus laptop](../Lessen/ArduinoOpstartenOpCursusLaptop/README.md)
- * [Arduino installeren op Linux](../Lessen/ArduinoInstallerenOpLinux/README.md)
- * [Arduino installeren op Windows](../Lessen/ArduinoInstallerenOpWindows/README.md)
+# Electriciteit: Les 0: Broodplank
 
- * Zoek op de GitHub naar de les 'Een mooi programma' en probeer Processing te starten
- * Gelukt? Help dan de anderen. Iedereen klaar? Start dan 'Een mooi programma'
+ * Van GitHub
 
- 
-# Hoe start ik een programma?
+# Pauze
 
-19:10-19:30
-
- * Zet de les op de beamer
-
-```
-void setup()
-{
-  size(256,256);  
-}
-
-void draw() 
-{
-  fill(mouseX, mouseY, mouseX + mouseY);
-  ellipse(mouseX, mouseY, 50, 50);  
-  fill(mouseY, mouseX, 255);
-  ellipse(mouseY, mouseX, 50, 50);  
-}
-```
-
- * Doe de opdrachten op de pagina [EenMooiProgramma](../../LessenProcessing/EenMooiProgramma/README.md)
-
-# Wat doet het programma?
-
-19:45-20:10
-
- * Zet het voorbeeld programma op de beamer
-
-```
-void setup()
-{
-  size(256,256);  
-}
-
-void draw() 
-{
-  fill(mouseX, mouseY, mouseX + mouseY);
-  ellipse(mouseX, mouseY, 50, 50);  
-  fill(mouseY, mouseX, 255);
-  ellipse(mouseY, mouseX, 50, 50);  
-}
-```
-
- * Oefen met het experimenteren met code
- * Op het bord: `fill(0 t/m 255, 0 t/m 255, 0 t/m 255);`
- * Laat de leerlingen uitvinden wat de code ongeveer doet
-
-# Fouten
-
-20:10-20:20
-
- * Zet het voorbeeld programma op de beamer
-
-```
-void setup()
-{
-  size(256,256);  
-}
-
-void draw() 
-{
-  fill(mouseX, mouseY, mouseX + mouseY);
-  ellipse(mouseX, mouseY, 50, 50);  
-  fill(mouseY, mouseX, 255);
-  ellipse(mouseY, mouseX, 50, 50);  
-}
-```
-
- * Omstebeurt: een leerling verandert een teken, terwijl de ander wegkijkt. Dan probeert de ander de fout op te lossen. Dan andersom
-
-# Informele toets
-
- * Met welke toetscominatie plak je?
- * Met welke toetscominatie knip je?
- * Met welke toetscominatie kopieer je?
- * Met welke toetscominatie start je je programma in Processing?
- * Wat is een programma?
- * Beschrijf wat dit programma doet:
-
-```
-void setup()
-{
-  size(320,200);  
-}
-
-void draw() 
-{
-  fill(0, 0, 0);
-  ellipse(50, 100, 150, 200);  
-}
-```
-
-
-## Antwoorden
-
-### Met welke toetscominatie plak je?
-
-Omschrijving|Punten
----|---
-CTRL+P|1
-Maximaal aantal punten|1
-
-
-### Met welke toetscominatie knip je?
-
-Omschrijving|Punten
----|---
-CTRL+X|1
-Maximaal aantal punten|1
-
-### Met welke toetscominatie kopieer je?
-
-Omschrijving|Punten
----|---
-CTRL+C|1
-Maximaal aantal punten|1
-
-### Met welke toetscominatie start je je programma in Processing?
-
-Omschrijving|Punten
----|---
-CTRL+R|1
-Maximaal aantal punten|1
-
-### Wat is een programma?
-
-Omschrijving|Punten
----|---
-Een stuk tekst|2
-Dat wat de computer moet doen|2
-Een stuk tekst die de computer uitvoert|4
-Maximaal aantal punten|4
-
-### Beschrijf wat dit programma doet:
-
-Omschrijving|Punten
----|---
-Scherm is vierkant|0
-Scherm is rechthoekig|1
-Scherm is 320 pixels hoog en 200 breed|1
-Scherm is 320 pixels breed en 200 hoog|2
-Vulkleur wordt veranderd|1
-Vulkleur wordt op zwart gezet|2
-Er wordt een cirkel getekent|0
-Er wordt een ovaal getekent|1
-De ovaal staat 100 pixels naar rechts en 50 pixels omlaag|1
-De ovaal staat 50 pixels naar rechts en 100 pixels omlaag|2
-De ovaal is 150 pixels hoog en 200 pixels breed|1
-De ovaal is 150 pixels breed en 200 pixels hoog|2
-Maximaal aantal punten|8
-
-### Eindscore
-
-`Eindscore = 1 + (Aantal punten / 16) * 9`
+ * Les 1a: Blink, zoals les
+ * Tijd over: Les 1b: Blink, blink, blink
 
 
