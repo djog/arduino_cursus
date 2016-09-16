@@ -30,17 +30,8 @@ Einde les | 20:00 | 21:00 | 22:00
 
 Leermateriaal: we gebruiken het boek [Interactief Ontwerpen Met Arduino](https://sites.google.com/site/hwcontwerpen/interactief-ontwerpen-met-arduino) ([PDF](Boeken/interactief ontwerpen met arduino.pdf)) (we hebben een aantal boekjes gedrukt om te gebruiken) en ons eigen materiaal op deze GitHub.
 
-## Vakantieperiode
 
-Het is (voor ons al) vakantie! Wij blijven gewoon doorgaan :-) De cursusprijs van de vakantie is 10 euro. Ga je op vakantie? Dit is geen probleem:
-je bent in de vakantie ook welkom op de donderdagavond, bij de [Dojo](https://www.github.com/richelbilderbeek/Dojo).
-
-![Zomervakantielessen](Publiciteit/Zomervakantielessen.png)
-
-In september begint het volgende seizoen.
-
-## [Veelgestelde vragen](Faq.md)
-
-Klik [hier](Faq.md)
-
+ * Waar staan [de lessen](Lessen/README.md)? [Hier staan de lessen](Lessen/README.md)
+ * Waar staan [het rooster](Rooster.md)? [Hier staan het rooster](Rooster.md). Eerste les gemist? Geen probleem, je bent altijd welkom!
+ * Waar staan [de veelgestelde vragen](Faq.md)? [Hier staan de veelgestelde vragen](Faq.md)
 
