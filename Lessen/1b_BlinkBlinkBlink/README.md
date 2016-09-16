@@ -115,7 +115,7 @@ void loop()
 
 ## Vragen en opdrachten
 
- * Upload deze code naar de Arduino. Gaat dat goed?
+ * Upload deze code naar de Arduino. Welke fouten krijg je?
 
 ## Compile error
 
@@ -123,3 +123,48 @@ In de code zijn een aantal variabele namen verkeerd geschreven. Dat kun je
 ook zien in de rode letters:
 
 ![Compile errors](CompileError.png)
+
+Deze fout wordt een compile error ('kompaail error') genoemd. 
+'compile' is Engels voor 'samenbinden'.
+'error' is Engels voor 'fout'.
+De compiler ('kompaailer') is een programma dat programmeercode omzet naar machinetaal.
+De compiler leest erg precies.
+De compiler heeft ook altijd gelijk.
+
+Terug naar onze compile error:
+
+![Compile errors](CompileError.png)
+
+De compiler laat zien in welke regels de fout(en) zitten.
+In dit geval in regels 13 en 15.
+Je hoeft niet te tellen welke regels zit zijn:
+de Arduino IDE laat dit altijd zien:
+
+![De Arduino IDE geeft altijd de regel van je cursor aan](ArduinoIdeMetCursorAangegeven.png)
+
+Nu weten we *waar* de fout is, nu weten we nog niet *wat* de fout is.
+
+```
+'pin_gron' was not declared in this scope
+```
+
+Dit kan je vertalen naar:
+
+```
+Lieve programmeur, ik weet niet wat 'pin_gron' is
+```
+
+De compiler heeft gelijk: bovenaan de code hebben we het pinnummer
+van de groen led ook anders genoemd!
+
+## Vragen en opdrachten
+
+ * Repareer de code
+ * Laat de lampjes omstebeurt om de seconde knipperen, zonder dat beide lampjes uit staan
+ * Laat de lampjes omstebeurt om de seconde knipperen, met steeds een second ertussen dat de lampjes uit staan
+ * Maak een derde variabele, een heel getal met de naam `pin_blauw`. Laat nu de drie LEDjes knipperen.
+
+
+
+
+
