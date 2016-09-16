@@ -9,6 +9,7 @@ In deze les leer je:
  * Hoe je meerdere LEDjes aansluit
  * Wat een variable is
  * Hoe je een variabele gebruikt
+ * Wat een compile error is
  * Hoe je een programma aanpast 
 
 ## Waarom variabelen?
@@ -79,7 +80,7 @@ Vanaf nu, als je schrijft `pin_led`, dan vult de Arduino daar `13` in.
 
 ## Blink Blink Blink aansluiten
 
-Nu is het tijd Blink aan te sluiten:
+Nu is het tijd 'Blink Blink Blink' aan te sluiten:
 
 ![BlinkBlinkBlink](BlinkBlinkBlink.png)
 
@@ -88,7 +89,8 @@ Nu is het tijd Blink aan te sluiten:
 
 ## Code
 
-Hier staat weer de code van Blink:
+Hier staat een stukje code van 'Blink Blink Blink'. 
+Er zitten fouten in!
 
 ```
 int pin_rood = 11;
@@ -96,40 +98,28 @@ int pin_groen = 10;
 
 void setup() 
 {
-  pinMode(13, OUTPUT);
+  pinMode(pin_rood, OUTPUT);
+  pinMode(pin_groen, OUTPUT);
 }
 
 void loop() 
 {
-  digitalWrite(13, HIGH);
+  digitalWrite(pin_rood, HIGH);
+  digitalWrite(pin_gron, HIGH);
   delay(1000);
-  digitalWrite(13, LOW);
+  digitalWrite(pin_roood, LOW);
+  digitalWrite(pin_groen, LOW);
   delay(1000);
 }
 ```
 
-Dit is wat het doet:
-
- * `void setup() {}`: de `setup` function zorgt ervoor dat alles tussen de accolades (`{` en `}`) een keer gedaan wordt
- * `pinMode(13, OUTPUT)`: zeg dat er stroom uit pin 13 kan komen
- * `void loop() {}`: de `function` function zorgt ervoor dat alles tussen de accolades (`{` en `}`) de rest van de tijd herhaald wordt
- * `digitalWrite(13, HIGH)`: zet spanning op pin 13
- * `delay(1000)`: wacht duizend milliseconden
- * `digitalWrite(13, LOW)`: haal de spanning van pin 13 af
-
 ## Vragen en opdrachten
 
- * Hoe lang is duizend milliseconden ongeveer?
- * Wat gebeurt er als je de `digitalWrite(13, HIGH)` weghaalt?
- * Wat gebeurt er als je de `digitalWrite(13, LOW)` weghaalt?
- * Wat gebeurt er als je de eerste `delay(1000)` weghaalt?
- * Wat gebeurt er als je de tweede `delay(1000)` weghaalt?
- * Laat het LEDje 10x zo snel knipperen. Tip: in welke twee regels wacht de Arduino?
- * Laat het LEDje aan en uit gaan zonder wachttijd. Zie je de LED knipperen? Hoe kan dat?
- * Stel de wachttijd zo in, dat je het LEDje nog net kunt zien knipperen. Welke wachttijd is dat ongeveer?
+ * Upload deze code naar de Arduino. Gaat dat goed?
 
-De LED zit nu verbonden met pin 13. Haal de LED uit pin 13 en verbind deze met pin 12.
+## Compile error
 
- * Zorg dat je code weer werkt. Tip: je zult drie keer een 13 moeten veranderen naar een 12
- * Wat gebeurt er als je het LEDje omdraait?
- * Wat gebeurt er als je de weerstand omdraait?
+In de code zijn een aantal variabele namen verkeerd geschreven. Dat kun je
+ook zien in de rode letters:
+
+![Compile errors](CompileError.png)
