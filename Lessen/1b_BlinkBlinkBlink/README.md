@@ -162,7 +162,11 @@ van de groen led ook anders genoemd!
  * Repareer de code
  * Laat de lampjes omstebeurt om de seconde knipperen, zonder dat beide lampjes uit staan
  * Laat de lampjes omstebeurt om de seconde knipperen, met steeds een second ertussen dat de lampjes uit staan
- * Maak een derde variabele, een heel getal met de naam `pin_blauw`. Laat nu de drie LEDjes knipperen.
+ * Maak een derde variabele, een heel getal met de naam `pin_blauw`. Laat nu de drie LEDjes knipperen:
+    * Alledrie tegelijk
+    * Om de beurt, waarbij er altijd een lampje brand
+    * Om de beurt en terug (volgorde: 1-2-3-2), waarbij er altijd een lampje brand. Dit wordt het Nightrider patroon genoemd
+ * Tijd over? Sluit een vierde LED aan
 
 
 
