@@ -1,7 +1,5 @@
 # Les 1b: Blink Blink Blink
 
-Hallo dit is een test!
-
 Deze les heet 'Blink Blink Blink', omdat het [de les Blink](../1a_Blink/README.md) is, maar dan met drie lampjes.
 
 Weet je nog niet hoe je een lampje aansluit? Ga dan naar [les 1a: Blink](../1a_Blink/README.md).
