@@ -1,6 +1,6 @@
 # Rooster
 
-Dit rooster is nog een voorstel.
+Dit rooster is aan veranderingen onderhevig, omdat wij leerlinggestuurd werken :sunglasses:
 
 ## Nano's
 
