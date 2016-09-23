@@ -2,10 +2,20 @@
 
 Arduino lessen die je zo kunt doen.
 
- * [Arduino en Processing](Arduino_en_processing/README.md)
+## Normale lessen
+
+Deze lessen doen we als groep aan de grote tafel.
+Hiermee kun je stickers verdienen!
+
  * [Les 0: Broodplank](0_Breadboard/README.md)
  * [Les 1a: Blink](1a_Blink/README.md)
  * [Les 1b: Blink Blink Blink](1b_BlinkBlinkBlink/README.md)
+
+## Vervolglessen
+
+Deze lessen kun je zelf doen. 
+
+ * [Arduino en Processing](Arduino_en_processing/README.md)
  * [Blink snelheid](BlinkSnelheid/README.md)
  * [Capacitatieve Sensoren 1](CapacitatieveSensoren1/README.md)
  * [Capacitatieve Sensoren 2](CapacitatieveSensoren2/README.md)
@@ -17,6 +27,8 @@ Arduino lessen die je zo kunt doen.
  * [RFID](RFID/README.md)
 
 ## Electriciteit
+
+Met deze lessen kunnen we electriciteit beter leren begrijpen.
 
  * [Stroomdeeltje spelen 1](StroomdeeltjeSpelen1/README.md)
  * Stroomdeeltje spelen 2: weerstanden in parallel en serie
