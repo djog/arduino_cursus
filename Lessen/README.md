@@ -3,8 +3,9 @@
 Arduino lessen die je zo kunt doen.
 
  * [Arduino en Processing](Arduino_en_processing/README.md)
- * [Les 1a: Blink](Blink/README.md)
- * [Les 1b: Blink Blink Blink](BlinkBlinkBlink/README.md)
+ * [Les 0: Broodplank](0_Breadboard/README.md)
+ * [Les 1a: Blink](1a_Blink/README.md)
+ * [Les 1b: Blink Blink Blink](1b_BlinkBlinkBlink/README.md)
  * [Blink snelheid](BlinkSnelheid/README.md)
  * [Capacitatieve Sensoren 1](CapacitatieveSensoren1/README.md)
  * [Capacitatieve Sensoren 2](CapacitatieveSensoren2/README.md)
