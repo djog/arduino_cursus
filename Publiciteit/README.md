@@ -1,10 +1,10 @@
 # Sfeerimpressies
 
-Op de cursus krijgt elke leerling een logboek:
+## 1 oktober 2016: Open Dag bij Zpannend Zernike 
 
-![Een logboek is handig op de cursus](Logboek.jpeg)
+![Open Dag](20161001_1.jpg)
 
-## Maakplek
+## 31 mei 2016: Maakplek
 
 Hier leggen de leerlingen op de [maakplek](http://www.maakplek.nl) uit hoe Arduino werkt:
 
@@ -27,7 +27,7 @@ Hier leggen de leerlingen op de [maakplek](http://www.maakplek.nl) uit hoe Ardui
 ![20160531 maakplek](20160521Maakplek17.jpg)
 ![20160531 maakplek](20160521Maakplek18.jpg)
 
-## Opnames Zapp
+## 10 mei 2016: Opnames Zapp
 
 Hier wordt een van onze leerlingen gefilmd voor Zapp.
 
@@ -35,7 +35,7 @@ Hier wordt een van onze leerlingen gefilmd voor Zapp.
 ![Opnames Zapp op 2016-05-10](20160510Zapp2.jpg)
 ![Opnames Zapp op 2016-05-10](20160510Zapp3.jpg)
 
-## Open dag DJO op 16 april 2016
+## 16 april 2016: Open dag DJO
 
 Op de Open Dag van De Jonge Onderzoekers 
 leggen de leerlingen uit hoe Arduino werkt.
@@ -47,7 +47,7 @@ leggen de leerlingen uit hoe Arduino werkt.
 ![Open dag DJOG 2016-04-16](20160417OpenDag5.jpg)
 ![Open dag DJOG 2016-04-16](20160417OpenDag6.jpg)
 
-## Orbitfest op 18 december 2015
+## 18 december 2015: Orbitfest
 
 Op het festival 'Orbitfest' leggen onze leerlingen ook
 na bedtijd uit hoe Arduino werkt.
@@ -80,21 +80,28 @@ Dit is een van Richel's favoriete lessen!
 ![2015 Stroomdeeltje spelen](2015StroomdeeltjeSpelen6.jpg)
 ![2015 Stroomdeeltje spelen](2015StroomdeeltjeSpelen7.jpg)
 
-## Les speaker
+## 27 oktober 2015: Les speaker
 
 Hier geven twee leerlingen les in het aansluiten van een speaker
 
 ![20151027 les speaker](20151027_1.jpg)
 ![20151027 les speaker](20151027_2.jpg)
 
-## Bezoek
-
 Hier hadden we bezoek van een middelbare scholier
 die aan zijn profielwerkstuk wilde werken.
 
 ![20151027 les speaker](20151027_3.jpg)
 
-2015TheorieWeerstanden1.jpg
-2015TheorieWeerstanden2.jpg
-2015TheorieWeerstanden3.jpg
-2015TheorieWeerstanden4.jpg
+## Les weerstanden
+
+![Les weerstanden 1](2015TheorieWeerstanden1.jpg)
+![Les weerstanden 2](2015TheorieWeerstanden2.jpg)
+![Les weerstanden 3](2015TheorieWeerstanden3.jpg)
+![Les weerstanden 4](2015TheorieWeerstanden4.jpg)
+
+## Logoek
+
+Op de cursus krijgt elke leerling een logboek:
+
+![Een logboek is handig op de cursus](Logboek.jpeg)
+
