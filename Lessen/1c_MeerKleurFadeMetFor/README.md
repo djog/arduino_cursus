@@ -1,5 +1,6 @@
 # Les 1c: Meer Kleur Fade Met For
 
+Soms denk je 'Kan dit slimmer?'. Een for-loop is een manier om iets slimmer te doen!
 
 ## Aansluiten
 
@@ -80,16 +81,45 @@ Dat is nogal veel code! En veel gekopieer!
 
 For-loops helpen je om code met een patroon korter op te schrijven.
 
-## Twee keer fade aan
+## Drie keer fade aan
 
-We gaan nu de code uitbreiden met twee kleuren!
+We gaan nu de code uitbreiden met meer kleuren!
 
  * Laat eerst het rode LEDje aanfaden, dan het groene LEDje
+ * Laat eerst het rode LEDje aanfaden, dan het groene LEDje, dan het blauwe LEDje
 
-## 
+## Fade uit
 
+Een Arduino kan prima rekenen:
 
- 
+```
+int pin_rood = 9;
 
- 
+void setup()
+{
+  pinMode(pin_rood, OUTPUT);
+}
+
+void loop()
+{
+  for (int i=0; i<256; ++i)
+  {
+    analogWrite(pin_rood, 255 - i);
+    delay(30);
+  }
+}
+```
+
+ * Wat doet deze code?
+ * Laat nu het rode LEDje aan en uitgaan
+ * Laat nu het rode LEDje, dan het groene, dan het blauwe aan en uitgaan
+
+## Regenboog
+
+Hier zie je hoe een regenboog werkt:
+
+![Regenboog](HSV-RGB-comparison.png) 
+
+ * Laat de RGB LED een regenboog nadoen
+
 
