@@ -10,7 +10,8 @@ Hiermee kun je stickers verdienen!
  * [Les 0: Broodplank](0_Breadboard/README.md)
  * [Les 1a: Blink](1a_Blink/README.md)
  * [Les 1b: Blink Blink Blink](1b_BlinkBlinkBlink/README.md)
- * [Les 1c: Meer Kleur, Fade met for](1c_MeerKleurFadeMetFor/README.md)
+ * [Les 1c: Meer Kleur, Fade Met For](1c_MeerKleurFadeMetFor/README.md)
+ * [Les 1d: For Nog Een Keer](1d_ForNogEenKeer/README.md) 
 
 ## Vervolglessen
 
