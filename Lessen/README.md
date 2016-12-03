@@ -12,6 +12,7 @@ Hiermee kun je stickers verdienen!
  * [Les 1b: Blink Blink Blink](1b_BlinkBlinkBlink/README.md)
  * [Les 1c: Meer Kleur, Fade Met For](1c_MeerKleurFadeMetFor/README.md)
  * [Les 1d: For Nog Een Keer](1d_ForNogEenKeer/README.md) 
+ * :star: [Les 1e: Zeven segmenten display](1e_zeven_segment_display/README.md)
  * [Les 2: Knop if else](2_Knop_if_else/README.md) 
 
 ## Vervolglessen
