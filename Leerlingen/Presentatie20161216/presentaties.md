@@ -1,7 +1,7 @@
 # Presentaties
 |Volgorde|Naam|Project|
 |:---:|---|---|
-|0|Maartje en Jorn|Kerstlichtjes|
+|0|Maartje en Jorn|Gehackte Kerstlichtjes|
 |1|Jort|Robotauto|
 |2|Noah|De Git van de Hub|
 |3|Floris|Blink Blink Blink|
