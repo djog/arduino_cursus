@@ -8,14 +8,14 @@ Waar: De Jonge Onderzoekers, Dirk Huizingastraat 13
 -------------------------------------------------------------------------
 18:30-19:00 Inloop
 19:00-19:30 Voorbereiding && inleiding
- * Leerlingen: @ houtlokaal om presentaties klaar te zetten
- * Ouders: @ kantine, waar Arduino cursus leraren vertellen 
-           wat de leerlingen hebben gedaan
+ * Deelnemers: @ houtlokaal om presentaties klaar te zetten
+ * Ouders: @ kantine, waar Arduino cursus begeleiders 
+           vertellen wat de deelnemers hebben gedaan
 19:30-20:30 Presentaties
 20:30-20:45 Pauze
 20:45-21:00 Evaluatie
- * Leerlingen: @ houtlokaal met Mr/Mrs X 
- * Ouders: @ kantine met leraren
+ * Deelnemers: @ houtlokaal met Mr/Mrs X 
+ * Ouders: @ kantine met begeleiders
 21:00 KLAAR!
 
 -------------------------------------------------------------------------
