@@ -21,10 +21,9 @@ Dag|Docent|Hoofdstuk|Lesplan
 2 dec|?|Les 5|Transistor en DC motor
 9 dec|Team|Voorbereiden eindpresentatie
 16 dec|Team|Eindpresentatie
-5 jan|?|Les 7|Relais
-12 jan|?|Les 8|Auto
-19 jan|?|Les 8|Auto
-
+6 jan|?|Les 7|Relais
+13 jan|?|Les 8|Auto
+20 jan|?|Les 8|Auto
 
 ## Uno's
 

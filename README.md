@@ -7,6 +7,12 @@
 
 Dit is de GitHub van de Nederlandse Arduino cursus gegeven bij De Jonge Onderzoekers te Groningen.
 
+![Kerstvakantie](Dingen/Kerstvakantie2016.png)
+
+ * 23 december: geen les
+ * 30 december: geen les
+ * 6 januari: wel les!
+
 ### Over de cursus
 
  * Wanneer: elke vrijdagavond, behalve in de kerstvakantie. Eerste les in 2016 is op 8 januari
