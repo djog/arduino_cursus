@@ -5,7 +5,7 @@ Arduino lessen die je zo kunt doen.
 ## Normale lessen
 
 Deze lessen doen we als groep aan de grote tafel.
-Hiermee kun je stickers verdienen!
+Hiermee kun je stickers verdienen! Lessen met een :star: zijn extra.
 
  * [Les 0: Broodplank](0_Breadboard/README.md)
  * [Les 1a: Blink](1a_Blink/README.md)
