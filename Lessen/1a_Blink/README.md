@@ -107,4 +107,6 @@ void loop()
 ## Vragen en opdrachten
 
  * Wat doet deze code ook alweer?
- * 
+ * Kun je het lampje tien keer zo snel laten knipperen? Proberen en kijken! Tip: het lampje gaat aan/uit na duizend milliseconden
+ * Kun je het lampje op z'n snelst laten knipperen? Proberen en kijken! Als je iets onverwachts ziet: klopt! Waarom is dat?
+ * Haal het draadje uit gat `13` en doe deze in `12`. Verander het programma zo dat het lampje weer knippert
