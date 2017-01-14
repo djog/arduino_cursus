@@ -68,9 +68,27 @@ else
 }
 ```
 
-## Eindopdracht
+## Opdracht
 
 Maak de code zo, dat:
 
  * als je op de knop drukt, dat het lampje aan gaat 
  * als je op de knop niet indrukt, dat het lampje uit gaat 
+
+## Opdracht
+
+Sluit een tweede LEDje aan. Maak de code zo, dat:
+
+ * als je op de knop drukt, dat het eerste lampje aan gaat en het tweede LEDje uit 
+ * als je op de knop niet indrukt, dat het eerste lampje uit gaat en het tweede LEDje uit
+
+## Eindopdracht
+
+Sluit een tweede knop aan. Maak de code zo, dat
+
+ * als je op de eerste knop drukt, dat het eerste lampje aan gaat
+ * als je de eerste knop niet indrukt, dat het eerste lampje uit gaat
+ * als je op de tweede knop drukt, dat het tweede lampje uit gaat
+ * als je de tweede knop niet indrukt, dat het tweede lampje aan gaat
+
+
