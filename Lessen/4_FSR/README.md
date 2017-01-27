@@ -236,10 +236,51 @@ void loop()
 }
 ```
 
+## Opdracht
+
+Je kunt een LEDje ook laten reageren op een FSR door deze te faden/dimmer
+
+ * 1. Met welk commando deed je dat ook alweer?
+ * 2. Kan dat met elke pin? Zo nee, met welke wel/niet?
+ * 3. Wat is de hoogste waarde waarmee je een LEDje kunt laten branden? 
+ * 4. Wat is de hoogste waarde die de FSR kan meten?
+ * 5. Stel je wil een LED laten branden afhankelijk van een FSR waarde. Hoe zou je dit kunnen doen?
+ * 6. Hoe laat je code een deling doen?
+ * 7. Laat de LED branden afhankelijk van de FSR waarde
+
+## Oplossingen
+
+ * 1. Een LEDje kun je laten faden met `analogWrite`, bijvoorbeeld `analogWrite(11, 255);`
+ * 2. Je kunt een LEDje alleen laten dimmen met PWM pinnen. Dit zijn de pinnen met een golfje
+   (`~`) naast hun getal. Op de Arduino Uno zijn dit de pinnen 3, 5, 6, 9, 10 en 11
+ * 3. Met `analogWrite` kun je maximaal 255 geven, bijvoorbeeld `analogWrite(11, 255);`
+ * 4. Met `analogRead` kun je maximaal 1023 meten
+ * 5. Je leest een waarde, deelt deze door vier (1024 gedeeld door 256 is vier) en laat de LED zo hard branden
+ * 6. Met de deelstreep, `/`. 
+ * 7. Zie hieronder. Vergeet niet een LEDje op pin 11 te zetten
+
+```
+void setup() 
+{
+  pinMode(A0, INPUT);
+  pinMode(11, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  analogWrite(11, analogRead(A0) / 4);
+  delay(100);
+}
+```
+
 ## Eindopdracht
 
- * Sluit drie LEDjes aan: een rode, gele en groene 
+ * Sluit vier LEDjes aan: een witte, een rode, een gele en een groene 
  * Als de FSR in rust is, moet er geen LEDje branden. 
  * Als je de FSR zacht indrukt gaat het groene LEDje branden
  * Als je de FSR harder indrukt gaan de groene en gele LEDjes branden
- * Als je de FSR hard indrukt gaan alle LEDjes branden
+ * Als je de FSR hard indrukt gaan de groene, gele en rode LEDjes branden
+ * Het witte LEDje gaat harder en zachter branden afhankelijk van de FSR
+
+Als je geen wit LEDje hebt, gebruik dan een andere kleur.
