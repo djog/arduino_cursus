@@ -16,7 +16,7 @@ Eerst sluiten we alleen een Arduino aan:
 
 Ik denk dat dit wel moet lukken :-)
 
-# Code: Seriele monitor
+# Code: seriele monitor
 
 ```
 void setup() 
@@ -33,7 +33,7 @@ void loop()
 
 Dit doet de code
  * In de `setup` functie gebeurt een ding:
-   * `Serial.begin(9600)`: de seriele monitor 'praat' met een snelheid van 9600 (bits per seconde)
+   * `Serial.begin(9600)`: de seriele monitor stuurt 9600 bits ('nullen en enen') per seconde
  * In de `loop` functie gebeuren twee dingen:
    * `Serial.println("Hallo")`: de tekst 'Hallo' wordt naar de seriele monitor gestuurd
    * `delay(1000)`: wacht duizend milliseconden
@@ -89,7 +89,7 @@ Dit doet de code
 
  * In de `setup` functie gebeuren twee dingen
    * `pinMode(A0, INPUT)`: de pin `A0` is een pin die leest, een input
-   * `Serial.begin(9600)`: de seriele monitor
+   * `Serial.begin(9600)`: de seriele monitor stuurt 9600 bits ('nullen en enen') per seconde
  * In de `loop` functie gebeuren twee dingen
    * `Serial.println(analogRead(A0))`: lees de pin `A0` uit en schrijf deze naar de seriele monitor
    * `delay(100)`: wacht honderd milliseconden
@@ -133,7 +133,6 @@ void setup()
 {
   pinMode(A0, INPUT);
   pinMode(13, OUTPUT);
-  Serial.begin(9600);
 }
 
 void loop()
@@ -152,17 +151,95 @@ void loop()
 
 Dit doet de code
 
- * In de `setup` functie gebeuren drie dingen
+ * In de `setup` functie gebeuren drie dingen:
    * `pinMode(A0, INPUT)`: de pin `A0` is een pin die leest, een input
-   * `Serial.begin(9600)`: de seriele monitor
- * In de `loop` functie gebeuren twee dingen
-   * `Serial.println(analogRead(A0))`: lees de pin `A0` uit en schrijf deze naar de seriele monitor
+   * `pinMode(13, OUTPUT)`: pin `13` is een pin waar stroom uitkomt, een output
+ * In de `loop` functie gebeuren twee dingen:
+   * Er zit een `if` statement in: als `analogRead(A0)` kleiner (`<`) is dan 512, wordt
+     er spanning op pin `13` gezet (`digitalWrite(13, HIGH)`). Anders, wordt de spanning
+     van pin `13` afgehaald (`digitalWrite(13, LOW)`)
    * `delay(100)`: wacht honderd milliseconden
-
 
 ## Opdracht
 
+ * Wat gebeurt er als je `512` hoger zet? Wat gebeurt er als je `512` lager zet?
+ * Zorg dat de seriele monitor ook `A0` meet en laat zien. Welk getal meet de FSR 
+   in rust?
+ * Zorg dat de seriele monitor het woord `AAN` laat zien als de LED aan gaat, en het
+   woord `UIT` als de LED uit wordt gezet
+
+## Oplossingen
+
+ * Als `512` wordt veranderd naar een te hoog getal, is het lampje altijd aan, hoe hard/zacht je ook drukt.
+   Als `512` wordt veranderd naar een te hoog getal, is het lampje altijd uit, hoe hard/zacht je ook drukt
+ * Hiervoor gebruik je de code van de vorige opdracht: voeg in de `setup` function toe `Serial.begin(9600);`,
+   in de `loop` functie voeg je `Serial.println(analogRead(A0));` toe. De waarde die je gaat zien is
+   afhankelijk van de weerstand, FSR en situatie
+ * Dit kan door `Serial.println("AAN");` in het eerste gedeelte van het `if` statement te zetten. 
+   Zet `Serial.println("UIT");` in het tweede gedeelte van het `if` statement. 
+
+```
+void setup() 
+{
+  pinMode(A0, INPUT);
+  pinMode(13, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  Serial.println(analogRead(A0));
+  if (analogRead(A0) < 512)
+  {
+    digitalWrite(13, HIGH);
+    Serial.println("AAN");
+  }
+  else
+  {
+    digitalWrite(13, LOW);
+    Serial.println("UIT");
+  }
+  delay(100);
+}
+```
+
+## Opdracht
+
+ * Sluit een extra LEDje aan. Als de FSR in rust is, moet er geen LEDje branden. Als je de FSR zacht indrukt,
+   gaat er een LEDje branden. Als je de FSR hard indrukt twee. Tip: gebruik twee `if` statements
+
+## Oplossing
+
+De getallen in de `if` statement moeten goed ingesteld worden.
+
+```
+void setup() 
+{
+  pinMode(A0, INPUT);
+  pinMode(12, OUTPUT);
+  pinMode(13, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  Serial.println(analogRead(A0));
+  if (analogRead(A0) < 256)
+  {
+    digitalWrite(13, HIGH);
+  }
+  if (analogRead(A0) < 512)
+  {
+    digitalWrite(12, HIGH);
+  }
+  delay(100);
+}
+```
+
 ## Eindopdracht
 
-TODO
-
+ * Sluit drie LEDjes aan: een rode, gele en groene 
+ * Als de FSR in rust is, moet er geen LEDje branden. 
+ * Als je de FSR zacht indrukt gaat het groene LEDje branden
+ * Als je de FSR harder indrukt gaan de groene en gele LEDjes branden
+ * Als je de FSR hard indrukt gaan alle LEDjes branden
