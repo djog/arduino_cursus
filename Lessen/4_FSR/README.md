@@ -38,19 +38,32 @@ Dit doet de code
    * `Serial.println("Hallo")`: de tekst 'Hallo' wordt naar de seriele monitor gestuurd
    * `delay(1000)`: wacht duizend milliseconden
 
-
-
 ## Opdrachten
 
- * Als je de knop indrukt, gaat de lamp dan uit of aan?
+![De seriele monitor zit hier](4_FSR_SerialMonitor.png)
 
+![De seriele monitor met getallen](4_FSR_SerialMonitorMetGetallen.png)
 
+ * 1. Upload het programma. In de Arduino IDE, klik rechtsboven op 'Seriele Monitor'. Wat zie je?
+ * 2. Kun je de tekst veranderen naar 'Hallo Richel' (of je eigen naam?)
+ * 3. Verander `Serial.println` naar `Serial.print`. Wat zie je?
+ * 4. Verander de tekst `Serial.begin(9600)` naar `Serial.begin(4800)`. Wat zie je? Waarom?
+
+## Oplossingen
+
+ * 1. De seriele monitor laat elke second een extra regel zien, met de tekst 'Hallo'
+ * 2. Verander de regel `Serial.println("Hallo");` naar `Serial.println("Hallo Richel");`
+ * 3. De woorden komen na elkaar, in plaats van onder elkaar
+ * 4. Nu laat de seriele monitor onleesbare tekst zien. Dit komt omdat de Arduino langzamer tekst
+      stuur naar je computer (4800), dan je computer de tekst leest (9600)
 
 # Aansluiten FSR zonder LED
 
 Eerst sluiten we alleen een FSR aan:
 
 ![Stroomschema](4_FSR.png)
+
+Tip: is er geen FSR, gebruik dan een LDR
 
 Let op, het weerstandje is tienduizend Ohm (bruin-zwart-oranje-goud).
 
@@ -76,20 +89,31 @@ Dit doet de code
  * In de `setup` functie gebeuren twee dingen
    * `pinMode(A0, INPUT)`: de pin `A0` is een pin die leest, een input
    * `Serial.begin(9600)`: de seriele monitor
+ * In de `loop` functie gebeuren twee dingen
+   * `Serial.println(analogRead(A0))`: lees de pin `A0` uit en schrijf deze naar de seriele monitor
+   * `delay(100)`: wacht honderd milliseconden
 
-Vragen:
- * Als je de knop indrukt, gaat de lamp dan uit of aan?
+## Opdrachten
+
+ * 1. Upload het programma. In de Arduino IDE, klik rechtsboven op 'Seriele Monitor'. Wat zie je?
+ * 2. Druk de FSR in met je vingers (of, met een LDR: houd je vinger boven de LDR) terwijl je de 
+      seriele monitor bekijkt. Wat zie je?
+ * 3. Verander `Serial.println` naar `Serial.print`. Wat zie je?
+ * 4. Verander de tekst `Serial.begin(9600)` naar `Serial.begin(4800)`. Wat zie je? Waarom?
+ * 5. Haal de draad naar `A0` weg. Ja, haal de draad tussen `A0` en de LDR weg. Kijk op de seriele monitor. Wat zie je?
 
 
+## Oplossingen
 
-## Opdracht
-
-
-## Opdracht
-
+ * 1. Je ziet een getal van nul tot 1024, afhankelijk van de waarde van de FSR
+ * 2. Je zit de getallen veranderen
+ * 3. Alle getallen komen na elkaar
+ * 4. Nu laat de seriele monitor onleesbare tekst zien. Dit komt omdat de Arduino langzamer tekst
+      stuur naar je computer (4800), dan je computer de tekst leest (9600)
+ * 5. Nu zie je het getal willekeurig veranderen. Dit wordt een zwevende input genoemd
 
 
 ## Eindopdracht
 
-
+TODO
 
