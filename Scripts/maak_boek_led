@@ -1,0 +1,43 @@
+#!/bin/bash
+
+# Concatenate all Markdown files first, convert those to one PDF
+
+my_script_path=`realpath $0`
+my_folder_path=`dirname $my_script_path`
+build_folder=$my_folder_path/build
+#echo $build_folder
+
+rm -rf build
+mkdir build
+
+if [ ! -d $build_folder ]; then 
+  echo "Error: failed to create build folder"
+  exit 1
+fi
+
+cd ..
+cd Lessen
+cd Voorwoord               ; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_00.md; cd ..
+cd 0_Breadboard            ; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_01.md; cd ..
+cd 1a_Blink                ; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_02.md; cd ..
+cd 1b_BlinkBlinkBlink      ; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_03.md; cd ..
+cd 1c_MeerKleurFadeMetFor  ; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_04.md; cd ..
+cd 1d_ForNogEenKeer        ; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_05.md; cd ..
+cd 1e_zeven_segment_display; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_06.md; cd ..
+
+cd $build_folder
+
+cat README_00.md >> README.md; echo " " >> README.md
+cat README_01.md >> README.md; echo " " >> README.md
+cat README_02.md >> README.md; echo " " >> README.md
+cat README_03.md >> README.md; echo " " >> README.md
+cat README_04.md >> README.md; echo " " >> README.md
+cat README_05.md >> README.md; echo " " >> README.md
+cat README_06.md >> README.md; echo " " >> README.md
+
+pandoc README.md -o boek.pdf
+cp boek.pdf ../../Boek/Boek_led_zonder_voorpagina.pdf
+
+cd ../../Boek
+pdfunite Boek_voorpagina.pdf Boek_led_zonder_voorpagina.pdf Boek_led.pdf
+rm Boek_led_zonder_voorpagina.pdf
