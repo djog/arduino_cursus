@@ -12,7 +12,7 @@ In deze les leer je:
 
 Eerst sluiten we alleen een Arduino aan:
 
-![](LDR_niks.png)
+![](10_LDR_niks.png)
 
 Ik denk dat dit wel moet lukken :-)
 
@@ -115,7 +115,7 @@ Dit doet de code
 
 Nu sluiten we ook een LED aan:
 
-![Stroomschema](LDR_met_LED.png)
+![Stroomschema](10_LDR_met_LED.png)
 
 Let op:
 
