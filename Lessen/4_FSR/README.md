@@ -31,7 +31,8 @@ void loop()
 }
 ```
 
-Dit doet de code
+Dit doet de code:
+
  * In de `setup` functie gebeurt een ding:
    * `Serial.begin(9600)`: de seriele monitor stuurt 9600 bits ('nullen en enen') per seconde
  * In de `loop` functie gebeuren twee dingen:
@@ -85,7 +86,7 @@ void loop()
 }
 ```
 
-Dit doet de code
+Dit doet de code:
 
  * In de `setup` functie gebeuren twee dingen
    * `pinMode(A0, INPUT)`: de pin `A0` is een pin die leest, een input
