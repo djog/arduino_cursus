@@ -20,7 +20,7 @@ Hiermee kun je stickers verdienen! Lessen met een :star: zijn extra.
 
 ### Sensor
 
-![oranje balk](Oranje.png)
+![gele balk](Geel.png)
 
  * [Les 2: Knop if else](2_Knop_if_else/README.md) 
  * [Les 4: FSR](4_FSR/README.md) 
@@ -28,7 +28,7 @@ Hiermee kun je stickers verdienen! Lessen met een :star: zijn extra.
 
 ### Actuator, laag vermogen
 
-![gele balk](Geel.png)
+![groene balk](Groen.png)
 
  * Les 3a: Servo motor
  * Les 4: FSR met servo
@@ -37,7 +37,7 @@ Hiermee kun je stickers verdienen! Lessen met een :star: zijn extra.
 
 ### Actuator, hoger vermogen
 
-![groene balk](Groen.png)
+![cyane balk](Cyaan.png)
 
  * Les 5: DC motor met transistor 
  * Les 7: Relais
@@ -45,7 +45,7 @@ Hiermee kun je stickers verdienen! Lessen met een :star: zijn extra.
 
 ## Vervolglessen
 
-![cyane balk](Cyaan.png)
+![blauwe balk](Blauw.png)
 
 Deze lessen kun je zelf doen. 
 
