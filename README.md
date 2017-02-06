@@ -32,6 +32,6 @@ Leermateriaal: we gebruiken het boek [Interactief Ontwerpen Met Arduino](https:/
 
 
  * Waar staan [de lessen](Lessen/README.md)? [Hier staan de lessen](Lessen/README.md)
- * Waar staan [het rooster](Rooster.md)? [Hier staan het rooster](Rooster.md). Eerste les gemist? Geen probleem, je bent altijd welkom!
+ * Waar staan [het rooster](Rooster.md)? [Hier staat het rooster](Rooster.md). Eerste les gemist? Geen probleem, je bent altijd welkom!
  * Waar staan [de veelgestelde vragen](Faq.md)? [Hier staan de veelgestelde vragen](Faq.md)
 
