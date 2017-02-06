@@ -1,174 +1,245 @@
-# Les 1b: Blink Blink Blink
+# 4. FSR
 
-Deze les heet 'Blink Blink Blink', omdat het [de les Blink](../1a_Blink/README.md) is, maar dan met drie lampjes.
-
-Weet je nog niet hoe je een lampje aansluit? Ga dan naar [les 1a: Blink](../1a_Blink/README.md).
+Met een FSR kun je kracht meten. FSR betekent 'Force Sensitive Resitor'.
+Dit is Engels voor 'kracht gevoelige weerstand'.
 
 In deze les leer je:
 
- * Hoe je meerdere LEDjes aansluit
- * Wat een variable is
- * Hoe je een variabele gebruikt
- * Wat een compile error is
- * Hoe je een programma aanpast 
+ * Wat de seriele monitor is
+ * Hoe je een FSR gebruikt
 
-## Waarom variabelen?
+# Alleen Arduino aansluiten
 
-Dit is de code van Blink:
+Eerst sluiten we alleen een Arduino aan:
+
+![](4_FSR_niks.png)
+
+Ik denk dat dit wel moet lukken :-)
+
+# Code: seriele monitor
 
 ```
 void setup() 
 {
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  Serial.println("Hallo");
+  delay(1000);
+}
+```
+
+Dit doet de code
+ * In de `setup` functie gebeurt een ding:
+   * `Serial.begin(9600)`: de seriele monitor stuurt 9600 bits ('nullen en enen') per seconde
+ * In de `loop` functie gebeuren twee dingen:
+   * `Serial.println("Hallo")`: de tekst 'Hallo' wordt naar de seriele monitor gestuurd
+   * `delay(1000)`: wacht duizend milliseconden
+
+## Opdrachten
+
+![De seriele monitor zit hier](4_FSR_SerialMonitor.png)
+
+![De seriele monitor met getallen](4_FSR_SerialMonitorMetGetallen.png)
+
+ * 1. Upload het programma. In de Arduino IDE, klik rechtsboven op 'Seriele Monitor'. Wat zie je?
+ * 2. Kun je de tekst veranderen naar 'Hallo Richel' (of je eigen naam?)
+ * 3. Verander `Serial.println` naar `Serial.print`. Wat zie je?
+ * 4. Verander de tekst `Serial.begin(9600)` naar `Serial.begin(4800)`. Wat zie je? Waarom?
+
+## Oplossingen
+
+ * 1. De seriele monitor laat elke second een extra regel zien, met de tekst 'Hallo'
+ * 2. Verander de regel `Serial.println("Hallo");` naar `Serial.println("Hallo Richel");`
+ * 3. De woorden komen na elkaar, in plaats van onder elkaar
+ * 4. Nu laat de seriele monitor onleesbare tekst zien. Dit komt omdat de Arduino langzamer tekst
+      stuur naar je computer (4800), dan je computer de tekst leest (9600)
+
+# Aansluiten FSR zonder LED
+
+Eerst sluiten we alleen een FSR aan:
+
+![Stroomschema](4_FSR.png)
+
+Tip: is er geen FSR, gebruik dan een LDR
+
+Let op, het weerstandje is tienduizend Ohm (bruin-zwart-oranje-goud).
+
+## Code: lezen FSR met seriele monitor
+
+Met deze code meten we de waarde van de FSR:
+
+```
+void setup() 
+{
+  pinMode(A0, INPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  Serial.println(analogRead(A0));
+  delay(100);
+}
+```
+
+Dit doet de code
+
+ * In de `setup` functie gebeuren twee dingen
+   * `pinMode(A0, INPUT)`: de pin `A0` is een pin die leest, een input
+   * `Serial.begin(9600)`: de seriele monitor stuurt 9600 bits ('nullen en enen') per seconde
+ * In de `loop` functie gebeuren twee dingen
+   * `Serial.println(analogRead(A0))`: lees de pin `A0` uit en schrijf deze naar de seriele monitor
+   * `delay(100)`: wacht honderd milliseconden
+
+## Opdrachten
+
+ * 1. Upload het programma. In de Arduino IDE, klik rechtsboven op 'Seriele Monitor'. Wat zie je?
+ * 2. Druk de FSR in met je vingers (of, met een LDR: houd je vinger boven de LDR) 
+      terwijl je de seriele monitor bekijkt. Wat zie je?
+ * 3. Verander `Serial.println` naar `Serial.print`. Wat zie je?
+ * 4. Verander de tekst `Serial.begin(9600)` naar `Serial.begin(4800)`. Wat zie je? Waarom?
+ * 5. Haal de draad naar `A0` weg. Ja, haal de draad tussen `A0` en de LDR weg. 
+      Kijk op de seriele monitor. Wat zie je?
+
+## Oplossingen
+
+ * 1. Je ziet een getal van nul tot 1024, afhankelijk van de waarde van de FSR
+ * 2. Je zit de getallen veranderen
+ * 3. Alle getallen komen na elkaar
+ * 4. Nu laat de seriele monitor onleesbare tekst zien. Dit komt omdat de Arduino langzamer tekst
+      stuur naar je computer (4800), dan je computer de tekst leest (9600)
+ * 5. Nu zie je het getal willekeurig veranderen. Dit wordt een zwevende input genoemd
+
+# Aansluiten FSR met LED
+
+Nu sluiten we ook een LED aan:
+
+![Stroomschema](4_FSR_met_LED.png)
+
+Let op:
+
+ * het weerstandje aan de LED is duizend Ohm (bruin-zwart-rood-goud).
+ * het weerstandje aan de FSR is tienduizend Ohm (bruin-zwart-oranje-goud).
+
+## Reageren op FSR
+
+Nu gaan we het LEDje laten reageren op de LED:
+
+```
+void setup() 
+{
+  pinMode(A0, INPUT);
   pinMode(13, OUTPUT);
 }
 
-void loop() 
+void loop()
 {
-  digitalWrite(13, HIGH);
-  delay(1000);
-  digitalWrite(13, LOW);
-  delay(1000);
+  if (analogRead(A0) < 512)
+  {
+    digitalWrite(13, HIGH);
+  }
+  else
+  {
+    digitalWrite(13, LOW);
+  }
+  delay(100);
 }
 ```
 
-## Vragen en opdrachten
+Dit doet de code
 
- * Wat doet deze code ook alweer?
+ * In de `setup` functie gebeuren drie dingen:
+   * `pinMode(A0, INPUT)`: de pin `A0` is een pin die leest, een input
+   * `pinMode(13, OUTPUT)`: pin `13` is een pin waar stroom uitkomt, een output
+ * In de `loop` functie gebeuren twee dingen:
+   * Er zit een `if` statement in: als `analogRead(A0)` kleiner (`<`) is dan 512, wordt
+     er spanning op pin `13` gezet (`digitalWrite(13, HIGH)`). Anders, wordt de spanning
+     van pin `13` afgehaald (`digitalWrite(13, LOW)`)
+   * `delay(100)`: wacht honderd milliseconden
 
-![Blink](Blink.png)
+## Opdracht
 
- * Sluit Blink aan (het plaatje hierboven). Upload deze code op je Arduino. Wat zie je gebeuren?
- * Als je het getal `13` ziet, waar denk je dan aan? 
- * Als je het getal `1000` ziet, waar denk je dan aan? 
- * Als je het LEDje op een andere pin wil zetten, op hoeveel plekken moet je de code aanpassen?
+ * Wat gebeurt er als je `512` hoger zet? Wat gebeurt er als je `512` lager zet?
+ * Zorg dat de seriele monitor ook `A0` meet en laat zien. Welk getal meet de FSR 
+   in rust?
+ * Zorg dat de seriele monitor het woord `AAN` laat zien als de LED aan gaat, en het
+   woord `UIT` als de LED uit wordt gezet
 
-## Een variabele
+## Oplossingen
 
-Hier zien we Blink met een variabele:
+ * Als `512` wordt veranderd naar een te hoog getal, is het lampje altijd aan, hoe hard/zacht je ook drukt.
+   Als `512` wordt veranderd naar een te hoog getal, is het lampje altijd uit, hoe hard/zacht je ook drukt
+ * Hiervoor gebruik je de code van de vorige opdracht: voeg in de `setup` function toe `Serial.begin(9600);`,
+   in de `loop` functie voeg je `Serial.println(analogRead(A0));` toe. De waarde die je gaat zien is
+   afhankelijk van de weerstand, FSR en situatie
+ * Dit kan door `Serial.println("AAN");` in het eerste gedeelte van het `if` statement te zetten. 
+   Zet `Serial.println("UIT");` in het tweede gedeelte van het `if` statement. 
 
 ```
-int pin_led = 13;
-
 void setup() 
 {
-  pinMode(pin_led, OUTPUT);
+  pinMode(A0, INPUT);
+  pinMode(13, OUTPUT);
+  Serial.begin(9600);
 }
 
-void loop() 
+void loop()
 {
-  digitalWrite(pin_led, HIGH);
-  delay(1000);
-  digitalWrite(pin_led, LOW);
-  delay(1000);
+  Serial.println(analogRead(A0));
+  if (analogRead(A0) < 512)
+  {
+    digitalWrite(13, HIGH);
+    Serial.println("AAN");
+  }
+  else
+  {
+    digitalWrite(13, LOW);
+    Serial.println("UIT");
+  }
+  delay(100);
 }
 ```
 
-In de eerste regel zeg je: 
-'Lieve Arduino, onthoud een int (dat is een heel getal). 
-Ik noem dat hele getal `pin_led`'.
-De waarde van `pin_led` is `13`'.
+## Opdracht
 
-Vanaf nu, als je schrijft `pin_led`, dan vult de Arduino daar `13` in.
+ * Sluit een extra LEDje aan. Als de FSR in rust is, moet er geen LEDje branden. Als je de FSR zacht indrukt,
+   gaat er een LEDje branden. Als je de FSR hard indrukt twee. Tip: gebruik twee `if` statements
 
-## Vragen en opdrachten
+## Oplossing
 
- * Upload deze code op je Arduino. Wat zie je gebeuren?
- * Verander de beginwaarde van `pin_led` naar `12`. Het lampje knippert nu niet meer. Pas de bedrading van de machine aan, zodat deze het weer doet
- * Vervang het getal `1000` door een nieuwe variable, `wacht_tijd`. Dit is een int (een heel getal) met de beginwaarde `1000`. 
- * Waarom gebruiken programmeurs variabelen?
-
-
-## Blink Blink Blink aansluiten
-
-Nu is het tijd 'Blink Blink Blink' aan te sluiten:
-
-![BlinkBlinkBlink](BlinkBlinkBlink.png)
-
- * Haal de USB snoer uit de computer, zodat de Arduino geen spanning meer heeft
- * Sluit de onderdelen aan zoals op de tekening
-
-## Code
-
-Hier staat een stukje code van 'Blink Blink Blink'. 
-Er zitten fouten in!
+De getallen in de `if` statement moeten goed ingesteld worden.
 
 ```
-int pin_rood = 11;
-int pin_groen = 10;
-
 void setup() 
 {
-  pinMode(pin_rood, OUTPUT);
-  pinMode(pin_groen, OUTPUT);
+  pinMode(A0, INPUT);
+  pinMode(12, OUTPUT);
+  pinMode(13, OUTPUT);
+  Serial.begin(9600);
 }
 
-void loop() 
+void loop()
 {
-  digitalWrite(pin_rood, HIGH);
-  digitalWrite(pin_gron, HIGH);
-  delay(1000);
-  digitalWrite(pin_roood, LOW);
-  digitalWrite(pin_groen, LOW);
-  delay(1000);
+  Serial.println(analogRead(A0));
+  if (analogRead(A0) < 256)
+  {
+    digitalWrite(13, HIGH);
+  }
+  if (analogRead(A0) < 512)
+  {
+    digitalWrite(12, HIGH);
+  }
+  delay(100);
 }
 ```
 
-## Vragen en opdrachten
+## Eindopdracht
 
- * Upload deze code naar de Arduino. Welke fouten krijg je?
-
-## Compile error
-
-In de code zijn een aantal variabele namen verkeerd geschreven. Dat kun je
-ook zien in de rode letters:
-
-![Compile errors](CompileError.png)
-
-Deze fout wordt een compile error ('kompaail error') genoemd. 
-'compile' is Engels voor 'samenbinden'.
-'error' is Engels voor 'fout'.
-De compiler ('kompaailer') is een programma dat programmeercode omzet naar machinetaal.
-De compiler leest erg precies.
-De compiler heeft ook altijd gelijk.
-
-Terug naar onze compile error:
-
-![Compile errors](CompileError.png)
-
-De compiler laat zien in welke regels de fout(en) zitten.
-In dit geval in regels 13 en 15.
-Je hoeft niet te tellen welke regels zit zijn:
-de Arduino IDE laat dit altijd zien:
-
-![De Arduino IDE geeft altijd de regel van je cursor aan](ArduinoIdeMetCursorAangegeven.png)
-
-Nu weten we *waar* de fout is, nu weten we nog niet *wat* de fout is.
-
-```
-'pin_gron' was not declared in this scope
-```
-
-Dit kan je vertalen naar:
-
-```
-Lieve programmeur, ik weet niet wat 'pin_gron' is
-```
-
-De compiler heeft gelijk: bovenaan de code hebben we het pinnummer
-van de groen led ook anders genoemd!
-
-## Vragen en opdrachten
-
- * Repareer de code
- * Laat de lampjes omstebeurt om de seconde knipperen, zonder dat beide lampjes uit staan
- * Laat de lampjes omstebeurt om de seconde knipperen, met steeds een second ertussen dat de lampjes uit staan
- * Maak een derde variabele, een heel getal met de naam `pin_blauw`. Laat nu de drie LEDjes knipperen:
-    * Alledrie tegelijk
-    * Om de beurt, waarbij er altijd een lampje brand
-    * Om de beurt en terug (volgorde: 1-2-3-2), waarbij er altijd een lampje brand. Dit wordt het Nightrider patroon genoemd
- * Tijd over? Sluit een vierde LED aan
-
-
-
-
-
+ * Sluit drie LEDjes aan: een rode, gele en groene 
+ * Als de FSR in rust is, moet er geen LEDje branden. 
+ * Als je de FSR zacht indrukt gaat het groene LEDje branden
+ * Als je de FSR harder indrukt gaan de groene en gele LEDjes branden
+ * Als je de FSR hard indrukt gaan alle LEDjes branden
