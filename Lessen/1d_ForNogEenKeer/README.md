@@ -33,7 +33,7 @@ Nu kun je de opdrachten gaan doen!
 
 ## Nadenken
 
-Denk na over de volgende stukje code
+Denk na over de volgende stukjes code.
 
 ### Opdracht 1
 
@@ -48,6 +48,23 @@ digitalWrite(6, HIGH);
 digitalWrite(7, HIGH);
 ```
 
+### Oplossing 1
+
+Er moet een getal gaan lopen van twee tot en met zeven. Of:
+van twee tot acht. Dit getal moet lopen van twee tot acht
+in stapjes van een. Laten we dit getal `i` noemen.
+
+Pin `i` moet `HIGH` gezet worden met `digitalWrite`.
+
+Dat gaat zo:
+
+```
+for (int i=2; i<8; ++i)
+{
+  digitalWrite(i, HIGH);
+}
+```
+
 ### Opdracht 2
 
 Maak deze code korter met een for-loop:
@@ -59,6 +76,23 @@ digitalWrite(4, LOW);
 digitalWrite(5, LOW);
 digitalWrite(6, LOW);
 digitalWrite(7, LOW);
+```
+
+### Oplossing 2
+
+Er moet een getal gaan lopen van twee tot en met zeven. Of:
+van twee tot acht. Dit getal moet lopen van twee tot acht
+in stapjes van een. Laten we dit getal `i` noemen.
+
+Pin `i` moet `LOW` gezet worden met `digitalWrite`.
+
+Dat gaat zo:
+
+```
+for (int i=2; i<8; ++i)
+{
+  digitalWrite(i, LOW);
+}
 ```
 
 ### Opdracht 3
@@ -80,6 +114,63 @@ digitalWrite(7, LOW);
 delay(100);
 ```
 
+### Oplossing 3
+
+Er moet een getal gaan lopen van twee tot en met zeven. Of:
+van twee tot acht. Dit getal moet lopen van twee tot acht
+in stapjes van een. Laten we dit getal `i` noemen.
+
+Pin `i` moet `LOW` gezet worden met `digitalWrite`. Daarna
+moet er altijd honderd milliseconden gewacht worden.
+
+Dat gaat zo:
+
+```
+for (int i=2; i<8; ++i)
+{
+  digitalWrite(i, LOW);
+  delay(100);
+}
+```
+
+## Omlaag tellen
+
+Meestal gaan `for` loops omhoog.
+Maar soms wil je dat deze *omlaag* telt.
+Dat kan op meer manieren.
+Wij gebruiken de manier waarbij een `for`
+loop omhoog blijft tellen. 
+De `for` loop telt omhoog, maar we gebruiken
+de `i` in een min som.
+
+Bijvoorbeeld deze code:
+
+```
+digitalWrite(3, HIGH);
+digitalWrite(2, HIGH);
+digitalWrite(1, HIGH);
+digitalWrite(0, HIGH);
+```
+
+Hiervan maken we:
+
+```
+for (int i=0; i<4; ++i)
+{
+  digitalWrite(3 - i, HIGH);
+}
+```
+
+We laten `i` lopen van nul tot vier in stapjes van een.
+De pin die we aan doen is `3 - i`. De uitkomsten zijn dan:
+
+ * `3 - 0 = 3`
+ * `3 - 1 = 2`
+ * `3 - 2 = 1`
+ * `3 - 3 = 0`
+
+En dat is precies wat we wilden!
+
 ### Opdracht 4
 
 Maak deze code korter met een for-loop:
@@ -97,6 +188,26 @@ digitalWrite(3, LOW);
 delay(100);
 digitalWrite(2, LOW);
 delay(100);
+```
+
+### Oplossing 3
+
+Er moet een getal gaan lopen van zeven tot en met twee. 
+Dit kunnen we doen door eerst `7 - 0`, dan `7 - 1`, dan `7 - 2` te doen.
+Het getal dat eraf moet loopt van nul tot zes, in stapjes van een. 
+Laten we dit getal `7 - i` noemen.
+
+Pin `i` moet `LOW` gezet worden met `digitalWrite`. Daarna
+moet er altijd honderd milliseconden gewacht worden.
+
+Dat gaat zo:
+
+```
+for (int i=0; i<6; ++i)
+{
+  digitalWrite(7 - i, LOW);
+  delay(100);
+}
 ```
 
 ### Opdracht 5
@@ -128,6 +239,23 @@ digitalWrite(3, LOW);
 delay(100);
 digitalWrite(2, LOW);
 delay(100);
+```
+
+### Oplossing 5
+
+Nu moeten er twee `for` loops na elkaar komen.
+
+```
+for (int i=2; i<8; ++i)
+{
+  digitalWrite(i, HIGH);
+  delay(100);
+}
+for (int i=0; i<6; ++i)
+{
+  digitalWrite(8-i, HIGH);
+  delay(100);
+}
 ```
 
 ## Programmeren
@@ -179,7 +307,7 @@ void loop()
 
 ## Eindopdracht
 
-Maak nu een op-en-neer-gaand patroon:
+Maak nu een op-en-neer-gaand patroon in de LEDjes:
 
  * `*`
  * `**`
