@@ -92,16 +92,22 @@ die aan zijn profielwerkstuk wilde werken.
 
 ![20151027 les speaker](20151027_3.jpg)
 
-## Les weerstanden
+## 2015: Les weerstanden
 
 ![Les weerstanden 1](2015TheorieWeerstanden1.jpg)
 ![Les weerstanden 2](2015TheorieWeerstanden2.jpg)
 ![Les weerstanden 3](2015TheorieWeerstanden3.jpg)
 ![Les weerstanden 4](2015TheorieWeerstanden4.jpg)
 
-## Logoek
+## 2015: Logoek
 
 Op de cursus krijgt elke leerling een logboek:
 
 ![Een logboek is handig op de cursus](Logboek.jpeg)
 
+
+## 8 augustus 2014
+
+In het begin zaten we nog boven:
+
+![20140808_1](20140808_1.jpg)
