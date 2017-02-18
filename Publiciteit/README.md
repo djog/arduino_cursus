@@ -111,3 +111,4 @@ Op de cursus krijgt elke leerling een logboek:
 In het begin zaten we nog boven:
 
 ![20140808_1](20140808_1.jpg)
+![20140808_2](20140808_2.jpg)
