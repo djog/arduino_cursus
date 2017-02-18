@@ -99,6 +99,12 @@ die aan zijn profielwerkstuk wilde werken.
 ![Les weerstanden 3](2015TheorieWeerstanden3.jpg)
 ![Les weerstanden 4](2015TheorieWeerstanden4.jpg)
 
+## 3 november 2014: Workshop
+
+Vroeger gingen de leerlingen nog niet mee om Arduino uit te leggen.
+
+![Workshop](20141103.jpg)
+
 ## 8 augustus 2014
 
 In het begin zaten we nog boven:
