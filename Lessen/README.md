@@ -42,6 +42,7 @@ Hiermee kun je stickers verdienen! Lessen met een :star: zijn extra.
  * Les 3b: Meer servo motoren
  * Les 6: Muziek tone
  * :star: [Piano](Piano/README.md)
+ * :star: [Servo besturen met seriele monitor](ServoSerial/README.md)
 
 ### Actuator, hoger vermogen
 

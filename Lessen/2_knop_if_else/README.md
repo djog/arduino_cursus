@@ -6,6 +6,7 @@
 ![Stroomschema](2_knop_if_else.png)
 
 Let op, er zijn twee verschillende weerstanden:
+
  * Duizend Ohm, bruin-zwart-rood-goud
  * Tienduizend Ohm, bruin-zwart-oranje-goud
 
