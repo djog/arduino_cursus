@@ -1,7 +1,7 @@
 # 2. Knop if ... else
 
 
-# Aansluiten
+## Aansluiten
 
 ![Stroomschema](2_knop_if_else.png)
 
@@ -15,7 +15,7 @@ Let op, er zijn twee verschillende weerstanden:
 Hier is code om het lampje aan te laten gaan,
 als de knop wordt ingedrukt:
 
-```
+```c++
 void setup() 
 {
   pinMode(13, OUTPUT);
@@ -29,6 +29,7 @@ void loop()
 ```
 
 Merk op:
+
  * Pin `2` is een pin waar electriciteit in gaat. 
    Dat moet je in de `setup` functie zeggen
  * Met `digitalRead(2)` lees je pin `2` uit. Hier komt
@@ -53,7 +54,7 @@ er iets gebeurt, doe dan iets'. Dit doe je met een
 Hieronder staat code, dat als er spanning staat op pin 2,
 pin 11 spanning krijgt:
 
-```
+```c++
 if (digitalRead(2) == HIGH)
 {
   digitalWrite(11, HIGH);
@@ -65,7 +66,7 @@ Je kunt ook zeggen wat de Arduino *anders* moet doen.
 Hieronder staat code, dat als er spanning staat op pin 2,
 pin 11 spanning krijgt, en dat *anders* pin 12 spanning krijgt:
 
-```
+```c++
 if (digitalRead(2) == HIGH)
 {
   digitalWrite(11, HIGH);
@@ -86,7 +87,7 @@ Maak de code zo, dat:
 
 ## Oplossing
 
-```
+```c++
 void setup() 
 {
   pinMode(13, OUTPUT);
@@ -122,7 +123,7 @@ Figuur `Oplossing van 'Knop met twee LEDjes'` laat zien hoe je dit aan moet slui
 
 Dit is de code:
 
-```
+```c++
 void setup() 
 {
   pinMode(13, OUTPUT);

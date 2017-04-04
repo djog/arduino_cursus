@@ -44,7 +44,7 @@ Als het goed is, zie je de Arduino IDE:
 
 Dit is (een versie van) de code van `Blink`:
 
-```
+```c++
 void setup() 
 {
   pinMode(13, OUTPUT);
@@ -89,7 +89,7 @@ Nu is het tijd Blink aan te sluiten:
 
 Hier staat weer de code van Blink:
 
-```
+```c++
 void setup() 
 {
   pinMode(13, OUTPUT);

@@ -16,7 +16,7 @@ In deze les leer je:
 
 Dit is de code van Blink:
 
-```
+```c++
 void setup() 
 {
   pinMode(13, OUTPUT);
@@ -46,7 +46,7 @@ void loop()
 
 Hier zien we Blink met een variabele:
 
-```
+```c++
 int pin_led = 13;
 
 void setup() 
@@ -92,7 +92,7 @@ Nu is het tijd 'Blink Blink Blink' aan te sluiten:
 Hier staat een stukje code van 'Blink Blink Blink'. 
 Er zitten fouten in!
 
-```
+```c++
 int pin_rood = 11;
 int pin_groen = 10;
 
@@ -144,7 +144,7 @@ de Arduino IDE laat dit altijd zien:
 
 Nu weten we *waar* de fout is, nu weten we nog niet *wat* de fout is.
 
-```
+```c++
 'pin_gron' was not declared in this scope
 ```
 

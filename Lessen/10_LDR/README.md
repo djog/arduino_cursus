@@ -8,7 +8,7 @@ In deze les leer je:
  * Wat de seriele monitor is
  * Hoe je een LDR gebruikt
 
-# Alleen Arduino aansluiten
+## Alleen Arduino aansluiten
 
 Eerst sluiten we alleen een Arduino aan:
 
@@ -16,9 +16,9 @@ Eerst sluiten we alleen een Arduino aan:
 
 Ik denk dat dit wel moet lukken :-)
 
-# Code: seriele monitor
+## Code: seriele monitor
 
-```
+```c++
 void setup() 
 {
   Serial.begin(9600);
@@ -39,7 +39,7 @@ Dit doet de code
    * `Serial.println("Hallo")`: de tekst 'Hallo' wordt naar de seriele monitor gestuurd
    * `delay(1000)`: wacht duizend milliseconden
 
-## Opdrachten
+### Opdrachten
 
 ![De seriele monitor zit hier](10_LDR_SerialMonitor.png)
 
@@ -50,7 +50,7 @@ Dit doet de code
  3. Verander `Serial.println` naar `Serial.print`. Wat zie je?
  4. Verander de tekst `Serial.begin(9600)` naar `Serial.begin(4800)`. Wat zie je? Waarom?
 
-## Oplossingen
+### Oplossingen
 
  1. De seriele monitor laat elke second een extra regel zien, met de tekst 'Hallo'
  2. Verander de regel `Serial.println("Hallo");` naar `Serial.println("Hallo Richel");`
@@ -58,7 +58,7 @@ Dit doet de code
  4. Nu laat de seriele monitor onleesbare tekst zien. Dit komt omdat de Arduino langzamer tekst
       stuur naar je computer (4800), dan je computer de tekst leest (9600)
 
-# Aansluiten LDR zonder LED
+## Aansluiten LDR zonder LED
 
 Eerst sluiten we alleen een LDR aan:
 
@@ -66,11 +66,11 @@ Eerst sluiten we alleen een LDR aan:
 
 Let op, het weerstandje is tienduizend Ohm (bruin-zwart-oranje-goud).
 
-## Code: lezen FSR met seriele monitor
+### Code: lezen FSR met seriele monitor
 
 Met deze code meten we de waarde van de LDR:
 
-```
+```c++
 void setup() 
 {
   pinMode(A0, INPUT);
@@ -93,7 +93,7 @@ Dit doet de code
    * `Serial.println(analogRead(A0))`: lees de pin `A0` uit en schrijf deze naar de seriele monitor
    * `delay(100)`: wacht honderd milliseconden
 
-## Opdrachten
+### Opdrachten
 
  1. Upload het programma. In de Arduino IDE, klik rechtsboven op 'Seriele Monitor'. Wat zie je?
  2. Houd je vinger boven de LDR terwijl je de seriele monitor bekijkt. Wat zie je?
@@ -102,7 +102,7 @@ Dit doet de code
  5. Haal de draad naar `A0` weg. Ja, haal de draad tussen `A0` en de LDR weg. 
       Kijk op de seriele monitor. Wat zie je?
 
-## Oplossingen
+### Oplossingen
 
  1. Je ziet een getal van nul tot 1024, afhankelijk van de waarde van de LDR
  2. Je zit de getallen veranderen
@@ -111,7 +111,7 @@ Dit doet de code
     stuur naar je computer (4800), dan je computer de tekst leest (9600)
  5. Nu zie je het getal willekeurig veranderen. Dit wordt een zwevende input genoemd
 
-# Aansluiten LDR met LED
+## Aansluiten LDR met LED
 
 Nu sluiten we ook een LED aan:
 
@@ -122,11 +122,11 @@ Let op:
  * het weerstandje aan de LED is duizend Ohm (bruin-zwart-rood-goud).
  * het weerstandje aan de LDR is tienduizend Ohm (bruin-zwart-oranje-goud).
 
-## Reageren op LDR
+### Reageren op LDR
 
 Nu gaan we het LEDje laten reageren op de LDR:
 
-```
+```c++
 void setup() 
 {
   pinMode(A0, INPUT);
@@ -158,7 +158,7 @@ Dit doet de code
      van pin `13` afgehaald (`digitalWrite(13, LOW)`)
    * `delay(100)`: wacht honderd milliseconden
 
-## Opdracht
+### Opdracht
 
  * Wat gebeurt er als je `512` hoger zet? Wat gebeurt er als je `512` lager zet?
  * Zorg dat de seriele monitor ook `A0` meet en laat zien. Welk getal meet de FSR 
@@ -166,7 +166,7 @@ Dit doet de code
  * Zorg dat de seriele monitor het woord `AAN` laat zien als de LED aan gaat, en het
    woord `UIT` als de LED uit wordt gezet
 
-## Oplossingen
+### Oplossingen
 
  * Als `512` wordt veranderd naar een te hoog getal, is het lampje altijd aan, hoe hard/zacht je ook drukt.
    Als `512` wordt veranderd naar een te hoog getal, is het lampje altijd uit, hoe hard/zacht je ook drukt
@@ -176,7 +176,7 @@ Dit doet de code
  * Dit kan door `Serial.println("AAN");` in het eerste gedeelte van het `if` statement te zetten. 
    Zet `Serial.println("UIT");` in het tweede gedeelte van het `if` statement. 
 
-```
+```c++
 void setup() 
 {
   pinMode(A0, INPUT);
@@ -201,17 +201,17 @@ void loop()
 }
 ```
 
-## Opdracht
+### Opdracht
 
  * Sluit een extra LEDje aan. Als de LDR in normaal licht is, moet er geen LEDje branden. 
    Als je de LDR een beetje donkerder maakt met je hand, gaat er een LEDje branden. 
    Als je de LDR helemaal donker maakt twee. Tip: gebruik twee `if` statements
 
-## Oplossing
+### Oplossing
 
 De getallen in de `if` statement moeten goed ingesteld worden.
 
-```
+```c++
 void setup() 
 {
   pinMode(A0, INPUT);

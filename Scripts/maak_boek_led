@@ -35,7 +35,7 @@ cat README_04.md >> README.md; echo " " >> README.md
 cat README_05.md >> README.md; echo " " >> README.md
 cat README_06.md >> README.md; echo " " >> README.md
 
-pandoc README.md -o boek.pdf
+pandoc README.md -o boek.pdf --toc --toc-depth=1 --highlight-style=tango
 cp boek.pdf ../../Boek/Boek_led_zonder_voorpagina.pdf
 
 cd ../../Boek
