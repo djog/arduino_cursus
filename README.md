@@ -30,8 +30,10 @@ Einde les | 20:00 | 21:00 | 22:00
 
 Leermateriaal: we gebruiken het boek [Interactief Ontwerpen Met Arduino](https://sites.google.com/site/hwcontwerpen/interactief-ontwerpen-met-arduino) ([PDF](Boeken/interactief ontwerpen met arduino.pdf)) (we hebben een aantal boekjes gedrukt om te gebruiken) en ons eigen materiaal op deze GitHub.
 
-
  * Waar staan [de lessen](Lessen/README.md)? [Hier staan de lessen](Lessen/README.md)
  * Waar staan [het rooster](Rooster.md)? [Hier staat het rooster](Rooster.md). Eerste les gemist? Geen probleem, je bent altijd welkom!
  * Waar staan [de veelgestelde vragen](Faq.md)? [Hier staan de veelgestelde vragen](Faq.md)
 
+## Eindpresentatie
+
+ * Vrijdag 21 juli
