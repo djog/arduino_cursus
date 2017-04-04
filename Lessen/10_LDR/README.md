@@ -104,12 +104,12 @@ Dit doet de code
 
 ## Oplossingen
 
- * 1. Je ziet een getal van nul tot 1024, afhankelijk van de waarde van de LDR
- * 2. Je zit de getallen veranderen
- * 3. Alle getallen komen na elkaar
- * 4. Nu laat de seriele monitor onleesbare tekst zien. Dit komt omdat de Arduino langzamer tekst
-      stuur naar je computer (4800), dan je computer de tekst leest (9600)
- * 5. Nu zie je het getal willekeurig veranderen. Dit wordt een zwevende input genoemd
+ 1. Je ziet een getal van nul tot 1024, afhankelijk van de waarde van de LDR
+ 2. Je zit de getallen veranderen
+ 3. Alle getallen komen na elkaar
+ 4. Nu laat de seriele monitor onleesbare tekst zien. Dit komt omdat de Arduino langzamer tekst
+    stuur naar je computer (4800), dan je computer de tekst leest (9600)
+ 5. Nu zie je het getal willekeurig veranderen. Dit wordt een zwevende input genoemd
 
 # Aansluiten LDR met LED
 
