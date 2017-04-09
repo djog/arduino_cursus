@@ -43,5 +43,5 @@ pandoc README.md -o boek.pdf --toc --toc-depth=1 --highlight-style=tango
 cp boek.pdf ../../Boek/Boek_sensor_zonder_voorpagina.pdf
 
 cd ../../Boek
-pdfunite Boek_voorpagina.pdf Boek_sensor_zonder_voorpagina.pdf Boek_sensor.pdf
+pdfunite VoorpaginaSensor.pdf Boek_sensor_zonder_voorpagina.pdf Boek_sensor.pdf
 rm Boek_sensor_zonder_voorpagina.pdf

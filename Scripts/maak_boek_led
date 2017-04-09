@@ -39,5 +39,5 @@ pandoc README.md -o boek.pdf --toc --toc-depth=1 --highlight-style=tango
 cp boek.pdf ../../Boek/Boek_led_zonder_voorpagina.pdf
 
 cd ../../Boek
-pdfunite Boek_voorpagina.pdf Boek_led_zonder_voorpagina.pdf Boek_led.pdf
+pdfunite VoorpaginaLed.pdf Boek_led_zonder_voorpagina.pdf Boek_led.pdf
 rm Boek_led_zonder_voorpagina.pdf
