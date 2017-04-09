@@ -1,112 +1,293 @@
-# Les 1a: Blink
+# 4. FSR
 
-In deze les gaan we de allergemakkelijkste schakeling maken die er is: Blink!
+Met een FSR kun je kracht meten. FSR betekent 'Force Sensitive Resitor'.
+Dit is Engels voor 'kracht gevoelige weerstand'.
 
 In deze les leer je:
 
- * Hoe je een LEDje aansluit
- * Je eerste Arduino programmeercode
- * Hoe je een LEDje laat knipperen
+ * Wat de seriele monitor is
+ * Hoe je een FSR gebruikt
 
-## Een Arduino aansluiten
+## Seriele monitor
 
-Sluit een Arduino zo aan:
+Met de seriele monitor kunnen we de Arduino laten praten.
+Of precies: dat deze tekst naar de seriele monitor stuurt.
+De seriele monitor laat deze tekst op je computer zien.
 
-![Blink zonder led](BlinkZonderLed.png)
+### Alleen Arduino aansluiten
 
-Huh? Er hoeft helemaal niks aangesloten te worden? 
+Eerst sluiten we alleen een Arduino aan:
 
-Dat klopt! De Arduino heeft namelijk zelf al een lampje.
+![](4_FSR_niks.png)
 
-Je zult wel een USB kabel in de Arduino en in een laptop moeten doen
+Ik denk dat dit wel moet lukken :-)
 
-## De Arduino IDE opstarten
-
-Om een Arduino te programmeren hebben we een programma nodig.
-Dit programma noemen we 'de Arduino IDE' (IDE spreek je uit
-als 'ie-dee-ee')
-
-De Arduino IDE staat op alle laptops van de cursus.
-Hier zie je het logo van de Arduino IDE:
-
-![Logo van de Arduino IDE](ArduinoIdeLogo.png)
-
-Je kunt de Arduino IDE ook starten, door:
-
- * Druk op de Windows toets (linksonder, tussen `Ctrl` en `Alt`)
- * Type `arduino` (kleine letters) en dan Enter
-
-Als het goed is, zie je de Arduino IDE:
-
-![De Arduino IDE](ArduinoIde.png)
-
-## Ons eerste programma
-
-Dit is (een versie van) de code van `Blink`:
+### Code: seriele monitor
 
 ```c++
 void setup() 
 {
-  pinMode(13, OUTPUT);
+  Serial.begin(9600);
 }
 
-void loop() 
+void loop()
 {
-  digitalWrite(13, HIGH);
-  delay(1000);
-  digitalWrite(13, LOW);
+  Serial.println("Hallo");
   delay(1000);
 }
 ```
 
-Wat de code precies doet, dat leer je later.
+Dit doet de code:
 
-Om code te kopieeren gebruik je sneltoetsen:
+ * In de `setup` functie gebeurt een ding:
+   * `Serial.begin(9600)`: de seriele monitor stuurt 9600 bits ('nullen en enen') per seconde
+ * In de `loop` functie gebeuren twee dingen:
+   * `Serial.println("Hallo")`: de tekst 'Hallo' wordt naar de seriele monitor gestuurd
+   * `delay(1000)`: wacht duizend milliseconden
 
- * `SHIFT + pijltjes`: selecteren
- * `CTRL + A`: alles selecteren
- * `CTRL + C`: kopieren van selectie
- * `CTRL + X`: knippen van selectie
- * `CTRL + V`: plakken van selectie
+### Opdrachten
 
- * Kopieer de code naar de Arduino IDE
- * Klip op `Upload`
+![De seriele monitor zit hier](4_FSR_SerialMonitor.png)
 
-Als het goed is, gaat er een lampje op de Arduino om de seconde aan en uit.
+![De seriele monitor met getallen](4_FSR_SerialMonitorMetGetallen.png)
 
-## Blink
+ * 1. Upload het programma. In de Arduino IDE, klik rechtsboven op 'Seriele Monitor'. Wat zie je?
+ * 2. Kun je de tekst veranderen naar 'Hallo Richel' (of je eigen naam?)
+ * 3. Verander `Serial.println` naar `Serial.print`. Wat zie je?
+ * 4. Verander de tekst `Serial.begin(9600)` naar `Serial.begin(4800)`. Wat zie je? Waarom?
 
-Nu is het tijd Blink aan te sluiten:
+### Oplossingen
 
-![Blink](Blink.png)
+ * 1. De seriele monitor laat elke second een extra regel zien, met de tekst 'Hallo'
+ * 2. Verander de regel `Serial.println("Hallo");` naar `Serial.println("Hallo Richel");`
+ * 3. De woorden komen na elkaar, in plaats van onder elkaar
+ * 4. Nu laat de seriele monitor onleesbare tekst zien. Dit komt omdat de Arduino langzamer tekst
+      stuur naar je computer (4800), dan je computer de tekst leest (9600)
 
- * Haal de USB snoer uit de computer, zodat de Arduino geen spanning meer heeft
- * Sluit Blink aan zoals op de tekening
- * Zet de spanning weer op de Arduino
- * Als het goed is, knippert het rode LEDje nu mee met het LEDje op de Arduino. Zo nee, draai de rode LED om :smile:
+## Aansluiten FSR zonder LED
 
-## Code
+Eerst sluiten we alleen een FSR aan:
 
-Hier staat weer de code van Blink:
+![Stroomschema](4_FSR.png)
+
+Tip: is er geen FSR, gebruik dan een LDR
+
+Let op, het weerstandje is tienduizend Ohm (bruin-zwart-oranje-goud).
+
+## Code: lezen FSR met seriele monitor
+
+Met deze code meten we de waarde van de FSR:
 
 ```c++
 void setup() 
 {
-  pinMode(13, OUTPUT);
+  pinMode(A0, INPUT);
+  Serial.begin(9600);
 }
 
-void loop() 
+void loop()
 {
-  digitalWrite(13, HIGH);
-  delay(1000);
-  digitalWrite(13, LOW);
-  delay(1000);
+  Serial.println(analogRead(A0));
+  delay(100);
 }
 ```
 
-## Vragen en opdrachten
+Dit doet de code:
 
- * Wat doet deze code ook alweer?
- * Kun je het lampje tien keer zo snel laten knipperen? Proberen en kijken! Tip: het lampje gaat aan/uit na duizend milliseconden
- * Kun je het lampje op z'n snelst laten knipperen? Proberen en kijken! Als je iets onverwachts ziet: klopt! Waarom is dat?
- * Haal het draadje uit gat `13` en doe deze in `12`. Verander het programma zo dat het lampje weer knippert
+ * In de `setup` functie gebeuren twee dingen
+   * `pinMode(A0, INPUT)`: de pin `A0` is een pin die leest, een input
+   * `Serial.begin(9600)`: de seriele monitor stuurt 9600 bits ('nullen en enen') per seconde
+ * In de `loop` functie gebeuren twee dingen
+   * `Serial.println(analogRead(A0))`: lees de pin `A0` uit en schrijf deze naar de seriele monitor
+   * `delay(100)`: wacht honderd milliseconden
+
+## Opdrachten
+
+ * 1. Upload het programma. In de Arduino IDE, klik rechtsboven op 'Seriele Monitor'. Wat zie je?
+ * 2. Druk de FSR in met je vingers (of, met een LDR: houd je vinger boven de LDR) 
+      terwijl je de seriele monitor bekijkt. Wat zie je?
+ * 3. Verander `Serial.println` naar `Serial.print`. Wat zie je?
+ * 4. Verander de tekst `Serial.begin(9600)` naar `Serial.begin(4800)`. Wat zie je? Waarom?
+ * 5. Haal de draad naar `A0` weg. Ja, haal de draad tussen `A0` en de LDR weg. 
+      Kijk op de seriele monitor. Wat zie je?
+
+## Oplossingen
+
+ * 1. Je ziet een getal van nul tot 1024, afhankelijk van de waarde van de FSR
+ * 2. Je zit de getallen veranderen
+ * 3. Alle getallen komen na elkaar
+ * 4. Nu laat de seriele monitor onleesbare tekst zien. Dit komt omdat de Arduino langzamer tekst
+      stuur naar je computer (4800), dan je computer de tekst leest (9600)
+ * 5. Nu zie je het getal willekeurig veranderen. Dit wordt een zwevende input genoemd
+
+## Aansluiten FSR met LED
+
+Nu sluiten we ook een LED aan:
+
+![Stroomschema](4_FSR_met_LED.png)
+
+Let op:
+
+ * het weerstandje aan de LED is duizend Ohm (bruin-zwart-rood-goud).
+ * het weerstandje aan de FSR is tienduizend Ohm (bruin-zwart-oranje-goud).
+
+### Reageren op FSR
+
+Nu gaan we het LEDje laten reageren op de LED:
+
+```c++
+void setup() 
+{
+  pinMode(A0, INPUT);
+  pinMode(13, OUTPUT);
+}
+
+void loop()
+{
+  if (analogRead(A0) < 512)
+  {
+    digitalWrite(13, HIGH);
+  }
+  else
+  {
+    digitalWrite(13, LOW);
+  }
+  delay(100);
+}
+```
+
+Dit doet de code
+
+ * In de `setup` functie gebeuren drie dingen:
+   * `pinMode(A0, INPUT)`: de pin `A0` is een pin die leest, een input
+   * `pinMode(13, OUTPUT)`: pin `13` is een pin waar stroom uitkomt, een output
+ * In de `loop` functie gebeuren twee dingen:
+   * Er zit een `if` statement in: als `analogRead(A0)` kleiner (`<`) is dan 512, wordt
+     er spanning op pin `13` gezet (`digitalWrite(13, HIGH)`). Anders, wordt de spanning
+     van pin `13` afgehaald (`digitalWrite(13, LOW)`)
+   * `delay(100)`: wacht honderd milliseconden
+
+### Opdracht
+
+ * Wat gebeurt er als je `512` hoger zet? Wat gebeurt er als je `512` lager zet?
+ * Zorg dat de seriele monitor ook `A0` meet en laat zien. Welk getal meet de FSR 
+   in rust?
+ * Zorg dat de seriele monitor het woord `AAN` laat zien als de LED aan gaat, en het
+   woord `UIT` als de LED uit wordt gezet
+
+### Oplossingen
+
+ * Als `512` wordt veranderd naar een te hoog getal, is het lampje altijd aan, hoe hard/zacht je ook drukt.
+   Als `512` wordt veranderd naar een te hoog getal, is het lampje altijd uit, hoe hard/zacht je ook drukt
+ * Hiervoor gebruik je de code van de vorige opdracht: voeg in de `setup` function toe `Serial.begin(9600);`,
+   in de `loop` functie voeg je `Serial.println(analogRead(A0));` toe. De waarde die je gaat zien is
+   afhankelijk van de weerstand, FSR en situatie
+ * Dit kan door `Serial.println("AAN");` in het eerste gedeelte van het `if` statement te zetten. 
+   Zet `Serial.println("UIT");` in het tweede gedeelte van het `if` statement. 
+
+```c++
+void setup() 
+{
+  pinMode(A0, INPUT);
+  pinMode(13, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  Serial.println(analogRead(A0));
+  if (analogRead(A0) < 512)
+  {
+    digitalWrite(13, HIGH);
+    Serial.println("AAN");
+  }
+  else
+  {
+    digitalWrite(13, LOW);
+    Serial.println("UIT");
+  }
+  delay(100);
+}
+```
+
+### Opdracht
+
+ * Sluit een extra LEDje aan. Als de FSR in rust is, moet er geen LEDje branden. Als je de FSR zacht indrukt,
+   gaat er een LEDje branden. Als je de FSR hard indrukt twee. Tip: gebruik twee `if` statements
+
+### Oplossing
+
+De getallen in de `if` statement moeten goed ingesteld worden.
+
+```c++
+void setup() 
+{
+  pinMode(A0, INPUT);
+  pinMode(12, OUTPUT);
+  pinMode(13, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  Serial.println(analogRead(A0));
+  if (analogRead(A0) < 256)
+  {
+    digitalWrite(13, HIGH);
+  }
+  if (analogRead(A0) < 512)
+  {
+    digitalWrite(12, HIGH);
+  }
+  delay(100);
+}
+```
+
+### Opdracht
+
+Je kunt een LEDje ook laten reageren op een FSR door deze te faden/dimmer
+
+ * 1. Met welk commando deed je dat ook alweer?
+ * 2. Kan dat met elke pin? Zo nee, met welke wel/niet?
+ * 3. Wat is de hoogste waarde waarmee je een LEDje kunt laten branden? 
+ * 4. Wat is de hoogste waarde die de FSR kan meten?
+ * 5. Stel je wil een LED laten branden afhankelijk van een FSR waarde. Hoe zou je dit kunnen doen?
+ * 6. Hoe laat je code een deling doen?
+ * 7. Laat de LED branden afhankelijk van de FSR waarde
+
+### Oplossingen
+
+ * 1. Een LEDje kun je laten faden met `analogWrite`, bijvoorbeeld `analogWrite(11, 255);`
+ * 2. Je kunt een LEDje alleen laten dimmen met PWM pinnen. Dit zijn de pinnen met een golfje
+   (`~`) naast hun getal. Op de Arduino Uno zijn dit de pinnen 3, 5, 6, 9, 10 en 11
+ * 3. Met `analogWrite` kun je maximaal 255 geven, bijvoorbeeld `analogWrite(11, 255);`
+ * 4. Met `analogRead` kun je maximaal 1023 meten
+ * 5. Je leest een waarde, deelt deze door vier (1024 gedeeld door 256 is vier) en laat de LED zo hard branden
+ * 6. Met de deelstreep, `/`. 
+ * 7. Zie hieronder. Vergeet niet een LEDje op pin 11 te zetten
+
+```c++
+void setup() 
+{
+  pinMode(A0, INPUT);
+  pinMode(11, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  analogWrite(11, analogRead(A0) / 4);
+  delay(100);
+}
+```
+
+## Eindopdracht
+
+ * Sluit vier LEDjes aan: een witte, een rode, een gele en een groene 
+ * Als de FSR in rust is, moet er geen LEDje branden. 
+ * Als je de FSR zacht indrukt gaat het groene LEDje branden
+ * Als je de FSR harder indrukt gaan de groene en gele LEDjes branden
+ * Als je de FSR hard indrukt gaan de groene, gele en rode LEDjes branden
+ * Het witte LEDje gaat harder en zachter branden afhankelijk van de FSR
+
+Als je geen wit LEDje hebt, gebruik dan een andere kleur.

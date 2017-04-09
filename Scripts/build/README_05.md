@@ -1,322 +1,100 @@
-# Les 1d: For nog een keer
+# Capacitatieve sensoren les 2
 
-## For loop nog een keer
+Als je meerdere capacitatieve sensoren aan wilt sluiten,
+kun je twee pinnen per sensor gebruiken.
 
-For loops zijn handig om code korter op te schrijven:
+In deze les gaan we dat doen.
+
+## Stroomschema
+
+![Stroomschema](CapacitatieveSensor2Aansluiten.png)
+
+Dit is bijna hetzelfde als de vorige les,
+alleen nu met twee capacitatieve sensoren.
+
+## Code
+
+Als de bibliotheek is geinstalleerd, kunnen we een capacitatieve sensor maken:
 
 ```c++
-pinMode(2, OUTPUT);
-pinMode(3, OUTPUT);
-pinMode(4, OUTPUT);
-pinMode(5, OUTPUT);
-pinMode(6, OUTPUT);
-pinMode(7, OUTPUT);
-```
+#include <CapacitiveSensor.h>
 
-Hier staat een for-loop die hetzelfde doet:
+const int pin_sensor_1 = 2;
+const int pin_hulp_1   = 4;
+const int pin_sensor_2 = 6;
+const int pin_hulp_2   = 8;
+const int pin_led      = 13;
 
-```c++
-for (int pin=2; pin<8; ++pin)
+CapacitiveSensor mijn_cap_sensor_1 = CapacitiveSensor(pin_hulp_1,pin_sensor_1);        
+CapacitiveSensor mijn_cap_sensor_2 = CapacitiveSensor(pin_hulp_2,pin_sensor_2);        
+
+void setup()                    
 {
-  pinMode(pin, OUTPUT);
+  pinMode(pin_led,OUTPUT);
+  Serial.begin(9600);
 }
-```
 
-## Bouwen
-
-Bouw eerst dit stroomschema:
-
-![1d_ForNogEenKeer](1d_ForNogEenKeer.png)
-
-Nu kun je de opdrachten gaan doen!
-
-## Nadenken
-
-Denk na over de volgende stukjes code.
-
-### Opdracht 1
-
-Maak deze code korter met een for-loop:
-
-```c++
-digitalWrite(2, HIGH);
-digitalWrite(3, HIGH);
-digitalWrite(4, HIGH);
-digitalWrite(5, HIGH);
-digitalWrite(6, HIGH);
-digitalWrite(7, HIGH);
-```
-
-### Oplossing 1
-
-Er moet een getal gaan lopen van twee tot en met zeven. Of:
-van twee tot acht. Dit getal moet lopen van twee tot acht
-in stapjes van een. Laten we dit getal `i` noemen.
-
-Pin `i` moet `HIGH` gezet worden met `digitalWrite`.
-
-Dat gaat zo:
-
-```c++
-for (int i=2; i<8; ++i)
+void loop()                    
 {
-  digitalWrite(i, HIGH);
-}
-```
+  //Hoe hoger 'samples', hoe nauwkeuriger de sensor meet
+  const int samples = 30;
 
-### Opdracht 2
+  //Meet de waarde van de sensors
+  const int waarde_1 = mijn_cap_sensor_1.capacitiveSensor(samples);
+  const int waarde_2 = mijn_cap_sensor_2.capacitiveSensor(samples);
 
-Maak deze code korter met een for-loop:
+  //Laat de waarde zien in de Serial Monitor
+  Serial.println(waarde_1);
+  Serial.println(waarde_2);
 
-```c++
-digitalWrite(2, LOW);
-digitalWrite(3, LOW);
-digitalWrite(4, LOW);
-digitalWrite(5, LOW);
-digitalWrite(6, LOW);
-digitalWrite(7, LOW);
-```
+  //De drempelwaarde bepaalt wanneer het programma denkt dat je de sensor aanraakt
+  // - te laag: dan zal het programma vaker denken dat je de sensor aanraakt, terwijl je dat niet doet
+  // - te hoog: dan zal het programma minder vaak denken dat je de sensor aanraakt, terwijl je dat wel doet
+  const int drempelwaarde = 100;
+  
+  //Als je de sensor aanraakt, gaat het LEDje op pin 'pin_led' branden
+  const bool is_hoog_1 = waarde_1 >= drempelwaarde; 
+  const bool is_hoog_2 = waarde_2 >= drempelwaarde; 
+  digitalWrite(pin_led,is_hoog_1 && is_hoog_2 ? HIGH : LOW);
 
-### Oplossing 2
-
-Er moet een getal gaan lopen van twee tot en met zeven. Of:
-van twee tot acht. Dit getal moet lopen van twee tot acht
-in stapjes van een. Laten we dit getal `i` noemen.
-
-Pin `i` moet `LOW` gezet worden met `digitalWrite`.
-
-Dat gaat zo:
-
-```c++
-for (int i=2; i<8; ++i)
-{
-  digitalWrite(i, LOW);
-}
-```
-
-### Opdracht 3
-
-Maak deze code korter met een for-loop:
-
-```c++
-digitalWrite(2, LOW);
-delay(100);
-digitalWrite(3, LOW);
-delay(100);
-digitalWrite(4, LOW);
-delay(100);
-digitalWrite(5, LOW);
-delay(100);
-digitalWrite(6, LOW);
-delay(100);
-digitalWrite(7, LOW);
-delay(100);
-```
-
-### Oplossing 3
-
-Er moet een getal gaan lopen van twee tot en met zeven. Of:
-van twee tot acht. Dit getal moet lopen van twee tot acht
-in stapjes van een. Laten we dit getal `i` noemen.
-
-Pin `i` moet `LOW` gezet worden met `digitalWrite`. Daarna
-moet er altijd honderd milliseconden gewacht worden.
-
-Dat gaat zo:
-
-```c++
-for (int i=2; i<8; ++i)
-{
-  digitalWrite(i, LOW);
   delay(100);
 }
 ```
 
-## Omlaag tellen
+Dit is wat alles betekent:
 
-Meestal gaan `for` loops omhoog.
-Maar soms wil je dat deze *omlaag* telt.
-Dat kan op meer manieren.
-Wij gebruiken de manier waarbij een `for`
-loop omhoog blijft tellen. 
-De `for` loop telt omhoog, maar we gebruiken
-de `i` in een min som.
+ * `const int pin_sensor_1 = 2`: Hiermee zeg je: 'Lieve Arduino, onthoudt een heel getal (`int`). Ik noem dat hele getal `pin_sensor_1`. De begin waarde van `pin_sensor_1` is twee. `pin_sensor_1` kan niet veranderen (`const`)'
+ * `const int pin_hulp_1 = 4`: Hiermee zeg je: 'Lieve Arduino, onthoudt een heel getal (`int`). Ik noem dat hele getal `pin_hulp_1`. De begin waarde van `pin_hulp_1` is vier. `pin_hulp_1` kan niet veranderen (`const`)'
+ * `const int pin_sensor_2 = 6`: Hiermee zeg je: 'Lieve Arduino, onthoudt een heel getal (`int`). Ik noem dat hele getal `pin_sensor_2`. De begin waarde van `pin_sensor_2` is zes. `pin_sensor_2` kan niet veranderen (`const`)'
+ * `const int pin_hulp_2 = 4`: Hiermee zeg je: 'Lieve Arduino, onthoudt een heel getal (`int`). Ik noem dat hele getal `pin_hulp_2`. De begin waarde van `pin_hulp_2` is acht. `pin_hulp_2` kan niet veranderen (`const`)'
+ * `const int pin_led = 13`: Hiermee zeg je: 'Lieve Arduino, onthoudt een heel getal (`int`). Ik noem dat hele getal `pin_led`. De begin waarde van `pin_led` is dertien. `pin_led` kan niet veranderen (`const`)'
+ * `CapacitiveSensor mijn_cap_sensor_1 = CapacitiveSensor(pin_hulp_1,pin_sensor_1)`: Hiermee zeg je: 'Lieve Arduino, onthoudt een CapacitiveSensor. Ik noem die CapacitiveSensor `mijn_cap_sensor_1`. De begin waarde van `mijn_cap_sensor` is `CapacitiveSensor(pin_hulp_1,pin_sensor_1)`'.
+ * `CapacitiveSensor mijn_cap_sensor_2 = CapacitiveSensor(pin_hulp_2,pin_sensor_2)`: Hiermee zeg je: 'Lieve Arduino, onthoudt een CapacitiveSensor. Ik noem die CapacitiveSensor `mijn_cap_sensor_2`. De begin waarde van `mijn_cap_sensor_2` is `CapacitiveSensor(pin_hulp_2,pin_sensor_2)`'.
+ * `void setup() {}`: de `setup` function zorgt ervoor dat alles tussen de accolades (`{` en `}`) een keer gedaan wordt
+ * `pinMode(pin_led, OUTPUT)`: 'Lieve Arduino, het soort pin (`pinMode`) dat `pin_led` is, is een uitgang (`OUTPUT`)'	
+ * `Serial.begin(9600)`: 'Lieve Arduino, praat met een snelheid van 9600 tekens per seconde met de seriele monitor'
+ * `void loop() {}`: de `function` function zorgt ervoor dat alles tussen de accolades (`{` en `}`) de rest van de tijd herhaald wordt
+ * `const int samples = 30`: Hiermee zeg je: 'Lieve Arduino, onthoudt een heel getal (`int`). Ik noem dat hele getal `samples`. De begin waarde van `samples` is dertig. `samples` kan niet veranderen (`const`)'
+ * `const int waarde_1 = mijn_cap_sensor_1.capacitiveSensor(samples)`: Hiermee zeg je: 'Lieve Arduino, onthoudt een heel getal (`int`). Ik noem dat hele getal `waarde_1`. De begin waarde van `waarde_1` is wat je leest uit de eerste capacitatieve sensor (`mijn_cap_sensor_1.capacitiveSensor(samples)`). `waarde_1` kan niet veranderen (`const`)'
+ * `const int waarde_2 = mijn_cap_sensor_2.capacitiveSensor(samples)`: Hiermee zeg je: 'Lieve Arduino, onthoudt een heel getal (`int`). Ik noem dat hele getal `waarde_2`. De begin waarde van `waarde_2` is wat je leest uit de tweede capacitatieve sensor (`mijn_cap_sensor_2.capacitiveSensor(samples)`). `waarde_2` kan niet veranderen (`const`)'
+ * `Serial.println(waarde_1)`: 'Lieve Arduino, laat de waarde van `waarde_1` op de seriele monitor zien'
+ * `Serial.println(waarde_2)`: 'Lieve Arduino, laat de waarde van `waarde_2` op de seriele monitor zien'
+ * `const int drempelwaarde = 100`: Hiermee zeg je: 'Lieve Arduino, onthoudt een heel getal (`int`). Ik noem dat hele getal `drempelwaarde`. De begin waarde van `drempelwaarde` is honderd. `drempelwaarde` kan niet veranderen (`const`)'
+ * `const bool is_hoog_1 = waarde_1 >= drempelwaarde`: 'Lieve Arduino, onthoudt een boolean (`bool`). Ik noem die boolean `is_hoog_1`. De beginwaarde van `is_hoog_1` is de uitkomst van de test `waarde_1 >= drempelwaarde`'. `is_hoog_1` kan niet veranderen (`const`)'
+ * `const bool is_hoog_2 = waarde_2 >= drempelwaarde`: 'Lieve Arduino, onthoudt een boolean (`bool`). Ik noem die boolean `is_hoog_2`. De beginwaarde van `is_hoog_2` is de uitkomst van de test `waarde_2 >= drempelwaarde`'. `is_hoog_2` kan niet veranderen (`const`)'
+ * `digitalWrite(pin_led,is_hoog_1 && is_hoog_2 ? HIGH : LOW)`: 'Lieve Arduino, schrijf een `HIGH` of `LOW` (`digitalWrite`) naar de pin `pin_led`. Als beide `is_hoog_1` en `is_hoog_2 waar zijn (`is_hoog_1 && is_hoog_2`), dan is dat `HIGH`, anders is het `LOW`'
+ * `delay(100)`: 'Lieve Arduino, je mag honderd milliseconden wachten'
 
-Bijvoorbeeld deze code:
+## Vragen
 
-```c++
-digitalWrite(3, HIGH);
-digitalWrite(2, HIGH);
-digitalWrite(1, HIGH);
-digitalWrite(0, HIGH);
-```
-
-Hiervan maken we:
-
-```c++
-for (int i=0; i<4; ++i)
-{
-  digitalWrite(3 - i, HIGH);
-}
-```
-
-We laten `i` lopen van nul tot vier in stapjes van een.
-De pin die we aan doen is `3 - i`. De uitkomsten zijn dan:
-
- * `3 - 0 = 3`
- * `3 - 1 = 2`
- * `3 - 2 = 1`
- * `3 - 3 = 0`
-
-En dat is precies wat we wilden!
-
-### Opdracht 4
-
-Maak deze code korter met een for-loop:
-
-```c++
-digitalWrite(7, LOW);
-delay(100);
-digitalWrite(6, LOW);
-delay(100);
-digitalWrite(5, LOW);
-delay(100);
-digitalWrite(4, LOW);
-delay(100);
-digitalWrite(3, LOW);
-delay(100);
-digitalWrite(2, LOW);
-delay(100);
-```
-
-### Oplossing 3
-
-Er moet een getal gaan lopen van zeven tot en met twee. 
-Dit kunnen we doen door eerst `7 - 0`, dan `7 - 1`, dan `7 - 2` te doen.
-Het getal dat eraf moet loopt van nul tot zes, in stapjes van een. 
-Laten we dit getal `7 - i` noemen.
-
-Pin `i` moet `LOW` gezet worden met `digitalWrite`. Daarna
-moet er altijd honderd milliseconden gewacht worden.
-
-Dat gaat zo:
-
-```c++
-for (int i=0; i<6; ++i)
-{
-  digitalWrite(7 - i, LOW);
-  delay(100);
-}
-```
-
-### Opdracht 5
-
-Maak deze code korter met twee for-loops:
-
-```c++
-digitalWrite(2, HIGH);
-delay(100);
-digitalWrite(3, HIGH);
-delay(100);
-digitalWrite(4, HIGH);
-delay(100);
-digitalWrite(5, HIGH);
-delay(100);
-digitalWrite(6, HIGH);
-delay(100);
-digitalWrite(7, HIGH);
-delay(100);
-digitalWrite(7, LOW);
-delay(100);
-digitalWrite(6, LOW);
-delay(100);
-digitalWrite(5, LOW);
-delay(100);
-digitalWrite(4, LOW);
-delay(100);
-digitalWrite(3, LOW);
-delay(100);
-digitalWrite(2, LOW);
-delay(100);
-```
-
-### Oplossing 5
-
-Nu moeten er twee `for` loops na elkaar komen.
-
-```c++
-for (int i=2; i<8; ++i)
-{
-  digitalWrite(i, HIGH);
-  delay(100);
-}
-for (int i=0; i<6; ++i)
-{
-  digitalWrite(8-i, HIGH);
-  delay(100);
-}
-```
-
-## Programmeren
-
-Een leerling heeft deze code geschreven:
-
-```c++
-void setup()
-{
-  pinMode(2, OUTPUT);
-  pinMode(3, OUTPUT);
-  pinMode(4, OUTPUT);
-  pinMode(5, OUTPUT);
-  pinMode(6, OUTPUT);
-  pinMode(7, OUTPUT);
-}
-
-void loop()
-{
-  digitalWrite(2, HIGH);
-  delay(100);
-  digitalWrite(3, HIGH);
-  delay(100);
-  digitalWrite(4, HIGH);
-  delay(100);
-  digitalWrite(5, HIGH);
-  delay(100);
-  digitalWrite(6, HIGH);
-  delay(100);
-  digitalWrite(7, HIGH);
-  delay(100);
-  digitalWrite(2, LOW);
-  delay(100);
-  digitalWrite(3, LOW);
-  delay(100);
-  digitalWrite(4, LOW);
-  delay(100);
-  digitalWrite(5, LOW);
-  delay(100);
-  digitalWrite(6, LOW);
-  delay(100);
-  digitalWrite(7, LOW);
-  delay(100);
-}
-```
-
- * Kopieer deze code en kijk wat er gebeurt
- * Maak de code korter. Tip: gebruik drie for-loops
+ * Bouw het schema en opload de code. Test de machine. Wat doet de machine?
+ * In de code, verander de waarde van `drempelwaarde`. Wat gebeurt er?
+ * In de code, verander de waarde van `samples`. Wat gebeurt er?
+ * Vervang de weerstand van een miljoen Ohm door een weerstand van tien miljoen Ohm (bruin, zwart, blauw, goud). Wat doet de machine anders? Wat is nu een goede waarde voor `drempelwaarde` en `samples`?
+ * Haal de adapter uit je laptop. Wat doet de machine?
 
 ## Eindopdracht
 
-Maak nu een op-en-neer-gaand patroon in de LEDjes:
-
- * `*`
- * `**`
- * `***`
- * `****`
- * `*****`
- * `******`
- * `******`
- * `*****`
- * `****`
- * `***`
- * `**`
- * `*`
+ * Gebruik twee capacitatieve sensoren om twee LEDjes aan te sturen
+ * De eerste LED gaat aan als je de eerste capacitatieve sensor aanraakt
+ * De tweede LED gaat uit als je de tweede capacitatieve sensor aanraakt

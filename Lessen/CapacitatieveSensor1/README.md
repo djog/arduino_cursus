@@ -49,24 +49,8 @@ De pagina die je nodig hebt is van [Arduino Playground](http://playground.arduin
 
 Als de bibliotheek is geinstalleerd, kunnen we een capacitatieve sensor maken:
 
-```
+```c++
 #include <CapacitiveSensor.h>
-
-/*
-  2                             4 
-  |  +--------+     +--------+  |
-  +--+ R1     +--+--+ R2     +--+
-     +--------+  |  +--------+ 
-                 X          
-
-  
-  2: Arduino pin 2, de sensor pin
-  4: Arduino pin 4, de hulp pin
-  R1: weerstand van duizend Ohm (bruin-zwart-rood-goud)
-  R2: weerstand van minstens een miljoen Ohm (bruin-zwart-groen-goud)
-  X: Hier kun je de draad aanraken
- 
-*/
 
 const int pin_sensor = 2;
 const int pin_hulp   = 4;
