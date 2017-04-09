@@ -7,7 +7,7 @@ In deze les gaan we dat doen.
 
 ## Stroomschema
 
-![Stroomschema](CapacitatieveSensoren.png)
+![Stroomschema](CapacitatieveSensor2Aansluiten.png)
 
 Dit is bijna hetzelfde als de vorige les,
 alleen nu met twee capacitatieve sensoren.

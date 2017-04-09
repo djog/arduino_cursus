@@ -7,7 +7,7 @@ In deze les gaan we dat doen.
 
 ## Stroomschema
 
-![Stroomschema](CapacitatieveSensor3.png)
+![Stroomschema](CapacitatieveSensor3Aansluiten.png)
 
 Om een capacitatieve sensor te maken heb je twee
 weerstandjes nodig:

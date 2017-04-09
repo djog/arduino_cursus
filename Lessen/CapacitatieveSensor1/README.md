@@ -7,7 +7,7 @@ capacitatieve sensor, met twee weerstandjes.
 
 ## Stroomschema
 
-![Stroomschema](CapacitatieveSensor1CapacitieveSensorBreadboard.png)
+![Stroomschema](CapacitieveSensor1Aansluiten.png)
 
 Om een capacitatieve sensor te maken heb je twee
 weerstandjes nodig:
@@ -130,5 +130,5 @@ Dit is wat alles betekent:
 
 ## Eindopdracht
 
- * Gebruik een capacitatieve sensor om een LED te laten branden
+ * Gebruik een capacitatieve sensor om een LED aan te sturen
 

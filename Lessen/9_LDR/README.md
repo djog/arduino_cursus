@@ -1,4 +1,4 @@
-# 10. LDR
+# 9. LDR
 
 Met een LDR kun je licht meten. LDR betekent 'Light Dependent Resistor'.
 Dit is Engels voor 'licht-afhankelijk weerstand'.
@@ -12,7 +12,7 @@ In deze les leer je:
 
 Eerst sluiten we alleen een Arduino aan:
 
-![](10_LDR_niks.png)
+![](9_LDR_niks.png)
 
 Ik denk dat dit wel moet lukken :-)
 
@@ -41,9 +41,9 @@ Dit doet de code
 
 ### Opdrachten
 
-![De seriele monitor zit hier](10_LDR_SerialMonitor.png)
+![De seriele monitor zit hier](9_LDR_SerialMonitor.png)
 
-![De seriele monitor met getallen](10_LDR_SerialMonitorMetGetallen.png)
+![De seriele monitor met getallen](9_LDR_SerialMonitorMetGetallen.png)
 
  1. Upload het programma. In de Arduino IDE, klik rechtsboven op 'Seriele Monitor'. Wat zie je?
  2. Kun je de tekst veranderen naar 'Hallo Richel' (of je eigen naam?)
@@ -62,7 +62,7 @@ Dit doet de code
 
 Eerst sluiten we alleen een LDR aan:
 
-![Stroomschema](10_LDR.png)
+![Stroomschema](9_LDR.png)
 
 Let op, het weerstandje is tienduizend Ohm (bruin-zwart-oranje-goud).
 
@@ -115,7 +115,7 @@ Dit doet de code
 
 Nu sluiten we ook een LED aan:
 
-![Stroomschema](10_LDR_met_LED.png)
+![Stroomschema](9_LDR_met_LED.png)
 
 Let op:
 
