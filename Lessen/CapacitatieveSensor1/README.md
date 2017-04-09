@@ -7,7 +7,7 @@ capacitatieve sensor, met twee weerstandjes.
 
 ## Stroomschema
 
-![Stroomschema](CapacitieveSensorBreadboard.png)
+![Stroomschema](CapacitatieveSensor1CapacitieveSensorBreadboard.png)
 
 Om een capacitatieve sensor te maken heb je twee
 weerstandjes nodig:
@@ -35,15 +35,15 @@ De pagina die je nodig hebt is van [Arduino Playground](http://playground.arduin
  * Verander de naam van de folder naar `CapacitiveSensor`
  * Klik in de Arduino IDE op `Sketch | Import Library | Add Library`
 
-![Add Library](AddLibrary.png)
+![Add Library](CapacitatieveSensor1AddLibrary.png)
 
  * Klik op de *folder* en op OK
 
-![Add Library folder](AddLibraryFolder.png)
+![Add Library folder](CapacitatieveSensor1AddLibraryFolder.png)
 
  * Nu is de bibliotheek geinstalleerd:
 
-![Het is gelukt](Gelukt.png)
+![Het is gelukt](CapacitatieveSensor1Gelukt.png)
 
 ## Code
 
@@ -128,10 +128,7 @@ Dit is wat alles betekent:
  * Vervang de weerstand van een miljoen Ohm door een weerstand van tien miljoen Ohm (bruin, zwart, blauw, goud). Wat doet de machine anders? Wat is nu een goede waarde voor `drempelwaarde` en `samples`?
  * Haal de adapter uit je laptop. Wat doet de machine?
 
-## Verder
+## Eindopdracht
 
-Je zou nu kunnen doen:
-
- * [Capacitatieve sensoren 2](../CapacitatieveSensoren2/README.md)
-
+ * Gebruik een capacitatieve sensor om een LED te laten branden
 

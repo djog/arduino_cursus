@@ -1,38 +1,10 @@
-# RFID-RCC522
-
-RFID is een techniek om een pas/hanger/etc te herkennen.
-
-Bijvoorbeeld: het openbaar vervoer werkt met RFID: je OV chipkaart bevat een RFID chip,
-de apparaten in de bus bevatten de RFID lezers. Het busbedrijf kan *jou* dus herkennen,
-door je OV chipkaart.
-
-![Een RFID lezer met een hanger en pasje met een RFID chip erin](RFID-RC522.jpg)
+# RFID-RCC522 les 2
 
 ## Aansluiten RFID lezer
 
 Gewoon dit schema nabouwen:
 
-![Aansluiten RFID lezer](RFID-RC522.png)
-
-## RFID bibliotheek installeren
-
-Merk op: je moet een redelijk nieuwe versie van de Arduino IDE hebben! Anders krijg je 
-een foutmelding (`class [iets] not found`).
-
- * In je browser, ga naar [miguelbalboa zijn rfid GitHub](https://github.com/miguelbalboa/rfid)
-
-![De GitHub van miguelbalboa](GitHub.png)
-
- * Op deze GitHub website, klik op 'Download zip'. Nu download je browser een zip bestand
-
-![Het zip bestand downloaden](Downloaden.png)
-
- * In de Arduino IDE, kies 'Add library' en dubbelklik op het gedownloade zip bestand
-
-![Het zip bestand kiezen](ZipKiezen.png)
-
- * Nu, in de Arduino IDE, staat er bij de `Voorbeelden`/`Examples` het kopje `rfid`
- * Een goed eerste programma is `rfid | dumpInfo` te kiezen, uploaden op je Arduino, en er een tag bij te houden
+![Aansluiten RFID lezer](RFID2RFID-RC522.png)
 
 ## Een RFID chip beschrijven
 
@@ -54,6 +26,15 @@ Om naar een blok te schrijven kan je het voorbeeld `rfid | ReadAndWrite` gebruik
 
 Bytes 0-3 van blok 0 is het UID, voor sommige chips is dit byte 0-7. Het laatste blok van elke sector is de sector trailer, hier staan twee keys en de access bits. Byte 0-5 van de sector trailer vormen key A, bytes 10-15 key B. Welke blokken vergrendeld zijn met welke key en wat je wel/niet met de blokken mag doen wordt bepaald met de access bits (byte 6-9 van de sector trailer). Als je wil weten hoe je de access bits moet zetten om blokken te vergrendelen e.d. lees dan section 8 van het [datasheet](http://www.nxp.com/documents/data_sheet/MF1S50YYX.pdf), hier staat alles wat je zou willen weten over MiFare geheugen.
 
+## Opdracht
+
+ * Zet je naam op een RFID chip
+
+## Eindopdracht
+
+ * Maak twee RFID passen met verschillende namen
+ * Als de eene pas herkent wordt, gaat een groen LEDje branden
+ * Als elke andere pas herkent wordt, gaat een rood LEDje branden
 
 ## Links
 

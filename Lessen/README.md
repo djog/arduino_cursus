@@ -29,20 +29,22 @@ Hiermee kun je stickers verdienen! Lessen met een :star: zijn extra.
  * [Les 2: Knop if else](2_Knop_if_else/README.md) 
  * [Les 4: FSR](4_FSR/README.md) 
  * [Les 9: LDR](9_LDR/README.md) 
- * :star: [Capacitatieve Sensoren 1](CapacitatieveSensoren1/README.md)
- * :star: [Capacitatieve Sensoren 2](CapacitatieveSensoren2/README.md)
- * :star: :star: [RFID](RFID/README.md)
+ * :star: [Capacitatieve sensor les 1](CapacitatieveSensor1/README.md)
+ * :star: [Capacitatieve sensor les 2](CapacitatieveSensor2/README.md)
+ * :star: [Capacitatieve sensor les 3](CapacitatieveSensor3/README.md)
+ * :star: :star: [RFID1](RFID1/README.md)
+ * :star: :star: [RFID2](RFID2/README.md)
 
 ### Actuator, laag vermogen
 
 ![groene balk](Groen.png)
 
+ * [Servo besturen met seriele monitor](ServoSerial/README.md)
  * Les 3a: Servo motor
  * Les 4: FSR met servo
  * Les 3b: Meer servo motoren
  * Les 6: Muziek tone
  * :star: [Piano](Piano/README.md)
- * :star: [Servo besturen met seriele monitor](ServoSerial/README.md)
 
 ### Actuator, hoger vermogen
 
