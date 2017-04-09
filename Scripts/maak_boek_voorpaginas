@@ -22,12 +22,7 @@ fi
 
 cd ..
 cd Lessen
-cd Voorpagina                        ; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_00.md; cd ..
-
-cd $build_folder
-
-cat README_00.md >> README.md; echo " " >> README.md
-
-pandoc README.md -o boek.pdf
-cp boek.pdf ../../Boek/Boek_voorpagina.pdf
+cd Voorpagina
+pandoc VoorpaginaLed.md -o ../../Boek/VoorpaginaLed.pdf
+pandoc VoorpaginaSensor.md -o ../../Boek/VoorpaginaSensor.pdf
 
