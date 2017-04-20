@@ -3,6 +3,8 @@
 Met een potmeter kun je een spanning naar de Arduino sturen.
 Deze kun je gebruiken als bijvoorbeeld een volumeknop.
 
+![Een potmeter](Potmeter_potmeter.jpg)
+
 In deze les leer je:
 
  * Wat een potmeter is
@@ -59,7 +61,7 @@ Dit doet de code:
 
 Nu sluiten we ook een LED aan:
 
-![Potmeter met LED](Potmeter_potmeter_met_led.png)
+![Potmeter met LED](Potmeter_potmeter_en_led.png)
 
 Let op:
 
