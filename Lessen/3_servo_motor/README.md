@@ -43,11 +43,11 @@ void loop()
 
 ## Opdracht
 
- * Wat is de laagste en hoogste waarde die jouw servo kan hebben?
+ 1. Wat is de laagste en hoogste waarde die jouw servo kan hebben?
 
 ## Oplossingen
 
- * 1. Dit is afhankelijk van de servo
+ 1. Dit is afhankelijk van de servo
 
 ## Potmeter
 
@@ -69,7 +69,6 @@ void setup()
   mijn_servo.attach(9);
   pinMode(A0, INPUT);
 }
-```
 
 void loop()
 {
