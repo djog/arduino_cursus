@@ -240,5 +240,5 @@ void loop()
  * Sluit drie LEDjes aan: een rode, gele en groene 
  * Als de LDR in het licht is, moet er geen LEDje branden. 
  * Als je de LDR een beetje verduisterd wordt, gaat het groene LEDje branden
- * Als je de FSR meer verduisterd wordt, gaan de groene en gele LEDjes branden
- * Als je de FSR helemaal verduisterd wordt, gaan alle LEDjes branden
+ * Als je de LDR meer verduisterd wordt, gaan de groene en gele LEDjes branden
+ * Als je de LDR helemaal verduisterd wordt, gaan alle LEDjes branden

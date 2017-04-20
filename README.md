@@ -28,7 +28,7 @@ Einde les | 20:00 | 21:00 | 22:00
  * Meenemen: Arduino (als je die hebt), laptop (als je die hebt), electronica (als je dat hebt)
  * Wanneer instromen: altijd!
 
-Leermateriaal: we gebruiken het boek [Interactief Ontwerpen Met Arduino](https://sites.google.com/site/hwcontwerpen/interactief-ontwerpen-met-arduino) ([PDF](Boeken/interactief ontwerpen met arduino.pdf)) (we hebben een aantal boekjes gedrukt om te gebruiken) en ons eigen materiaal op deze GitHub.
+Leermateriaal: zie [Boeken](Boeken/README.md)
 
  * Waar staan [de lessen](Lessen/README.md)? [Hier staan de lessen](Lessen/README.md)
  * Waar staan [het rooster](Rooster.md)? [Hier staat het rooster](Rooster.md). Eerste les gemist? Geen probleem, je bent altijd welkom!
