@@ -87,9 +87,14 @@ map(analogRead(A0),0,1024,45,135)
 
 In mensentaal is dit:
 
-> Lieve Arduino,
-> Uit het eerste stukje (`analogRead(A0)`) komt een waarde van `0` tot `1024`.
-> Ik wil dat je deze waarde ombouwt dat deze minstens `45` wordt en maximaal `135`
+```
+Lieve Arduino,
+
+Uit het eerste stukje ('analogRead(A0)') 
+komt een waarde van 0 tot 1024.
+Ik wil dat je deze waarde ombouwt, 
+zodat deze minstens 45 wordt en maximaal 135
+```
 
 ## Eindopdracht
 
