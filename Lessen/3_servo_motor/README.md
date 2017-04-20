@@ -93,7 +93,7 @@ Lieve Arduino,
 Uit het eerste stukje ('analogRead(A0)') 
 komt een waarde van 0 tot 1024.
 Ik wil dat je deze waarde ombouwt, 
-zodat deze minstens 45 wordt en maximaal 135
+zodat deze minstens 45 wordt en maximaal 135.
 ```
 
 ## Eindopdracht
