@@ -1,7 +1,10 @@
 # 3. Servo motor
 
+
 In de les gaan we een servo aansturen met een potmeter.
 Dit is eigenlijk vooral herhaling
+
+![Servo motor](3_servo_motor.jpg)
 
 # Aansluiten
 
@@ -56,7 +59,6 @@ Sluit nu ook een potmeter aan. De middelste pin moet naar `A0`.
 ![Servo motor en potmeter](3_servo_motor_met_potmeter.png)
 
 Gebruik deze code:
-
 
 ```c++
 #include <Servo.h>
