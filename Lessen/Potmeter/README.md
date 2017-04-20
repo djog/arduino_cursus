@@ -20,7 +20,7 @@ Ik denk dat dit wel moet lukken :-)
 
 Met deze code meten we de stand van de potmeter:
 
-```
+```c++
 void setup() 
 {
   pinMode(A0, INPUT);
@@ -45,15 +45,15 @@ Dit doet de code:
 
 ## Opdrachten
 
- * 1. Upload het programma. In de Arduino IDE, klik rechtsboven op 'Seriele Monitor'. Wat zie je?
- * 2. Draai de potmeter helemaal naar links (tegen de klok in). Welke waarde zie je op de seriele monitor?
- * 3. Draai de potmeter helemaal naar rechts (met de klok mee). Welke waarde zie je op de seriele monitor?
+ 1. Upload het programma. In de Arduino IDE, klik rechtsboven op 'Seriele Monitor'. Wat zie je?
+ 2. Draai de potmeter helemaal naar links (tegen de klok in). Welke waarde zie je op de seriele monitor?
+ 3. Draai de potmeter helemaal naar rechts (met de klok mee). Welke waarde zie je op de seriele monitor?
 
 ## Oplossingen
 
- * 1. Je ziet een getal van nul tot 1024, afhankelijk van de stand van de potmeter
- * 2. Je ziet het getal nul
- * 3. Je ziet het geal 1023
+ 1. Je ziet een getal van nul tot 1024, afhankelijk van de stand van de potmeter
+ 2. Je ziet het getal nul
+ 3. Je ziet het geal 1023
 
 # Aansluiten potmeter met LED
 
@@ -70,7 +70,7 @@ Let op:
 
 Nu gaan we het LEDje laten reageren op de potmeter:
 
-```
+```c++
 void setup() 
 {
   pinMode(A0, INPUT);
@@ -102,7 +102,17 @@ Dit doet de code
 
 ## Oplossingen
 
- * Bij een hoger getal, gaat het lampje steeds minder hard in volle stand.
-   Bij een lager getal dan vier gaat het lampje raar reageren: het lampje gaat eerst harder,
-   dan uit en weer harder, etc
+ 1. Bij een hoger getal, gaat het lampje steeds minder hard in volle stand.
+    Bij een lager getal dan vier gaat het lampje raar reageren: het lampje gaat eerst harder,
+    dan uit en weer harder, etc
+ 2. Het beste getal is vier. Want uit `analogRead` komt hoogstens 1023, terwijl je met `analogWrite`
+    hoogstens 255 kunt schrijven. 1023 gedeeld door 4 is 255 rest 3. De Ardiono maakt daar 255 van
 
+## Eindopdracht
+
+ * Sluit vier LEDjes aan: een rode, gele, groene en blauwe
+ * Als de potmeter helemaal naar links is, moet er geen LEDje branden. 
+ * Als de potmeter meer naar rechts gedraaid wordt, gaat het groene LEDje branden
+ * Als de potmeter nog meer naar rechts gedraaid wordt, gaat het gele LEDje branden
+ * Als de potmeter nog meer naar rechts gedraaid wordt, gaat het rode LEDje branden
+ * De blauwe LED gaat langzaam aan als er meer naar rechts gedraaid wordt
