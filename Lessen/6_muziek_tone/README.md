@@ -1,4 +1,4 @@
-# Muziek tone
+# 6. Muziek tone
 
 In deze les leer je hoe je geluid maakt met de Arduino.
 Dit doen we met een piezo (spreek uit: 'pie-jee-zo') speakertje.
