@@ -117,3 +117,4 @@ zodat deze minstens 45 wordt en maximaal 135.
 ### Eindopdracht
 
 Zorg dat de servo perfect reageert op de FSR. Je zult zelf de minimum en maximumwaarde uit moeten vinden.
+
