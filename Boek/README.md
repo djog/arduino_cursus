@@ -2,7 +2,7 @@
 
  * [Boek 1: LED](Boek_led.pdf)
  * [Boek 2: sensor](Boek_sensor.pdf)
- * [Boek 3: actuator](Boek_actuator.pdf) (in wording)
+ * [Boek 3: actuatoren, laag vermorgen](Boek_actuatoren_laag.pdf)
 
 ## Historie
 
