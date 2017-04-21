@@ -11,9 +11,7 @@ Deze is gemakkelijk aan te sluiten:
 
 ![Piano Aansluiten](PianoAansluiten.png)
 
-Het weerstandje is duizend Ohm, met bandjes bruin-zwart-rood-goud.
-Als de piezo te hard staat, kies dan een weerstandje van tienduizend Ohm, 
-met bandjes bruin-zwart-oranje-goud.
+Het weerstandje is tienduizend Ohm, met bandjes bruin-zwart-oranje-goud.
 
 ## Vader Jacob
 
