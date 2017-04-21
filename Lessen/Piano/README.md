@@ -1,4 +1,4 @@
-# Piano lessen
+# Piano
 
 De piano is een bekend muziekinstrument.
 Je kunt veel liedjes spelen op de piano.

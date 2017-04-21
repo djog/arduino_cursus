@@ -6,9 +6,11 @@ Dit is eigenlijk vooral herhaling
 
 ![Servo motor](3_servo_motor.jpg)
 
-# Aansluiten
+## Aansluiten
 
-![Stroomschema](3_servo_motor_blink.png)
+Zie figuur 'Servo motor aansluiten'.
+
+![Servo motor aansluiten](3_servo_motor_blink.png)
 
 De draadjes van de servo hebben misschien andere kleuren:
 
@@ -54,7 +56,7 @@ void loop()
 
 ## Potmeter
 
-Sluit nu ook een potmeter aan. De middelste pin moet naar `A0`.
+Sluit nu ook een potmeter aan. De middelste pin moet naar `A0`. Zie figuur 'Servo motor en potmeter'
 
 ![Servo motor en potmeter](3_servo_motor_met_potmeter.png)
 
@@ -97,6 +99,8 @@ komt een waarde van 0 tot 1024.
 Ik wil dat je deze waarde ombouwt, 
 zodat deze minstens 45 wordt en maximaal 135.
 ```
+
+![Mensentaal voor map(analogRead(A0),0,1024,45,135)](3_servo_motor_praatwolkje.png)
 
 ## Eindopdracht
 

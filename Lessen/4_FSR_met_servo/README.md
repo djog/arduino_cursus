@@ -41,22 +41,22 @@ Dit doet de code:
 
 ## Opdrachten
 
- * 1. Upload het programma. In de Arduino IDE, klik rechtsboven op 'Seriele Monitor'. Wat zie je?
- * 2. Druk de FSR in met je vingers (of, met een LDR: houd je vinger boven de LDR) 
+ 1. Upload het programma. In de Arduino IDE, klik rechtsboven op 'Seriele Monitor'. Wat zie je?
+ 2. Druk de FSR in met je vingers (of, met een LDR: houd je vinger boven de LDR) 
       terwijl je de seriele monitor bekijkt. Wat zie je?
- * 3. Verander `Serial.println` naar `Serial.print`. Wat zie je?
- * 4. Verander de tekst `Serial.begin(9600)` naar `Serial.begin(4800)`. Wat zie je? Waarom?
- * 5. Haal de draad naar `A0` weg. Ja, haal de draad tussen `A0` en de LDR weg. 
+ 3. Verander `Serial.println` naar `Serial.print`. Wat zie je?
+ 4. Verander de tekst `Serial.begin(9600)` naar `Serial.begin(4800)`. Wat zie je? Waarom?
+ 5. Haal de draad naar `A0` weg. Ja, haal de draad tussen `A0` en de LDR weg. 
       Kijk op de seriele monitor. Wat zie je?
 
 ## Oplossingen
 
- * 1. Je ziet een getal van nul tot 1024, afhankelijk van de waarde van de FSR
- * 2. Je zit de getallen veranderen
- * 3. Alle getallen komen na elkaar
- * 4. Nu laat de seriele monitor onleesbare tekst zien. Dit komt omdat de Arduino langzamer tekst
+ 1. Je ziet een getal van nul tot 1024, afhankelijk van de waarde van de FSR
+ 2. Je zit de getallen veranderen
+ 3. Alle getallen komen na elkaar
+ 4. Nu laat de seriele monitor onleesbare tekst zien. Dit komt omdat de Arduino langzamer tekst
       stuur naar je computer (4800), dan je computer de tekst leest (9600)
- * 5. Nu zie je het getal willekeurig veranderen. Dit wordt een zwevende input genoemd
+ 5. Nu zie je het getal willekeurig veranderen. Dit wordt een zwevende input genoemd
 
 ## Aansluiten FSR met servo
 
