@@ -1,6 +1,7 @@
 # Arduino cursus bij De Jonge Onderzoekers
 
-[![IRC Network](https://img.shields.io/badge/irc-%23ArduinoGroningen-blue.svg "IRC Freenode")](https://webchat.freenode.net/?channels=ArduinoGroningen)
+# LET OP: vrijdag 5 mei is er geen les, wegens Bevrijdingsdag
+
 ![DJOG logo](Djog.png)
 
 <img src="Dingen/Arduino.jpg" alt="Arduino" width="300" height="300">
@@ -31,9 +32,11 @@ Einde les | 20:00 | 21:00 | 22:00
 Leermateriaal: zie [Boeken](Boeken/README.md)
 
  * Waar staan [de lessen](Lessen/README.md)? [Hier staan de lessen](Lessen/README.md)
- * Waar staan [het rooster](Rooster.md)? [Hier staat het rooster](Rooster.md). Eerste les gemist? Geen probleem, je bent altijd welkom!
  * Waar staan [de veelgestelde vragen](Faq.md)? [Hier staan de veelgestelde vragen](Faq.md)
 
-## Eindpresentatie
+## Agenda
 
- * Vrijdag 21 juli
+ * Vrijdag 5 mei: geen les, wegens Bevrijdingsdag
+ * Zaterdag 19 mei 10:00-17:00: [Maakfestival](https://github.com/richelbilderbeek/maakfestival_2017)
+ * Zondag 11 juni 12:00-16:00: [Science en Hi-Tech dag](https://github.com/richelbilderbeek/science_en_hi-tech_dag_2017)
+ * Vrijdag 21 juli ??:??-??:??: Leerlingpresentaties en evaluatie

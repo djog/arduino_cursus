@@ -42,7 +42,7 @@ De eerste noot van Vader Jacob is de laagste noot op de piano van het plaatje.
 Er staat het getal `131` bij. Dit is de frequentie van die muzieknoot.
 Om die noot op de Arduino af te spelen:
 
-```
+```c++
 void setup() 
 {
   pinMode(8, OUTPUT);
@@ -55,7 +55,7 @@ void loop() {}
 
 Om de eerste twee noten te spelen:
 
-```
+```c++
 void setup() 
 {
   pinMode(8, OUTPUT);
