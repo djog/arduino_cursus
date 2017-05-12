@@ -39,4 +39,4 @@ Leermateriaal: zie [Boeken](Boeken/README.md)
  * Vrijdag 5 mei: geen les, wegens Bevrijdingsdag
  * Zaterdag 19 mei 10:00-17:00: [Maakfestival](https://github.com/richelbilderbeek/maakfestival_2017)
  * Zondag 11 juni 12:00-16:00: [Science en Hi-Tech dag](https://github.com/richelbilderbeek/science_en_hi-tech_dag_2017)
- * Vrijdag 21 juli ??:??-??:??: Leerlingpresentaties en evaluatie
+ * Vrijdag 21 juli 18:00-20:00: Leerlingpresentaties en evaluatie
