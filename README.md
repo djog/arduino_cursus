@@ -27,7 +27,7 @@ Einde les | 20:00 | 21:00 | 22:00
  * Meenemen: Arduino (als je die hebt), laptop (als je die hebt), electronica (als je dat hebt)
  * Wanneer instromen: altijd!
 
-Leermateriaal: zie [Boeken](Boeken/README.md)
+Leermateriaal: zie [Boek](Boek/README.md)
 
  * Waar staan [de lessen](Lessen/README.md)? [Hier staan de lessen](Lessen/README.md)
  * Waar staan [de veelgestelde vragen](Faq.md)? [Hier staan de veelgestelde vragen](Faq.md)
