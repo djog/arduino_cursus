@@ -1,7 +1,5 @@
 # Arduino cursus bij De Jonge Onderzoekers
 
-# LET OP: vrijdag 5 mei is er geen les, wegens Bevrijdingsdag
-
 ![DJOG logo](Djog.png)
 
 <img src="Dingen/Arduino.jpg" alt="Arduino" width="300" height="300">
