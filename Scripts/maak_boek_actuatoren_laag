@@ -35,9 +35,17 @@ cat README_04.md >> README.md; echo " " >> README.md
 cat README_05.md >> README.md; echo " " >> README.md
 cat README_06.md >> README.md; echo " " >> README.md
 
-pandoc README.md -o boek.pdf --toc --toc-depth=1 --highlight-style=tango
+# Thinner margin
+pandoc README.md -o boek.pdf --toc --toc-depth=1 --highlight-style=tango -V geometry:margin=0.5in
+
 cp boek.pdf ../../Boek/Boek_actuatoren_laag_zonder_voorpagina.pdf
 
 cd ../../Boek
+
 pdfunite VoorpaginaActuatorenLaag.pdf Boek_actuatoren_laag_zonder_voorpagina.pdf Boek_actuatoren_laag.pdf
+
+# Make booklet
+bookletimposer -a Boek_actuatoren_laag.pdf -o Boekje_actuatoren_laag.pdf
+
+# Cleanup
 rm Boek_actuatoren_laag_zonder_voorpagina.pdf
