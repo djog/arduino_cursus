@@ -126,3 +126,7 @@ Upload de code van 'Blink' op de Arduino.
  3. Als de Arduino spanning zet op de middelste pin van de transistor, 
     kan er stroom gaan lopen door de transistor (van linker naar rechterpin) en het motortje. 
     Daardoor gaat het motortje draaien
+
+## Eindopdracht
+
+ * Laat de motor reageren op een LDR: als er geen licht is, moet de motor gaan draaien
