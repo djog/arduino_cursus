@@ -111,7 +111,18 @@ Upload de code van 'Blink' op de Arduino.
 
  1. Wat zie je?
  
+![Werking](7_dc_motor_met_relais_DPDT-relay.png)
+
+ 2. Figuur 'Werking' laat zien hoe het kan dat de motor steeds een andere
+    kant op gaat. Probeer jezelf uit te leggen hoe het werkt
+
 ### Oplossingen
 
+ 1. De motor gaat een seconde de eene kant op, dan een seconde de andere kant
+ 2. Als de relais aan staat, zijn de relaispinnen 2-3 en 6-7 verbonden. Is de relais
+    uit, dan is 2-4 en 6-8 verbonden. Als je de draden volgt, zie je hierdoor dat de eene
+    keer de linker kant van de motor op de plus komt, de andere keer op de min kant
 
+## Eindopdracht
 
+ * Laat de motor reageren op een LDR: als er geen licht is, moet de motor linksom draaien, anders rechtsom
