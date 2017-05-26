@@ -1,40 +1,16 @@
-# 5. DC Motor met Transistor
+# 7. DC Motor Met Relais
 
 Deze les leren we 
 
- * wat een transistor is 
- * hoe je een transistor gebruikt 
- * wat een DC motor is
- * hoe je een DC motor gebruikt
+ * wat een relais is
+ * hoe je een motor in twee richtingen kunt laten draaien
 
 ## Waarschuwing
 
-![Pas op! Zie 'Waarschuwing'](5_dc_motor_met_transistor_waarschuwing.png)
+![Pas op! Zie 'Waarschuwing'](7_dc_motor_met_relais_waarschuwing.png)
 
 Haal deze les *altijd* de USB snoer uit je computer als je een schakeling
 aan sluit. Anders gaat de computer misschien stuk.
-
-## LED met drukknop
-
-![LED met drukknop](5_dc_motor_met_transistor_led_drukknop.png)
-
-Haal de USB uit de computer. 
-Sluit dan figuur 'LED met drukknop' aan. 
-Doe op het eind de USB weer in de computer.
-
-### Vragen
-
- 1. Wat doet deze schakeling?
- 2. Wie levert de electriciteit voor het LEDje: de batterijen of de Arduino? Waarom?
- 3. Hoe moet je de Arduino programmeren?
- 4. Hoe werkt de schakeling?
-
-### Oplossingen
-
- 1. Als je het knopje indrukt, gaat het lampje branden
- 2. De batterijen, omdat de plus van de batterijen aangesloten is op de plus van het LEDje
- 3. Hoe je de Arduino ook programmeert, de schakeling gedraagt zich altijd hetzelfde
- 4. Als je de knop indrukt, kan er stroom gaan lopen door de knop en het LEDje. Daardoor gaat het LEDje branden
 
 ## LED met transistor
 
@@ -43,7 +19,7 @@ In plaats dat je een transistor met je vinger indrukt,
 zet je er electrische spanning op.
 Als er spanning op staat, dan kan er stroom door de transistor.
 
-![LED met transistor](5_dc_motor_met_transistor_led_transistor.png)
+![LED met transistor](7_dc_motor_met_relais_led.png)
 
 Haal de USB uit de computer. 
 Sluit figuur 'LED met transistor' aan.
@@ -54,79 +30,88 @@ Upload de code van 'Blink' op de Arduino.
 ### Vragen
 
  1. Wat doet deze schakeling?
- 2. Wie levert de electriciteit voor het LEDje: de batterijen of de Arduino? Waarom?
+ 2. Welke Arduino pin levert de electriciteit voor het LEDje: pin 13 of 5V? Waarom?
  3. Hoe werkt de schakeling?
 
 ### Oplossingen
 
  1. Als de Arduino spanning op pin 13 zet, gaat het lampje branden
- 2. De batterijen, omdat de plus van de batterijen aangesloten is op de plus van het LEDje
+ 2. De 5V levert de electriciteit voor het lampje: deze gaat de linker pin van de transistor in,
+    verder door de rechter pin en dan door het lampje. Pin 13 zorgt er enkel voor dat dat kan.
  3. Als de Arduino spanning zet op de middelste pin van de transistor, 
     kan er stroom gaan lopen door de transistor (van linker naar rechterpin) en het LEDje. 
     Daardoor gaat het LEDje branden
 
-## DC motor met drukknop
+## Relais
 
-Een DC motor is een motor die beide kanten rond kan draaien. DC is een Engelse
-afkorting voor 'Direct Current': gelijkspanning. Daarom wordt een DC motor
-ook een gelijkspanningsmotor genoemd. De Arduino, maar ook batterijen, leveren
-gelijkspanning.
+Een relais (spreek uit: 'relleh') is, net als een transistor, een soort drukknop, die electronisch
+ingedrukt kan worden. Het verschil met de transistor is dat de twee electronische
+stromen elkaar nergens tegen komen.
 
-![DC motor met drukknop](5_dc_motor_met_transistor_motor_drukknop.png)
+![Een relais](7_dc_motor_met_relais_relais.jpg)
 
-![Diode](5_dc_motor_met_transistor_diode.png)
-
-![Condensator](5_dc_motor_met_transistor_condensator.png)
-
-Er zijn twee nieuwe componenten:
-
- * Diode (zie figuur 'Diode'): een eenrichtingsweg voor electriciteit
- * Condensator (zie figuur 'Condensator'): een soort batterij die snel op- en ontlaad
-
-Deze componenten zijn nodig omdat een DC motor ook electriciteit kan maken (!).
+![Een eenzaam relais](7_dc_motor_met_relais_relais.png)
 
 Haal de USB uit de computer. 
-Sluit figuur 'DC motor met drukknop' aan.
-Doe op het eind de USB weer in de computer.
-
-### Vragen
-
- 1. Wat doet deze schakeling?
- 2. Wie levert de electriciteit voor het LEDje: de batterijen of de Arduino? Waarom?
- 3. Hoe moet je de Arduino programmeren?
- 4. Hoe werkt de schakeling?
-
-### Oplossingen
-
- 1. Als je het knopje indrukt, gaat het motortje draaien
- 2. De batterijen, omdat de plus van de batterijen aangesloten is op de plus van het LEDje
- 3. Hoe je de Arduino ook programmeert, de schakeling gedraagt zich altijd hetzelfde
- 4. Als je de knop indrukt, kan er stroom gaan lopen door de knop en het motortje. Daardoor gaat het motortje draaien
-
-## DC motor met transistor
-
-![DC motor met transistor](5_dc_motor_met_transistor_motor_transistor.png)
-
-Haal de USB uit de computer. 
-Sluit figuur 'DC motor met transistor' aan.
+Sluit figuur 'Een eenzaam relais' aan.
 Doe op het eind de USB weer in de computer.
 
 Upload de code van 'Blink' op de Arduino.
 
 ### Vragen
 
- 1. Wat doet deze schakeling?
- 2. Wie levert de electriciteit voor het LEDje: de batterijen of de Arduino? Waarom?
- 3. Hoe werkt de schakeling?
+ 1. Wat hoor je? Als je niks hoort, heb je de schakeling fout aangesloten!
+ 2. Welke Arduino pin levert de electriciteit voor het relais: pin 13 of 5V? Waarom?
 
 ### Oplossingen
 
- 1. Als de Arduino spanning op pin 13 zet, gaat het motortje draaien
- 2. De batterijen, omdat de plus van de batterijen aangesloten is op de plus van het LEDje
- 3. Als de Arduino spanning zet op de middelste pin van de transistor, 
-    kan er stroom gaan lopen door de transistor (van linker naar rechterpin) en het motortje. 
-    Daardoor gaat het motortje draaien
+ 1. Elke second hoor je een tik
+ 2. De 5V levert de electriciteit voor het relais: deze gaat de linker pin van de transistor in,
+    verder door de rechter pin en dan door het lampje. Pin 13 zorgt er enkel voor dat dat kan.
 
-## Eindopdracht
+## Relais met LEDjes
 
- * Laat de motor reageren op een LDR: als er geen licht is, moet de motor gaan draaien
+We gaan nu kijken, wat een relais doet.
+
+![Relais met LEDs](7_dc_motor_met_relais_relais_leds.png)
+
+Haal de USB uit de computer. 
+Sluit figuur 'Relais met LEDs' aan.
+Doe op het eind de USB weer in de computer.
+
+Upload de code van 'Blink' op de Arduino.
+
+### Vragen
+
+ 1. Wat zie je?
+ 2. Welke Arduino pin levert de electriciteit voor het LEDs: pin 13 of 5V? Waarom?
+ 3. Hoe kan het dat er maar een weerstand nodig is voor twee LEDjes?
+
+### Oplossingen
+
+ 1. Elke second hoor je een tik en gaat een andere kleur LED branden
+ 2. De 5V levert de electriciteit voor de LEDs: deze gaat de tweede pin van het relais in,
+    en komt dan uit de derde of vierde pin
+ 3. Omdat er stroom komt uit *of* de derde *of* de vierde pin, gaat er altijd precies een LEDje
+    branden. Dan is een weerstand genoeg
+
+## Relais met DC motor
+
+Nu komt de magie!
+
+![Relais met DC motor](7_dc_motor_met_relais_relais_dc_motor.png)
+
+Haal de USB uit de computer. 
+Sluit figuur 'Relais met DC motor' aan.
+Doe op het eind de USB weer in de computer.
+
+Upload de code van 'Blink' op de Arduino.
+
+### Vragen
+
+ 1. Wat zie je?
+ 
+### Oplossingen
+
+
+
