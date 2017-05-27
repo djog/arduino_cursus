@@ -1,28 +1,75 @@
-```
-const int trig_pin = 9;
-const int echo_pin = 10;
-const int piezo_pin = 7;
+# Lessen
 
-void setup()
-{
-  pinMode(trig_pin, OUTPUT);
-  pinMode(echo_pin, INPUT); 
-  Serial.begin(9600);
-}
+Arduino lessen die je zo kunt doen.
 
-void loop()
-{
-  digitalWrite(trig_pin, LOW);
-  delayMicroseconds(2);
- 
-  digitalWrite(trig_pin, HIGH);
-  delayMicroseconds(20);
-  digitalWrite(trig_pin, LOW);
-  
-  const long duration = pulseIn(echo_pin, HIGH);
-  //const int distance = duration * 0.034 / 2;
-  Serial.println(duration);
-  tone(piezo_pin, duration, 10);
-  delay(10);
-}
-```
+## Normale lessen
+
+Deze lessen doen we als groep aan de grote tafel.
+Hiermee kun je stickers verdienen! Lessen met een :star: zijn extra.
+
+### LED
+
+![rode balk](Rood.png)
+
+ * [Les 0: Broodplank](0_Breadboard/README.md)
+ * [Les 1a: Blink](1a_Blink/README.md)
+ * [Les 1b: Blink Blink Blink](1b_BlinkBlinkBlink/README.md)
+ * [Les 1c: Meer Kleur, Fade Met For](1c_MeerKleurFadeMetFor/README.md)
+ * [Les 1d: For Nog Een Keer](1d_ForNogEenKeer/README.md) 
+ * :star: [Les 1e: Zeven segmenten display](1e_zeven_segment_display/README.md)
+ * :star: [Blink snelheid](BlinkSnelheid/README.md)
+ * :star: :star: [LCD les 1](LCD1/README.md)
+ * :star: :star: [LCD les 2](LCD2/README.md)
+ * :star: :star: [LCD les 3](LCD3/README.md)
+
+### Sensor
+
+![gele balk](Geel.png)
+
+ * [Les 2: Knop if else](2_Knop_if_else/README.md) 
+ * [Les 4: FSR](4_FSR/README.md) 
+ * [Les 9: LDR](9_LDR/README.md) 
+ * :star: [Capacitatieve sensor les 1](CapacitatieveSensor1/README.md)
+ * :star: [Capacitatieve sensor les 2](CapacitatieveSensor2/README.md)
+ * :star: [Capacitatieve sensor les 3](CapacitatieveSensor3/README.md)
+ * :star: :star: [RFID1](RFID1/README.md)
+ * :star: :star: [RFID2](RFID2/README.md)
+
+### Actuator, laag vermogen
+
+![groene balk](Groen.png)
+
+ * [Servo besturen met seriele monitor](ServoSerial/README.md)
+ * [Les 3a: Servo motor](3_servo_motor/README.md)
+ * [Les 3b: Meer servo motoren](3_servo_motoren/README.md)
+ * [Les 4: FSR met servo](4_FSR_met_servo/README.md)
+ * [Les 6: Muziek tone](6_muziek_tone/README.md)
+ * :star: [Piano](Piano/README.md)
+
+### Actuator, hoger vermogen
+
+![cyane balk](Cyaan.png)
+
+ * [Les 5: DC motor met transistor](5_dc_motor_met_transistor/README.md)
+ * [Les 7: Relais](7_dc_motor_met_relais/README.md)
+ * [Les 8: Infrarood sensor obstakel ontwijkend object](8_infrarood_sensor_obstakel_ontwijkend_object/README.md)
+
+## Vervolglessen
+
+![blauwe balk](Blauw.png)
+
+Deze lessen kun je zelf doen. 
+
+ * [Theremin](Theremin/README.md)
+ * [Arduino en Processing](Arduino_en_processing/README.md)
+ * [Processing (op de Dojo GitHub)](https://github.com/richelbilderbeek/Dojo/tree/master/LessenProcessing)
+
+## Electriciteit
+
+![magenta balk](Magenta.png)
+
+Met deze lessen kunnen we electriciteit beter leren begrijpen.
+
+ * [Stroomdeeltje spelen 1](StroomdeeltjeSpelen1/README.md)
+ * Stroomdeeltje spelen 2: weerstanden in parallel en serie
+ * Stroomdeeltje spelen 3: spanningsdeler
