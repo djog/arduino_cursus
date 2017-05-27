@@ -17,9 +17,10 @@ fi
 
 cd ..
 cd Lessen
-cd Voorwoord                ; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_00.md; cd ..
-cd 5_dc_motor_met_transistor; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_01.md; cd ..
-cd 7_dc_motor_met_relais    ; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_02.md; cd ..
+cd Voorwoord                                    ; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_00.md; cd ..
+cd 5_dc_motor_met_transistor                    ; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_01.md; cd ..
+cd 7_dc_motor_met_relais                        ; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_02.md; cd ..
+cd 8_infrarood_sensor_obstakel_ontwijkend_object; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_03.md; cd ..
 
 
 cd $build_folder
@@ -27,6 +28,7 @@ cd $build_folder
 cat README_00.md >> README.md; echo " " >> README.md
 cat README_01.md >> README.md; echo " " >> README.md
 cat README_02.md >> README.md; echo " " >> README.md
+cat README_03.md >> README.md; echo " " >> README.md
 
 # Thinner margin
 pandoc README.md -o boek.pdf --toc --toc-depth=1 --highlight-style=tango -V geometry:margin=0.5in
