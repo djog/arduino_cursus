@@ -1,6 +1,5 @@
 # 3. Servo motor
 
-
 In de les gaan we een servo aansturen met een potmeter.
 Dit is eigenlijk vooral herhaling
 

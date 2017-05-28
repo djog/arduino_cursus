@@ -16,11 +16,6 @@ Hiermee kun je stickers verdienen! Lessen met een :star: zijn extra.
  * [Les 1b: Blink Blink Blink](1b_BlinkBlinkBlink/README.md)
  * [Les 1c: Meer Kleur, Fade Met For](1c_MeerKleurFadeMetFor/README.md)
  * [Les 1d: For Nog Een Keer](1d_ForNogEenKeer/README.md) 
- * :star: [Les 1e: Zeven segmenten display](1e_zeven_segment_display/README.md)
- * :star: [Blink snelheid](BlinkSnelheid/README.md)
- * :star: :star: [LCD les 1](LCD1/README.md)
- * :star: :star: [LCD les 2](LCD2/README.md)
- * :star: :star: [LCD les 3](LCD3/README.md)
 
 ### Sensor
 
@@ -29,22 +24,17 @@ Hiermee kun je stickers verdienen! Lessen met een :star: zijn extra.
  * [Les 2: Knop if else](2_Knop_if_else/README.md) 
  * [Les 4: FSR](4_FSR/README.md) 
  * [Les 9: LDR](9_LDR/README.md) 
- * :star: [Capacitatieve sensor les 1](CapacitatieveSensor1/README.md)
- * :star: [Capacitatieve sensor les 2](CapacitatieveSensor2/README.md)
- * :star: [Capacitatieve sensor les 3](CapacitatieveSensor3/README.md)
- * :star: :star: [RFID1](RFID1/README.md)
- * :star: :star: [RFID2](RFID2/README.md)
+ * [Potmeter](Potmeter/README.md)
 
 ### Actuator, laag vermogen
 
 ![groene balk](Groen.png)
 
- * [Servo besturen met seriele monitor](ServoSerial/README.md)
+ * ([Servo besturen met seriele monitor](ServoSerial/README.md))
  * [Les 3a: Servo motor](3_servo_motor/README.md)
  * [Les 3b: Meer servo motoren](3_servo_motoren/README.md)
  * [Les 4: FSR met servo](4_FSR_met_servo/README.md)
  * [Les 6: Muziek tone](6_muziek_tone/README.md)
- * :star: [Piano](Piano/README.md)
 
 ### Actuator, hoger vermogen
 
@@ -58,9 +48,20 @@ Hiermee kun je stickers verdienen! Lessen met een :star: zijn extra.
 
 ![blauwe balk](Blauw.png)
 
-Deze lessen kun je zelf doen. 
-
+ * [Potmeter](Potmeter/README.md)
+ * [Blink snelheid](BlinkSnelheid/README.md)
+ * [LCD les 1](LCD1/README.md)
+ * [LCD les 2](LCD2/README.md)
+ * [LCD les 3](LCD3/README.md)
+ * [Les 1e: Zeven segmenten display](ZevenSegmentDisplay/README.md)
+ * [Servo besturen met seriele monitor](ServoSerial/README.md)
+ * [Capacitatieve sensor les 1](CapacitatieveSensor1/README.md)
+ * [Capacitatieve sensor les 2](CapacitatieveSensor2/README.md)
+ * [Capacitatieve sensor les 3](CapacitatieveSensor3/README.md)
+ * [RFID1](RFID1/README.md)
+ * [RFID2](RFID2/README.md)
  * [Theremin](Theremin/README.md)
+ * [Piano](Piano/README.md)
  * [Arduino en Processing](Arduino_en_processing/README.md)
  * [Processing (op de Dojo GitHub)](https://github.com/richelbilderbeek/Dojo/tree/master/LessenProcessing)
 
