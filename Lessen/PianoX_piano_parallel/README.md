@@ -1,5 +1,15 @@
 # Piano parallel
 
+## Piezo aansluiten
+
+
+## Knop aansluiten
+
+## Tweede knop aansluiten
+
+## Eindopdracht: derde knop aansluiten
+
+![Eindopdracht](Piano_parallel.png)
 
 ```c++
 const int speaker_pin = 8;
@@ -35,3 +45,14 @@ void loop()
   delay(toonlengte);
 }
 ```
+
+ 1. Houd knop 3 ingedrukt. Het geluid klinkt hakkelig. Hoe kan dat?
+ 2. Wat gebeurt er als je twee knoppen indrukt?
+ 3. Een gewone piano heeft 88 toetsen. Kun je een piano op deze manier bouwen met een Arduino Uno?
+
+## Eindopdracht antwoorden
+
+ 1. Omdat de Arduino eerst pin 1, dan pin 2, dan pin 3 leest. Dit lezen kost tijd. In deze tijd is er geen geluid
+ 2. Je hoort de laagste toon
+ 3. Nee, een Arduino Uno heeft 20 pinnen. Voor een piano hebben we 88 pinnen nodig voor de knopjes, en 1 pin voor de piezo
+

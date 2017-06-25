@@ -61,9 +61,15 @@ Hiermee kun je stickers verdienen! Lessen met een :star: zijn extra.
  * [RFID1](RFID1/README.md)
  * [RFID2](RFID2/README.md)
  * [Theremin](Theremin/README.md)
- * [Piano](Piano/README.md)
  * [Arduino en Processing](Arduino_en_processing/README.md)
  * [Processing (op de Dojo GitHub)](https://github.com/richelbilderbeek/Dojo/tree/master/LessenProcessing)
+
+### Piano
+
+ * [Piano 1: Vader Jacob in frequenties (oud)](Piano1/README.md)
+ * [Piano X: Vader Jacob in frequenties (nieuw)](PianoX_vader_jacob_frequenties/README.md)
+ * [Piano X: een piano bouwen met de knoppen parallel](PianoX_piano_parallel/README.md)
+ * [Piano X: een piano bouwen met een pin](PianoX_een_pin/README.md)
 
 ## Electriciteit
 
