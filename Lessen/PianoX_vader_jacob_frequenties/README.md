@@ -33,7 +33,7 @@ Dit wordt de duur van een noot genoemd.
 Hieronder zie je duur van de belangrijkste soorten noten:
 
 Plaatje|Naam|Duur in milliseconden
----|---
+---|---|---
 ![hele noot](HeleNoot.png)|Hele noot|250
 ![dubbele noot](DubbleNoot.png)|Dubbele noot|500
 ![halve noot](HalveNoot.png)|Halve noot|125
