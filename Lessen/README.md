@@ -60,7 +60,8 @@ Hiermee kun je stickers verdienen! Lessen met een :star: zijn extra.
  * [Capacitatieve sensor les 3](CapacitatieveSensor3/README.md)
  * [RFID1](RFID1/README.md)
  * [RFID2](RFID2/README.md)
- * [Theremin](Theremin/README.md)
+ * [Theremin met infrarode afstandssensor](Theremin_infrarood/README.md)
+ * [Theremin meu ultrasone afstandssensor](Theremin_ultrasoon/README.md)
  * [Arduino en Processing](Arduino_en_processing/README.md)
  * [Processing (op de Dojo GitHub)](https://github.com/richelbilderbeek/Dojo/tree/master/LessenProcessing)
 
