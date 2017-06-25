@@ -69,7 +69,7 @@ Hiermee kun je stickers verdienen! Lessen met een :star: zijn extra.
  * [Piano 1: Vader Jacob in frequenties (oud)](Piano1/README.md)
  * [Piano X: Vader Jacob in frequenties (nieuw)](PianoX_vader_jacob_frequenties/README.md)
  * [Piano X: een piano bouwen met de knoppen parallel](PianoX_piano_parallel/README.md)
- * [Piano X: een piano bouwen met een pin](PianoX_een_pin/README.md)
+ * [Piano X: een piano bouwen met een pin](PianoX_piano_een_pin/README.md)
 
 ## Electriciteit
 
