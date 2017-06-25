@@ -38,3 +38,4 @@ Leermateriaal: zie [Boek](Boek/README.md)
  * Vrijdag 21 juli 18:00-20:00: Leerlingpresentaties en evaluatie
  * Donderdag 3 augustus 10:00-16:00: Zomerschool voor 35-40 leerlingen van 9-11 jaar
  * ?18 t/m 22 augustus: Noorderzon
+ * 22 juli 2017 t/m 3 sep 2017: Zomervakantielessen 
