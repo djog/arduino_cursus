@@ -44,26 +44,33 @@ int noteDurations[] = {
 4,4,4,4,4,4,4,4,4,4,4,4,
 4,4,4};
 
-void setup() {
+void setup() 
+{
 
-for (int thisNote = 0; thisNote < 176; thisNote++) { 
-// herhaal de noten van deze melodie
+  for (int thisNote = 0; thisNote < 176; thisNote++) 
+  { 
+    // herhaal de noten van deze melodie
 
-int noteDuration = 1000/noteDurations[thisNote];
-// voor het berekenen van de nootduur wordt 1 seconde gebruikt. 1 seconde is 1000.
-// 1000 wordt gedeeld door het noottype (0,1,2,4,8) 
-// 1000/0, 1000/1, 1000/2, 1000/4, 1000/8
+    int noteDuration = 1000/noteDurations[thisNote];
+    // voor het berekenen van de nootduur wordt 1 seconde gebruikt. 1 seconde is 1000.
+    // 1000 wordt gedeeld door het noottype (0,1,2,4,8) 
+    // 1000/0, 1000/1, 1000/2, 1000/4, 1000/8
 
-tone(8, melody[thisNote],noteDuration);
+    tone(8, melody[thisNote],noteDuration);
 
-int pauseBetweenNotes = noteDuration * 1.30;
-// om de noten van elkaar te onderscheiden, zet er een minimumtijd tussen.
-// de notenduur + 30% lijkt goed te werken:
+    int pauseBetweenNotes = noteDuration * 1.30;
+    // om de noten van elkaar te onderscheiden, zet er een minimumtijd tussen.
+    // de notenduur + 30% lijkt goed te werken:
 
-delay(pauseBetweenNotes);
+    delay(pauseBetweenNotes);
 
-noTone(8);
-// stop de toon te spelen op pin 8:
+    noTone(8);
+    // stop de toon te spelen op pin 8:
+  }
 }
-}void loop() {// void loop leeg laten, zo komt er geen herhaling en wordt de melodie maar 1x afgespeeld.
+
+
+void loop() 
+{
+  // void loop leeg laten, zo komt er geen herhaling en wordt de melodie maar 1x afgespeeld.
 }
