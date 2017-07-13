@@ -10,9 +10,9 @@ Maar je mag het altijd komen proberen.
 ## Ik ben ouder dan 18 jaar oud, ben ik welkom?
 
 Ja. Nieuwe volwassenen zullen door de jongeren opgeleid worden (van 18:15-20:00). Dit is het meest leerzaam voor de *jongeren*. Voel je dus vooral welkom. Volwassenen zal daarna vriendelijk gevraagd worden om minstens een van de volgende dingen te gaan doen:
-  (1) gave dingen te bouwen om de leerlingen te inspireren 
-  (2) assisteren bij de lessen door de leerlingen met hun vragen te helpen
-  (3) lessen te geven
+  1. gave dingen te bouwen om de leerlingen te inspireren 
+  2. assisteren bij de lessen door de leerlingen met hun vragen te helpen
+  3. lessen te geven
 
 Hierbij geldt de regel is dat de kinderen altijd voor gaan. Na 21:00 gaan de kinderen weg, dus er is ook tijd voor onderwijs speciaal voor de volwassenen.
 
@@ -60,12 +60,6 @@ In het begin zul je veel aan de grote tafel zitten, totdat je zelfstandig kunt w
 
 ## Welke vrijwilligers zijn er?
 
-### Amaia
-
-`[Hier een foto van Amaia]`
-
-Amaia is een leerling en ook gastvrouw. Zij vangt de nieuwe leerlingen op
-
 ### Anko
 
 `[Hier een foto van Anko]`
@@ -80,20 +74,6 @@ Anko helpt je als je zelf of met anderen aan een project wilt werken
 [Jan](https://github.com/janderkkotlarski) zit vooral met de Uno's in het aquarium.
 Bij hem is het rustig en wordt er stil gewerkt.
 Jan bepaalt samen met Richel welke lessen de Uno's krijgen.
-
-### Noemie
-
-`[Hier een foto van Noemie]`
-
-Noemie is een leerling en ook gastvrouw. Zij vangt de nieuwe leerlingen op
-
-### [Peter](https://github.com/dpstruwe)
-
-`[Hier een foto van Peter]`
-
-[Peter](https://github.com/dpstruwe) zit vooral met de Nano's in de kantine.
-Peter geeft lessen bij het schoolbord. 
-Peter bepaalt samen met Richel welke lessen de Nano's krijgen.
 
 ### [Richel](https://github.com/richelbilderbeek)
 
@@ -129,37 +109,6 @@ De missie van De Jonge Onderzoekers is: '[Het] exploiteren van een activiteitenc
 ## Staan jullie ook op festivals?
 
 Jazeker! Klik [hier](Publiciteit/README.md) voor de plaatsen waar we zijn geweest (en foto's van hebben)
-
-## Ik wil een onderdeel kopen. Kan dat?
-
-Jazeker, dat kan bij Peter. Dit zijn de prijzen:
-
-Naam|Verkoopprijs (euro
----|---
-Arduino Uno + snoer|15,00
-Breadboard|3,50
-Set soepele snoertjes male-male|3,00
-10 weerstandjes|0,10
-Led rood|0,07
-led groen|0,07
-led geel|0,07
-led RGB|0,70
-led wit helder|0,25
-Drukschakelaar (buttonswitch)|0,30
-instelpotmeter (Insteldraaiknopje)|0,30
-Servo|4,00
-Transistor|0,15
-Relais|1,80
-Electromotor|1,00
-Scheepsschroef|0,20
-Luidspreker|0,60
-Lichtsensor (LDR)|0,70
-Temperatuursensor (NTC)|0,70
-Werkboek|4,00
-Druksensor|9,50
-Set snoertjes male - female|2,00 
-
-Op deze prijzen maken we geen winst. We bieden dit enkel aan als service om leerlingen ook thuis aan de slag te kunnen laten gaan.
 
 ## In de Arduino IDE is de 'Serial Port' menu-optie grijs. Ik heb Debian
 
@@ -201,8 +150,3 @@ Mocht je nu je code niet kunnen uploaden, door onderstaande error, druk dan op d
 avrdude: stk500_getsync(): not in sync: resp=0x00
 avrdude: stk500_disable(): protocol error, expect=0x14, resp=0x51
 ```
-
-
-
-
-

@@ -6,6 +6,9 @@
 
 Dit is de GitHub van de Nederlandse Arduino cursus gegeven bij De Jonge Onderzoekers te Groningen.
 
+
+### NIEUW: 3D printerproject! Zie [hier](3D_printers/IntroductieCherry20170714.pdf) het project dat start in september 2017
+
 ### Over de cursus
 
  * Wanneer: elke vrijdagavond, behalve in de kerstvakantie. Eerste les in 2016 is op 8 januari
@@ -34,8 +37,7 @@ Leermateriaal: zie [Boek](Boek/README.md)
 
 ## Agenda
 
- * Zondag 11 juni 12:00-16:00: [Science en Hi-Tech dag](https://github.com/richelbilderbeek/science_en_hi-tech_dag_2017)
  * Vrijdag 21 juli 18:00-20:00: Leerlingpresentaties en evaluatie
+ * Woensdag 2 augustus 12:00-17:00: Zomerstad in de Stadsbibliotheek
  * Donderdag 3 augustus 10:00-16:00: Zomerschool voor 35-40 leerlingen van 9-11 jaar
- * ?18 t/m 22 augustus: Noorderzon
  * 22 juli 2017 t/m 3 sep 2017: Zomervakantielessen 
