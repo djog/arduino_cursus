@@ -9,6 +9,8 @@ Hiermee kun je stickers verdienen! Lessen met een :star: zijn extra.
 
 ### LED
 
+![Led](Led.png)
+
  * [Les 1a: Blink](1a_Blink/README.md)
  * [Les 1b: Blink Blink Blink](1b_BlinkBlinkBlink/README.md)
  * [Les 1c: Meer Kleur, Fade Met For](1c_MeerKleurFadeMetFor/README.md)
