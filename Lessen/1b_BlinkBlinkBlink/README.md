@@ -4,7 +4,7 @@ Deze les heet 'Blink Blink Blink', omdat het de les Blink is, maar dan met drie 
 
 ## Blink 
 
-![Blink](1b_BlinkBlinkBlink_blink)
+![Blink](1b_BlinkBlinkBlink_blink.png)
 
 Dit is de code van Blink op een andere manier:
 
