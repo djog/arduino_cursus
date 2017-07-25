@@ -98,6 +98,8 @@ Nu is het tijd 'Blink Blink Blink' aan te sluiten:
 Sluit 'Blink Blink Blink' aan. Hernoem de variable `pin_led` naar `pin_led_1`
 en zorg dat 'ie de juiste beginwaarde heeft.
 
+\pagebreak
+
 ## Oplossing
 
 ```c++
@@ -152,6 +154,8 @@ void loop()
 ## Opdracht
 
 Maak een derde variabele `pin_led_3`. Laat nu steeds alle lampjes tegelijk knipperen: allemaal aan, dan allemaal uit.
+
+\pagebreak
 
 ## Oplossing
 

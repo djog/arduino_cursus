@@ -25,11 +25,11 @@ cd 1d_ForNogEenKeer        ; cp *.* $build_folder; mv $build_folder/README.md $b
 
 cd $build_folder
 
-cat README_00.md >> README.md; echo " " >> README.md
-cat README_01.md >> README.md; echo " " >> README.md
-cat README_02.md >> README.md; echo " " >> README.md
-cat README_03.md >> README.md; echo " " >> README.md
-cat README_04.md >> README.md; echo " " >> README.md
+cat README_00.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
+cat README_01.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
+cat README_02.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
+cat README_03.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
+cat README_04.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
 
 # Table of Content
 # Code has highlights following the tango color scheme

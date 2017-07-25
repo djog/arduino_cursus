@@ -25,6 +25,8 @@ Let op:
  * Elke andere pin van een RGB LED moet een weerstandje krijgen van 1000 Ohm (bruin-zwart-rood-goud)
  * De pinnen van de LED moeten naar een pin waar een golfje (`~`) voor staat, want alleen deze pinnen kunnen dimmen
 
+\pagebreak
+
 ## Opdracht
 
 Gebruik deze code:
@@ -102,6 +104,8 @@ van 0 naar 255 en de blauwe lijn staat bij nul.
 
 Pas de code zo aan dat het lampje van rood naar geel (rood en groen) gaat.
 
+\pagebreak
+
 ## Oplossing
 
 ```c++
@@ -147,6 +151,8 @@ Tip: voeg deze code toe:
     delay(30);
   }
 ``` 
+
+\pagebreak
 
 ## Oplossing
 

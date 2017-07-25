@@ -210,6 +210,8 @@ void loop()
 }
 ```
 
+\pagebreak
+
 ## Eindopdracht
 
 Maak nu een op-en-neer-gaand patroon in de LEDjes:

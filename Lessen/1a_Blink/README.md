@@ -40,6 +40,8 @@ Als het goed is, zie je de Arduino IDE:
 ![Sunglasses](EmojiSunglasses.png) | IDE betekent 'Integrated Development Environment', het programma waarmee je programmeert.
 :-------------:|:----------------------------------------: 
 
+\pagebreak
+
 ## Ons eerste programma
 
 Dit is (een versie van) de code van `Blink`:
@@ -96,6 +98,8 @@ void loop()
 ![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------: 
 `delay(1000);`|'Lieve computer, doe nu 1000 milliseconden niks.'
+
+\pagebreak
 
 ## Opdracht
 
