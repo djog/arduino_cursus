@@ -18,12 +18,11 @@ fi
 cd ..
 cd Lessen
 cd Voorwoord               ; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_00.md; cd ..
-cd 0_Breadboard            ; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_01.md; cd ..
-cd 1a_Blink                ; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_02.md; cd ..
-cd 1b_BlinkBlinkBlink      ; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_03.md; cd ..
-cd 1c_MeerKleurFadeMetFor  ; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_04.md; cd ..
-cd 1d_ForNogEenKeer        ; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_05.md; cd ..
-#cd 1e_zeven_segment_display; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_06.md; cd ..
+cd 1a_Blink                ; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_01.md; cd ..
+cd 1b_BlinkBlinkBlink      ; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_02.md; cd ..
+cd 1c_MeerKleurFadeMetFor  ; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_03.md; cd ..
+cd 1d_ForNogEenKeer        ; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_04.md; cd ..
+cd 0_Breadboard            ; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_05.md; cd ..
 
 cd $build_folder
 
@@ -33,7 +32,6 @@ cat README_02.md >> README.md; echo " " >> README.md
 cat README_03.md >> README.md; echo " " >> README.md
 cat README_04.md >> README.md; echo " " >> README.md
 cat README_05.md >> README.md; echo " " >> README.md
-#cat README_06.md >> README.md; echo " " >> README.md
 
 # Table of Content
 # Code has highlights following the tango color scheme

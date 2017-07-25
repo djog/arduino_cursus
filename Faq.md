@@ -20,7 +20,10 @@ Hierbij geldt de regel is dat de kinderen altijd voor gaan. Na 21:00 gaan de kin
 
 Nee, wij hebben wel reserve laptops, Arduino's, electronica, etc.
 
-We zien wel dat het handiger voor de leerlingen is een eigen laptop te hebben. Ook merken we dat leerlingen na zes lessen hun ouders gaan vragen om een Arduino om thuis mee te werken. Wij verkopen een startersetje voor 35 euro voor inkoopsprijs.
+We zien wel dat het handiger voor de leerlingen is een eigen laptop te hebben. 
+Ook merken we dat leerlingen na zes lessen hun ouders gaan vragen om een Arduino om thuis mee te werken. 
+
+Wij verkopen een startersetje voor 35 euro voor inkoopsprijs.
 
 ## Mag ik games maken?
 
@@ -29,7 +32,10 @@ Jazeker! Sterker nog, het programmeren van games is een van de leukste manieren 
 ## Mag ik gamen?
 
 Nee. Gamen vinden we nooit goed: niet tijdens de les, niet voor de les, niet in de pauze, niet na de pauze.
-De vrijdagavond is een cursus avond, waarbij leren voorop staat. Gamen draagt niet bij aan het leren programmeren. Heb je *zelf* een spel geprogrammeerd, dan krijg je de ruimte om het spel te laten zien en te laten testen. 
+De vrijdagavond is een cursus avond, waarbij leren voorop staat. 
+Gamen draagt niet bij aan het leren programmeren. 
+
+Heb je *zelf* een spel geprogrammeerd, dan krijg je de ruimte om het spel te laten zien en te laten testen. 
 
 ## Waar ga ik zitten?
 
@@ -87,12 +93,11 @@ Richel bepaalt dan ook mee welke lessen de leerlingen krijgen.
 Zijn werk is te zien op [zijn website met meer dan 3900 pagina's](http://richelbilderbeek.nl) 
 en [meer dan 450 GitHub repositories](https://github.com/richelbilderbeek?tab=repositories).
 
-### Sara
+### Martin
 
-`[Hier een foto van Sara]`
+`[Hier een foto van Martin]`
 
-Sara zit vooral met de Nano's in de kantine.
-Sara doet vaak mee met de les als leerling, maar helpt je ook als je een vraag hebt.
+Martin is de nieuwste vrijwilliger.
 
 ## Hoe kan het dat de cursus zo goedkoop is?
 
