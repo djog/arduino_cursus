@@ -14,11 +14,14 @@ Sluit een Arduino zo aan:
 
 ![Blink zonder led](BlinkZonderLed.png)
 
-Huh? Er hoeft helemaal niks aangesloten te worden? 
-
-Dat klopt! De Arduino heeft namelijk zelf al een lampje.
-
 Je zult wel een USB kabel in de Arduino en in een laptop moeten doen
+
+## Opdracht
+
+Sluit de Arduino aan.
+
+![Sunglasses](EmojiSunglasses.png) | De Arduino heeft zelf al een lampje dat je kunt programmeren.
+:-------------:|:----------------------------------------: 
 
 ## De Arduino IDE opstarten
 
@@ -40,6 +43,9 @@ Als het goed is, zie je de Arduino IDE:
 
 ![De Arduino IDE](ArduinoIde.png)
 
+![Sunglasses](EmojiSunglasses.png) | IDE betekent 'Integrated Development Environment', het programma waarmee je programmeert.
+:-------------:|:----------------------------------------: 
+
 ## Ons eerste programma
 
 Dit is (een versie van) de code van `Blink`:
@@ -59,35 +65,24 @@ void loop()
 }
 ```
 
-Wat de code precies doet, dat leer je later.
+![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-------------:|:----------------------------------------: 
+`void setup() { }`|'Lieve computer, doe wat tussen accolades staat een keer.'
 
-Om code te kopieeren gebruik je sneltoetsen:
+![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-------------:|:----------------------------------------: 
+`void loop() { }`|'Lieve computer, doe de hele tijd wat tussen accolades staat.'
 
- * `SHIFT + pijltjes`: selecteren
- * `CTRL + A`: alles selecteren
- * `CTRL + C`: kopieren van selectie
- * `CTRL + X`: knippen van selectie
- * `CTRL + V`: plakken van selectie
+Type de code over in de Arduino IDE en klik op `Upload`.
 
- * Kopieer de code naar de Arduino IDE
- * Klip op `Upload`
+![Hier kun je op `Upload` klikken](1a_blink_upload.png)
 
-Als het goed is, gaat er een lampje op de Arduino om de seconde aan en uit.
+## Opdracht
 
-## Blink
+Laat het LEDje 10x zo snel knipperen. 
+Hint: het LEDje is nu 1000 milliseconden aan en 1000 milliseconden uit.
 
-Nu is het tijd Blink aan te sluiten:
-
-![Blink](Blink.png)
-
- * Haal de USB snoer uit de computer, zodat de Arduino geen spanning meer heeft
- * Sluit Blink aan zoals op de tekening
- * Zet de spanning weer op de Arduino
- * Als het goed is, knippert het rode LEDje nu mee met het LEDje op de Arduino. Zo nee, draai de rode LED om :smile:
-
-## Code
-
-Hier staat weer de code van Blink:
+## Oplossing
 
 ```c++
 void setup() 
@@ -98,11 +93,28 @@ void setup()
 void loop() 
 {
   digitalWrite(13, HIGH);
-  delay(1000);
+  delay(100);
   digitalWrite(13, LOW);
-  delay(1000);
+  delay(100);
 }
 ```
+
+## Blink
+
+Nu is het tijd Blink aan te sluiten:
+
+![Blink](Blink.png)
+
+ * Haal de USB snoer uit de computer, zodat de Arduino geen spanning meer heeft
+ * Sluit Blink aan zoals op de tekening
+ * Zet de spanning weer op de Arduino
+ * Als het goed is, knippert het rode LEDje nu mee met het LEDje op de Arduino. 
+
+:bowtie: Als het LEDje niet brand, draai deze dan om.
+
+## Opdracht
+
+Sluit Blink aan zoals figuur `Blink`.
 
 ## Vragen en opdrachten
 
