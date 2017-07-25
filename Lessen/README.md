@@ -15,7 +15,6 @@ Hiermee kun je stickers verdienen! Lessen met een :star: zijn extra.
  * [Les 1b: Blink Blink Blink](1b_BlinkBlinkBlink/README.md)
  * [Les 1c: Meer Kleur, Fade Met For](1c_MeerKleurFadeMetFor/README.md)
  * [Les 1d: For Nog Een Keer](1d_ForNogEenKeer/README.md) 
- * [Les 0: Broodplank](0_Breadboard/README.md)
 
 ### Sensor
 
@@ -47,6 +46,7 @@ Hiermee kun je stickers verdienen! Lessen met een :star: zijn extra.
 
 ![blauwe balk](Blauw.png)
 
+ * [Les 0: Broodplank](0_Breadboard/README.md)
  * [Potmeter](Potmeter/README.md)
  * [Blink snelheid](BlinkSnelheid/README.md)
  * [LCD les 1](LCD1/README.md)

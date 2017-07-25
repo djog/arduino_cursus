@@ -4,3 +4,4 @@
 Scripts/build/*.*
 Scripts/build/
 Scripts/build/README_*.md
+.~lock.*
