@@ -19,12 +19,11 @@ Hiermee kun je stickers verdienen! Lessen met een :star: zijn extra.
 
 ### Sensor
 
-![gele balk](Geel.png)
+![LDR](Ldr.png)
 
  * [Les 2: Knop if else](2_Knop_if_else/README.md) 
  * [Les 4: FSR](4_FSR/README.md) 
  * [Les 9: LDR](9_LDR/README.md) 
- * [Potmeter](Potmeter/README.md)
 
 ### Actuator, laag vermogen
 
