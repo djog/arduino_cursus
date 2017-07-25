@@ -10,6 +10,9 @@ Hier zie je hoe een regenboog werkt:
 
 ![Regenboog](1c_MeerKleurFadeMetFor_regenboog.png) 
 
+![Sunglasses](EmojiSunglasses.png) | Geel licht is rood en groen licht samen.
+:-------------:|:----------------------------------------: 
+
 ## Aansluiten
 
 Sluit onderstaand schema aan:
@@ -87,6 +90,9 @@ void loop()
 `analogWrite(9, 255)`|'Lieve computer, zet pin 9 vol aan.'
 `analogWrite(9, 127)`|'Lieve computer, zet pin 9 half aan.'
 `analogWrite(9, 0)`|'Lieve computer, zet pin 9 uit.'
+
+![Sunglasses](EmojiSunglasses.png) | Tellen tot drie: '1, 2'. Tellen tot en met drie: '1, 2, 3'
+:-------------:|:----------------------------------------: 
 
 ## Opdracht
 
