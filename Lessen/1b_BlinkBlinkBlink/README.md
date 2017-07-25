@@ -184,5 +184,7 @@ void loop()
 
 Laat de lampjes nu in een 'Knightrider patroon' gaan: 1-2-3-2. Er moet altijd precies een lampje branden.
 
+![Sunglasses](EmojiSunglasses.png) | Knightrider was een TV serie met een pratende auto.
+:-------------:|:----------------------------------------: 
 
 
