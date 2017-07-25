@@ -6,7 +6,7 @@ In deze les gaan we de allergemakkelijkste schakeling maken die er is: Blink!
 
 Sluit een Arduino zo aan:
 
-![Blink zonder led](BlinkZonderLed.png)
+![Blink zonder led](1a_blink_zonder_led.png)
 
 Je zult wel een USB kabel in de Arduino en in een laptop moeten doen
 
@@ -26,7 +26,7 @@ als 'ie-dee-ee')
 De Arduino IDE staat op alle laptops van de cursus.
 Hier zie je het logo van de Arduino IDE:
 
-![Logo van de Arduino IDE](ArduinoIdeLogo.png)
+![Logo van de Arduino IDE](1a_blink_ide_logo.png)
 
 Je kunt de Arduino IDE ook starten, door:
 
@@ -35,7 +35,7 @@ Je kunt de Arduino IDE ook starten, door:
 
 Als het goed is, zie je de Arduino IDE:
 
-![De Arduino IDE](ArduinoIde.png)
+![De Arduino IDE](1a_blink_ide.png)
 
 ![Sunglasses](EmojiSunglasses.png) | IDE betekent 'Integrated Development Environment', het programma waarmee je programmeert.
 :-------------:|:----------------------------------------: 
