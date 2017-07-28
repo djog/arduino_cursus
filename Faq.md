@@ -125,7 +125,7 @@ De missie van De Jonge Onderzoekers is: '[Het] exploiteren van een activiteitenc
 
 ## Staan jullie ook op festivals?
 
-Jazeker! Klik [hier](Publiciteit/README.md) voor de plaatsen waar we zijn geweest (en foto's van hebben)
+Jazeker! Klik [hier](Publiciteit/README.md) voor de plaatsen waar we zijn geweest en foto's van hebben.
 
 ## In de Arduino IDE is de 'Serial Port' menu-optie grijs. Ik heb Debian
 
