@@ -83,7 +83,7 @@ Jan bepaalt samen met Richel welke lessen de Uno's krijgen.
 
 ### [Richel](https://github.com/richelbilderbeek)
 
-![Richel](Images/Richel.png)
+![Richel](Raw/Richel.png)
 
 Richel programmeert sinds zijn achtste. Hij is de meest ervaren en belezen programmeur, vooral in C++.
 Richel is vooral geinteresseerd in onderwijs en heeft de lerarenopleiding aan de universiteit afgerond.
@@ -95,9 +95,21 @@ en [meer dan 450 GitHub repositories](https://github.com/richelbilderbeek?tab=re
 
 ### Martin
 
-`[Hier een foto van Martin]`
+![Richel](Raw/Martin.jpg)
 
-Martin is de nieuwste vrijwilliger.
+Martin is begonnen met programmeren tijdens zijn studie aan de Technische Universiteit van Delft. 
+Dat was 40 jaar geleden. Bij de KPN heeft hij een landelijk dekkend 
+computernetwerk gebouwd en was een van de medeoprichters van het 
+Telematica Lab van de KPN, zeg maar een soort Jonge Onderzoekers, 
+maar dan voor volwassenen. Daarna hielp hij KPN en andere bedrijven hun ICT 
+op orde te krijgen. Nu bouwt hij interactieve websites, waar gebruikers kunnen 
+inloggen en zaken als vacatures en activiteiten kunnen bekijken en boeken. 
+En sinds kort ook actief met Arduino. 
+
+Martin houdt ervan nieuwe dingen te ontdekken en anderen daarin te 
+stimuleren en te begeleiden. En Arduino biedt daarvoor heel veel mogelijkheden.
+Martin's lijfspreuk is: Maak alles zo eenvoudig mogelijk, 
+maar niet eenvoudiger. (naar Einstein)
 
 ## Hoe kan het dat de cursus zo goedkoop is?
 
