@@ -25,9 +25,10 @@ Dit zijn de aansluitingen:
 
 Dit is de code voor op je Arduino:
 
-```
+```c++
 void setup() 
 {
+  pinMode(A0, INPUT);
   Serial.begin(9600);
 }
 
