@@ -1,14 +1,9 @@
 # 4. FSR
 
-Met een FSR kun je kracht meten. FSR betekent 'Force Sensitive Resitor'.
-Dit is Engels voor 'kracht gevoelige weerstand'.
-
-In deze les leer je:
-
- * Wat de seriele monitor is
- * Hoe je een FSR gebruikt
-
 ## Seriele monitor
+
+![Sunglasses](EmojiSunglasses.png) | Seriele monitor: de plek waar je de Arduino kunt laten praten via een seriele poort
+:-------------:|:----------------------------------------: 
 
 Met de seriele monitor kunnen we de Arduino laten praten.
 Of precies: dat deze tekst naar de seriele monitor stuurt.
@@ -37,13 +32,11 @@ void loop()
 }
 ```
 
-Dit doet de code:
-
- * In de `setup` functie gebeurt een ding:
-   * `Serial.begin(9600)`: de seriele monitor stuurt 9600 bits ('nullen en enen') per seconde
- * In de `loop` functie gebeuren twee dingen:
-   * `Serial.println("Hallo")`: de tekst 'Hallo' wordt naar de seriele monitor gestuurd
-   * `delay(1000)`: wacht duizend milliseconden
+![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-------------:|:----------------------------------------: 
+`Serial.begin(9600)`|'Lieve computer, laat de Arduino praten met 9600 bits per seconde'
+`Serial.print("Hallo")`|'Lieve computer, laat de Arduino het woord `Hallo` zeggen`'
+`Serial.println("Hallo")`|'Lieve computer, laat de Arduino het woord `Hallo` zeggen en een nieuwe regel beginnen`'
 
 ### Opdrachten
 
@@ -65,6 +58,9 @@ Dit doet de code:
       stuur naar je computer (4800), dan je computer de tekst leest (9600)
 
 ## Aansluiten FSR zonder LED
+
+![Sunglasses](EmojiSunglasses.png) | FSR betekent 'Force Sensitive Resistance'
+:-------------:|:----------------------------------------: 
 
 Eerst sluiten we alleen een FSR aan:
 
@@ -92,14 +88,9 @@ void loop()
 }
 ```
 
-Dit doet de code:
-
- * In de `setup` functie gebeuren twee dingen
-   * `pinMode(A0, INPUT)`: de pin `A0` is een pin die leest, een input
-   * `Serial.begin(9600)`: de seriele monitor stuurt 9600 bits ('nullen en enen') per seconde
- * In de `loop` functie gebeuren twee dingen
-   * `Serial.println(analogRead(A0))`: lees de pin `A0` uit en schrijf deze naar de seriele monitor
-   * `delay(100)`: wacht honderd milliseconden
+![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-------------:|:----------------------------------------: 
+`Serial.println(analogRead(A0))`|'Lieve computer, laat de waarde van pin `A0` op de seriele monitor zien'
 
 ## Opdrachten
 
@@ -111,6 +102,9 @@ Dit doet de code:
  * 5. Haal de draad naar `A0` weg. Ja, haal de draad tussen `A0` en de LDR weg. 
       Kijk op de seriele monitor. Wat zie je?
 
+![Sunglasses](EmojiSunglasses.png) | De weerstand tussen A0 en LDR een 'Pull Down' weerstand genoemd
+:-------------:|:----------------------------------------: 
+
 ## Oplossingen
 
  * 1. Je ziet een getal van nul tot 1024, afhankelijk van de waarde van de FSR
@@ -120,17 +114,18 @@ Dit doet de code:
       stuur naar je computer (4800), dan je computer de tekst leest (9600)
  * 5. Nu zie je het getal willekeurig veranderen. Dit wordt een zwevende input genoemd
 
+![Sunglasses](EmojiSunglasses.png) | Een 'Pull Down' weerstand voorkomt een zwevende input
+:-------------:|:----------------------------------------: 
+
 ## Aansluiten FSR met LED
+
+![Sunglasses](EmojiSunglasses.png) | 'Force Sensitive Resistance' betekent 'Kracht afhankelijke weerstand'
+:-------------:|:----------------------------------------: 
 
 Nu sluiten we ook een LED aan:
 
 ![Stroomschema](4_FSR_met_LED.png)
-
-Let op:
-
- * het weerstandje aan de LED is duizend Ohm (bruin-zwart-rood-goud).
- * het weerstandje aan de FSR is tienduizend Ohm (bruin-zwart-oranje-goud).
-
+s
 ### Reageren op FSR
 
 Nu gaan we het LEDje laten reageren op de LED:
@@ -156,16 +151,10 @@ void loop()
 }
 ```
 
-Dit doet de code
+![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-------------:|:----------------------------------------: 
+`if (analogRead(A0) < 512) {}`|'Lieve computer, als op A0 minder dan 2,5 Volt staat, doe dan datgeen tussen accolades'
 
- * In de `setup` functie gebeuren drie dingen:
-   * `pinMode(A0, INPUT)`: de pin `A0` is een pin die leest, een input
-   * `pinMode(13, OUTPUT)`: pin `13` is een pin waar stroom uitkomt, een output
- * In de `loop` functie gebeuren twee dingen:
-   * Er zit een `if` statement in: als `analogRead(A0)` kleiner (`<`) is dan 512, wordt
-     er spanning op pin `13` gezet (`digitalWrite(13, HIGH)`). Anders, wordt de spanning
-     van pin `13` afgehaald (`digitalWrite(13, LOW)`)
-   * `delay(100)`: wacht honderd milliseconden
 
 ### Opdracht
 
@@ -280,6 +269,10 @@ void loop()
   delay(100);
 }
 ```
+
+![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-------------:|:----------------------------------------: 
+`analogWrite(11, analogRead(A0) / 4)`|'Lieve computer, dim pin 11 op de waarde van pin A0 (dit moet je delen door vier)'
 
 ## Eindopdracht
 

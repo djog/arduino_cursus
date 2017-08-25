@@ -5,6 +5,9 @@
 
 ![Stroomschema](2_knop_if_else.png)
 
+![Sunglasses](EmojiSunglasses.png) | De weerstand aan de knop wordt een 'Pull Down' weerstand genoemd
+:-------------:|:----------------------------------------: 
+
 ## Code
 
 Hier is code om het lampje aan te laten gaan,
@@ -38,6 +41,9 @@ void loop()
  * 1. De knop gaat dan aan
  * 2. Er staat een spatie, omdat dit mooier eruit ziet met de regel erboven. De spatie mag weg. 
 
+![Sunglasses](EmojiSunglasses.png) | Goede programmeurs werken netjes
+:-------------:|:----------------------------------------: 
+
 ## if
 
 
@@ -64,6 +70,9 @@ void loop()
 ![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------: 
 `if (digitalRead(4) == HIGH) {}`|'Lieve computer, als er spanning op pin 4 staat, doe dan hetgeen tussen accolades'
+
+![Sunglasses](EmojiSunglasses.png) | De `=` kun je uitspreken als 'zet op'. De `==` kun je uitspreken als 'is gelijk aan'
+:-------------:|:----------------------------------------: 
 
 ## Opdracht
 
