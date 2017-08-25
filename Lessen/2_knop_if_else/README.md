@@ -5,11 +5,6 @@
 
 ![Stroomschema](2_knop_if_else.png)
 
-Let op, er zijn twee verschillende weerstanden:
-
- * Duizend Ohm, bruin-zwart-rood-goud
- * Tienduizend Ohm, bruin-zwart-oranje-goud
-
 ## Code
 
 Hier is code om het lampje aan te laten gaan,
@@ -28,12 +23,10 @@ void loop()
 }
 ```
 
-Merk op:
-
- * Pin `2` is een pin waar electriciteit in gaat. 
-   Dat moet je in de `setup` functie zeggen
- * Met `digitalRead(2)` lees je pin `2` uit. Hier komt
-   `HIGH` of `LOW` uit
+![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-------------:|:----------------------------------------: 
+`digitalRead(2)`|'Lieve computer, geef mij HIGH als er op pin 2 spanning staat. Geef anders LOW'
+`digitalWrite(13, digitalRead(2))`|'Zet op pin 13 spanning als er op pin 2 spanning staat'
 
 ## Vragen
 
@@ -47,35 +40,30 @@ Merk op:
 
 ## if
 
-Soms wil je kunnen zeggen: 'Lieve Arduino, als
-er iets gebeurt, doe dan iets'. Dit doe je met een
-`if`-statement. `if` is Engels voor 'als'
-
-Hieronder staat code, dat als er spanning staat op pin 2,
-pin 11 spanning krijgt:
 
 ```c++
-if (digitalRead(2) == HIGH)
+void setup() 
 {
-  digitalWrite(11, HIGH);
+  pinMode(13, OUTPUT);
+  pinMode( 2, INPUT );
+}
+
+void loop()
+{
+  if (digitalRead(4) == HIGH)
+  {
+    digitalWrite(5, HIGH);
+  }
+  else
+  {
+    digitalWrite(6, LOW);
+  }
 }
 ```
 
-Je kunt ook zeggen wat de Arduino *anders* moet doen.
-
-Hieronder staat code, dat als er spanning staat op pin 2,
-pin 11 spanning krijgt, en dat *anders* pin 12 spanning krijgt:
-
-```c++
-if (digitalRead(2) == HIGH)
-{
-  digitalWrite(11, HIGH);
-}
-else
-{
-  digitalWrite(12, HIGH);
-}
-```
+![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-------------:|:----------------------------------------: 
+`if (digitalRead(4) == HIGH) {}`|'Lieve computer, als er spanning op pin 4 staat, doe dan hetgeen tussen accolades'
 
 ## Opdracht
 
@@ -83,7 +71,6 @@ Maak de code zo, dat:
 
  * als je op de knop drukt, dat het lampje aan gaat 
  * als je op de knop niet indrukt, dat het lampje uit gaat
- * vergeet niet: zet er een vertraging in van tien milliseconden 
 
 ## Oplossing
 
@@ -104,7 +91,6 @@ void loop()
   {
     digitalWrite(13, LOW);
   }
-  delay(10);
 }
 ```
 
