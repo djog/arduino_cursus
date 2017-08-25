@@ -1,13 +1,5 @@
 # 9. LDR
 
-Met een LDR kun je licht meten. LDR betekent 'Light Dependent Resistor'.
-Dit is Engels voor 'licht-afhankelijk weerstand'.
-
-In deze les leer je:
-
- * Wat de seriele monitor is
- * Hoe je een LDR gebruikt
-
 ## Alleen Arduino aansluiten
 
 Eerst sluiten we alleen een Arduino aan:
@@ -31,13 +23,8 @@ void loop()
 }
 ```
 
-Dit doet de code
-
- * In de `setup` functie gebeurt een ding:
-   * `Serial.begin(9600)`: de seriele monitor stuurt 9600 bits ('nullen en enen') per seconde
- * In de `loop` functie gebeuren twee dingen:
-   * `Serial.println("Hallo")`: de tekst 'Hallo' wordt naar de seriele monitor gestuurd
-   * `delay(1000)`: wacht duizend milliseconden
+![Sunglasses](EmojiBowtie.png) | Vergeten wat dit is? Ga naar les 4 'FSR'
+:-------------:|:----------------------------------------: 
 
 ### Opdrachten
 
@@ -60,11 +47,12 @@ Dit doet de code
 
 ## Aansluiten LDR zonder LED
 
+![Sunglasses](EmojiSunglasses.png) | LDR betekent 'Light Dependent Resistance'
+:-------------:|:----------------------------------------: 
+
 Eerst sluiten we alleen een LDR aan:
 
 ![Stroomschema](9_LDR.png)
-
-Let op, het weerstandje is tienduizend Ohm (bruin-zwart-oranje-goud).
 
 ### Code: lezen FSR met seriele monitor
 
@@ -84,14 +72,8 @@ void loop()
 }
 ```
 
-Dit doet de code
-
- * In de `setup` functie gebeuren twee dingen
-   * `pinMode(A0, INPUT)`: de pin `A0` is een pin die leest, een input
-   * `Serial.begin(9600)`: de seriele monitor stuurt 9600 bits ('nullen en enen') per seconde
- * In de `loop` functie gebeuren twee dingen
-   * `Serial.println(analogRead(A0))`: lees de pin `A0` uit en schrijf deze naar de seriele monitor
-   * `delay(100)`: wacht honderd milliseconden
+![Sunglasses](EmojiBowtie.png) | Vergeten wat dit is? Ga naar les 4 'FSR'
+:-------------:|:----------------------------------------: 
 
 ### Opdrachten
 
@@ -112,6 +94,9 @@ Dit doet de code
  5. Nu zie je het getal willekeurig veranderen. Dit wordt een zwevende input genoemd
 
 ## Aansluiten LDR met LED
+
+![Sunglasses](EmojiSunglasses.png) | 'Light Dependent Resistance' betekent 'lichtafhankelijke weerstand'
+:-------------:|:----------------------------------------: 
 
 Nu sluiten we ook een LED aan:
 
@@ -147,16 +132,8 @@ void loop()
 }
 ```
 
-Dit doet de code
-
- * In de `setup` functie gebeuren drie dingen:
-   * `pinMode(A0, INPUT)`: de pin `A0` is een pin die leest, een input
-   * `pinMode(13, OUTPUT)`: pin `13` is een pin waar stroom uitkomt, een output
- * In de `loop` functie gebeuren twee dingen:
-   * Er zit een `if` statement in: als `analogRead(A0)` kleiner (`<`) is dan 512, wordt
-     er spanning op pin `13` gezet (`digitalWrite(13, HIGH)`). Anders, wordt de spanning
-     van pin `13` afgehaald (`digitalWrite(13, LOW)`)
-   * `delay(100)`: wacht honderd milliseconden
+![Sunglasses](EmojiBowtie.png) | Vergeten wat dit is? Ga naar les 4 'FSR'
+:-------------:|:----------------------------------------: 
 
 ### Opdracht
 
