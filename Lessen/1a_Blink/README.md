@@ -142,7 +142,7 @@ Nu is het tijd Blink aan te sluiten:
  * Zet de spanning weer op de Arduino
  * Als het goed is, knippert het rode LEDje nu mee met het LEDje op de Arduino. 
 
-![Bowtie](EmojiBowtie.png) | Als het LEDje niet brand, draai deze dan om.
+![Bowtie](EmojiBowtie.png) | Als het LEDje niet brandt, draai deze dan om.
 :-------------:|:----------------------------------------: 
 
 ## Opdracht
