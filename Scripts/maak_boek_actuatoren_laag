@@ -23,17 +23,15 @@ cd 3_servo_motor       ; cp *.* $build_folder; mv $build_folder/README.md $build
 cd 3_meer_servo_motoren; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_03.md; cd ..
 cd 4_FSR_met_servo     ; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_04.md; cd ..
 cd 6_muziek_tone       ; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_05.md; cd ..
-#cd Piano               ; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_06.md; cd ..
 
 cd $build_folder
 
-cat README_00.md >> README.md; echo " " >> README.md
-cat README_01.md >> README.md; echo " " >> README.md
-cat README_02.md >> README.md; echo " " >> README.md
-cat README_03.md >> README.md; echo " " >> README.md
-cat README_04.md >> README.md; echo " " >> README.md
-cat README_05.md >> README.md; echo " " >> README.md
-#cat README_06.md >> README.md; echo " " >> README.md
+cat README_00.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
+cat README_01.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
+cat README_02.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
+cat README_03.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
+cat README_04.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
+cat README_05.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
 
 # Thinner margin
 pandoc README.md -o boek.pdf --toc --toc-depth=1 --highlight-style=tango -V geometry:margin=0.5in
