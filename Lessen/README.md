@@ -60,9 +60,11 @@ Hiermee kun je stickers verdienen! Lessen met een :star: zijn extra.
  * [RFID1](RFID1/README.md)
  * [RFID2](RFID2/README.md)
  * [Theremin met infrarode afstandssensor](Theremin_infrarood/README.md)
- * [Theremin meu ultrasone afstandssensor](Theremin_ultrasoon/README.md)
+ * [Theremin met ultrasone afstandssensor](Theremin_ultrasoon/README.md)
  * [Arduino en Processing](Arduino_en_processing/README.md)
  * [Processing (op de Dojo GitHub)](https://github.com/richelbilderbeek/Dojo/tree/master/LessenProcessing)
+ * [Bare-bone Arduino](BareBoneArduino/README.md): de Arduino zonder printplaat
+ * [ArduinoISP](ArduinoISP/README.md): bootloader branden met de Arduino als ISP
 
 ### Piano oud
 
