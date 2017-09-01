@@ -11,17 +11,15 @@ Sluit een servo motor op batterij aan als op figuur 'Servo motor op batterij met
 
 ![Servo motor op batterij met seriele monitor](3_meer_servo_motoren_1.png)
 
-De draadjes van de servo hebben misschien andere kleuren:
+![Bowtie](EmojiBowtie.png) | Vergeet niet de GND van de batterijen met de GND van de Arduino te verbinden.
+:-------------:|:----------------------------------------: 
 
- * Zwart of bruin: naar `GND`
- * Rood: naar `5V`
- * Geel of oranje: naar `8`
+![Sunglasses](EmojiSunglasses.png) | Vergeet niet dat er een kloof zit in het midden van de lange lijnen
+:-------------:|:----------------------------------------: 
 
-Vergeet niet de GND van de batterijen met de GND van de Arduino te verbinden.
+\pagebreak
 
 ### Code
-
-Dit is dezelfde code als les `ServoSerial`:
 
 ```c++
 #include <Servo.h>
@@ -47,9 +45,18 @@ void loop()
 }
 ```
 
-### Opdracht
+![Sunglasses](EmojiSunglasses.png) | Vergeten wat dit deed? Zie les `3. Servo`
+:-------------:|:----------------------------------------: 
 
- * Vind uit wat de minimum en maximumwaarde is van de servo
+## Opdracht 1
+
+ 1. Vind uit wat de minimum en maximumwaarde is van de servo
+
+\pagebreak
+
+## Oplossing 1
+
+ 1. Ha, dat mag je zelf uitvinden :-)
 
 ## Servo motor op batterij met knop
 
@@ -59,7 +66,7 @@ Sluit nu een drukknop erbij aan, zoals figuur 'Servo motor op batterij met knop'
 
 ![Servo motor op batterij met knop](3_meer_servo_motoren_2.png)
 
-De weerstand moet tienduizend Ohm zijn: bruin-zwart-orange-goud.
+\pagebreak
 
 ### Code
 
@@ -90,11 +97,13 @@ void loop()
 }
 ```
 
-### Opdracht
+### Opdracht 1
 
  * Pas de code zo aan dat de servo perfect beweegt
 
-### Oplossing
+\pagebreak
+
+### Oplossing 1
 
 Dezelfde code, behalve:
 
@@ -109,14 +118,16 @@ Sluit nu een extra servo motor, zoals figuur 'Servo motoren op batterij met knop
 
 ![Servo motoren op batterij met knop](3_meer_servo_motoren_3.png)
 
-### Opdracht
+### Opdracht 2
 
  1. Vind uit wat de minimum en maximumwaarde is van de nieuwe servo
  2. Pas de code zo aan dat allebij de servo's perfect *tegenovergesteld* bewegen.
     Dus als de knop los is, staat de ene servo op minimum en andere op maximum.
     Als de knop ingedrukt wordt, wisselt dit
 
-### Oplossingen
+\pagebreak
+
+### Oplossingen 2
 
  1. Dit kan door de eerste code weer te gebruiken. 
     Je kunt in de code de pin van de servo aanpassen, 
@@ -158,4 +169,6 @@ Sluit nu een tweede knop aan.
 Als de eerste knop ingedrukt wordt, moet de eerste servo naar maximumstand gaan.
 Als *ook* de tweede knop ingedrukt wordt, moet de tweede servo naar maximumstand gaan.
 
+![Bowtie](EmojiBowtie.png) | Tip: gebruik een `if` in een `if`
+:--------------|:----------------------------------------: 
 
