@@ -26,18 +26,16 @@ void loop()
 ![Sunglasses](EmojiBowtie.png) | Vergeten wat dit is? Ga naar les 4 'FSR'
 :-------------:|:----------------------------------------: 
 
-### Opdrachten
-
-![De seriele monitor zit hier](9_LDR_SerialMonitor.png)
-
-![De seriele monitor met getallen](9_LDR_SerialMonitorMetGetallen.png)
+### Opdrachten 1
 
  1. Upload het programma. In de Arduino IDE, klik rechtsboven op 'Seriele Monitor'. Wat zie je?
  2. Kun je de tekst veranderen naar 'Hallo Richel' (of je eigen naam?)
  3. Verander `Serial.println` naar `Serial.print`. Wat zie je?
  4. Verander de tekst `Serial.begin(9600)` naar `Serial.begin(4800)`. Wat zie je? Waarom?
 
-### Oplossingen
+\pagebreak
+
+### Oplossingen 1
 
  1. De seriele monitor laat elke second een extra regel zien, met de tekst 'Hallo'
  2. Verander de regel `Serial.println("Hallo");` naar `Serial.println("Hallo Richel");`
@@ -77,7 +75,7 @@ void loop()
 ![Sunglasses](EmojiBowtie.png) | Vergeten wat dit is? Ga naar les 4 'FSR'
 :-------------:|:----------------------------------------: 
 
-### Opdrachten
+### Opdrachten 2
 
  1. Upload het programma. In de Arduino IDE, klik rechtsboven op 'Seriele Monitor'. Wat zie je?
  2. Houd je vinger boven de LDR terwijl je de seriele monitor bekijkt. Wat zie je?
@@ -86,7 +84,9 @@ void loop()
  5. Haal de draad naar `A0` weg. Ja, haal de draad tussen `A0` en de LDR weg. 
       Kijk op de seriele monitor. Wat zie je?
 
-### Oplossingen
+\pagebreak
+
+### Oplossingen 2
 
  1. Je ziet een getal van nul tot 1024, afhankelijk van de waarde van de LDR
  2. Je zit de getallen veranderen
@@ -97,8 +97,6 @@ void loop()
 
 ![Sunglasses](EmojiBowtie.png) | Heb je een zwevende input? Dan heb je vaak iets fout aangesloten 
 :-------------:|:----------------------------------------: 
-
-\pagebreak
 
 ## Aansluiten LDR met LED
 
@@ -139,7 +137,7 @@ void loop()
 ![Sunglasses](EmojiBowtie.png) | Vergeten wat dit is? Ga naar les 4 'FSR'
 :-------------:|:----------------------------------------: 
 
-### Opdracht
+### Opdracht 3
 
  1. Wat gebeurt er als je `512` hoger zet? Wat gebeurt er als je `512` lager zet?
  2. Zorg dat de seriele monitor ook `A0` meet en laat zien. Welk getal meet de FSR 
@@ -149,7 +147,7 @@ void loop()
 
 \pagebreak
 
-### Oplossingen
+### Oplossingen 3
 
  1. Als `512` wordt veranderd naar een te hoog getal, is het lampje altijd aan, hoe hard/zacht je ook drukt.
     Als `512` wordt veranderd naar een te hoog getal, is het lampje altijd uit, hoe hard/zacht je ook drukt
@@ -184,7 +182,7 @@ void loop()
 }
 ```
 
-### Opdracht
+### Opdracht 4
 
 Sluit een extra LEDje aan. Als de LDR in normaal licht is, moet er geen LEDje branden. 
 Als je de LDR een beetje donkerder maakt met je hand, gaat er een LEDje branden. 
@@ -195,7 +193,7 @@ Als je de LDR helemaal donker maakt twee.
 
 \pagebreak
 
-### Oplossing
+### Oplossing 4
 
 De getallen in de `if` statement moeten goed ingesteld worden.
 
@@ -223,6 +221,8 @@ void loop()
 }
 ```
 
+\pagebreak
+
 ## Eindopdracht
 
  * Sluit drie LEDjes aan: een rode, gele en groene 
@@ -230,6 +230,8 @@ void loop()
  * Als je de LDR een beetje verduisterd wordt, gaat het groene LEDje branden
  * Als je de LDR meer verduisterd wordt, gaan de groene en gele LEDjes branden
  * Als je de LDR helemaal verduisterd wordt, gaan alle LEDjes branden
+
+![LDR eindopdracht](9_LDR_eindopdracht.png)
 
 ![Bowtie](EmojiBowtie.png) | Tip: gebruik drie of vier keer `if`
 :-------------:|:----------------------------------------: 

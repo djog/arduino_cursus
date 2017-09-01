@@ -17,6 +17,11 @@ Eerst sluiten we alleen een Arduino aan:
 
 Ik denk dat dit wel moet lukken :-)
 
+![Sunglasses](EmojiSunglasses.png) | De seriele monitor gaat via de USB kabel tussen Arduino naar computer
+:-------------:|:----------------------------------------: 
+
+\pagebreak
+
 ### Code: seriele monitor
 
 ```c++
@@ -34,11 +39,11 @@ void loop()
 
 ![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------: 
-`Serial.begin(9600)`|'Lieve computer, laat de Arduino praten met 9600 bits per seconde'
-`Serial.print("Hallo")`|'Lieve computer, laat de Arduino het woord `Hallo` zeggen'
-`Serial.println("Hallo")`|'Lieve computer, laat de Arduino het woord `Hallo` zeggen en een nieuwe regel beginnen`'
+`Serial.begin(9600);`|'Lieve computer, laat de Arduino praten met 9600 bits per seconde'
+`Serial.print("Hallo");`|'Lieve computer, laat de Arduino het woord `Hallo` zeggen'
+`Serial.println("Hallo");`|'Lieve computer, laat de Arduino het woord `Hallo` zeggen en een nieuwe regel beginnen`'
 
-### Opdrachten
+### Vragen
 
 ![De seriele monitor zit hier](4_FSR_SerialMonitor.png)
 
@@ -51,7 +56,7 @@ void loop()
 
 \pagebreak
 
-### Oplossingen
+### Antwoorden
 
  1. De seriele monitor laat elke second een extra regel zien, met de tekst 'Hallo'
  2. Verander de regel `Serial.println("Hallo");` naar `Serial.println("Hallo Richel");`
@@ -97,7 +102,7 @@ void loop()
 :------------------------------:|:----------------------------------------: 
 `Serial.println(analogRead(A0))`|'Lieve computer, laat de waarde van pin `A0` op de seriele monitor zien'
 
-## Opdrachten
+## Vragen
 
  1. Upload het programma. In de Arduino IDE, klik rechtsboven op 'Seriele Monitor'. Wat zie je?
  2. Druk de FSR in met je vingers (of, met een LDR: houd je vinger boven de LDR) 
@@ -113,7 +118,7 @@ void loop()
 
 \pagebreak
 
-## Oplossingen
+## Antwoorden
 
  1. Je ziet een getal van nul tot 1024, afhankelijk van de waarde van de FSR
  2. Je zit de getallen veranderen
@@ -124,8 +129,6 @@ void loop()
 
 ![Sunglasses](EmojiSunglasses.png) | Een 'Pull Down' weerstand voorkomt een zwevende input
 :-------------:|:----------------------------------------: 
-
-\pagebreak
 
 ## Aansluiten FSR met LED
 
@@ -167,7 +170,7 @@ void loop()
 :-------------:|:----------------------------------------: 
 `if (analogRead(A0) < 512) {}`|'Lieve computer, als op A0 minder dan 2,5 Volt staat, doe dan datgeen tussen accolades'
 
-### Opdracht
+### Opdrachten
 
  1. Wat gebeurt er als je `512` hoger zet? Wat gebeurt er als je `512` lager zet?
  2. Zorg dat de seriele monitor ook `A0` meet en laat zien. Welk getal meet de FSR 
@@ -212,7 +215,7 @@ void loop()
 }
 ```
 
-### Opdracht
+### Opdracht 1
 
 Sluit een extra LEDje aan. Als de FSR in rust is, moet er geen LEDje branden. Als je de FSR zacht indrukt,
 gaat er een LEDje branden. Als je de FSR hard indrukt twee. 
@@ -223,7 +226,7 @@ gaat er een LEDje branden. Als je de FSR hard indrukt twee.
 
 \pagebreak
 
-### Oplossing
+### Oplossing 1
 
 De getallen in de `if` statement moeten goed ingesteld worden.
 
@@ -295,6 +298,8 @@ void loop()
 :-------------:|:----------------------------------------: 
 `analogWrite(11, analogRead(A0) / 4)`|'Lieve computer, dim pin 11 op de waarde van pin A0 (dit moet je delen door vier)'
 
+\pagebreak
+
 ## Eindopdracht
 
  * Sluit vier LEDjes aan: een witte, een rode, een gele en een groene 
@@ -305,3 +310,5 @@ void loop()
  * Het witte LEDje gaat harder en zachter branden afhankelijk van de FSR
 
 Als je geen wit LEDje hebt, gebruik dan een andere kleur.
+
+![FSR eindopdracht](4_FSR_eindopdracht.png)
