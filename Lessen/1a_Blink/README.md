@@ -10,12 +10,14 @@ Sluit een Arduino zo aan:
 
 Je zult wel een USB kabel in de Arduino en in een laptop moeten doen
 
-## Opdracht
+## Opdracht 1
 
 Sluit de Arduino aan.
 
 ![Sunglasses](EmojiSunglasses.png) | De Arduino heeft zelf al een lampje dat je kunt programmeren.
 :-------------:|:----------------------------------------: 
+
+\pagebreak
 
 ## De Arduino IDE opstarten
 
@@ -73,12 +75,14 @@ Type de code over in de Arduino IDE en klik op `Upload`.
 
 ![Hier kun je op `Upload` klikken](1a_blink_upload.png)
 
-## Opdracht
+## Opdracht 2
 
 Laat het LEDje 10x zo snel knipperen. 
 Hint: het LEDje is nu 1000 milliseconden aan en 1000 milliseconden uit.
 
-## Oplossing
+\pagebreak
+
+## Oplossing 2
 
 ```c++
 void setup() 
@@ -97,15 +101,27 @@ void loop()
 
 ![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------: 
+`pinMode(13, OUTPUT);`|'Lieve computer, zorg dat er stroom uit pin 13 kan komen.'
+
+![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-------------:|:----------------------------------------: 
+`digitalWrite(13, HIGH);`|'Lieve computer, zet spanning op pin 13.'
+
+![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-------------:|:----------------------------------------: 
 `delay(1000);`|'Lieve computer, doe nu 1000 milliseconden niks.'
 
-\pagebreak
+![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-------------:|:----------------------------------------: 
+`digitalWrite(13, LOW);`|'Lieve computer, zet geen spanning op pin 13.'
 
-## Opdracht
+## Opdracht 3
 
 Laat het LEDje zo snel als kan knipperen. Wat zie je?
 
-## Oplossing
+\pagebreak
+
+## Oplossing 3
 
 Er zijn meer oplossingen, dit is er een:
 
@@ -124,12 +140,15 @@ void loop()
 }
 ```
 
-Ook goed zijn `delay(0);` of de regels met `delay` helemaal weghalen.
+![Bowtie](EmojiBowtie.png) | Ook goed: `delay(0);` of de regels met `delay` helemaal weghalen.
+:-------------:|:----------------------------------------: 
 
 Je ziet het lampje niet meer knipperen. 
 
 ![Sunglasses](EmojiSunglasses.png) | Het lampje knippert wel, maar onze ogen kunnen niet snel genoeg kijken om het te zien.
 :-------------:|:----------------------------------------: 
+
+\pagebreak
 
 ## Blink
 
@@ -145,19 +164,23 @@ Nu is het tijd Blink aan te sluiten:
 ![Bowtie](EmojiBowtie.png) | Als het LEDje niet brandt, draai deze dan om.
 :-------------:|:----------------------------------------: 
 
-## Opdracht
+## Opdracht 4
 
 Sluit je LEDje nu aan op pin 12.
 
-## Oplossing
+\pagebreak
+
+## Oplossing 4
 
 ![Blink met LEDje op pin 12](1a_blink_op_12.png)
 
-## Opdracht
+## Opdracht 5
 
 Zorg nu dat het LEDje op pin 12 gaat knipperen op de seconde.
 
-## Oplossing
+\pagebreak
+
+## Oplossing 5
 
 ```c++
 void setup() 
@@ -173,11 +196,6 @@ void loop()
   delay(100);
 }
 ```
-
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`pinMode(13, OUTPUT);`|'Lieve computer, zorg dat er stroom uit pin 13 kan komen.'
-`digitalWrite(13, HIGH);`|'Lieve computer, zet spanning op pin 13.'
 
 ## Eindopdracht
 

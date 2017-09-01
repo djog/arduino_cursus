@@ -13,21 +13,13 @@ Hier zie je hoe een regenboog werkt:
 ![Sunglasses](EmojiSunglasses.png) | Geel licht is rood en groen licht samen.
 :-------------:|:----------------------------------------: 
 
-## Aansluiten
+\pagebreak
+
+## Opdracht 1
 
 Sluit onderstaand schema aan:
 
-![Schema](Schema.png)
-
-Let op:
-
- * De langste pin van een RGB LED moet naar GND
- * Elke andere pin van een RGB LED moet een weerstandje krijgen van 1000 Ohm (bruin-zwart-rood-goud)
- * De pinnen van de LED moeten naar een pin waar een golfje (`~`) voor staat, want alleen deze pinnen kunnen dimmen
-
-\pagebreak
-
-## Opdracht
+![Schema](1c_MeerKleurFadeMetFor.png)
 
 Gebruik deze code:
 
@@ -54,9 +46,11 @@ void loop()
 De getallen achter `pin_rood`, `pin_groen` en `pin_blauw` zijn fout. Zorg dat dit de goede getallen worden.
 Hoe? Trek twee draden los en kijk welke kleur het LEDje krijgt. 
 
-## Oplossing
+## Oplossing 1
 
 Ha, dit mag je zelf uitvinden :-).
+
+\pagebreak
 
 ## For loop
 
@@ -92,21 +86,33 @@ void loop()
 `analogWrite(9, 255)`|'Lieve computer, zet pin 9 vol aan.'
 `analogWrite(9, 127)`|'Lieve computer, zet pin 9 half aan.'
 `analogWrite(9, 0)`|'Lieve computer, zet pin 9 uit.'
+`analogWrite(9, i)`|'Lieve computer, laat pin 9 langzaam aan gaan (moet binnen de for-loop hierboven).'
 
 ![Sunglasses](EmojiSunglasses.png) | Tellen tot drie: '1, 2'. Tellen tot en met drie: '1, 2, 3'
 :-------------:|:----------------------------------------: 
 
-## Opdracht
+\pagebreak
 
-Kijk naar het eerste gedeelte, links, in figuur `Regenboog`.
+## Opdracht 2
+
+![Eerste gedeelte van de regenboog](1c_MeerKleurFadeMetFor_regenboog_1.png) 
+
+Kijk naar het eerste gedeelte van de regenboek, figuur `Eerste gedeelte van de regenboog`.
 De rode lijn staat daar op 255, de groene lijn gaat langzaam
 van 0 naar 255 en de blauwe lijn staat bij nul.
 
 Pas de code zo aan dat het lampje van rood naar geel (rood en groen) gaat.
 
+![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-------------:|:----------------------------------------: 
+`for (int i=0; i<256; ++i) { }`|'Lieve computer, laat een getal `i` lopen van 0 tot 256 in stapjes van 1.'
+`analogWrite(9, 255)`|'Lieve computer, zet pin 9 vol aan.'
+`analogWrite(9, 0)`|'Lieve computer, zet pin 9 uit.'
+`analogWrite(9, i)`|'Lieve computer, laat pin 9 langzaam aan gaan (moet binnen de for-loop hierboven).'
+
 \pagebreak
 
-## Oplossing
+## Oplossing 2
 
 ```c++
 const int pin_rood  =  9; // Fout getal, zie vorige opdracht
@@ -132,9 +138,13 @@ void loop()
 }
 ```
 
-## Opdracht
+\pagebreak
 
-Kijk naar het tweede gedeelte in figuur `Regenboog`.
+## Opdracht 3
+
+![Tweede gedeelte van de regenboog](1c_MeerKleurFadeMetFor_regenboog_2.png) 
+
+Kijk naar het tweede gedeelte van de regenboek, figuur `Tweede gedeelte van de regenboog`.
 De rode lijn gaat van 255 naar 0, de groene lijn staat op 255
 en de blauwe lijn staat bij nul.
 
@@ -152,9 +162,16 @@ Tip: voeg deze code toe:
   }
 ``` 
 
+![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-------------:|:----------------------------------------: 
+`for (int i=0; i<256; ++i) { }`|'Lieve computer, laat een getal `i` lopen van 0 tot 256 in stapjes van 1.'
+`analogWrite(9, 255)`|'Lieve computer, zet pin 9 vol aan.'
+`analogWrite(9, 0)`|'Lieve computer, zet pin 9 uit.'
+`analogWrite(9, 255 - i)`|'Lieve computer, laat pin 9 langzaam uit gaan (moet binnen de for-loop hierboven).'
+
 \pagebreak
 
-## Oplossing
+## Oplossing 3
 
 ```c++
 const int pin_rood  =  9; // Fout getal, zie vorige opdracht
@@ -190,4 +207,6 @@ void loop()
 ## Eindopdracht
 
 Maak nu de regenboog af.
+
+![Regenboog](1c_MeerKleurFadeMetFor_regenboog.png) 
 
