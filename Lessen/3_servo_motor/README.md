@@ -1,4 +1,4 @@
-# ServoSerial
+# 3. Servo motor
 
 Een servo is een motortje die je in een bepaalde hoek kunt zetten.
 De meeste servo's kunnen niet rond.
