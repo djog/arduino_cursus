@@ -6,7 +6,12 @@ In deze les gebruiken we meer `for` loops.
 
 Bouw dit:
 
-![1d_ForNogEenKeer](1d_ForNogEenKeer.png)
+![For loop nog een keer](1d_ForNogEenKeer.png)
+
+![Sunglasses](EmojiSunglasses.png) | We gaan de LEDjes enkel aan en uit zetten, dus hoeven we geen pinnen met golfjes `~` te gebruiken
+:-------------:|:----------------------------------------: 
+
+\pagebreak
 
 Programmeer dit:
 
@@ -28,20 +33,22 @@ void loop()
 }
 ```
 
-## Opdracht
+
+## Opdracht 1
 
 Verander het `setup` gedeelte naar een for loop.
 
-Tip: gebruik:
-
-```c++
-  for (int i=2; i<4; ++i) 
-  {
-    pinMode(i, OUTPUT);
-  }
+![Bowtie](EmojiBowtie.png) | Tip: gebruik deze code 
+:--------------|:----------------------------------------: 
+`  for (int i=2; i<4; ++i)` | 
+`  {` |
+`    pinMode(i, OUTPUT);` |
+`  }` |
 ```
 
-## Oplossing
+\pagebreak
+
+## Oplossing 1
 
 ```c++
 void setup()
@@ -63,11 +70,16 @@ void loop()
 }
 ```
 
-## Opdracht
+## Opdracht 2
 
 Laat nu de LEDjes aan gaan met een for loop.
 
-## Oplossing
+![Bowtie](EmojiBowtie.png) | Tip: gebruik `digitalWrite(i, HIGH);`
+:--------------|:----------------------------------------: 
+
+\pagebreak
+
+## Oplossing 2
 
 ```c++
 void setup()
@@ -91,11 +103,16 @@ void loop()
 }
 ```
 
-## Opdracht
+## Opdracht 3
 
 Laat nu de LEDjes uit gaan met een for loop
 
-## Oplossing
+![Bowtie](EmojiBowtie.png) | Tip: gebruik `digitalWrite(i, LOW);`
+:--------------|:----------------------------------------: 
+
+\pagebreak
+
+## Oplossing 3
 
 ```c++
 void setup()
@@ -121,13 +138,18 @@ void loop()
 }
 ```
 
-## Opdracht
+## Opdracht 4
 
 De zes lampjes zitten op pinnen 2 tot en met 7. 
 Laat de for loops lopen van 2 tot 8. 
 Als het goed is, gaan alle lampjes aan, dan alle lampjes uit.
 
-## Oplossing
+![Bowtie](EmojiBowtie.png) | Tip: je moet *drie* for loops aanpassen
+:--------------|:----------------------------------------: 
+
+\pagebreak
+
+## Oplossing 4
 
 ```c++
 void setup()
@@ -153,12 +175,20 @@ void loop()
 }
 ```
 
-## Opdracht
+## Opdracht 5
 
 Laat nu de lampjes omstebeurt aan en uit gaan, van links naar rechts.
-Je hebt hiervoor een for loop nodig.
+Je hebt hiervoor een `for` loop nodig.
 
-## Oplossing
+![Bowtie](EmojiBowtie.png) | Je kunt tussen de accolades van een `for` loop meer regels zetten
+:--------------|:----------------------------------------: 
+
+![Sunglasses](EmojiSunglasses.png) | Goed programmeurs zorgen dat alle code binnen de accolades van een `for` loop evenveel ingegesprongen is
+:--------------|:----------------------------------------: 
+
+\pagebreak
+
+## Oplossing 5
 
 ```c++
 void setup()
@@ -181,13 +211,16 @@ void loop()
 }
 ```
 
-## Opdracht
+## Opdracht 6
 
 Laat nu de lampjes omstebeurt aan en uit gaan, van rechts naar links.
 
-Tip: gebruik niet `i`, maar `7 - i`.
+![Bowtie](EmojiBowtie.png) | Tip: gebruik niet `i`, maar `7 - i`.
+:--------------|:----------------------------------------: 
 
-## Oplossing
+\pagebreak
+
+## Oplossing 6
 
 ```c++
 void setup()
@@ -210,21 +243,13 @@ void loop()
 }
 ```
 
+![Bowtie](EmojiBowtie.png) | Als je een regel met `delay` weghaalt, krijg je al een heel ander patroon
+:--------------|:----------------------------------------: 
+
 \pagebreak
 
 ## Eindopdracht
 
 Maak nu een op-en-neer-gaand patroon in de LEDjes:
 
- * `*`
- * `**`
- * `***`
- * `****`
- * `*****`
- * `******`
- * `******`
- * `*****`
- * `****`
- * `***`
- * `**`
- * `*`
+![For loop nog een keer eindopdracht](1d_ForNogEenKeer_eindopdracht.png)

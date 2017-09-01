@@ -20,6 +20,6 @@ Er zitten tiepvauten in en de opmaak is ni`et altij`d *even mo*oi.
 
 Daarom staat dit boek op een GitHub.
 Om precies te zijn, op 
-https://github.com/richelbilderbeek/ArduinoCourse .
+[https://github.com/richelbilderbeek/ArduinoCourse](https://github.com/richelbilderbeek/ArduinoCourse).
 Hierdoor kan iedereen die dit boek te slordig vindt
 minder slordig maken.
