@@ -1,12 +1,16 @@
 # 2. Knop if ... else
 
-
 ## Aansluiten
 
 ![Stroomschema](2_knop_if_else.png)
 
 ![Sunglasses](EmojiSunglasses.png) | De weerstand aan de knop wordt een 'Pull Down' weerstand genoemd
 :-------------:|:----------------------------------------: 
+
+![Bowtie](EmojiBowtie.png) | De 'Pull Down' weerstand zorgt dat pin 2 verbonden is met GND als de knop niet ingedrukt is
+:-------------:|:----------------------------------------: 
+
+\pagebreak
 
 ## Code
 
@@ -36,7 +40,9 @@ void loop()
  * 1. Als je de knop indrukt, gaat de lamp dan uit of aan?
  * 2. Er is een regel `pinMode( 2, INPUT )`. Waarom staat er een spatie voor de `2`? Mag die spatie weg?
 
-## Oplossingen
+\pagebreak
+
+## Antwoorden
 
  * 1. De knop gaat dan aan
  * 2. Er staat een spatie, omdat dit mooier eruit ziet met de regel erboven. De spatie mag weg. 
@@ -47,6 +53,31 @@ void loop()
 ## if
 
 Met `if` kun je de Arduino iets laten doen, als iets zo is:
+
+```c++
+if (digitalRead(4) == HIGH)
+{
+  digitalWrite(5, HIGH);
+}
+else
+{
+  digitalWrite(6, LOW);
+}
+```
+
+In deze code wordt gekeken of op pin 4 spanning staat. Zo ja, dan zet de Arduino
+spanning op pin 5. Anders (`else`) haalt de Arduino de spanning van pin 6 af.
+
+![Computer](EmojiComputer.png)  | ![Smiley](EmojiSmiley.png)
+:------------------------------:|:----------------------------------------: 
+`if (digitalRead(4) == HIGH) {}`|'Lieve computer, als er spanning op pin 4 staat, doe dan hetgeen tussen accolades'
+
+![Sunglasses](EmojiSunglasses.png) | De `=` kun je uitspreken als 'zet op'. De `==` kun je uitspreken als 'is gelijk aan'
+:-------------:|:----------------------------------------: 
+
+\pagebreak
+
+## Opdracht 1
 
 ```c++
 void setup() 
@@ -69,18 +100,6 @@ void loop()
 }
 ```
 
-In deze code wordt gekeken of op pin 4 spanning staat. Zo ja, dan zet de Arduino
-spanning op pin 5. Anders (`else`) haalt de Arduino de spanning van pin 6 af.
-
-![Computer](EmojiComputer.png)  | ![Smiley](EmojiSmiley.png)
-:------------------------------:|:----------------------------------------: 
-`if (digitalRead(4) == HIGH) {}`|'Lieve computer, als er spanning op pin 4 staat, doe dan hetgeen tussen accolades'
-
-![Sunglasses](EmojiSunglasses.png) | De `=` kun je uitspreken als 'zet op'. De `==` kun je uitspreken als 'is gelijk aan'
-:-------------:|:----------------------------------------: 
-
-## Opdracht
-
 Maak de code zo, dat:
 
  * als je op de knop drukt, dat het lampje aan gaat 
@@ -89,7 +108,9 @@ Maak de code zo, dat:
 ![Bowtie](EmojiBowtie.png) | Na de ronde haken van `if` komt geen puntkomma
 :-------------:|:----------------------------------------: 
 
-## Oplossing
+\pagebreak
+
+## Oplossing 1
 
 ```c++
 void setup() 
@@ -111,9 +132,7 @@ void loop()
 }
 ```
 
-\pagebreak
-
-## Opdracht 'Knop met twee LEDjes'
+## Opdracht 2
 
 Sluit een tweede LEDje aan. Maak de code zo, dat:
 
@@ -129,7 +148,7 @@ Sluit een tweede LEDje aan. Maak de code zo, dat:
 
 \pagebreak
 
-## Oplossing 'Knop met twee LEDjes'
+## Oplossing 2
 
 Figuur `Oplossing van 'Knop met twee LEDjes'` laat zien hoe je dit aan moet sluiten.
 
@@ -161,6 +180,8 @@ void loop()
 }
 ```
 
+\pagebreak
+
 ## Eindopdracht
 
 Sluit een tweede knop aan. Maak de code zo, dat
@@ -176,3 +197,4 @@ Sluit een tweede knop aan. Maak de code zo, dat
 ![Bowtie](EmojiBowtie.png) | Voor een tweede knop heb je een tweede weerstand van tienduizend Ohm nodig
 :-------------:|:----------------------------------------: 
 
+![Eindopdracht](2_knop_if_else_eindopdracht.png)
