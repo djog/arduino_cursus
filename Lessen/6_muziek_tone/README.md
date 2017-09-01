@@ -28,21 +28,28 @@ void loop()
 }
 ```
 
-In deze code is nieuw:
-
- * `tone(8,220)`: speel op pin `8` een toon met toonhoogte 220 Hertz. Dit is de toon `A`.
- * `noTone(8)`: stop met het spelen van een toon op pin `8`
-
 De code laat 900 milliseconden de toon A horen, en heeft dan 100 milliseconden rust. 
 
-## Opdracht
+![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:------------:|:-------------------------------------------------: 
+`tone(8,220)` |'Lieve computer, speel op pin `8` een toon met toonhoogte 220 Hertz. Dit is de toon `A`'.
+`noTone(8)`   |'Lieve computer, stop met het spelen van een toon op pin `8`'.
+
+![Sunglasses](EmojiSunglasses.png) | De `A` is de toon met toonhoogte 220 Hertz 
+:-------------:|:----------------------------------------: 
+
+
+## Opdracht 1
 
  1. Wat is de laagste toonhoogte die je kunt krijgen? Kan iedereen dit horen?
  2. Wat is de hoogste toonhoogte die je kunt krijgen? Kan iedereen dit horen? Let op: als iemand er last van heeft, doe deze opdracht dan niet
 
-## Oplossing
+\pagebreak
 
- 1. De laagste toon is 1 Hertz (bij 0 Hertz krijg je onzin). Die kan iedereen nog horen. Hieronder staat de code
+## Oplossing 1
+
+ 1. De laagste toon is 1 Hertz (bij 0 Hertz krijg je onzin). Hieronder staat de code
+
 
 ```c++
 void setup()
@@ -58,8 +65,11 @@ void loop()
   delay(100);
 }
 ```
+
+![Sunglasses](EmojiSunglasses.png) | 1 Hertz kan iedereen nog horen
+:-------------:|:----------------------------------------: 
  
- 2. De hoogste toon is 32767 Hertz. Die kan iedereen nog horen. Hieronder staat de code
+ 2. De hoogste toon is 32767 Hertz. Hieronder staat de code
 
 ```c++
 void setup()
@@ -76,7 +86,15 @@ void loop()
 }
 ```
 
-## Opdracht
+![Sunglasses](EmojiSunglasses.png) | 32767 Hertz kan iedereen nog horen
+:-------------:|:----------------------------------------: 
+
+![Bowtie](EmojiBowtie.png) | Hoge onhoorbare tonen worden ultrasoon genoemd
+:-------------:|:----------------------------------------: 
+
+\pagebreak
+
+## Opdracht 2
 
 We gaan nu muziek maken! Programmeer het volgende liedje:
 
@@ -87,7 +105,12 @@ We gaan nu muziek maken! Programmeer het volgende liedje:
  * Alle tonen duren 400 milliseconden
  * Na elke toon is er 100 milliseconden stilte
 
-## Oplossing
+![Sunglasses](EmojiSunglasses.png) | De toonhoogtes die hier gebruikt worden, zitten ook op een piano
+:-------------:|:----------------------------------------: 
+
+\pagebreak
+
+## Oplossing 2
 
 ```c++
 void setup()
@@ -103,6 +126,9 @@ void loop()
   tone(8,131); delay(400); noTone(8); delay(100);
 }
 ```
+
+![Bowtie](EmojiBowtie.png) | Herken je het liedje al?
+:-------------:|:----------------------------------------: 
 
 ## Eindopdracht 
 
