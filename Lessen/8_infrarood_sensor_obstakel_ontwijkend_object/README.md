@@ -17,13 +17,15 @@ aan sluit. Anders gaat de computer misschien stuk.
 
 Sluit figuur 'Infrarood sensor' aan.
 
-## Vragen
+## Vragen 1
 
  1. Welke code moet je op de Arduino zetten?
  2. Hoe weet je dat het gelukt is?
  3. Worden de getallen hoog of laag als je dichterbij komt?
 
-## Oplossing
+\pagebreak
+
+## Oplossing 1
 
  1. Code van de lessen met een sensor, bijvoorbeeld onderstaande code van les '4. FSR':
 
@@ -59,11 +61,13 @@ Doe op het eind de USB weer in de computer.
 
 Upload de code van 'Blink' op de Arduino.
 
-### Vragen
+### Vragen 2
 
  1. Hoe weet je dat dit gelukt is?
 
-### Oplossingen
+\pagebreak
+
+### Oplossingen 2
 
  1. Als de LED knippert
 
@@ -77,11 +81,13 @@ Doe op het eind de USB weer in de computer.
 
 Upload de code van 'Blink' op de Arduino.
 
-### Vragen
+### Vragen 3
 
  1. Hoe weet je dat dit gelukt is?
 
-### Oplossingen
+\pagebreak
+
+### Oplossingen 3
 
  1. Als je elke second een tik hoort
 
@@ -95,11 +101,13 @@ Doe op het eind de USB weer in de computer.
 
 Upload de code van 'Blink' op de Arduino.
 
-### Vragen
+### Vragen 4
 
  1. Hoe weet je dat dit gelukt is?
 
-### Oplossingen
+\pagebreak
+
+### Oplossingen 4
 
  1. Als de motor elke second van richting verandert
 
