@@ -1,6 +1,6 @@
 # 5. DC Motor met Transistor
 
-![Pas op! Zie 'Waarschuwing'](5_dc_motor_met_transistor_waarschuwing.png)
+![Pas op! Haal deze les *altijd* de USB snoer uit je computer als je een schakeling aan sluit!](5_dc_motor_met_transistor_waarschuwing.png)
 
 ![Sunglasses](EmojiSunglasses.png) | Haal deze les *altijd* de USB snoer uit je computer als je een schakeling aan sluit.
 :-------------:|:----------------------------------------: 

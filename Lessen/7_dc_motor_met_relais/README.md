@@ -1,23 +1,11 @@
 # 7. DC Motor Met Relais
 
-Deze les leren we 
+![Pas op! Haal deze les *altijd* de USB snoer uit je computer als je een schakeling aan sluit!](5_dc_motor_met_transistor_waarschuwing.png)
 
- * wat een relais is
- * hoe je een motor in twee richtingen kunt laten draaien
-
-## Waarschuwing
-
-![Pas op! Zie 'Waarschuwing'](7_dc_motor_met_relais_waarschuwing.png)
-
-Haal deze les *altijd* de USB snoer uit je computer als je een schakeling
-aan sluit. Anders gaat de computer misschien stuk.
+![Sunglasses](EmojiSunglasses.png) | Haal deze les *altijd* de USB snoer uit je computer als je een schakeling aan sluit.
+:-------------:|:----------------------------------------: 
 
 ## LED met transistor
-
-Een transistor is een soort drukknop.
-In plaats dat je een transistor met je vinger indrukt,
-zet je er electrische spanning op.
-Als er spanning op staat, dan kan er stroom door de transistor.
 
 ![LED met transistor](7_dc_motor_met_relais_led.png)
 
@@ -27,13 +15,18 @@ Doe op het eind de USB weer in de computer.
 
 Upload de code van 'Blink' op de Arduino.
 
-### Vragen
+![Bowtie](EmojiBowtie.png) | Vergeten hoe dit werkt? Zie les `5. DC motor met transistor`
+:-------------:|:----------------------------------------: 
+
+### Vragen 1
 
  1. Wat doet deze schakeling?
  2. Welke Arduino pin levert de electriciteit voor het LEDje: pin 13 of 5V? Waarom?
  3. Hoe werkt de schakeling?
 
-### Oplossingen
+\pagebreak
+
+### Oplossingen 1
 
  1. Als de Arduino spanning op pin 13 zet, gaat het lampje branden
  2. De 5V levert de electriciteit voor het lampje: deze gaat de linker pin van de transistor in,
