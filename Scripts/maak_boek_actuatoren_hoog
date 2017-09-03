@@ -25,10 +25,10 @@ cd 8_infrarood_sensor_obstakel_ontwijkend_object; cp *.* $build_folder; mv $buil
 
 cd $build_folder
 
-cat README_00.md >> README.md; echo " " >> README.md
-cat README_01.md >> README.md; echo " " >> README.md
-cat README_02.md >> README.md; echo " " >> README.md
-cat README_03.md >> README.md; echo " " >> README.md
+cat README_00.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
+cat README_01.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
+cat README_02.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
+cat README_03.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
 
 # Thinner margin
 pandoc README.md -o boek.pdf --toc --toc-depth=1 --highlight-style=tango -V geometry:margin=0.5in

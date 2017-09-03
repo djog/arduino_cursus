@@ -1,18 +1,12 @@
 # 5. DC Motor met Transistor
 
-Deze les leren we 
-
- * wat een transistor is 
- * hoe je een transistor gebruikt 
- * wat een DC motor is
- * hoe je een DC motor gebruikt
-
-## Waarschuwing
-
 ![Pas op! Zie 'Waarschuwing'](5_dc_motor_met_transistor_waarschuwing.png)
 
-Haal deze les *altijd* de USB snoer uit je computer als je een schakeling
-aan sluit. Anders gaat de computer misschien stuk.
+![Sunglasses](EmojiSunglasses.png) | Haal deze les *altijd* de USB snoer uit je computer als je een schakeling aan sluit.
+:-------------:|:----------------------------------------: 
+
+![Bowtie](EmojiBowtie.png) | Anders gaat de computer misschien stuk!
+:-------------:|:----------------------------------------: 
 
 ## LED met drukknop
 
@@ -22,14 +16,16 @@ Haal de USB uit de computer.
 Sluit dan figuur 'LED met drukknop' aan. 
 Doe op het eind de USB weer in de computer.
 
-### Vragen
+### Vragen 1
 
  1. Wat doet deze schakeling?
  2. Wie levert de electriciteit voor het LEDje: de batterijen of de Arduino? Waarom?
  3. Hoe moet je de Arduino programmeren?
  4. Hoe werkt de schakeling?
 
-### Oplossingen
+\pagebreak
+
+### Oplossingen 1
 
  1. Als je het knopje indrukt, gaat het lampje branden
  2. De batterijen, omdat de plus van de batterijen aangesloten is op de plus van het LEDje
@@ -43,6 +39,12 @@ In plaats dat je een transistor met je vinger indrukt,
 zet je er electrische spanning op.
 Als er spanning op staat, dan kan er stroom door de transistor.
 
+![Sunglasses](EmojiSunglasses.png) | Een transistor is een soort drukknop, die je met electriciteit in kunt drukken
+:-------------:|:----------------------------------------: 
+
+![Bowtie](EmojiBowtie.png) | Met een transistor kun je componenten aansluiten die meer stroom nodig hebben
+:-------------:|:----------------------------------------: 
+
 ![LED met transistor](5_dc_motor_met_transistor_led_transistor.png)
 
 Haal de USB uit de computer. 
@@ -51,13 +53,15 @@ Doe op het eind de USB weer in de computer.
 
 Upload de code van 'Blink' op de Arduino.
 
-### Vragen
+### Vragen 2
 
  1. Wat doet deze schakeling?
  2. Wie levert de electriciteit voor het LEDje: de batterijen of de Arduino? Waarom?
  3. Hoe werkt de schakeling?
 
-### Oplossingen
+\pagebreak
+
+### Oplossingen 2
 
  1. Als de Arduino spanning op pin 13 zet, gaat het lampje branden
  2. De batterijen, omdat de plus van de batterijen aangesloten is op de plus van het LEDje
@@ -67,36 +71,45 @@ Upload de code van 'Blink' op de Arduino.
 
 ## DC motor met drukknop
 
-Een DC motor is een motor die beide kanten rond kan draaien. DC is een Engelse
-afkorting voor 'Direct Current': gelijkspanning. Daarom wordt een DC motor
-ook een gelijkspanningsmotor genoemd. De Arduino, maar ook batterijen, leveren
+Een DC motor is een motor die beide kanten rond kan draaien. De Arduino, maar ook batterijen, leveren
 gelijkspanning.
+
+![Sunglasses](EmojiSunglasses.png) | DC is een Engelse afkorting voor 'Direct Current': gelijkspanning. 
+:-------------:|:----------------------------------------: 
+
+![Bowtie](EmojiBowtie.png) | Een DC motor wordt ook een gelijkspanningsmotor genoemd
+:-------------:|:----------------------------------------: 
 
 ![DC motor met drukknop](5_dc_motor_met_transistor_motor_drukknop.png)
 
-![Diode](5_dc_motor_met_transistor_diode.png)
+\pagebreak
 
-![Condensator](5_dc_motor_met_transistor_condensator.png)
+We gebruiken twee nieuwe componenten: een diode en een condensator. 
+Deze zijn nodig omdat een DC motor ook electriciteit kan maken (!).
+Deze electriciteit kan je computer stukmaken. 
 
-Er zijn twee nieuwe componenten:
+![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-------------:|:----------------------------------------: 
+![Diode](5_dc_motor_met_transistor_diode.png) | Diode, een eenrichtingsweg voor electriciteit
+![Condensator](5_dc_motor_met_transistor_condensator.png) | Condensator, een soort batterij die snel op- en ontlaad
 
- * Diode (zie figuur 'Diode'): een eenrichtingsweg voor electriciteit
- * Condensator (zie figuur 'Condensator'): een soort batterij die snel op- en ontlaad
-
-Deze componenten zijn nodig omdat een DC motor ook electriciteit kan maken (!).
+![Sunglasses](EmojiSunglasses.png) | De diode en condensator zijn nodig omdat een DC motor ook electriciteit kan maken (!).
+:-------------:|:----------------------------------------: 
 
 Haal de USB uit de computer. 
 Sluit figuur 'DC motor met drukknop' aan.
 Doe op het eind de USB weer in de computer.
 
-### Vragen
+### Vragen 3
 
  1. Wat doet deze schakeling?
  2. Wie levert de electriciteit voor het LEDje: de batterijen of de Arduino? Waarom?
  3. Hoe moet je de Arduino programmeren?
  4. Hoe werkt de schakeling?
 
-### Oplossingen
+\pagebreak
+
+### Oplossingen 3
 
  1. Als je het knopje indrukt, gaat het motortje draaien
  2. De batterijen, omdat de plus van de batterijen aangesloten is op de plus van het LEDje
@@ -113,13 +126,15 @@ Doe op het eind de USB weer in de computer.
 
 Upload de code van 'Blink' op de Arduino.
 
-### Vragen
+### Vragen 4
 
  1. Wat doet deze schakeling?
  2. Wie levert de electriciteit voor het LEDje: de batterijen of de Arduino? Waarom?
  3. Hoe werkt de schakeling?
 
-### Oplossingen
+\pagebreak
+
+### Oplossingen 4
 
  1. Als de Arduino spanning op pin 13 zet, gaat het motortje draaien
  2. De batterijen, omdat de plus van de batterijen aangesloten is op de plus van het LEDje
@@ -129,4 +144,7 @@ Upload de code van 'Blink' op de Arduino.
 
 ## Eindopdracht
 
- * Laat de motor reageren op een LDR: als er geen licht is, moet de motor gaan draaien
+Laat de motor reageren op een LDR: als er geen licht is, moet de motor gaan draaien
+
+![Bowtie](EmojiBowtie.png) | Vergeten hoe je een LDR aansluit? Zie les `9. LDR`
+:-------------:|:----------------------------------------: 
