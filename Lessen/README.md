@@ -78,11 +78,11 @@ Hiermee kun je stickers verdienen! Lessen met een :star: zijn extra.
  * [Piano 4: een piano bouwen met een pin, weerstanden parallel](PianoX_piano_een_pin/README.md)
  * [Piano 5: een piano bouwen met een pin, weerstanden in serie](PianoX_piano_serie/README.md)
 
-## Electriciteit
+## Elektriciteit
 
 ![magenta balk](Magenta.png)
 
-Met deze lessen kunnen we electriciteit beter leren begrijpen.
+Met deze lessen kunnen we elektriciteit beter leren begrijpen.
 
  * [Stroomdeeltje spelen 1](StroomdeeltjeSpelen1/README.md)
  * Stroomdeeltje spelen 2: weerstanden in parallel en serie

@@ -156,7 +156,7 @@ Nu is het tijd Blink aan te sluiten:
 
 ![Blink](1a_blink.png)
 
- * Haal de USB snoer uit de computer, zodat de Arduino geen spanning meer heeft
+ * Haal het USB snoer uit de computer, zodat de Arduino geen spanning meer heeft
  * Sluit Blink aan zoals op de tekening
  * Zet de spanning weer op de Arduino
  * Als het goed is, knippert het rode LEDje nu mee met het LEDje op de Arduino. 

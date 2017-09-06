@@ -1,7 +1,7 @@
 # Les 0: Breadboard
 
 Een broodplank (ja, wij noemen dit een broodplank) helpt om
-gemakkelijk electrische schakelingen te bouwen.
+gemakkelijk elektrische schakelingen te bouwen.
 
 In deze les leer je:
 

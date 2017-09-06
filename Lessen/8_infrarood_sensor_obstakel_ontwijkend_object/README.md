@@ -8,7 +8,7 @@ Deze les leren we
 
 ![Pas op! Zie 'Waarschuwing'](8_isooo_waarschuwing.png)
 
-Haal deze les *altijd* de USB snoer uit je computer als je een schakeling
+Haal deze les *altijd* het USB snoer uit je computer als je een schakeling
 aan sluit. Anders gaat de computer misschien stuk.
 
 ## Infrarood Sensor
@@ -50,14 +50,14 @@ void loop()
 
 Een transistor is een soort drukknop.
 In plaats dat je een transistor met je vinger indrukt,
-zet je er electrische spanning op.
+zet je er elektrische spanning op.
 Als er spanning op staat, dan kan er stroom door de transistor.
 
 ![LED met transistor](8_isooo_led.png)
 
-Haal de USB uit de computer. 
+Haal het USB snoer uit de computer. 
 Sluit figuur 'LED met transistor' aan.
-Doe op het eind de USB weer in de computer.
+Doe op het eind het USB snoer weer in de computer.
 
 Upload de code van 'Blink' op de Arduino.
 
@@ -75,9 +75,9 @@ Upload de code van 'Blink' op de Arduino.
 
 ![Een eenzaam relais](8_isooo_relais.png)
 
-Haal de USB uit de computer. 
+Haal het USB snoer uit de computer. 
 Sluit figuur 'Een eenzaam relais' aan.
-Doe op het eind de USB weer in de computer.
+Doe op het eind het USB snoer weer in de computer.
 
 Upload de code van 'Blink' op de Arduino.
 
@@ -95,9 +95,9 @@ Upload de code van 'Blink' op de Arduino.
 
 ![Relais met DC motor](8_isooo_relais_dc_motor.png)
 
-Haal de USB uit de computer. 
+Haal het USB snoer uit de computer. 
 Sluit figuur 'Relais met DC motor' aan.
-Doe op het eind de USB weer in de computer.
+Doe op het eind het USB snoer weer in de computer.
 
 Upload de code van 'Blink' op de Arduino.
 

@@ -1,8 +1,8 @@
 # Stroomdeeltje spelen
 
-Electriciteit kun je niet zien. 
+Elektriciteit kun je niet zien. 
 
-Om toch een gevoel over electriciteit te krijgen, leer je hier een stroomdeeltje te spelen.
+Om toch een gevoel over elektriciteit te krijgen, leer je hier een stroomdeeltje te spelen.
 
 Dit komt erg precies!
 

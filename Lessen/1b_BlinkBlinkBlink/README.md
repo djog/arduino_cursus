@@ -94,7 +94,7 @@ Nu is het tijd 'Blink Blink Blink' aan te sluiten:
 
 ![BlinkBlinkBlink](1b_BlinkBlinkBlink.png)
 
- * Haal de USB snoer uit de computer, zodat de Arduino geen spanning meer heeft
+ * Haal het USB snoer uit de computer, zodat de Arduino geen spanning meer heeft
  * Sluit de onderdelen aan zoals op de tekening
 
 ## Opdracht 3

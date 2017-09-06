@@ -17,7 +17,7 @@ Eerst sluiten we alleen een Arduino aan:
 
 Ik denk dat dit wel moet lukken :-)
 
-![Sunglasses](EmojiSunglasses.png) | De seriele monitor gaat via de USB kabel tussen Arduino naar computer
+![Sunglasses](EmojiSunglasses.png) | De seriele monitor gaat via het USB snoer tussen Arduino naar computer
 :-------------:|:----------------------------------------: 
 
 \pagebreak

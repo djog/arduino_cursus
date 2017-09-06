@@ -1,8 +1,8 @@
 # 5. DC Motor met Transistor
 
-![Pas op! Haal deze les *altijd* de USB snoer uit je computer als je een schakeling aan sluit!](5_dc_motor_met_transistor_waarschuwing.png)
+![Pas op! Haal deze les *altijd* het USB snoer uit je computer als je een schakeling aan sluit!](5_dc_motor_met_transistor_waarschuwing.png)
 
-![Sunglasses](EmojiSunglasses.png) | Haal deze les *altijd* de USB snoer uit je computer als je een schakeling aan sluit.
+![Sunglasses](EmojiSunglasses.png) | Haal deze les *altijd* het USB snoer uit je computer als je een schakeling aan sluit.
 :-------------:|:----------------------------------------: 
 
 ![Bowtie](EmojiBowtie.png) | Anders gaat de computer misschien stuk!
@@ -12,14 +12,14 @@
 
 ![LED met drukknop](5_dc_motor_met_transistor_led_drukknop.png)
 
-Haal de USB uit de computer. 
+Haal het USB snoer uit de computer. 
 Sluit dan figuur 'LED met drukknop' aan. 
-Doe op het eind de USB weer in de computer.
+Doe op het eind het USB snoer weer in de computer.
 
 ### Vragen 1
 
  1. Wat doet deze schakeling?
- 2. Wie levert de electriciteit voor het LEDje: de batterijen of de Arduino? Waarom?
+ 2. Wie levert de elektriciteit voor het LEDje: de batterijen of de Arduino? Waarom?
  3. Hoe moet je de Arduino programmeren?
  4. Hoe werkt de schakeling?
 
@@ -36,10 +36,10 @@ Doe op het eind de USB weer in de computer.
 
 Een transistor is een soort drukknop.
 In plaats dat je een transistor met je vinger indrukt,
-zet je er electrische spanning op.
+zet je er elektrische spanning op.
 Als er spanning op staat, dan kan er stroom door de transistor.
 
-![Sunglasses](EmojiSunglasses.png) | Een transistor is een soort drukknop, die je met electriciteit in kunt drukken
+![Sunglasses](EmojiSunglasses.png) | Een transistor is een soort drukknop, die je met elektriciteit in kunt drukken
 :-------------:|:----------------------------------------: 
 
 ![Bowtie](EmojiBowtie.png) | Met een transistor kun je componenten aansluiten die meer stroom nodig hebben
@@ -47,16 +47,16 @@ Als er spanning op staat, dan kan er stroom door de transistor.
 
 ![LED met transistor](5_dc_motor_met_transistor_led_transistor.png)
 
-Haal de USB uit de computer. 
+Haal het USB snoer uit de computer. 
 Sluit figuur 'LED met transistor' aan.
-Doe op het eind de USB weer in de computer.
+Doe op het eind het USB snoer weer in de computer.
 
 Upload de code van 'Blink' op de Arduino.
 
 ### Vragen 2
 
  1. Wat doet deze schakeling?
- 2. Wie levert de electriciteit voor het LEDje: de batterijen of de Arduino? Waarom?
+ 2. Wie levert de elektriciteit voor het LEDje: de batterijen of de Arduino? Waarom?
  3. Hoe werkt de schakeling?
 
 \pagebreak
@@ -85,25 +85,25 @@ gelijkspanning.
 \pagebreak
 
 We gebruiken twee nieuwe componenten: een diode en een condensator. 
-Deze zijn nodig omdat een DC motor ook electriciteit kan maken (!).
-Deze electriciteit kan je computer stukmaken. 
+Deze zijn nodig omdat een DC motor ook elektriciteit kan maken (!).
+Deze elektriciteit kan je computer stukmaken. 
 
 ![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------: 
-![Diode](5_dc_motor_met_transistor_diode.png) | Diode, een eenrichtingsweg voor electriciteit
+![Diode](5_dc_motor_met_transistor_diode.png) | Diode, een eenrichtingsweg voor elektriciteit
 ![Condensator](5_dc_motor_met_transistor_condensator.png) | Condensator, een soort batterij die snel op- en ontlaad
 
-![Sunglasses](EmojiSunglasses.png) | De diode en condensator zijn nodig omdat een DC motor ook electriciteit kan maken (!).
+![Sunglasses](EmojiSunglasses.png) | De diode en condensator zijn nodig omdat een DC motor ook elektriciteit kan maken (!).
 :-------------:|:----------------------------------------: 
 
-Haal de USB uit de computer. 
+Haal het USB snoer uit de computer. 
 Sluit figuur 'DC motor met drukknop' aan.
-Doe op het eind de USB weer in de computer.
+Doe op het eind het USB snoer weer in de computer.
 
 ### Vragen 3
 
  1. Wat doet deze schakeling?
- 2. Wie levert de electriciteit voor het LEDje: de batterijen of de Arduino? Waarom?
+ 2. Wie levert de elektriciteit voor het LEDje: de batterijen of de Arduino? Waarom?
  3. Hoe moet je de Arduino programmeren?
  4. Hoe werkt de schakeling?
 
@@ -120,16 +120,16 @@ Doe op het eind de USB weer in de computer.
 
 ![DC motor met transistor](5_dc_motor_met_transistor_motor_transistor.png)
 
-Haal de USB uit de computer. 
+Haal het USB snoer uit de computer. 
 Sluit figuur 'DC motor met transistor' aan.
-Doe op het eind de USB weer in de computer.
+Doe op het eind het USB snoer weer in de computer.
 
 Upload de code van 'Blink' op de Arduino.
 
 ### Vragen 4
 
  1. Wat doet deze schakeling?
- 2. Wie levert de electriciteit voor het LEDje: de batterijen of de Arduino? Waarom?
+ 2. Wie levert de elektriciteit voor het LEDje: de batterijen of de Arduino? Waarom?
  3. Hoe werkt de schakeling?
 
 \pagebreak

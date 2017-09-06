@@ -4,7 +4,7 @@
 
 Dit is het boek van de Arduino cursus. 
 Een Arduino is een machine die je kunt programmeren. 
-Dit boek leert je hoe je electronica op
+Dit boek leert je hoe je elektronica op
 de Arduino aansluit, en hoe je deze programmeert.
 
 ## Over dit boek
