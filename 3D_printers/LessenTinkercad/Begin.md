@@ -23,7 +23,7 @@ Als je een vorm hebt staan op het werkvlak, kan je er omheen draaien door te sle
 
 Het kubusje linksboven draait mee. Als je op verschillende vlakken of hoeken van het kubusje klikt draait het zicht naar dat aanzicht.
 
-Als je de 'shift'-knop op je toetsenbord ingedrukt houdt terwijl je met je rechtermuisknop sleept, verplaats je je zicht zonder te draaien. 
+Als je de `shift`-knop op je toetsenbord ingedrukt houdt terwijl je met je rechtermuisknop sleept, verplaats je je zicht zonder te draaien. 
 Om in en uit te zoomen moet je scrollen.
 
 Klik nu op de vorm op je werkvlak om hem te selecteren, er verschijnen nu zwarte en witte puntjes op. Probeer deze eens te verslepen, wat gebeurt er?
