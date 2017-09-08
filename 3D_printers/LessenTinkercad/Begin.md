@@ -32,4 +32,6 @@ Probeer ook eens de gebogen pijltjes te verslepen.
 
 **Opdracht:** Probeer een huisje te bouwen van een *Cube* en een *Roof*
 
+![Huisje](Huisje.png)
+
 Naast het Tinkercad logo staat een naam. Tinkercad verzint altijd een gekke naam voor je, deze kan je veranderen door er op te klikken. Je hoeft je ontwerp niet op te slaan, dat doet Tinkercad automatisch.
