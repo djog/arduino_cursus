@@ -9,12 +9,17 @@ Maar je mag het altijd komen proberen.
 
 ## Ik ben ouder dan 18 jaar oud, ben ik welkom?
 
-Ja. Nieuwe volwassenen zullen door de jongeren opgeleid worden (van 18:15-20:00). Dit is het meest leerzaam voor de *jongeren*. Voel je dus vooral welkom. Volwassenen zal daarna vriendelijk gevraagd worden om minstens een van de volgende dingen te gaan doen:
+Ja. Nieuwe volwassenen zullen door de jongeren opgeleid worden (van 18:15-20:00). 
+Dit is het meest leerzaam voor de *jongeren*. 
+Voel je dus vooral welkom. 
+Volwassenen zal daarna vriendelijk gevraagd worden om minstens een van de volgende dingen te gaan doen:
+
   1. gave dingen te bouwen om de leerlingen te inspireren 
   2. assisteren bij de lessen door de leerlingen met hun vragen te helpen
   3. lessen te geven
 
-Hierbij geldt de regel is dat de kinderen altijd voor gaan. Na 21:00 gaan de kinderen weg, dus er is ook tijd voor onderwijs speciaal voor de volwassenen.
+Hierbij geldt de regel is dat de kinderen altijd voor gaan. 
+Na 21:00 gaan de kinderen weg, dus er is ook tijd voor onderwijs speciaal voor de volwassenen.
 
 ## Ik heb geen [...]. Is dat erg?
 
@@ -22,8 +27,6 @@ Nee, wij hebben wel reserve laptops, Arduino's, electronica, etc.
 
 We zien wel dat het handiger voor de leerlingen is een eigen laptop te hebben. 
 Ook merken we dat leerlingen na zes lessen hun ouders gaan vragen om een Arduino om thuis mee te werken. 
-
-Wij verkopen een startersetje voor 35 euro voor inkoopsprijs.
 
 ## Mag ik games maken?
 
@@ -39,13 +42,9 @@ Heb je *zelf* een spel geprogrammeerd, dan krijg je de ruimte om het spel te lat
 
 ## Waar ga ik zitten?
 
-Dit is afhankelijk van wat je wilt doen:
+In de kantine, zoals iedereen.
 
-  * nieuwe dingen leren: grote tafel in kantine bij het bord
-  * samenwerken: andere tafels in kantine
-  * rustig alleen werken: aquarium
-
-In het begin zul je veel aan de grote tafel zitten, totdat je zelfstandig kunt werken.
+Nieuwere leerlingen zitten vaker bij het schoolbord in de buurt, maar ook dat hoeft niet.
 
 ## Wie stel ik een vraag?
 
@@ -73,6 +72,13 @@ In het begin zul je veel aan de grote tafel zitten, totdat je zelfstandig kunt w
 Anko zit vooral met de Nano's in de kantine.
 Anko helpt je als je zelf of met anderen aan een project wilt werken
 
+### Anton
+
+`[Hier een foto van Anton]`
+
+Anton helpt ons met Arduino, maar ook is hij handig met Lego Mindstorms.
+Hij is meestal in de kantine te vinden, en helpt je graag met je vragen.
+
 ### [Jan](https://github.com/janderkkotlarski)
 
 `[Hier een foto van Jan]`
@@ -95,7 +101,7 @@ en [meer dan 450 GitHub repositories](https://github.com/richelbilderbeek?tab=re
 
 ### Martin
 
-![Richel](Raw/Martin.jpg)
+![Martin](Raw/Martin.jpg)
 
 Martin is begonnen met programmeren tijdens zijn studie aan de Technische Universiteit van Delft. 
 Dat was 40 jaar geleden. Bij de KPN heeft hij een landelijk dekkend 
@@ -117,7 +123,8 @@ Omdat we enkel met vrijwilligers werken.
 
 ## Kan zo een goedkope cursus wel goed zijn?
 
-Volgens de leerlingen wel. In de twee enquetes per jaar scoort de cursus gemiddeld een 9 op 10. Misschien omdat de vrijwilligers constant bezig zijn met de cursus te verbeteren...
+Volgens de leerlingen wel. In de twee enquetes per jaar scoort de cursus gemiddeld een 9 op 10. 
+Misschien omdat de vrijwilligers constant bezig zijn met de cursus te verbeteren...
 
 ## Wat is de missie van de cursus?
 

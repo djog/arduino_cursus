@@ -6,8 +6,6 @@
 
 Dit is de GitHub van de Nederlandse Arduino cursus gegeven bij De Jonge Onderzoekers te Groningen.
 
-### NIEUW: 3D printerproject! Zie [hier](3D_printers/IntroductieCherry20170714.pdf) het project dat start in september 2017
-
 ### Over de cursus
 
  * Wanneer: elke vrijdagavond, behalve in de kerstvakantie
@@ -38,7 +36,4 @@ Heb je nog een vraag? Kijk [bij de veelgestelde vragen](Faq.md)
 
 ## Agenda
 
- * Vrijdag 28 juli t/m 1 vrijdag september: zomervakantielessen
- * Woensdag 2 augustus 12:00-17:00: Zomerstad in de Stadsbibliotheek
- * Donderdag 3 augustus 10:00-16:00: Zomerschool voor 35-40 leerlingen van 9-11 jaar
- * Vrijdag 8 september: start normale lessen
+ * Het is nog even rustig :-)
