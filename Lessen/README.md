@@ -26,7 +26,7 @@ Hiermee kun je stickers verdienen! Lessen met een :star: zijn extra.
 
 ### 3. Actuator, laag vermogen
 
-![Servo](Servo.png)
+![Servo motor](ServoMotor.png)
 
  * ([Servo besturen met seriele monitor](ServoSerial/README.md))
  * [Les 3a: Servo motor](3_servo_motor/README.md)
