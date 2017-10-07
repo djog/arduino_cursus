@@ -36,4 +36,8 @@ Heb je nog een vraag? Kijk [bij de veelgestelde vragen](Faq.md)
 
 ## Agenda
 
- * Het is nog even rustig :-)
+ * Vrijdag 13 oktober Codeweek: open les
+ * Zaterdag 14 oktober 11:30-17:00 Zpannend Zernike @ DJO
+ * Vrijdag 20 oktober Codeweek: open les
+ * Vrijdag 27 oktober 19:45: Jorn Claassens: Arduino LED bril
+ * Zaterdag 4 november 11:00-16:00 Let's Gro @ Grote Markt Groningen
