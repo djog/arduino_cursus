@@ -27,6 +27,11 @@ een foutmelding (`class [iets] not found`).
 
 ![Het zip bestand downloaden](RFID1Downloaden.png)
 
+ * Hernoem dit bestand van `rfid-master.zip` naar `rfid.zip`
+
+![Sunglasses](EmojiSunglasses.png) | Arduino kan geen bestanden aan met minstrepen
+:-------------:|:----------------------------------------: 
+
  * In de Arduino IDE, kies 'Add library' en dubbelklik op het gedownloade zip bestand
 
 ![Het zip bestand kiezen](RFID1ZipKiezen.png)
