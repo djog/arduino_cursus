@@ -2,7 +2,10 @@
 
 ![DJOG logo](Djog.png)
 
+[![IRC Network](https://img.shields.io/badge/irc-%23ArduinoGroningen-blue.svg "IRC Freenode")](https://webchat.freenode.net/?channels=ArduinoGroningen)
+
 <img src="Dingen/Arduino.jpg" alt="Arduino" width="300" height="300">
+
 
 Dit is de GitHub van de Nederlandse Arduino cursus gegeven bij De Jonge Onderzoekers te Groningen.
 
