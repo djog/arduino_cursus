@@ -3,7 +3,7 @@ void setup()
   /*-----------------------------------------------------------------------
                               PRESENTATIE ARDUINO CURSUS 
   -------------------------------------------------------------------------
-  Wanneer: vrijdag 21 juli 2017
+  Wanneer: vrijdag 15 december 2017
   Waar: De Jonge Onderzoekers, Dirk Huizingastraat 13
   -------------------------------------------------------------------------
                     PLANNING (dit zijn natuurlijk richtlijnen!)
