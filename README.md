@@ -39,6 +39,5 @@ Heb je nog een vraag? Kijk [bij de veelgestelde vragen](Faq.md)
 
 ## Agenda
 
- * Vrijdag 27 oktober 19:45: Jorn Claassens: Arduino LED bril
- * Zaterdag 4 november 10:30-17:30 Let's Gro @ Grote Markt Groningen
+ * ?Zaterdag 9 december: [Maak en Innovatiefestival Midden Groningen](http://www.mifmig.nl/)
  * Vrijdag 15 december 18:00-(ongeveer)19:30: Leerlingpresentaties
