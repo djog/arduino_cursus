@@ -26,7 +26,7 @@ ArduinoInvaders met vier kolommen:
 
 ![20140808_9](20140808_9.jpg)
 
-![20140808_10]0140808_10.jpg)
+![20140808_10](20140808_10.jpg)
 
 Boter-Kaas-en-Eieren PCB:
 
