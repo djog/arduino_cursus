@@ -2,5 +2,5 @@
 
 Vroeger gingen de leerlingen nog niet mee om Arduino uit te leggen.
 
-![Workshop](Fotos/20141103.jpg)
+![Workshop](20141103.jpg)
 

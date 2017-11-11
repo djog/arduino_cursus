@@ -2,5 +2,5 @@
 
 Natuurlijk geven onze leerlingen weer les!
 
-![Open Dag](Fotos/20161001_1.jpg)
+![Open Dag](20161001_1.jpg)
 
