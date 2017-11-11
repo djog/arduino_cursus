@@ -2,6 +2,10 @@
 
 Dit zijn de veelgestelde vragen.
 
+## Hoe ziet de cursus eruit?
+
+Voor een sfeerimpressie, zie [foto's van onze leerlingen, lessen en festivalbezoeken](Fotos/README.md)
+
 ## Ik ben jonger dan acht jaar oud, ben ik welkom?
 
 Ja. We zien wel dat leerlingen veel jonger dan 8 jaar oud electronica en programmeren erg moeilijk vinden. 
