@@ -16,3 +16,8 @@ Hier kun je zien waar we allemaal zijn geweest.
  * [2015: stroomdeeltje spelen, Richel's favoriete les](2015StroomdeeltjeSpelen/README.md)
  * [3 november 2014: Workshop bij Pezi](20141103Pezi/README.md)
  * [8 augustus 2014: de eerste lessen](20140808Les/README.md)
+
+Een doorlopende presentatie van ons:
+
+ * [http://arduino-groningen.veldbies.nl](http://arduino-groningen.veldbies.nl)
+
