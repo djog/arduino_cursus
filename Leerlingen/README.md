@@ -4,7 +4,7 @@
 
 Nieuwste eerst!
 
- * [Presentaties 15 december 2017](Presentatie20171217/README.md)
+ * [Presentaties 15 december 2017](Presentatie20171215/README.md)
  * [Presentaties 16 december 2016](Presentatie20161216/README.md)
  * [Presentaties 31 juni 2016](Presentatie20160631/README.md)
 
