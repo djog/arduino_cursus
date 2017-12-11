@@ -39,6 +39,8 @@ Heb je nog een vraag? Kijk [bij de veelgestelde vragen](Faq.md)
 
 ## Agenda
 
- * Zaterdag 9 december @ Hoogezand: [Maak en Innovatiefestival Midden Groningen](http://www.mifmig.nl/)
  * Vrijdag 15 december 18:00-(ongeveer)19:30 @ DJO: Leerlingpresentaties
  * Zaterdag 16 december 15:00-20:00 @ Synagoge: [OrbitFest](http://orbitfest.com)
+ * Vrijdag 22 december: laatste les voor kerst
+ * Vrijdag 29 december: geen les
+ * Vrijdag 5 januari: eerste les van 2018
