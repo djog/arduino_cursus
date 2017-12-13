@@ -23,5 +23,4 @@ Anne, Jorn, Joshua, Madelief, Same | Project |  Laptop beeld. Het project met de
     * Richel brieft evaluator Martin v.d. Burgh
  * 19:15 evaluaties
     * Martin (v.d. Burgh) met kids @ hout
-    * docenten met kids @ kantine
-
+    * docenten met ouders @ kantine 
