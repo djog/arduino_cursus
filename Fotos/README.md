@@ -2,6 +2,7 @@
 
 Hier kun je zien waar we allemaal zijn geweest.
 
+ * [9 december 2017: MIGMIG in Het Kielzog, Hoogezand](20171209Mifmig/README.md)
  * [4 november 2017: Let's Gro op de Grote Markt](20171104LetsGro/README.md)
  * [27 juli 2017: Zomerschool bij De Jonge Onderzoekers](20170727Zomerschool/README.md)
  * [11 juni 2016: Science en Hi-Tech Dag bij De Jonge Onderzoekers](20170611ScienceEnHiTechDag/README.md)
