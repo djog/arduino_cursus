@@ -83,25 +83,16 @@ Anko helpt je als je zelf of met anderen aan een project wilt werken
 Anton helpt ons met Arduino, maar ook is hij handig met Lego Mindstorms.
 Hij is meestal in de kantine te vinden, en helpt je graag met je vragen.
 
-### [Jan](https://github.com/janderkkotlarski)
-
-`[Hier een foto van Jan]`
-
-[Jan](https://github.com/janderkkotlarski) zit vooral met de Uno's in het aquarium.
-Bij hem is het rustig en wordt er stil gewerkt.
-Jan bepaalt samen met Richel welke lessen de Uno's krijgen.
-
 ### [Richel](https://github.com/richelbilderbeek)
 
 ![Richel](Raw/Richel.png)
 
 Richel programmeert sinds zijn achtste. Hij is de meest ervaren en belezen programmeur, vooral in C++.
 Richel is vooral geinteresseerd in onderwijs en heeft de lerarenopleiding aan de universiteit afgerond.
-Hij coordineert de Arduino cursus en geeft soms les bij elk van de andere docenten. 
-Richel bepaalt dan ook mee welke lessen de leerlingen krijgen.
-
 Zijn werk is te zien op [zijn website met meer dan 3900 pagina's](http://richelbilderbeek.nl) 
-en [meer dan 450 GitHub repositories](https://github.com/richelbilderbeek?tab=repositories).
+en [meer dan 750 GitHub repositories](https://github.com/richelbilderbeek?tab=repositories).
+
+Richel is eindverantwoordelijk voor de Arduino cursus. Richel geeft vooral les aan de Uno's en Mega's.
 
 ### Martin
 
@@ -120,6 +111,8 @@ Martin houdt ervan nieuwe dingen te ontdekken en anderen daarin te
 stimuleren en te begeleiden. En Arduino biedt daarvoor heel veel mogelijkheden.
 Martin's lijfspreuk is: Maak alles zo eenvoudig mogelijk, 
 maar niet eenvoudiger. (naar Einstein)
+
+Martin leidt de Nano's.
 
 ## Hoe kan het dat de cursus zo goedkoop is?
 
