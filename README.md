@@ -25,7 +25,10 @@ Einde les | 20:00 | 21:00 | 22:00
 
  * Waar: De Jonge Onderzoekers Groningen (www.djog.nl), Dirk Huizingastraat 13
  * Periode: het hele jaar door, op feestdagen en kerstvakantie na
- * Kosten: 50 euro per jaar 
+ * Kosten: 
+   * Na kerstvakantie tot zomervakantie: 30 euro
+   * Zomervakantie: gratis
+   * Na zomervakantie tot kerstvakantie: 20 euro
  * Leeftijd: 8-28 jaar
  * Meenemen: Arduino (als je die hebt), laptop (als je die hebt), electronica (als je dat hebt)
  * Wanneer instromen: altijd!
@@ -37,10 +40,44 @@ Leermateriaal:
 
 Heb je nog een vraag? Kijk [bij de veelgestelde vragen](Faq.md)
 
-## Agenda
+## Lesplanning
 
- * Vrijdag 15 december 18:00-(ongeveer)19:30 @ DJO: Leerlingpresentaties
- * Zaterdag 16 december 15:00-20:00 @ Synagoge: [OrbitFest](http://orbitfest.com)
- * Vrijdag 22 december: laatste les voor kerst
- * Vrijdag 29 december: geen les
- * Vrijdag 5 januari: eerste les van 2018
+Les|Datum|Les A|Les B
+---|---|---|---
+ 1| 5 jan| |1
+ 2|12 jan| |1
+ 3|19 jan| |2
+ 4|26 jan| |3
+ 5| 2 feb| |4
+ 6| 9 feb| |Herhaling
+ 7|16 feb| |5
+ 8|23 feb| |6
+ 9| 2 mrt| |7
+10| 9 mrt| |8
+11|16 mrt| |Herhaling
+12|23 mrt| |9
+13|30 mrt| |10
+14| 6 apr| |11
+15|13 apr| |12
+16|20 apr| |Herhaling
+17|27 apr| |13
+18| 4 mei| |14
+19|11 mei| |15
+20|18 mei| |16
+21|25 mei| |Herhaling
+22| 1 jun|Project|Project
+23| 8 jun|Project|Project
+24|15 jun|Project|Project
+25|22 jun|Project|Project
+26|29 jun|Project|Project
+27| 6 jul|Project|Project
+28|13 jul|Leerlingpresentaties|Leerlingpresentaties
+29|20 jul|Laatste les seizoen|Laatste les seizoen
+
+ * Les A zijn de lessen van de Nano's, die werken met dit Arduino lesmateriaal
+ * Les B zijn de lessen van de Uno's, die werken met het [Correct C++](https://github.com/richelbilderbeek/correct_cpp) lesmateriaal
+
+Na de laatste les:
+
+ * In de zomervakantie zijn we open volgens het gewone rooster. Het zomervakantieseizoen is gratis!
+ * Eerste les na de zomervakantie is op vrijdag 7 september
