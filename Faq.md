@@ -94,7 +94,7 @@ en [meer dan 750 GitHub repositories](https://github.com/richelbilderbeek?tab=re
 
 Richel is eindverantwoordelijk voor de Arduino cursus. Richel geeft vooral les aan de Uno's en Mega's.
 
-### Martin
+### [Martin](https://github.com/martinpaulissen)
 
 ![Martin](Raw/Martin.jpg)
 
