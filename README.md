@@ -44,26 +44,26 @@ Heb je nog een vraag? Kijk [bij de veelgestelde vragen](Faq.md)
 
 Les|Datum|Les A|Les B
 ---|---|---|---
- 1| 5 jan| |1
- 2|12 jan| |1
- 3|19 jan| |2
- 4|26 jan| |3
- 5| 2 feb| |4
+ 1| 5 jan| |[0](https://github.com/richelbilderbeek/correct_cpp_scoreboard)
+ 2|12 jan| |[0](https://github.com/richelbilderbeek/correct_cpp_scoreboard)
+ 3|19 jan| |[1](https://github.com/richelbilderbeek/correct_cpp_hello)
+ 4|26 jan| |2
+ 5| 2 feb| |3
  6| 9 feb| |Herhaling
- 7|16 feb| |5
- 8|23 feb| |6
- 9| 2 mrt| |7
-10| 9 mrt| |8
+ 7|16 feb| |4
+ 8|23 feb| |5
+ 9| 2 mrt| |6
+10| 9 mrt| |7
 11|16 mrt| |Herhaling
-12|23 mrt| |9
-13|30 mrt| |10
-14| 6 apr| |11
-15|13 apr| |12
+12|23 mrt| |8
+13|30 mrt| |9
+14| 6 apr| |10
+15|13 apr| |11
 16|20 apr| |Herhaling
-17|27 apr| |13
-18| 4 mei| |14
-19|11 mei| |15
-20|18 mei| |16
+17|27 apr| |12
+18| 4 mei| |13
+19|11 mei| |14
+20|18 mei| |15
 21|25 mei| |Herhaling
 22| 1 jun|Project|Project
 23| 8 jun|Project|Project
