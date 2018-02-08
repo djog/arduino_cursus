@@ -26,9 +26,9 @@ Einde les | 20:00 | 21:00 | 22:00
  * Waar: De Jonge Onderzoekers Groningen (www.djog.nl), Dirk Huizingastraat 13
  * Periode: het hele jaar door, op feestdagen en kerstvakantie na
  * Kosten: 
-   * Na kerstvakantie tot zomervakantie: 30 euro
+   * Na kerstvakantie tot zomervakantie: 25 euro
    * Zomervakantie: gratis
-   * Na zomervakantie tot kerstvakantie: 20 euro
+   * Na zomervakantie tot kerstvakantie: 25 euro
  * Leeftijd: 8-28 jaar
  * Meenemen: Arduino (als je die hebt), laptop (als je die hebt), electronica (als je dat hebt)
  * Wanneer instromen: altijd!
