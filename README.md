@@ -47,13 +47,13 @@ Les|Datum|Les A|Les B
  1| 5 jan| |[0](https://github.com/richelbilderbeek/correct_cpp_scoreboard)
  2|12 jan| |[0](https://github.com/richelbilderbeek/correct_cpp_scoreboard)
  3|19 jan| |[1](https://github.com/richelbilderbeek/correct_cpp_hello)
- 4|26 jan| |2
- 5| 2 feb| |3
+ 4|26 jan| |[2](https://github.com/richelbilderbeek/correct_cpp_hello_world)
+ 5| 2 feb| |[3](https://github.com/richelbilderbeek/correct_cpp_hello_cli)
  6| 9 feb| |Herhaling
- 7|16 feb| |4
- 8|23 feb| |5
- 9| 2 mrt| |6
-10| 9 mrt| |7
+ 7|16 feb| |[4](https://github.com/richelbilderbeek/correct_cpp_show_args)
+ 8|23 feb| |[5](https://github.com/richelbilderbeek/correct_cpp_is_odd)
+ 9| 2 mrt| |[6](https://github.com/richelbilderbeek/correct_cpp_bool_to_coin)
+10| 9 mrt| |[7](https://github.com/richelbilderbeek/correct_cpp_int_to_word)
 11|16 mrt| |Herhaling
 12|23 mrt| |8
 13|30 mrt| |9
