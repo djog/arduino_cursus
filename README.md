@@ -56,12 +56,12 @@ Les|Datum|Les A|Les B
 10| 9 mrt| |[7](https://github.com/richelbilderbeek/correct_cpp_int_to_word)
 11|16 mrt| |Herhaling
 12|23 mrt| |8
-13|30 mrt| |9
+13|30 mrt|Goede Vrijdag, vrije les|Goede Vrijdag, vrije les
 14| 6 apr| |10
 15|13 apr| |11
 16|20 apr| |Herhaling
-17|27 apr| |12
-18| 4 mei| |13
+17|27 apr|Koningsdag, geen les|Koningsdag, geen les
+18| 4 mei|Dodenherdenking, geen les|Dodenherdenking, geen les
 19|11 mei| |14
 20|18 mei| |15
 21|25 mei| |Herhaling
