@@ -37,6 +37,7 @@ Leermateriaal:
 
  * [Lessen](Lessen/README.md)
  * [Boeken](Boek/README.md)
+ * [Python cursus Uno's](http://www.goo.gl/GiszJh)
 
 Heb je nog een vraag? Kijk [bij de veelgestelde vragen](Faq.md)
 
