@@ -7,3 +7,5 @@ Helaas kwamen de koning, koningin, prinsen en prinsessen niet omhoog voor een le
 Toen hebben we maar zelf (verder) gave dingen gedaan :+1:
 
 ![Open Dag DJO](20180427Koningsdag.jpg)
+
+Dankjewel Marina ?Yakovlev voor het delen van deze foto!
