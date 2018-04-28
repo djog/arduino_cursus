@@ -2,6 +2,7 @@
 
 Hier kun je zien waar we allemaal zijn geweest.
 
+ * [27 april 2018: Koningsdag](20180427Koningsdag/README.md)
  * [10 februari 2018: Open Dag DJO](20180210OpenDagDjo/README.md)
  * [9 december 2017: MIGMIG in Het Kielzog, Hoogezand](20171209Mifmig/README.md)
  * [4 november 2017: Let's Gro op de Grote Markt](20171104LetsGro/README.md)
