@@ -8,4 +8,4 @@ Toen hebben we maar zelf (verder) gave dingen gedaan :+1:
 
 ![Open Dag DJO](20180427Koningsdag.jpg)
 
-Dankjewel Marina ?Yakovlev voor het delen van deze foto!
+Dankjewel Marina Sichova voor het delen van deze foto!
