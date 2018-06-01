@@ -1,9 +1,5 @@
 # Arduino cursus bij De Jonge Onderzoekers
 
-```
-Vrijdag 4 mei geen les!
-```
-
 ![DJOG logo](Djog.png)
 
 [![IRC Network](https://img.shields.io/badge/irc-%23ArduinoGroningen-blue.svg "IRC Freenode")](https://webchat.freenode.net/?channels=ArduinoGroningen)
