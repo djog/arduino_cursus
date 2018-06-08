@@ -30,7 +30,7 @@ Hiermee kun je stickers verdienen! Lessen met een :star: zijn extra.
 
 ![Servo motor](ServoMotor.png)
 
- * ([Servo besturen met seriele monitor](ServoSerial/README.md))
+ * [Servo besturen met seriele monitor](ServoSerial/README.md)
  * [Les 3a: Servo motor](3_servo_motor/README.md)
  * [Les 3b: Meer servo motoren](3_servo_motoren/README.md)
  * [Les 4: FSR met servo](4_FSR_met_servo/README.md)
@@ -45,14 +45,36 @@ Hiermee kun je stickers verdienen! Lessen met een :star: zijn extra.
  * [Les 8: Infrarood sensor obstakel ontwijkend object](8_infrarood_sensor_obstakel_ontwijkend_object/README.md)
 
 
-## Inputs
+### 5. Potmeter en capacitatieve sensoren
 
- * [Potmeter](Potmeter/README.md)
- * [Capacitatieve sensor les 1](CapacitatieveSensor1/README.md)
- * [Capacitatieve sensor les 2](CapacitatieveSensor2/README.md)
- * [Capacitatieve sensor les 3](CapacitatieveSensor3/README.md)
- * [RFID1](RFID1/README.md)
- * [RFID2](RFID2/README.md)
+ * [Les 9: Potmeter](Potmeter/README.md)
+ * [Les 10: Capacitatieve sensor 1](CapacitatieveSensor1/README.md)
+ * [Les 11: Capacitatieve sensor 2](CapacitatieveSensor2/README.md)
+ * [Les 12: Capacitatieve sensor 3](CapacitatieveSensor3/README.md)
+
+### 6. Outputs
+
+ * [Les 13: Zeven segmenten display](ZevenSegmentDisplay/README.md)
+ * [Les 14: LCD 1](LCD1/README.md)
+ * [Les 15: LCD 2](LCD2/README.md)
+ * [Les 16: LCD 3](LCD3/README.md)
+
+### 7. Servo en theremin
+
+ * [Les 17: Theremin met LDR](Theremin_ldr/README.md)
+ * [Les 18: Theremin met infrarode afstandssensor](Theremin_infrarood/README.md)
+ * [Les 19: Theremin met ultrasone afstandssensor](Theremin_ultrasoon/README.md)
+ * Les 20?
+
+### 8. Hi-tech
+
+ * [Les 21: RFID 1](RFID1/README.md)
+ * [Les 22: RFID 2](RFID2/README.md)
+ * [Les 23: ArduinoISP](ArduinoISP/README.md): bootloader branden met de Arduino als ISP
+ * [Les 24: Bare-bone Arduino](BareBoneArduino/README.md): de Arduino zonder printplaat
+
+### RFID 
+
  * Kleurensensor
  * Ultrasone afstandssensor
  * Druksensor
@@ -60,28 +82,15 @@ Hiermee kun je stickers verdienen! Lessen met een :star: zijn extra.
  * Alcohol sensor
  * Pulsgever
 
-## Outputs
+ * Stappenmotor
 
- * [Zeven segmenten display](ZevenSegmentDisplay/README.md)
- * [LCD les 1](LCD1/README.md)
- * [LCD les 2](LCD2/README.md)
- * [LCD les 3](LCD3/README.md)
  * Laser
  * Nokia5110
-
-## Actuatoren, laag vermogen
-
- * [Servo besturen met seriele monitor](ServoSerial/README.md)
- * [Theremin met infrarode afstandssensor](Theremin_infrarood/README.md)
- * [Theremin met ultrasone afstandssensor](Theremin_ultrasoon/README.md)
- * Stappenmotor
 
 ## Arduino
 
  * Shift register 1: een shift register
  * Shift register 2: twee shift registers
- * [ArduinoISP](ArduinoISP/README.md): bootloader branden met de Arduino als ISP
- * [Bare-bone Arduino](BareBoneArduino/README.md): de Arduino zonder printplaat
  * [Arduino en Processing](Arduino_en_processing/README.md)
 
 ## Piano
