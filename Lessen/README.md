@@ -7,6 +7,8 @@ Arduino lessen die je zo kunt doen.
 Deze lessen doen we als groep aan de grote tafel.
 Hiermee kun je stickers verdienen! Lessen met een :star: zijn extra.
 
+ * [Leskaart 1](Leskaarten/Leskaart1.pdf)
+
 ### 1. LED
 
 ![Led](Led.png)
