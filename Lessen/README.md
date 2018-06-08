@@ -2,13 +2,6 @@
 
 Arduino lessen die je zo kunt doen.
 
-## Normale lessen
-
-Deze lessen doen we als groep aan de grote tafel.
-Hiermee kun je stickers verdienen! Lessen met een :star: zijn extra.
-
- * [Leskaart 1](Leskaarten/Leskaart1.pdf)
-
 ### 1. LED
 
 ![Led](Led.png)
@@ -73,26 +66,6 @@ Hiermee kun je stickers verdienen! Lessen met een :star: zijn extra.
  * [Les 23: ArduinoISP](ArduinoISP/README.md): bootloader branden met de Arduino als ISP
  * [Les 24: Bare-bone Arduino](BareBoneArduino/README.md): de Arduino zonder printplaat
 
-### RFID 
-
- * Kleurensensor
- * Ultrasone afstandssensor
- * Druksensor
- * Reedcontact
- * Alcohol sensor
- * Pulsgever
-
- * Stappenmotor
-
- * Laser
- * Nokia5110
-
-## Arduino
-
- * Shift register 1: een shift register
- * Shift register 2: twee shift registers
- * [Arduino en Processing](Arduino_en_processing/README.md)
-
 ## Piano
 
  * [Piano 1: Vader Jacob in frequenties (nieuw)](PianoX_vader_jacob_frequenties/README.md)
@@ -106,6 +79,18 @@ Hiermee kun je stickers verdienen! Lessen met een :star: zijn extra.
  * [Les 0: Broodplank](0_Breadboard/README.md)
  * [Blink snelheid](BlinkSnelheid/README.md)
  * Chatroom
+ * Kleurensensor
+ * Ultrasone afstandssensor
+ * Druksensor
+ * Reedcontact
+ * Alcohol sensor
+ * Pulsgever
+ * Stappenmotor
+ * Laser
+ * Nokia5110
+ * Shift register 1: een shift register
+ * Shift register 2: twee shift registers
+ * [Arduino en Processing](Arduino_en_processing/README.md)
 
 ## Lesvormen
 
@@ -114,3 +99,8 @@ Hiermee kun je stickers verdienen! Lessen met een :star: zijn extra.
  * Stroomdeeltje spelen 3: spanningsdeler
  * For loop spelen
  * Binair tellen
+
+## Leskaarten
+
+ * [Leskaart 1](Leskaarten/Leskaart1.pdf)
+ * [Leskaart 2](Leskaarten/Leskaart2.pdf)
