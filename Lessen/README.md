@@ -18,6 +18,7 @@ Arduino lessen die je zo kunt doen.
  * [Les 2: Knop if else](2_Knop_if_else/README.md) 
  * [Les 4: FSR](4_FSR/README.md) 
  * [Les 9: LDR](9_LDR/README.md) 
+ * ([Potmeter](Potmeter/README.md))
 
 ### 3. Actuator, laag vermogen
 
@@ -37,36 +38,50 @@ Arduino lessen die je zo kunt doen.
  * [Les 7: Relais](7_dc_motor_met_relais/README.md)
  * [Les 8: Infrarood sensor obstakel ontwijkend object](8_infrarood_sensor_obstakel_ontwijkend_object/README.md)
 
+### 5. Leesbare output
 
-### 5. Potmeter en capacitatieve sensoren
+ * [Zeven segmenten display](ZevenSegmentDisplay/README.md)
+ * [LCD 1](LCD1/README.md)
+ * [LCD 2](LCD2/README.md)
+ * [LCD 3](LCD3/README.md)
 
- * [Les 9: Potmeter](Potmeter/README.md)
- * [Les 10: Capacitatieve sensor 1](CapacitatieveSensor1/README.md)
- * [Les 11: Capacitatieve sensor 2](CapacitatieveSensor2/README.md)
- * [Les 12: Capacitatieve sensor 3](CapacitatieveSensor3/README.md)
+### 6. Hi-tech
 
-### 6. Outputs
+ * [RFID 1](RFID1/README.md)
+ * [RFID 2](RFID2/README.md)
+ * [ArduinoISP](ArduinoISP/README.md): bootloader branden met de Arduino als ISP
+ * [Bare-bone Arduino](BareBoneArduino/README.md): de Arduino zonder printplaat
 
- * [Les 13: Zeven segmenten display](ZevenSegmentDisplay/README.md)
- * [Les 14: LCD 1](LCD1/README.md)
- * [Les 15: LCD 2](LCD2/README.md)
- * [Les 16: LCD 3](LCD3/README.md)
+### 7. Besturing op afstand
 
-### 7. Servo en theremin
+ * ?
 
- * [Les 17: Theremin met LDR](Theremin_ldr/README.md)
- * [Les 18: Theremin met infrarode afstandssensor](Theremin_infrarood/README.md)
- * [Les 19: Theremin met ultrasone afstandssensor](Theremin_ultrasoon/README.md)
- * Les 20?
+### 8. Internet of Things
 
-### 8. Hi-tech
+ * ?
 
- * [Les 21: RFID 1](RFID1/README.md)
- * [Les 22: RFID 2](RFID2/README.md)
- * [Les 23: ArduinoISP](ArduinoISP/README.md): bootloader branden met de Arduino als ISP
- * [Les 24: Bare-bone Arduino](BareBoneArduino/README.md): de Arduino zonder printplaat
+### 9. Capacitatieve sensoren
 
-## Piano
+ * [Les 10: Capacitatieve sensor 1: een](CapacitatieveSensor1/README.md)
+ * [Les 11: Capacitatieve sensor 2: twee losse](CapacitatieveSensor2/README.md)
+ * [Les 12: Capacitatieve sensor 3: twee gekoppelde](CapacitatieveSensor3/README.md)
+ * Capacitatieve sensor 4: drie gekoppelde voor Arduino Invaders
+
+### 10. Theremin
+
+ * Theremin met potmeters
+ * [Theremin met LDR](Theremin_ldr/README.md)
+ * [Theremin met infrarode afstandssensor](Theremin_infrarood/README.md)
+ * [Theremin met ultrasone afstandssensor](Theremin_ultrasoon/README.md)
+
+### 11. Veel output
+
+ * Schuifregister 1: een schuif register
+ * Schuifregister 2: twee schuif registers
+ * [NeoPixels 1: blink op een LEDje](NeoPixel1/README.md)
+ * [NeoPixels 2: ?regenboog op alle LEDjes](NeoPixel2/README.md)
+
+## 12. Piano
 
  * [Piano 1: Vader Jacob in frequenties (nieuw)](PianoX_vader_jacob_frequenties/README.md)
  * [Piano 2: Vader Jacob in noten (nieuw)](PianoX_vader_jacob_noten/README.md)
@@ -88,8 +103,6 @@ Arduino lessen die je zo kunt doen.
  * Stappenmotor
  * Laser
  * Nokia5110
- * Shift register 1: een shift register
- * Shift register 2: twee shift registers
  * [Arduino en Processing](Arduino_en_processing/README.md)
 
 ## Lesvormen
