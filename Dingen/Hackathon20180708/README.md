@@ -65,6 +65,6 @@ Hier wat van mijn vragen:
 
  * De eindtijd is rond 17:00, zodat de kids thuis kunnen eten en 
    nog een rustige avond kunnen hebben. Is dat slim, of zou het prima
-   kunnen om 17:00-18:00 pizza te eten, terwijl de leerlingen hun werk kunnen laten zien?
+   kunnen om om 17:00-18:00 pizza te eten, terwijl de leerlingen hun werk kunnen laten zien?
 
  * Zie ik iets anders over het hoofd?
