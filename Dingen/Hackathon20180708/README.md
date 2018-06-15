@@ -10,6 +10,7 @@ Daarom deze dag om nog veel te kunnen doen.
 ## Werkschema
 
 Start|Eind|Wat
+---|---|---
 09:00|09:45|Werktijd
 09:45|10:00|Pauze
 10:00|10:45|Werktijd
@@ -33,14 +34,20 @@ In de pauze kun je eten en drinken. Er staat altijd ranja klaar.
 
 ## Mogelijke vragen
 
+ * Vraag: Mag ik gamen?
+ * Antwoord: Nee, ook niet in de pauze. Zoals altijd :-)
+
  * Vraag: Mag vriendje/vriendinnetje mee? 
- * Antwoord: Jazeker!
+ * Antwoord: Jazeker! Ik neem aan dat je hem/haar dan leert programmeren :+1:
 
  * Vraag: Ik wil later komen, kan dat?
  * Antwoord: Jazeker!
 
  * Vraag: Ik wil eerder gaan, kan dat?
  * Antwoord: Jazeker!
+
+ * Vraag: Ik heb een allergie, etc. Ben ik welkom?
+ * Antwoord: Jazeker! Laat je moeder/vader uitleggen aan Richel wat hij moet doen
 
 ## Vragen aan ouders
 
