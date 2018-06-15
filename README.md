@@ -1,14 +1,10 @@
 # Arduino cursus bij De Jonge Onderzoekers
 
 ```
-LET OP!
+NIEUW:
 ```
 
  * [Zondag 8 juli 2018: hackathon](Dingen/Hackathon20180708/README.md)
-
-```
-LET OP!
-```
 
 ![DJOG logo](Djog.png)
 
