@@ -35,19 +35,19 @@ In de pauze kun je eten en drinken. Er staat altijd ranja klaar.
 ## Mogelijke vragen
 
  * Vraag: Mag ik gamen?
- * Antwoord: Nee, ook niet in de pauze. Zoals altijd :-)
+   * Antwoord: Nee, ook niet in de pauze. Zoals altijd :-)
 
  * Vraag: Mag vriendje/vriendinnetje mee? 
- * Antwoord: Jazeker! Ik neem aan dat je hem/haar dan leert programmeren :+1:
+   * Antwoord: Jazeker! Ik neem aan dat je hem/haar dan leert programmeren :+1:
 
  * Vraag: Ik wil later komen, kan dat?
- * Antwoord: Jazeker!
+   * Antwoord: Jazeker!
 
  * Vraag: Ik wil eerder gaan, kan dat?
- * Antwoord: Jazeker!
+   * Antwoord: Jazeker!
 
  * Vraag: Ik heb een allergie, etc. Ben ik welkom?
- * Antwoord: Jazeker! Laat je moeder/vader uitleggen aan Richel wat hij moet doen
+   * Antwoord: Jazeker! Laat je moeder/vader uitleggen aan Richel wat hij moet doen
 
 ## Vragen aan ouders
 
