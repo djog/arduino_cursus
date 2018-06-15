@@ -1,5 +1,9 @@
 # Arduino cursus bij De Jonge Onderzoekers
 
+:computer: :computer: :computer: :computer: :computer: :computer: :computer:
+[Zondag 8 juli 2018: hackathon](Dingen/Hackathon20180708/README.md)
+:computer: :computer: :computer: :computer: :computer: :computer: :computer:
+
 ![DJOG logo](Djog.png)
 
 [![IRC Network](https://img.shields.io/badge/irc-%23ArduinoGroningen-blue.svg "IRC Freenode")](https://webchat.freenode.net/?channels=ArduinoGroningen)
