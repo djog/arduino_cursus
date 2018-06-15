@@ -44,7 +44,7 @@ In de pauze kun je eten en drinken. Er staat altijd ranja klaar.
    * :white_check_mark: Jazeker! Koffie is 50 cent :angel:
 
  * Ik wil later komen, kan dat?
-   * Jazeker!
+   *  :heart: Jazeker!
 
  * Ik wil eerder gaan, kan dat?
    * Jazeker!
