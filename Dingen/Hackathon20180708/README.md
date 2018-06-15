@@ -38,19 +38,19 @@ In de pauze kun je eten en drinken. Er staat altijd ranja klaar.
    * :no_entry_sign: Nee, ook niet in de pauze. Zoals altijd :-)
 
  * Mag vriendje/vriendinnetje mee? 
-   * :green_heart: Jazeker! Ik neem aan dat je hem/haar dan leert programmeren :+1:
+   * :heart: Jazeker! Ik neem aan dat je hem/haar dan leert programmeren :+1:
 
  * Mag mama/papa/opa/oma mee? 
-   * :white_check_mark: Jazeker! Koffie is 50 cent :angel:
+   * :heart: Jazeker! Koffie is 50 cent :angel:
 
  * Ik wil later komen, kan dat?
-   *  :heart: Jazeker!
+   * :heart: Jazeker!
 
  * Ik wil eerder gaan, kan dat?
-   * Jazeker!
+   * :heart: Jazeker!
 
  * Ik heb een allergie, etc. Ben ik welkom?
-   * Jazeker! Laat je moeder/vader uitleggen aan Richel wat hij moet doen
+   * :heart: Jazeker! Laat je moeder/vader uitleggen aan Richel wat hij moet doen
 
 ## Vragen aan ouders
 
