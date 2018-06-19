@@ -87,4 +87,8 @@ Les|Datum|Les A|Les B
 Na de laatste les:
 
  * In de zomervakantie zijn we open volgens het gewone rooster. Het zomervakantieseizoen is gratis!
+ * We staan op Noorderzon:
+    * 25 augustus: 13:00 uur t/m 18:00
+    * 27 augustus: 14:00 uur t/m 18:00
  * Eerste les na de zomervakantie is op vrijdag 7 september
+
