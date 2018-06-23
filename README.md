@@ -1,17 +1,15 @@
 # Arduino cursus bij De Jonge Onderzoekers
 
-```
-NIEUW:
-```
+## Binnenkort ...
 
- * [Zondag 8 juli 2018: hackathon](Dingen/Hackathon20180708/README.md)
+ * Zondag 8 juli 2018 9:00-17:00 @ DJO: [hackathon](Dingen/Hackathon20180708/README.md)
+ * Vrijdag 13 juli 2018 18:00-20:00 @ DJO: Leerlingpresentaties
 
 ![DJOG logo](Djog.png)
 
 [![IRC Network](https://img.shields.io/badge/irc-%23ArduinoGroningen-blue.svg "IRC Freenode")](https://webchat.freenode.net/?channels=ArduinoGroningen)
 
 <img src="Dingen/Arduino.jpg" alt="Arduino" width="300" height="300">
-
 
 Dit is de GitHub van de Nederlandse Arduino cursus gegeven bij De Jonge Onderzoekers te Groningen.
 
