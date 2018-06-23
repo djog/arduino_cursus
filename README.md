@@ -4,6 +4,8 @@
 
  * Zondag 8 juli 2018 9:00-17:00 @ DJO: [hackathon](Dingen/Hackathon20180708/README.md)
  * Vrijdag 13 juli 2018 18:00-20:00 @ DJO: Leerlingpresentaties
+ * Vrijdag 20 juli: laatste les voor de zomervakantie
+ * Zaterdag 29 september 10:15 @ [modelspoorbeurs](http://mscrailrunners.eu/events/event/modelspoorbeurs-groningen-29-september-2018-hanze-plaza-10-00-16-00/): lesgeven!
 
 ![DJOG logo](Djog.png)
 
