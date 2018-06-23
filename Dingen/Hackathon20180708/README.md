@@ -5,7 +5,7 @@ Daarom deze dag om nog veel te kunnen doen.
 
  * Wat: hackathon DJO
  * Wanneer: zondag 8 juli 2018 9:00-17:00 (inloop en vertrektijden zijn vrij)
- * Kosten: kostprijs van eten en drinken voor de kids, ?5 euro?
+ * Kosten: kostprijs van eten en drinken voor de kids, wordt achteraf per email verrekend
 
 ## Werkschema
 
@@ -17,7 +17,7 @@ Start|Eind|Wat
 10:45|11:00|Pauze
 11:00|11:45|Werktijd
 11:45|12:00|Pauze
-12:00|13:00|Lunch
+12:00|13:00|Lunch: pizza!
 13:00|13:45|Werktijd
 13:45|14:00|Pauze
 14:00|14:45|Werktijd
@@ -51,20 +51,3 @@ In de pauze kun je eten en drinken. Er staat altijd ranja klaar.
 
  * Ik heb een allergie, etc. Ben ik welkom?
    * :heart: Jazeker! Laat je moeder/vader uitleggen aan Richel wat hij moet doen
-
-## Vragen aan ouders
-
-Ik heb minstens een ouder nodig, omdat ik geen verstand heb van het
-lichamelijk verzorgen van kids! 
-
-Hier wat van mijn vragen: 
-
- * Bij een hackathon hoort pizza. Om 12:00-13:00 hebben we lunch. 
-   Is het enkel ongebruikelijk om dan (goedkope diepvries)pizza te eten, of zie ik
-   iets doms over het hoofd?
-
- * De eindtijd is rond 17:00, zodat de kids thuis kunnen eten en 
-   nog een rustige avond kunnen hebben. Is dat slim, of zou het prima
-   kunnen om om 17:00-18:00 pizza te eten, terwijl de leerlingen hun werk kunnen laten zien?
-
- * Zie ik iets anders over het hoofd?
