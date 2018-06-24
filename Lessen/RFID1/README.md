@@ -19,20 +19,10 @@ Gewoon dit schema nabouwen:
 Merk op: je moet een redelijk nieuwe versie van de Arduino IDE hebben! Anders krijg je 
 een foutmelding (`class [iets] not found`).
 
- * In je browser, ga naar [miguelbalboa zijn rfid GitHub](https://github.com/miguelbalboa/rfid)
+ * In je browser, ga naar [hier](https://github.com/richelbilderbeek/ArduinoCourse/raw/master/Libraries/RFID_1_1_3.zip). Download dit bestand
 
-![De GitHub van miguelbalboa](RFID1GitHub.png)
-
- * Op deze GitHub website, klik op 'Download zip'. Nu download je browser een zip bestand
-
-![Het zip bestand downloaden](RFID1Downloaden.png)
-
- * Hernoem dit bestand van `rfid-master.zip` naar `rfid.zip`
-
-![Sunglasses](EmojiSunglasses.png) | Arduino kan geen bestanden aan met minstrepen
-:-------------:|:----------------------------------------: 
-
- * In de Arduino IDE, kies 'Add library' en dubbelklik op het gedownloade zip bestand
+ * In de Arduino IDE, kies 'Add library' en dubbelklik op het gedownloade zip bestand. Deze
+   kun je vinden in de map 'Downloads'
 
 ![Het zip bestand kiezen](RFID1ZipKiezen.png)
 
