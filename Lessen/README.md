@@ -117,3 +117,7 @@ Arduino lessen die je zo kunt doen.
 
  * [Leskaart 1](Leskaarten/Leskaart1.pdf)
  * [Leskaart 2](Leskaarten/Leskaart2.pdf)
+
+## Andere plekken
+
+ * [YouTube kanaal: BasOnTech](https://www.youtube.com/c/BasOnTechNL)
