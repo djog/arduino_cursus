@@ -203,3 +203,7 @@ Sluit de LED aan op pin 11 en laat deze 2 keer per seconde knipperen.
 
 ![Sunglasses](EmojiSunglasses.png) | Gelukt? Laat dit zien aan een volwassene voor een sticker!
 :-------------:|:----------------------------------------: 
+
+## Extra
+
+ * Bas On Tech video: [https://youtu.be/KgMocAMAJvg](https://youtu.be/KgMocAMAJvg)
