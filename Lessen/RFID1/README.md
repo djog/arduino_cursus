@@ -21,12 +21,18 @@ een foutmelding (`class [iets] not found`).
 
  * In je browser, ga naar [hier](https://github.com/richelbilderbeek/ArduinoCourse/raw/master/Libraries/RFID_1_1_3.zip). Download dit bestand
 
+![Download het zip bestand](RFID1_download.png)
+
  * In de Arduino IDE, kies 'Add library' en dubbelklik op het gedownloade zip bestand. Deze
    kun je vinden in de map 'Downloads'
 
-![Het zip bestand kiezen](RFID1ZipKiezen.png)
+![Het zip bestand kiezen](RFID1_add.png)
 
- * Nu, in de Arduino IDE, staat er bij de `Voorbeelden`/`Examples` het kopje `rfid`
+ * Nu verschijnt er een berichtje onderin dat het is gelukt 
+
+![Gelukt!](RFID1_gelukt.png)
+
+ * Nu, in de Arduino IDE, staat er bij de `Voorbeelden`/`Examples` het kopje `RFID_1_1_3`
 
 ## Opdracht
 
@@ -34,7 +40,7 @@ een foutmelding (`class [iets] not found`).
 
 ## Eindopdracht
 
- * Upload het voorbeeld `rfid | dumpInfo` op je Arduino
+ * Upload het voorbeeld `RFID_1_1_3 | dumpInfo` op je Arduino
  * Houd er dan een tag bij. Wat zie je? Welke andere pasjes doen het ook?
 
 ## `dumpinfo`
