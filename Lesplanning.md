@@ -50,8 +50,8 @@ Les|Datum|Les
 32|10 augustus|Zomervakantie les 3
 33|17 augustus|Zomervakantie les 4
 34|24 augustus|Zomervakantie les 5
-- |Zaterdag 25 augustus|13:00-18:00 Noorderzon
-- |Maandag 27 augustus|14:00-18:00 Noorderzon
+--|Zaterdag 25 augustus|13:00-18:00 Noorderzon
+--|Maandag 27 augustus|14:00-18:00 Noorderzon
 35|31 augustus|Zomervakantie les 6
 
 ## Eind 2018
@@ -62,5 +62,5 @@ Les|Datum|Les
 37|14 september|- 
 38|21 september|-
 39|28 september|- 
-- |Zaterdag 29 september|10:00-15:00 @ [modelspoorbeurs](http://mscrailrunners.eu/events/event/modelspoorbeurs-groningen-29-september-2018-hanze-plaza-10-00-16-00/)
+--|Zaterdag 29 september|10:00-15:00 @ [modelspoorbeurs](http://mscrailrunners.eu/events/event/modelspoorbeurs-groningen-29-september-2018-hanze-plaza-10-00-16-00/)
 
