@@ -5,7 +5,7 @@
  * Zondag 8 juli 2018 9:00-17:00 @ DJO: [hackathon](Dingen/Hackathon20180708/README.md)
  * Vrijdag 13 juli 2018 18:00-20:00 @ DJO: Leerlingpresentaties
  * Vrijdag 20 juli: laatste les voor de zomervakantie
- * Zaterdag 29 september 10:15 @ [modelspoorbeurs](http://mscrailrunners.eu/events/event/modelspoorbeurs-groningen-29-september-2018-hanze-plaza-10-00-16-00/): lesgeven!
+ * Zaterdag 29 september 10:00-15:00 @ [modelspoorbeurs](http://mscrailrunners.eu/events/event/modelspoorbeurs-groningen-29-september-2018-hanze-plaza-10-00-16-00/): lesgeven!
 
 ![DJOG logo](Djog.png)
 
@@ -48,42 +48,9 @@ Leermateriaal:
 
 Heb je nog een vraag? Kijk [bij de veelgestelde vragen](Faq.md)
 
-## Lesplanning
+## [Lesplanning](Lesplanning.md)
 
-Les|Datum|Les A|Les B
----|---|---|---
- 1| 5 jan| |[0](https://github.com/richelbilderbeek/correct_cpp_scoreboard)
- 2|12 jan| |[0](https://github.com/richelbilderbeek/correct_cpp_scoreboard)
- 3|19 jan| |[1](https://github.com/richelbilderbeek/correct_cpp_hello)
- 4|26 jan| |[2](https://github.com/richelbilderbeek/correct_cpp_hello_world)
- 5| 2 feb| |[3](https://github.com/richelbilderbeek/correct_cpp_hello_cli)
- 6| 9 feb| |Herhaling
- 7|16 feb| |[4](https://github.com/richelbilderbeek/correct_cpp_show_args)
- 8|23 feb| |[5](https://github.com/richelbilderbeek/correct_cpp_is_odd)
- 9| 2 mrt| |[6](https://github.com/richelbilderbeek/correct_cpp_bool_to_coin)
-10| 9 mrt| |[7](https://github.com/richelbilderbeek/correct_cpp_int_to_word)
-11|16 mrt| |Herhaling
-12|23 mrt| |8
-13|30 mrt|Goede Vrijdag, vrije les|Goede Vrijdag, vrije les
-14| 6 apr| |10
-15|13 apr| |11
-16|20 apr| |Herhaling
-17|27 apr|Koningsdag, geen les|Koningsdag, geen les
-18| 4 mei|Dodenherdenking, geen les|Dodenherdenking, geen les
-19|11 mei| |14
-20|18 mei| |15
-21|25 mei| |Herhaling
-22| 1 jun|Project|Project
-23| 8 jun|Project|Project
-24|15 jun|Project|Project
-25|22 jun|Project|Project
-26|29 jun|Project|Project
-27| 6 jul|Project|Project
-28|13 jul|Leerlingpresentaties|Leerlingpresentaties
-29|20 jul|Laatste les seizoen|Laatste les seizoen
-
- * Les A zijn de lessen van de Nano's, die werken met dit Arduino lesmateriaal
- * Les B zijn de lessen van de Uno's, die werken met het [Correct C++](https://github.com/richelbilderbeek/correct_cpp) lesmateriaal
+Zie [Lesplanning](Lesplanning.md).
 
 Na de laatste les:
 
@@ -92,4 +59,5 @@ Na de laatste les:
     * 25 augustus: 13:00 uur t/m 18:00
     * 27 augustus: 14:00 uur t/m 18:00
  * Eerste les na de zomervakantie is op vrijdag 7 september
+ * Zaterdag 29 september 10:00-15:00 @ [modelspoorbeurs](http://mscrailrunners.eu/events/event/modelspoorbeurs-groningen-29-september-2018-hanze-plaza-10-00-16-00/): lesgeven!
 
