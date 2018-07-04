@@ -31,8 +31,8 @@ Les|Datum|Les A|Les B
 25|22 jun|Project|Project
 26|29 jun|Project|Project
 27| 6 jul|Project|Project
-28|13 jul|Leerlingpresentaties|Leerlingpresentaties, ?Anko, ~~Anton~~, Martin, Richel 
-29|20 jul|Laatste les seizoen|Laatste les seizoen, ?Anko, ~~Anton~~, ~~Martin~~, Richel
+28|13 jul|Leerlingpresentaties|Leerlingpresentaties, Martin, Richel ~~Anton~~ 
+29|20 jul|Laatste les seizoen|Laatste les seizoen, Richel ~~Anton~~, ~~Martin~~
 
  * Les A zijn de lessen van de Nano's, die werken met dit Arduino lesmateriaal
  * Les B zijn de lessen van de Uno's, die werken met het [Correct C++](https://github.com/richelbilderbeek/correct_cpp) lesmateriaal
@@ -45,14 +45,14 @@ Les|Datum|Les A|Les B
 
 Les|Datum|Les|Crew
 ---|---|---|---
-30|27 jul|Zomervakantie les 1|?Anko, ?Anton, ~~Martin~~ ?Richel
-31| 3 aug|Zomervakantie les 2|?Anko, ?Anton, ?Martin, ?Richel
-32|10 aug|Zomervakantie les 3|?Anko, ?Anton, ?Martin, ?Richel
-33|17 aug|Zomervakantie les 4|?Anko, ?Anton, ?Martin, ?Richel
-34|24 aug|Zomervakantie les 5|?Anko, ?Anton, ?Martin, ?Richel
+30|27 jul|Zomervakantie les 1|Anton, Richel ~~Martin~~ 
+31| 3 aug|Zomervakantie les 2|Anton, Richel
+32|10 aug|Zomervakantie les 3|Anton, Martin
+33|17 aug|Zomervakantie les 4|Anton, Martin ~~Richel~~
+34|24 aug|Zomervakantie les 5|Martin, Richel
 --|25 aug|13:00-18:00 Noorderzon|?Anko, ?Anton, ?Martin, Richel
 --|27 aug|14:00-18:00 Noorderzon|?Anko, ?Anton, ?Martin, Richel
-35|31 aug|Zomervakantie les 6|?Anko, ?Anton, ?Martin, ?Richel
+35|31 aug|Zomervakantie les 6|Martin, Richel
 
 ## Eind 2018
 
