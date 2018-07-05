@@ -3,20 +3,22 @@
 Dag|Naam|Betaald
 ---|---|---
 VR|?Amaia|-
+DO|?Annika|-
+DO|Bastian (komt later, Hawaii)|-
 DO|~~Christien~~|-
 DO|Daan|-
 DO|?Guus|-
-DO|Himar|-
+DO|Himar|Ja
 VR|?Huy Anh|-
 DO|?Jasper|-
-DO|?Jesper|-
-VR|?Jorn|-
+DO|Jesper|-
+VR|~~Jorn~~|-
 VR|~~Joshua~~|-
 DO|Kyriel|-
 DO|~~Marco~~|-
-DO|?Maksim|-
+DO|Maksim|-
 DO|~~Marlies~~|-
-DO|Mart|-
+DO|Mart (komt later, Hawaii) |-
 DO|Mees|-
 DO|Oliver|Ja
 VR|?Pedro|-
@@ -25,4 +27,5 @@ VR|~~Rafayel~~|-
 VR|Rohan|-
 VR|?Sil|-
 VR|~~Tom~~|-
+DO|Wouter|-
 VR|?Youri|-
