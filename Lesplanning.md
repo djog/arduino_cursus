@@ -50,8 +50,8 @@ Les|Datum|Les|Crew
 32|10 aug|Zomervakantie les 3|Anton, Martin
 33|17 aug|Zomervakantie les 4|Anton, Martin ~~Richel~~
 34|24 aug|Zomervakantie les 5|Martin, Richel
---|25 aug|13:00-18:00 Noorderzon|?Anko, ?Anton, ?Martin, Richel
---|27 aug|14:00-18:00 Noorderzon|?Anko, ?Anton, ?Martin, Richel
+--|25 aug|13:00-18:00 Noorderzon|?Anko, ?Anton, Martin, Richel
+--|27 aug|14:00-18:00 Noorderzon|?Anko, ?Anton, Martin, Richel
 35|31 aug|Zomervakantie les 6|Martin, Richel
 
 ## Eind 2018
