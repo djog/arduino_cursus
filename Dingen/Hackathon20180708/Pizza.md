@@ -3,7 +3,7 @@
 Dag|Naam|Betaald
 ---|---|---
 VR|?Amaia|-
-DO|?Annika|-
+DO|~~Annika~~|-
 DO|Bastian (komt later, Hawaii)|-
 DO|~~Christien~~|-
 DO|Daan|-
@@ -19,7 +19,6 @@ DO|~~Marco~~|-
 DO|Maksim|-
 DO|~~Marlies~~|-
 DO|Mart (komt later, Hawaii) |-
-DO|Mees|-
 DO|Oliver|Ja
 VR|?Pedro|-
 VR|?Quinn|-
@@ -29,3 +28,8 @@ VR|?Sil|-
 VR|~~Tom~~|-
 DO|Wouter|-
 VR|?Youri|-
+
+Naam|Soort pizza
+---|---
+Bastian|Hawaii
+Mart|Hawaii
