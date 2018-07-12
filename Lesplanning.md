@@ -47,7 +47,7 @@ Les|Datum|Les|Crew
 ---|---|---|---
 30|27 jul|Zomervakantie les 1|Anton, Richel ~~Martin~~ 
 31| 3 aug|Zomervakantie les 2|Anton, Martin
-32|10 aug|Zomervakantie les 3|Anton, ~~Martin~~
+32|10 aug|Zomervakantie les 3|Anton, Richel ~~Martin~~
 33|17 aug|Zomervakantie les 4|Anton, Martin ~~Richel~~
 34|24 aug|Zomervakantie les 5|Martin, Richel
 --|25 aug|13:00-18:00 Noorderzon|?Anko, ?Anton, Martin, Richel
