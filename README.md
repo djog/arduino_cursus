@@ -2,9 +2,10 @@
 
 ## Binnenkort ...
 
- * Zondag 8 juli 2018 9:00-17:00 @ DJO: [hackathon](Dingen/Hackathon20180708/README.md)
- * Vrijdag 13 juli 2018 18:00-20:00 @ DJO: Leerlingpresentaties
- * Vrijdag 20 juli: laatste les voor de zomervakantie
+ * We staan op [Noorderzon](https://www.noorderzon.nl/programma/programma-items/de-jonge-onderzoekers):
+    * 25 augustus: 13:00 uur t/m 18:00
+    * 27 augustus: 14:00 uur t/m 18:00
+ * Vrijdag 7 september: eerste les na de zomervakantie
  * Zaterdag 29 september 10:00-15:00 @ [modelspoorbeurs](http://mscrailrunners.eu/events/event/modelspoorbeurs-groningen-29-september-2018-hanze-plaza-10-00-16-00/): lesgeven!
 
 ![DJOG logo](Djog.png)
@@ -55,7 +56,7 @@ Zie [Lesplanning](Lesplanning.md).
 Na de laatste les:
 
  * In de zomervakantie zijn we open volgens het gewone rooster. Het zomervakantieseizoen is gratis!
- * We staan op Noorderzon:
+ * We staan op [Noorderzon](https://www.noorderzon.nl/programma/programma-items/de-jonge-onderzoekers):
     * 25 augustus: 13:00 uur t/m 18:00
     * 27 augustus: 14:00 uur t/m 18:00
  * Eerste les na de zomervakantie is op vrijdag 7 september
