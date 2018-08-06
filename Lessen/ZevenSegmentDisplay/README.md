@@ -24,8 +24,7 @@ Een zeven segmenten display heeft veel pinnetjes.
 De belangrijkste pin is voor of `GND` of `5V`. 
 Dit is de enige pin die ernaast een stip heeft.
 Voor elk LEDje is nog een pin. 
-Aan elke LED pin moet een weerstand van 1000
-Ohm (bruin-zwart-rood-goud). Soms zijn er ook pinnen die niks doen.
+Aan elke LED pin moet een weerstand van 1000 Ohm (bruin-zwart-rood-goud). Soms zijn er ook pinnen die niks doen.
 
 ## Programmeren
 
