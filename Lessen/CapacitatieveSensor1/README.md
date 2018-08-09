@@ -5,6 +5,28 @@ kun je een drukknop gebruiken. Maar misschien zoek
 je wel iets (nog) simpelers. Dan maak je een
 capacitatieve sensor, met twee weerstandjes.
 
+## Bibliotheek geinstalleerd?
+
+In de Arduino IDE, ga naar `Examples`. Zie je `CapacitiveSensor` ertussen staan? Dan is deze bibliotheek al geinstalleerd!
+
+![Als CapacitiveSensor ertussen staat, is deze bibliotheek al geinstalleerd](CapacitatieveSensor1Example.png)
+
+## Bibliotheek geinstalleren
+
+Is `CapacitiveSensor` niet geinstalleerd, doe dan:
+
+ * Klik in de Arduino IDE op `Sketch | Import Library | Add Library`
+
+![Add Library](CapacitatieveSensor1AddLibrary.png)
+
+ * Klik op de *folder* en op OK
+
+![Add Library folder](CapacitatieveSensor1AddLibraryFolder.png)
+
+ * Nu is de bibliotheek geinstalleerd:
+
+![Het is gelukt](CapacitatieveSensor1GeluktAnnotated.png)
+
 ## Stroomschema
 
 ![Stroomschema](CapacitieveSensor1Aansluiten.png)
@@ -18,32 +40,6 @@ weerstandjes nodig:
 Tussen de twee weerstanden in kun je drukken en dan 
 merkt de Arduino dat. Op het stroomschema staat er
 een weerstand van nul Ohm getekent.
-
-## Voorbereiden
-
-Om de code te kunnen laten werken, heb je een bibliotheek nodig.
-In het Engels heet dat een bibliotheek een 'library'.
-De bibliotheek die je nodig hebt heet 'CapacitiveSensor'.
-Je kunt de bibliotheek vinden door te Googlen op `Arduino Capacitive Sensing Library`.
-De pagina die je nodig hebt is van [Arduino Playground](http://playground.arduino.cc/Main/CapacitiveSensor?from=Main.CapSense). 
-
- * Download de bibliotheek. Dit is een `.zip` bestand. Bij mij heet deze `arduino-libraries-CapacitiveSensor-0.5-0-g7684dff.zip`, maar het kan ook iets anders zijn
- * Ga naar de Downloads folder
- * Pak het bestand uit: klik op het bestand met de recht muisknop en kies 'Alles uitpakken' 
-   (of iets dergelijks). Je krijgt een dan folder met een naam als 
-   `arduino-libraries-CapacitiveSensor-0.5-0-g7684dff`
- * Verander de naam van de folder naar `CapacitiveSensor`
- * Klik in de Arduino IDE op `Sketch | Import Library | Add Library`
-
-![Add Library](CapacitatieveSensor1AddLibrary.png)
-
- * Klik op de *folder* en op OK
-
-![Add Library folder](CapacitatieveSensor1AddLibraryFolder.png)
-
- * Nu is de bibliotheek geinstalleerd:
-
-![Het is gelukt](CapacitatieveSensor1Gelukt.png)
 
 ## Code
 
