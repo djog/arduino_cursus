@@ -9,7 +9,7 @@ In deze les gaan we dat doen.
 
 Sluit een capacitive sensoren aan:
 
-![Stroomschema](CapacitieveSensor2Aansluiten.png)
+![Stroomschema](CapacitieveSensor2.png)
 
 Nu kunnen we de capacitieve sensoren uitlezen:
 
