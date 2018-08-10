@@ -7,7 +7,7 @@ In deze les gaan we dat doen.
 
 ## Opdracht
 
-Sluit een capacitive sensoren aan:
+Sluit twee capacitive sensoren aan:
 
 ![Stroomschema](CapacitieveSensor2.png)
 
