@@ -60,12 +60,12 @@ Arduino lessen die je zo kunt doen.
 
  * ?
 
-### 9. Capacitatieve sensoren
+### 9. Capacitieve sensoren
 
- * [Les 10: Capacitatieve sensor 1: een](CapacitatieveSensor1/README.md)
- * [Les 11: Capacitatieve sensor 2: twee losse](CapacitatieveSensor2/README.md)
- * [Les 12: Capacitatieve sensor 3: twee gekoppelde](CapacitatieveSensor3/README.md)
- * Capacitatieve sensor 4: drie gekoppelde voor Arduino Invaders
+ * [Les 10: Capacitieve sensor 1: een](CapacitieveSensor1/README.md)
+ * [Les 11: Capacitieve sensor 2: twee losse](CapacitieveSensor2/README.md)
+ * [Les 12: Capacitieve sensor 3: twee gekoppelde](CapacitieveSensor3/README.md)
+ * Capacitieve sensor 4: drie gekoppelde voor Arduino Invaders
 
 ### 10. Theremin
 
