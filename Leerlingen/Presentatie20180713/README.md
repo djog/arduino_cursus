@@ -4,26 +4,14 @@
 
 Naam|Titel
 ---|---
-Youri|TFT LCD scherm
-Oliver|?
-Amaia|Joystick LED Feest
+Vigo ! Twee gekoppelde servo's (pan/tilt) met joystick
 Sil|ArduinoLegoAuto
-Rohan|Processingproject
-Quinn|MysterieMachine
-Pedro|?
 Huy Anh|Auto en LCD en NeoPixel project
-Tom|3D printer
-Jorn|3D printer
-
  * 18:00 deur open: kids naar kantine, ouders naar hout
  * 18:15
-    * ?Richel: techniek @ kantine
-    * ?Martin: leerlingen brengen en halen
-    * ?Anko: ouders verzorgen @ hout
- * 18:45 presentaties
-    * ?Richel: techniek @ kantine
+    * Informatiemarkt. Leerlingen presenteren hun eindwerkstuk aan ouders en bezoekers.
  * 19:00 pauze
-    * ?Martin/?Richel brieft evaluator
+    * ?Richel brieft evaluator
  * 19:15 evaluaties
     * Evaluator met kids @ hout
     * Docenten met ouders @ kantine 
