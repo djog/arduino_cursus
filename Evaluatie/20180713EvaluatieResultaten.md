@@ -3,24 +3,34 @@
 ## Nano's
 
 ### Cursus tops
-
+- kant en klare opdrachten
+- is leuk programma, ze leggen goed uit
+- hackaton was leuk, jammer dat Richel alleen was.
+- eindcijfer 8,75
 
 ### Cursus tips
+- meer speciale opdrachten
+- meer spullen. Maar nu zijn er ook wel genoeg spullen.
+- begeleiding kan beter - code beter uitleggen
+- niet meteen het antwoord geven, maar een tip.
 
 ### Anko tops
-
-
+- hij is aardig
+- goed
 ### Anko tips
-
+- geen
 
 ### Anton tops
-
-
+- hij is aardig
+- goed, weet veel
 ### Anton tips
+- geen
 
 ### Martin tops
-
+- hij is aardig
+- goed
 ### Martin tips
+- geen
 
 
 ## Uno's
