@@ -4,7 +4,7 @@
 
 Naam|Titel
 ---|---
-Vigo ! Twee gekoppelde servo's (pan/tilt) met joystick
+Vigo | Twee gekoppelde servo's (pan/tilt) met joystick
 Sil|ArduinoLegoAuto
 Huy Anh|Auto en LCD en NeoPixel project
  * 18:00 deur open: kids naar kantine, ouders naar hout
