@@ -1,69 +1,16 @@
-# Vader Jacob met frequenties
+# Les 17: simpele melodie
 
-Figuur 'De bladmuziek van Vader Jacob' laat de bladmuziek 
-van Vader Jacob zien.
+In deze les gaan we een simpele melodie maken, namelijk Vader Jacob!
 
-![De bladmuziek van Vader Jacob](VaderJacob.png)
+![Vader Jacob](17_compleet)
 
-## Frequenties
+## Opdracht 1
 
-Elke noot heeft een frequentie:
+Sluit figuur 'Aansluiten van een speaker' aan.
 
-![De toonhoogten van noten](PianoNotenFrequenties.png)
+![Aansluiten van een speaker](17_aansluiten.png)
 
-De meest linker noot heeft een frequentie van 131 Hertz.
-
-Een noot met een hoge frequentie klinkt hoger. Hoge tonen klinken irritanter. Volwassen vrouwen zijn beter in het zingen van hoge noten. Magnetronpiepjes hebben vaak een hoge toon.
-
-Een noot met een lage frequentie klinkt lager. Volwassen mannen zijn beter in het zingen van lage noten. Een draaiende automotor heeft vaak een lage toon.
-
-# Opdracht
-
-Welke frequentie hoort er bij de tweede noot van Vader Jacob?
-
-## Oplossing
-
-147 Hertz.
-
-## Duur
-
-Elke noot heeft een lengte. 
-De lengthe van een noot is hoe lang je deze hoort.
-Dit wordt de duur van een noot genoemd.
-Hieronder zie je duur van de belangrijkste soorten noten:
-
-Plaatje|Naam|Duur in milliseconden
----|---|---
-![hele noot](HeleNoot.png)|Hele noot|250
-![dubbele noot](DubbleNoot.png)|Dubbele noot|500
-![halve noot](HalveNoot.png)|Halve noot|125
-
-De dubbele noot duurt twee keer zo lang als een hele noot.
-De halve noot duurt half zo kart als een hele noot.
-
-Een hele noot hoeft niet 250 milliseconden te duren. 
-Een hele noot kan korter duren voor snelle liedjes.
-Een hele noot kan langer duren voor langzame liedjes.
-
-Als de hele noot korter wordt, worden de halve en dubbele noten ook korter.
-Als de hele noot langer wordt, worden de halve en dubbele noten ook langer.
-
-De eerste noot van Vader Jacob duurt dus 250 milliseconden.
-
-## Opdracht
-
-Wat is de toonhoogte en duur van de laatste noot van Vader Jacob?
-
-## Oplossing
-
-De toonhoogte is 131 Hertz. Dit is dezelfde hoogte als de eerste noot.
-
-De laatste noot is een dubbele noot. Een dubbele noot heeft een duur is 500 millisconden.
-
-## Aansluiten
-
-![Aansluiten van een speaker](PianoAansluiten.png)
-
+Zet deze code op je Arduino:
 
 ```c++
 const int speaker_pin = 8;
@@ -79,27 +26,26 @@ void loop()
 
 }
 ```
-
-Sluit figuur 'Aansluiten van een speaker' aan.
-Zet de code op de Arduino.
 
 Let op: de `250` moet in zowel `tone` als `delay`!
 
-## Opdracht
+Wat hoor je?
 
- 1. Hoe vaak wordt het liedje gespeeld?
- 2. Waarom staat er `Va` in de code?
+## Oplossing 1
 
-## Oplossing
+Je hoort de eerste noot van Vader Jacob!
 
- 1. Een keer
- 2. Omdat dit de eerste noot van Vader Jacob is
+![De eerste noot van Vader Jacob](17_va.png)
 
-## Opdracht
+## Opdracht 2
 
-Programmeer zelf de tweede noot. Zet achteraan de regel `// der`, zodat je weet waar we in het liedje zijn
+De eerste noot van Vader Jacob heeft een toonhoogte van 131 Hertz.
+De tweede noot van Vader Jacob heeft een toonhoogte van 147 Hertz.
+Programmeer de eerste twee noten van Vader Jacob.
 
-## Oplossing
+![De eerste twee noten van Vader Jacob](17_vader.png)
+
+## Oplossing 2
 
 ```c++
 const int speaker_pin = 8;
@@ -118,11 +64,14 @@ void loop()
 }
 ```
 
-## Opdracht
+## Opdracht 3
 
-Programmeer alvast de laatste noot. Zet achteraan de regel `// bom`, zodat je weet waar we in het liedje zijn
+De derde noot van Vader Jacob heeft een toonhoogte van 165 Hertz.
+Programmeer de eerste drie noten van Vader Jacob.
 
-## Oplossing
+![De eerste drie noten van Vader Jacob](17_vader_ja.png)
+
+## Oplossing 3
 
 ```c++
 const int speaker_pin = 8;
@@ -133,9 +82,112 @@ void setup()
   delay(250);
   tone(speaker_pin, 147, 250); // der
   delay(250);
+  tone(speaker_pin, 165, 250); // Ja
+  delay(250);
+}
 
+void loop()
+{
 
-  tone(speaker_pin, 131, 500); // bom
+}
+```
+
+## Opdracht 4
+
+De vierde noot van Vader Jacob heeft dezelfde toonhoogte als de eerste.
+Programmeer de vierde noot van Vader Jacob.
+
+![De eerste vier noten van Vader Jacob](17_vader_jacob.png)
+
+## Oplossing 4
+
+```c++
+const int speaker_pin = 8;
+
+void setup()
+{
+  tone(speaker_pin, 131, 250); // Va
+  delay(250);
+  tone(speaker_pin, 147, 250); // der
+  delay(250);
+  tone(speaker_pin, 165, 250); // Ja
+  delay(250);
+  tone(speaker_pin, 131, 250); // cob
+  delay(250);
+}
+
+void loop()
+{
+
+}
+```
+
+## Opdracht 5
+
+De vijfde, zesde, zevende en achtste noot zijn dezelfde als de eerste vier. Programmeer dit.
+
+![De eerste acht noten van Vader Jacob](17_vader_jacob_2x.png)
+
+## Oplossing 5
+
+```c++
+const int speaker_pin = 8;
+
+void setup()
+{
+  tone(speaker_pin, 131, 250); // Va
+  delay(250);
+  tone(speaker_pin, 147, 250); // der
+  delay(250);
+  tone(speaker_pin, 165, 250); // Ja
+  delay(250);
+  tone(speaker_pin, 131, 250); // cob
+  delay(250);
+  tone(speaker_pin, 131, 250); // Va
+  delay(250);
+  tone(speaker_pin, 147, 250); // der
+  delay(250);
+  tone(speaker_pin, 165, 250); // Ja
+  delay(250);
+  tone(speaker_pin, 131, 250); // cob
+  delay(250);
+}
+
+void loop()
+{
+
+}
+```
+
+## Opdracht 6
+
+Nu komt twee keer 'Slaapt gij nog'. 'Slaapt' dezelfde hoogte als 'Ja', 'gij' is 175 Hertz, 'nog' is 196 Hertz.
+Tot nu toe duurden alle noten 250 milliseconden.
+De derde noot, 'nog' moet 500 milliseconden duren.
+
+![Slaapt gij nog](17_slaapt_gij_nog_2x.png)
+
+## Oplossing 6
+
+In de code staat nu `//...`. Dit betekent dat daar de oude code moet blijven staan.
+
+```c++
+const int speaker_pin = 8;
+
+void setup()
+{
+  //...
+  tone(speaker_pin, 165, 250); // Slaapt
+  delay(250);
+  tone(speaker_pin, 175, 250); // gij
+  delay(250);
+  tone(speaker_pin, 196, 500); // nog
+  delay(500);
+  tone(speaker_pin, 165, 250); // Slaapt
+  delay(250);
+  tone(speaker_pin, 175, 250); // gij
+  delay(250);
+  tone(speaker_pin, 196, 500); // nog
   delay(500);
 }
 
@@ -145,7 +197,44 @@ void loop()
 }
 ```
 
+## Opdracht 7
+
+Nu komt twee keer 'Alle klokken luiden'. 
+In de figuur 'Alle klokken luiden' staan de toonhoogten.
+De noten die aan elkaar vastzitten ('Alle klokken') duren elk 125 milliseconden.
+
+![Alle klokken luiden](17_alle_klokken_2x.png)
+
+## Oplossing 7
+
+```c++
+const int speaker_pin = 8;
+
+void setup()
+{
+  //...
+  tone(speaker_pin, 131, 125); // Al
+  delay(125);
+  tone(speaker_pin, 147, 125); // le
+  delay(125);
+  tone(speaker_pin, 165, 125); // klok
+  delay(125);
+  tone(speaker_pin, 131, 125); // ken
+  delay(125);
+  tone(speaker_pin, 131, 250); // lui
+  delay(250);
+  tone(speaker_pin, 147, 250); // den
+  delay(250);
+}
+
+void loop()
+{
+
+}
+```
 
 ## Eindopdracht
 
 Maak het liedje Vader Jacob af.
+
+![Bim bam bom](17_bim_bam_bom_2x.png)
