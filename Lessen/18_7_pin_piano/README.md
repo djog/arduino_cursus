@@ -16,227 +16,128 @@ const int pin_1 = 2;
 
 void setup()
 {
+  pinMode(speaker_pin, OUTPUT);
+  pinMode(pin_1, INPUT);
 }
 
 void loop()
 {
-  tone(speaker_pin, 131, 250); // Va
-  delay(250);
-
+  if (digitalRead(pin_1) == LOW)
+  {
+    tone(speaker_pin, 175, 250);
+    delay(250);
+  }
 }
 ```
 
-Let op: de `250` moet in zowel `tone` als `delay`!
-
-Wat hoor je?
+We maken een piano. Dit is de eerste toets met een toonhoogte van 175 Hertz.
+Maar er zit een fout in de code! Repareer de code.
 
 ## Oplossing 1
 
-Je hoort de eerste noot van Vader Jacob!
-
-In figuur 'De eerste noot van Vader Jacob' zie je de eerste noot als bladmuziek.
-Onder de noot staat de tekst, daaronder de toonhoogte in Hertz.
-
-![De eerste noot van Vader Jacob](17_va.png)
-
-## Opdracht 2
-
-De eerste noot van Vader Jacob heeft een toonhoogte van 131 Hertz.
-De tweede noot van Vader Jacob heeft een toonhoogte van 147 Hertz.
-Programmeer de eerste twee noten van Vader Jacob.
-
-![De eerste twee noten van Vader Jacob](17_vader.png)
-
-## Oplossing 2
-
 ```c++
 const int speaker_pin = 8;
+const int pin_1 = 2;
 
 void setup()
 {
-  tone(speaker_pin, 131, 250); // Va
-  delay(250);
-  tone(speaker_pin, 147, 250); // der
-  delay(250);
+  pinMode(speaker_pin, OUTPUT);
+  pinMode(pin_1, INPUT);
 }
 
 void loop()
 {
+  if (digitalRead(pin_1) == HIGH)
+  {
+    tone(speaker_pin, 175, 250);
+    delay(250);
+  }
+}
+```
 
+## Opdracht 2
+
+Bouw een tweede toets erbij, op pin 3. 
+Deze heeft ook een eigen weestandje nodig. 
+Deze moet een toonhoogte krijgen van 196 Hertz.
+
+## Oplossing 2
+
+![Oplossing 2](18_7_pin_piano_2.png)
+
+```c++
+const int speaker_pin = 8;
+const int pin_1 = 2;
+const int pin_2 = 3;
+
+void setup()
+{
+  pinMode(speaker_pin, OUTPUT);
+  pinMode(pin_1, INPUT);
+  pinMode(pin_2, INPUT);
+}
+
+void loop()
+{
+  if (digitalRead(pin_1) == HIGH)
+  {
+    tone(speaker_pin, 175, 250);
+    delay(250);
+  }
+  if (digitalRead(pin_2) == HIGH)
+  {
+    tone(speaker_pin, 196, 250);
+    delay(196);
+  }
 }
 ```
 
 ## Opdracht 3
 
-De derde noot van Vader Jacob heeft een toonhoogte van 165 Hertz.
-Programmeer de eerste drie noten van Vader Jacob.
-
-![De eerste drie noten van Vader Jacob](17_vader_ja.png)
+Bouw een derde toets erbij, op pin 4. 
+Deze heeft ook een eigen weerstandje nodig. 
+De toets moet een toonhoogte krijgen van 220 Hertz.
 
 ## Oplossing 3
 
+![Oplossing 3](18_7_pin_piano_3.png)
+
 ```c++
 const int speaker_pin = 8;
+const int pin_1 = 2;
+const int pin_2 = 3;
+const int pin_3 = 4;
 
 void setup()
 {
-  tone(speaker_pin, 131, 250); // Va
-  delay(250);
-  tone(speaker_pin, 147, 250); // der
-  delay(250);
-  tone(speaker_pin, 165, 250); // Ja
-  delay(250);
+  pinMode(speaker_pin, OUTPUT);
+  pinMode(pin_1, INPUT);
+  pinMode(pin_2, INPUT);
+  pinMode(pin_3, INPUT);
 }
 
 void loop()
 {
-
-}
-```
-
-## Opdracht 4
-
-De vierde noot van Vader Jacob heeft dezelfde toonhoogte als de eerste.
-Programmeer de vierde noot van Vader Jacob.
-
-![De eerste vier noten van Vader Jacob](17_vader_jacob.png)
-
-## Oplossing 4
-
-```c++
-const int speaker_pin = 8;
-
-void setup()
-{
-  tone(speaker_pin, 131, 250); // Va
-  delay(250);
-  tone(speaker_pin, 147, 250); // der
-  delay(250);
-  tone(speaker_pin, 165, 250); // Ja
-  delay(250);
-  tone(speaker_pin, 131, 250); // cob
-  delay(250);
-}
-
-void loop()
-{
-
-}
-```
-
-## Opdracht 5
-
-De vijfde, zesde, zevende en achtste noot zijn dezelfde als de eerste vier. Programmeer dit.
-
-![De eerste acht noten van Vader Jacob](17_vader_jacob_2x.png)
-
-## Oplossing 5
-
-```c++
-const int speaker_pin = 8;
-
-void setup()
-{
-  tone(speaker_pin, 131, 250); // Va
-  delay(250);
-  tone(speaker_pin, 147, 250); // der
-  delay(250);
-  tone(speaker_pin, 165, 250); // Ja
-  delay(250);
-  tone(speaker_pin, 131, 250); // cob
-  delay(250);
-  tone(speaker_pin, 131, 250); // Va
-  delay(250);
-  tone(speaker_pin, 147, 250); // der
-  delay(250);
-  tone(speaker_pin, 165, 250); // Ja
-  delay(250);
-  tone(speaker_pin, 131, 250); // cob
-  delay(250);
-}
-
-void loop()
-{
-
-}
-```
-
-## Opdracht 6
-
-Nu komt twee keer 'Slaapt gij nog'. 'Slaapt' dezelfde hoogte als 'Ja', 'gij' is 175 Hertz, 'nog' is 196 Hertz.
-Tot nu toe duurden alle noten 250 milliseconden.
-De derde noot, 'nog' moet 500 milliseconden duren.
-
-![Slaapt gij nog](17_slaapt_gij_nog_2x.png)
-
-## Oplossing 6
-
-In de code staat nu `//...`. Dit betekent dat daar de oude code moet blijven staan.
-
-```c++
-const int speaker_pin = 8;
-
-void setup()
-{
-  //...
-  tone(speaker_pin, 165, 250); // Slaapt
-  delay(250);
-  tone(speaker_pin, 175, 250); // gij
-  delay(250);
-  tone(speaker_pin, 196, 500); // nog
-  delay(500);
-  tone(speaker_pin, 165, 250); // Slaapt
-  delay(250);
-  tone(speaker_pin, 175, 250); // gij
-  delay(250);
-  tone(speaker_pin, 196, 500); // nog
-  delay(500);
-}
-
-void loop()
-{
-
-}
-```
-
-## Opdracht 7
-
-Nu komt twee keer 'Alle klokken luiden'. 
-In de figuur 'Alle klokken luiden' staan de toonhoogten.
-De noten die aan elkaar vastzitten ('Alle klokken') duren elk 125 milliseconden.
-
-![Alle klokken luiden](17_alle_klokken_2x.png)
-
-## Oplossing 7
-
-```c++
-const int speaker_pin = 8;
-
-void setup()
-{
-  //...
-  tone(speaker_pin, 131, 125); // Al
-  delay(125);
-  tone(speaker_pin, 147, 125); // le
-  delay(125);
-  tone(speaker_pin, 165, 125); // klok
-  delay(125);
-  tone(speaker_pin, 131, 125); // ken
-  delay(125);
-  tone(speaker_pin, 131, 250); // lui
-  delay(250);
-  tone(speaker_pin, 147, 250); // den
-  delay(250);
-}
-
-void loop()
-{
-
+  if (digitalRead(pin_1) == HIGH)
+  {
+    tone(speaker_pin, 175, 250);
+    delay(250);
+  }
+  if (digitalRead(pin_2) == HIGH)
+  {
+    tone(speaker_pin, 196, 250);
+    delay(196);
+  }
+  if (digitalRead(pin_3) == HIGH)
+  {
+    tone(speaker_pin, 220, 250);
+    delay(196);
+  }
 }
 ```
 
 ## Eindopdracht
 
-Maak het liedje Vader Jacob af. Zie figuur 'Bim bam bom' hoe de laatste noten moeten.
+Maak een piano van zeven toetsen. Zie figuur 'Frequenties' voor de andere getallen.
 
-![Bim bam bom](17_bim_bam_bom_2x.png)
+![Frequenties](18_frequenties.png)
