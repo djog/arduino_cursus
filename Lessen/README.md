@@ -38,7 +38,7 @@ Arduino lessen die je zo kunt doen.
  * [Les 7: Relais](7_dc_motor_met_relais/README.md)
  * [Les 8: Infrarood sensor obstakel ontwijkend object](8_infrarood_sensor_obstakel_ontwijkend_object/README.md)
 
-## 5. Piano
+## 5. Muziek
 
  * [Les 17: simpele melodie](17_simpele_melodie/README.md)
  * [Les 18: 7-pin-piano](18_7_pin_piano/README.md)
