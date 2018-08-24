@@ -12,15 +12,16 @@ Zet deze code op je Arduino:
 
 ```c++
 const int speaker_pin = 8;
+const int pin_1 = 2;
 
 void setup()
 {
-  tone(speaker_pin, 131, 250); // Va
-  delay(250);
 }
 
 void loop()
 {
+  tone(speaker_pin, 131, 250); // Va
+  delay(250);
 
 }
 ```
