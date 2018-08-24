@@ -40,11 +40,10 @@ Arduino lessen die je zo kunt doen.
 
 ## 5. Piano
 
- * [Piano 1: Vader Jacob in frequenties (nieuw)](PianoX_vader_jacob_frequenties/README.md)
- * [Piano 2: Vader Jacob in noten (nieuw)](PianoX_vader_jacob_noten/README.md)
- * [Piano 3: een piano bouwen met de knoppen parallel](PianoX_piano_parallel/README.md)
- * [Piano 4: een piano bouwen met een pin, weerstanden parallel](PianoX_piano_een_pin/README.md)
- * [Piano 5: een piano bouwen met een pin, weerstanden in serie](PianoX_piano_serie/README.md)
+ * [Les 17: simpele melodie](17_simpele_melodie/README.md)
+ * [Les 18: 7-pin-piano](18_7_pin_piano/README.md)
+ * [Les 19: 1-pin-7-parallelle_weerstanden-piano](19_1_pin_7_parallelle_weerstanden_piano/README.md)
+ * [Les 20: 1-pin-7-weerstanden-in-serie-piano](20_1_pin_7_weerstanden_in_serie_piano/README.md)
 
 ### 6. Theremin
 
@@ -67,29 +66,27 @@ Arduino lessen die je zo kunt doen.
  * [LCD 2](LCD2/README.md)
  * [LCD 3](LCD3/README.md)
 
-### 6. Hi-tech
+### 9. Hi-tech
 
  * [RFID 1](RFID1/README.md)
  * [RFID 2](RFID2/README.md)
  * [ArduinoISP](ArduinoISP/README.md): bootloader branden met de Arduino als ISP
  * [Bare-bone Arduino](BareBoneArduino/README.md): de Arduino zonder printplaat
 
-### 7. Besturing op afstand
-
- * ?
-
-### 8. Internet of Things
-
- * ?
-
-
-### 11. Veel output
+### 10. Veel output
 
  * Schuifregister 1: een schuif register
  * Schuifregister 2: twee schuif registers
  * [NeoPixels 1: blink op een LEDje](NeoPixel1/README.md)
  * [NeoPixels 2: ?regenboog op alle LEDjes](NeoPixel2/README.md)
 
+### 11. Besturing op afstand
+
+ * ?
+
+### 12. Internet of Things
+
+ * ?
 
 ## Dingen
 
