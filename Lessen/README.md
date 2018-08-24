@@ -38,7 +38,29 @@ Arduino lessen die je zo kunt doen.
  * [Les 7: Relais](7_dc_motor_met_relais/README.md)
  * [Les 8: Infrarood sensor obstakel ontwijkend object](8_infrarood_sensor_obstakel_ontwijkend_object/README.md)
 
-### 5. Leesbare output
+## 5. Piano
+
+ * [Piano 1: Vader Jacob in frequenties (nieuw)](PianoX_vader_jacob_frequenties/README.md)
+ * [Piano 2: Vader Jacob in noten (nieuw)](PianoX_vader_jacob_noten/README.md)
+ * [Piano 3: een piano bouwen met de knoppen parallel](PianoX_piano_parallel/README.md)
+ * [Piano 4: een piano bouwen met een pin, weerstanden parallel](PianoX_piano_een_pin/README.md)
+ * [Piano 5: een piano bouwen met een pin, weerstanden in serie](PianoX_piano_serie/README.md)
+
+### 6. Theremin
+
+ * Theremin met potmeters
+ * [Theremin met LDR](Theremin_ldr/README.md)
+ * [Theremin met infrarode afstandssensor](Theremin_infrarood/README.md)
+ * [Theremin met ultrasone afstandssensor](Theremin_ultrasoon/README.md)
+
+### 7. Capacitieve sensoren
+
+ * [Capacitieve sensor 1: een](CapacitieveSensor1/README.md)
+ * [Capacitieve sensor 2: twee losse](CapacitieveSensor2/README.md)
+ * [Capacitieve sensor 3: twee gekoppelde](CapacitieveSensor3/README.md)
+ * Capacitieve sensor 4: drie gekoppelde voor Arduino Invaders
+
+### 8. Leesbare output
 
  * [Zeven segmenten display](ZevenSegmentDisplay/README.md)
  * [LCD 1](LCD1/README.md)
@@ -60,19 +82,6 @@ Arduino lessen die je zo kunt doen.
 
  * ?
 
-### 9. Capacitieve sensoren
-
- * [Les 10: Capacitieve sensor 1: een](CapacitieveSensor1/README.md)
- * [Les 11: Capacitieve sensor 2: twee losse](CapacitieveSensor2/README.md)
- * [Les 12: Capacitieve sensor 3: twee gekoppelde](CapacitieveSensor3/README.md)
- * Capacitieve sensor 4: drie gekoppelde voor Arduino Invaders
-
-### 10. Theremin
-
- * Theremin met potmeters
- * [Theremin met LDR](Theremin_ldr/README.md)
- * [Theremin met infrarode afstandssensor](Theremin_infrarood/README.md)
- * [Theremin met ultrasone afstandssensor](Theremin_ultrasoon/README.md)
 
 ### 11. Veel output
 
@@ -81,13 +90,6 @@ Arduino lessen die je zo kunt doen.
  * [NeoPixels 1: blink op een LEDje](NeoPixel1/README.md)
  * [NeoPixels 2: ?regenboog op alle LEDjes](NeoPixel2/README.md)
 
-## 12. Piano
-
- * [Piano 1: Vader Jacob in frequenties (nieuw)](PianoX_vader_jacob_frequenties/README.md)
- * [Piano 2: Vader Jacob in noten (nieuw)](PianoX_vader_jacob_noten/README.md)
- * [Piano 3: een piano bouwen met de knoppen parallel](PianoX_piano_parallel/README.md)
- * [Piano 4: een piano bouwen met een pin, weerstanden parallel](PianoX_piano_een_pin/README.md)
- * [Piano 5: een piano bouwen met een pin, weerstanden in serie](PianoX_piano_serie/README.md)
 
 ## Dingen
 
