@@ -2,7 +2,7 @@
 
 In deze les gaan we een simpele melodie maken, namelijk Vader Jacob!
 
-![Vader Jacob](17_compleet)
+![Vader Jacob](17_compleet.png)
 
 ## Opdracht 1
 
