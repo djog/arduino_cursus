@@ -35,6 +35,9 @@ Wat hoor je?
 
 Je hoort de eerste noot van Vader Jacob!
 
+In figuur 'De eerste noot van Vader Jacob' zie je de eerste noot als bladmuziek.
+Onder de noot staat de tekst, daaronder de toonhoogte in Hertz.
+
 ![De eerste noot van Vader Jacob](17_va.png)
 
 ## Opdracht 2
@@ -235,6 +238,6 @@ void loop()
 
 ## Eindopdracht
 
-Maak het liedje Vader Jacob af.
+Maak het liedje Vader Jacob af. Zie figuur 'Bim bam bom' hoe de laatste noten moeten.
 
 ![Bim bam bom](17_bim_bam_bom_2x.png)
