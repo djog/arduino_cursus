@@ -47,10 +47,10 @@ Arduino lessen die je zo kunt doen.
 
 ### 6. Theremin
 
- * Theremin met potmeters
- * [Theremin met LDR](Theremin_ldr/README.md)
- * [Theremin met infrarode afstandssensor](Theremin_infrarood/README.md)
- * [Theremin met ultrasone afstandssensor](Theremin_ultrasoon/README.md)
+ * Les 21 Theremin met potmeters
+ * Les 22 [Theremin met LDR](Theremin_ldr/README.md)
+ * Les 23 [Theremin met infrarode afstandssensor](Theremin_infrarood/README.md)
+ * Les 24 [Theremin met ultrasone afstandssensor](Theremin_ultrasoon/README.md)
 
 ### 7. Capacitieve sensoren
 
