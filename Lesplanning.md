@@ -37,12 +37,9 @@ Les|Datum|Les Nano's|Les Uno's
 48|30 november|-|-
 49|7 december|-|20:15 expert
 50|14 december|-|Eindpresentaties
-51|21 december|-|-
+51|21 december|-|Laatste les
  -|22 december|Orbitfest|Orbitfest
 52|28 december|-|-
-
-
-
 
 # Oude lesplannen
 

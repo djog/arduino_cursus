@@ -2,11 +2,10 @@
 
 ## Binnenkort ...
 
- * We staan op [Noorderzon](https://www.noorderzon.nl/programma/programma-items/de-jonge-onderzoekers):
-    * 25 augustus: 13:00 uur t/m 18:00
-    * 27 augustus: 14:00 uur t/m 18:00
  * Vrijdag 7 september: eerste les na de zomervakantie
  * Zaterdag 29 september 10:00-15:00 @ [modelspoorbeurs](http://mscrailrunners.eu/events/event/modelspoorbeurs-groningen-29-september-2018-hanze-plaza-10-00-16-00/): lesgeven!
+ * Vrijdag 14 december: eindpresentaties
+ * Vrijdag 21 december: laatste les voor kerstvakantie
 
 ![DJOG logo](Djog.png)
 
@@ -52,13 +51,3 @@ Heb je nog een vraag? Kijk [bij de veelgestelde vragen](Faq.md)
 ## [Lesplanning](Lesplanning.md)
 
 Zie [Lesplanning](Lesplanning.md).
-
-Na de laatste les:
-
- * In de zomervakantie zijn we open volgens het gewone rooster. Het zomervakantieseizoen is gratis!
- * We staan op [Noorderzon](https://www.noorderzon.nl/programma/programma-items/de-jonge-onderzoekers):
-    * 25 augustus: 13:00 uur t/m 18:00
-    * 27 augustus: 14:00 uur t/m 18:00
- * Eerste les na de zomervakantie is op vrijdag 7 september
- * Zaterdag 29 september 10:00-15:00 @ [modelspoorbeurs](http://mscrailrunners.eu/events/event/modelspoorbeurs-groningen-29-september-2018-hanze-plaza-10-00-16-00/): lesgeven!
-
