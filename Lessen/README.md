@@ -40,6 +40,8 @@ Arduino lessen die je zo kunt doen.
 
 ## 5. Muziek
 
+![Muziek](Muziek.png)
+
  * [Les 17: simpele melodie](17_simpele_melodie/README.md)
  * [Les 18: 7-pin-piano](18_7_pin_piano/README.md)
  * [Les 19: 1-pin-7-parallelle_weerstanden-piano](19_1_pin_7_parallelle_weerstanden_piano/README.md)
