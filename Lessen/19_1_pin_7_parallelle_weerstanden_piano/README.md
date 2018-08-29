@@ -54,7 +54,7 @@ Sluit een tweede knop aan, met twee weerstanden ervoor die parallel staan [dus 5
 ![Een pin](19_fig_2_bb.png)
 
 ![parallel](parallel.PNG) | Twee parallele weerstanden van 10k geeft een weerstand van 10k.
-
+:-------------:|:----------------------------------------: 
 ![serie](serie.PNG) | Twee weerstanden van 10k in serie geeft een weerstand van 20k.
 :-------------:|:----------------------------------------: 
 
