@@ -13,6 +13,8 @@ Sluit de eerste knop aan volgens het plaatje. Zet de knop in het midden van je b
 
 ![Een pin](19_fig_1_bb.png)
 
+![Bowtie](EmojiBowtie.png) | De 'Pull Down' weerstand zorgt dat pin 2 verbonden is met GND als de knop niet ingedrukt is
+
 Zet deze code op je Arduino:
 
 ```c++
@@ -29,17 +31,19 @@ void setup()
 void loop()
 {
   Serial.println(analogRead(piano_pin));
-      if (analogRead(piano_pin) > 384)                          //bekijk de Seriële monitor !!
+  if (analogRead(piano_pin) > 510)                          //bekijk de Seriële monitor !!
   {
-    tone(piano_pin, 247);
+    tone(speaker_pin, 247);
+    delay(250);
+    noTone(speaker_pin);
     delay(250);
   }
 }
 ```
 
-```
-Smiley die uitlegt wat '>' betekent 
-```
+![Sunglasses](EmojiSunglasses.png) | De weerstand aan de knop wordt een 'Pull Down' weerstand genoemd
+:-------------:|:----------------------------------------: 
+
 
 ## Opdracht 2
 
