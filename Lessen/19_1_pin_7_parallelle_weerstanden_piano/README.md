@@ -53,7 +53,7 @@ Sluit een tweede knop aan, met twee weerstanden ervoor die parallel staan [dus 5
 
 ![Een pin](19_fig_2_bb.png)
 
-![Bowtie](EmojiSunglasses.png) | Parallel betekent naast elkaar. 
+![Bowtie](parallel.png) |[Bowtie](parallel.PNG) | Parallel betekent naast elkaar. 
 :-------------:|:----------------------------------------: 
 
 Bouw een volgende toets van de piano **links** van de eerste. Gebruik deze code:
