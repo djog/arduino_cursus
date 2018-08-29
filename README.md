@@ -9,6 +9,7 @@
  * vrijdag 5 oktober 20:15-21:00: lezing over generative design, door Winand Slingenberg
  * Vrijdag 14 december: eindpresentaties
  * Vrijdag 21 december: laatste les voor kerstvakantie
+ * Zaterdag 22 december: OrbitFest
 
 ![DJOG logo](Djog.png)
 
