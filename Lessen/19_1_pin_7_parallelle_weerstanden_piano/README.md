@@ -1,7 +1,6 @@
 # Les 19: 1-pin-7-parallelle_weerstanden-piano
 
 In deze les gaan we een simpele piano maken, die 1 pin gebruikt en 7 parallelle weerstanden.
-
 We bouwen de piano stap voor stap op en testen elke stap apart.
 
 ## Opdracht 1
