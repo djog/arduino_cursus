@@ -9,7 +9,7 @@ Het afspelen van een geluidje hebben we al eerder gezien in lesboekje 3, bladzij
 
 ## Opdracht 1
 
-Sluit figuur 'Een pin' aan. Zet de knop in het midden van je breadboard!
+Sluit de eerste knop aan volgens het plaatje. Zet de knop in het midden van je breadboard!
 
 ```
 
