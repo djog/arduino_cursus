@@ -2,6 +2,8 @@
 
 In deze les gaan we een simpele piano maken, die 1 pin gebruikt en 7 parallelle weerstanden.
 We bouwen de piano stap voor stap op en testen elke stap apart.
+Het uitlezen van de knoppen hebben we al eerder gezien in lesboekje 2, bladzijde 16.
+Het afspelen van een geluidje hebben we al eerder gezien in lesboekje 3, bladzijde 17.
 
 ## Opdracht 1
 
