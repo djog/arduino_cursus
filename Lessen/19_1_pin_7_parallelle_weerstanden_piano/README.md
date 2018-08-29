@@ -11,7 +11,7 @@ Het afspelen van een geluidje hebben we al eerder gezien in lesboekje 3, bladzij
 
 Sluit de eerste knop aan volgens het plaatje. Zet de knop in het midden van je breadboard!
 
-s
+![Een pin](19_fig_1_bb.png)
 
 Zet deze code op je Arduino:
 
