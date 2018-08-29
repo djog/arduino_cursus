@@ -31,7 +31,7 @@ void loop()
   Serial.println(analogRead(piano_pin));
       if (analogRead(piano_pin) > ?384                            //bekijk de Seriële monitor !!
   {
-    tone(piano_pin, 250);
+    tone(piano_pin, 247);
     delay(250);
   }
 }
