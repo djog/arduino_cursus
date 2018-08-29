@@ -11,14 +11,7 @@ Het afspelen van een geluidje hebben we al eerder gezien in lesboekje 3, bladzij
 
 Sluit de eerste knop aan volgens het plaatje. Zet de knop in het midden van je breadboard!
 
-```
-
-![Opdracht 1](19_1.png)
-
-[Arduino + 10 kOhm + knop + 10K weerstand]
-
-[knop moet in het midden van het breadboard staan]
-```
+s
 
 Zet deze code op je Arduino:
 
