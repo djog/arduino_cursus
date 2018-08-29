@@ -48,20 +48,20 @@ void loop()
 
 ## Opdracht 2
 
-Sluit een tweede knop aan, met twee weerstanden ervoor die parallel staan [dus 5k], zie plaatje
+Sluit een tweede knop aan **links** van de eerste, met twee weerstanden ervoor die parallel staan [dus 5k], zie plaatje
 
 
 ![Een pin](19_fig_2_bb.png)
 
-![parallel](parallel.PNG) | Twee parallele weerstanden van 10k geeft een weerstand van 10k.
+![parallel](parallel.PNG) | Twee parallele weerstanden van 10k geeft een weerstand van 5k.
 :-------------:|:----------------------------------------: 
 
 ![serie](serie.PNG) | Twee weerstanden van 10k in serie geeft een weerstand van 20k.
 :-------------:|:----------------------------------------: 
 
-Bouw een volgende toets van de piano **links** van de eerste. Gebruik deze code:
+Gebruik deze code:
 
-![denk](serie.PNG) | Is het nodig om de hele code opnieuwe in te voeren?
+![denk](EmoijThinking.png) | Is het nodig om de hele code opnieuwe in te voeren?
 :-------------:|:----------------------------------------: 
 
 ```c++
