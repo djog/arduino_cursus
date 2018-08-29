@@ -45,6 +45,7 @@ void loop()
 ![Sunglasses](EmojiSunglasses.png) | '>' betekent 'groter dan'. De waarde A0 is nooit precies een getal.In de seriële monitor lezen we het getal dat bij de knop hoort af en testen  dan op een getal dat daar net iets onder ligt.
 :-------------:|:----------------------------------------: 
 
+Krijg je een geluid als je op de knop drukt? Dan kun je door naar opdracht 2.
 
 ## Opdracht 2
 
@@ -61,7 +62,7 @@ Sluit een tweede knop aan **links** van de eerste, met twee weerstanden ervoor d
 
 Gebruik deze code:
 
-![denk](EmoijThinking.png) | Is het nodig om de hele code opnieuwe in te voeren?
+![denk](EmojiThinking.png) | Is het nodig om de hele code opnieuwe in te voeren?
 :-------------:|:----------------------------------------: 
 
 ```c++
