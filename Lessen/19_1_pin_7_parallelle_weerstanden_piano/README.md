@@ -23,13 +23,15 @@ void setup()
 {
   pinMode(speaker_pin, OUTPUT);
   pinMode(piano_pin, INPUT);
+  Serial.begin(9600);
 }
 
 void loop()
 {
+  Serial.println(analogRead(piano_pin));
   if (analogRead(piano_pin) > ?384)
   {
-    tone(piano_pin, ?247, 250);
+    tone(piano_pin, 250);
     delay(250);
   }
 }
