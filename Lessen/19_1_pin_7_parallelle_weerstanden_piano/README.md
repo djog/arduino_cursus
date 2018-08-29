@@ -41,7 +41,7 @@ void loop()
 }
 ```
 
-![Sunglasses](EmojiSunglasses.png) | De weerstand aan de knop wordt een 'Pull Down' weerstand genoemd
+![Sunglasses](EmojiSunglasses.png) | '>' betekent 'groter dan'. De waarde A0 is nooit precies een getal.In de seriële monitor lezen we het getal dat bij de knop hoort af en testen  dan op een getal dat daar net iets onder ligt.
 :-------------:|:----------------------------------------: 
 
 
