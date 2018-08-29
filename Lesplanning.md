@@ -1,5 +1,15 @@
 # Lesplanning
 
+## Begin 2018
+
+Les|Datum|Les Nano's|Les Uno's
+---|---|---|---
+ 1| 7 september|Eerste les|Eerste les 
+??| 5 okt|-|Expert
+??|12 okt|Codeweek|Codeweek
+??|19 okt|Codeweek|Codeweek
+
+
 ## Zomervakantie 2018
 
  * We staan op Noorderzon:
@@ -26,9 +36,9 @@ Les|Datum|Les Nano's|Les Uno's
 38|21 september|-|-
 39|28 september|-|-
 --|Zaterdag 29 september|10:00-15:00 @ [modelspoorbeurs](http://mscrailrunners.eu/events/event/modelspoorbeurs-groningen-29-september-2018-hanze-plaza-10-00-16-00/)|idem
-40|5 oktober|-|20:15 expert
-41|12 oktober|-|-
-42|19 oktober|-|-
+40|5 oktober|-|20:15 expert: Winand Slingenberg, generative design
+41|12 oktober|Codeweek|Codeweek
+42|19 oktober|Codeweek|Codeweek
 43|26 oktober|-|-
 44|2 november|-|20:15 expert
 45|9 november|-|-
