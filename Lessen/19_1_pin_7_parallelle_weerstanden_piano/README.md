@@ -45,9 +45,9 @@ Smiley die uitlegt wat '>' betekent
 
 Sluit een tweede knop aan, met twee weerstanden ervoor die parallel staan [dus 5k], zie plaatje
 
-```
+
 ![Een pin](19_fig_2_bb.png)
-```
+
 
 Bouw een volgende toets van de piano **links** van de eerste. Gebruik deze code:
 
