@@ -61,7 +61,8 @@ Sluit een tweede knop aan, met twee weerstanden ervoor die parallel staan [dus 5
 
 Bouw een volgende toets van de piano **links** van de eerste. Gebruik deze code:
 
-&nadenkende smiley& Is het nodig om de hele code In te voeren?
+![denk](serie.PNG) | Is het nodig om de hele code opnieuwe in te voeren?
+:-------------:|:----------------------------------------: 
 
 ```c++
 const int speaker_pin = 8;
