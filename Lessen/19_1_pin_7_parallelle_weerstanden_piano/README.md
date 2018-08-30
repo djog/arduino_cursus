@@ -53,20 +53,29 @@ Krijg je een geluid als je op de knop drukt? Dan kun je door naar opdracht 2.
 ## Opdracht 2
 
 Sluit een tweede knop aan **links** van de eerste, met twee weerstanden ervoor die parallel staan [dus 5k], zie plaatje
-
-
-![Een pin](19_fig_2_bb.png)
-
 ![parallel](parallel.PNG) | Twee parallele weerstanden van 10k geeft een weerstand van 5k.
 :-------------:|:----------------------------------------: 
 
 ![serie](serie.PNG) | Twee weerstanden van 10k in serie geeft een weerstand van 20k.
 :-------------:|:----------------------------------------: 
 
+![Een pin](19_fig_2_bb.png)
+
+
+![denk](EmojiThinking.png) | Gebruik de seriële monitor om de waarde van de nieuwe knop te bepalen.
+:-------------:|:----------------------------------------: 
+
+![Sunglasses](EmojiSunglasses.png) | De nieuwe waarde is hoger dan de waarde van de andere knop. Het nieuwe if-statement moet bovenaan komen.
+:-------------:|:----------------------------------------: 
+
+![denk](EmojiThinking.png) | Welke frequentie krijgt de nieuwe knop?
+:-------------:|:----------------------------------------: 
+
 Gebruik deze code:
 
 ![denk](EmojiThinking.png) | Is het nodig om de hele code opnieuwe in te voeren?
 :-------------:|:----------------------------------------: 
+
 
 
 
