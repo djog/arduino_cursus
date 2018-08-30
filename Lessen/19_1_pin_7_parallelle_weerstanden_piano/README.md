@@ -7,6 +7,9 @@ We bouwen de piano stap voor stap op en testen elke stap apart.
 Het uitlezen van de knoppen hebben we al eerder gezien in lesboekje 2, bladzijde 16.
 Het afspelen van een geluidje hebben we al eerder gezien in lesboekje 3, bladzijde 17.
 
+![Piano](EmojiSunglasses.png) | De 'Pull Down' weerstand zorgt dat pin 2 verbonden is met GND als de knop niet ingedrukt is
+:-------------:|:----------------------------------------: 
+
 ## Opdracht 1
 
 Sluit de eerste knop aan volgens het plaatje. Zet de knop in het midden van je breadboard!
@@ -65,6 +68,8 @@ Gebruik deze code:
 ![denk](EmojiThinking.png) | Is het nodig om de hele code opnieuwe in te voeren?
 :-------------:|:----------------------------------------: 
 
+
+
 ```c++
 int speaker_pin = 8;
 int piano_pin = A0;
@@ -98,13 +103,10 @@ void loop()
 }
 ```
 
-## Oplossing 2
-
-[plaatje van aansluiten]
 
 ## Opdracht 3
 
-[derde toets, links van de vorige, met 4 parellle voorschakelweerstanden, nu ook zelf code schrijven]
+[derde toets, links van de vorige, met 4 parallele voorschakelweerstanden, nu ook zelf code schrijven]
 
 ## Oplossing 3
 
@@ -112,7 +114,7 @@ void loop()
 
 ## Opdracht 4
 
-[vierde toets, links van de vorige, met 8 parellle voorschakelweerstanden, nu weer zelf code schrijven]
+[vierde toets, links van de vorige, met 8 parallele voorschakelweerstanden, nu weer zelf code schrijven]
 
 ## Oplossing 4
 
