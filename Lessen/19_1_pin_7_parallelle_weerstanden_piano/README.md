@@ -117,7 +117,7 @@ Gebruik nu 3 parallele weerstanden.
 :-------------:|:----------------------------------------: 
 ## Oplossing 3
 
-
+![3 knoppen](19_fig_3_bb.png)
 
 ```c++
 int speaker_pin = 8;
