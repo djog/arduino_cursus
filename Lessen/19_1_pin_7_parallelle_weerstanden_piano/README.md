@@ -110,10 +110,10 @@ Bouw nu een derde toets, links van de vorige.
 
 Gebruik nu 3 parallele weerstanden.
 
-![denk](EmojiThinking.png) | Gebruik de seriële mionitor om de waarde van de nieuwe knop te bepalen.
+![denk](EmojiThinking.png) | Gebruik de seriële monitor om de waarde van de nieuwe knop te bepalen.
 :-------------:|:----------------------------------------: 
 
-![denk](EmojiThinking.png) | Welke frequentie krijgt deze toets?
+![denk](EmojiThinking.png) | Welke frequentie krijgt de nieuwe knop?
 :-------------:|:----------------------------------------: 
 ## Oplossing 3
 
