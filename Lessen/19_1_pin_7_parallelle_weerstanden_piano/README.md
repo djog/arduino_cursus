@@ -229,10 +229,9 @@ void loop()
   }
 }
 ```
-
 ## Opdracht 5
 
-Bouw nu de 5e toets rechts van de vorige toetsen. Gebruik nu geen parallele weerstanden, maar 2 in serie geschakelde weerstanden van10k Ohm.
+Bouw nu de 5e toets rechts van de vorige toetsen. Gebruik nu geen parallele weerstanden, maar 2 in serie geschakelde weerstanden van 10k Ohm.
 
 ![denk](EmojiThinking.png) | Gebruik de seriële monitor om de waarde van de nieuwe knop te bepalen.
 :-------------:|:----------------------------------------: 
@@ -298,6 +297,86 @@ void loop()
   }
 }
 ```
+## Opdracht 6
+
+Bouw nu de 6e toets rechts van de vorige toetsen. Gebruik ook nu geen parallele weerstanden, maar 3 in serie geschakelde weerstanden van 10k Ohm.
+
+![denk](EmojiThinking.png) | Gebruik de seriële monitor om de waarde van de nieuwe knop te bepalen.
+:-------------:|:----------------------------------------: 
+
+![denk](EmojiThinking.png) | Welke frequentie krijgt de nieuwe knop?
+:-------------:|:----------------------------------------: 
+
+De schakeling komt er zo uit te zien.
+
+![Een pin](19_fig_6_bb.png)
+
+## Oplossing 6
+```c++
+int speaker_pin = 8;
+int piano_pin = A0;
+int sensorValue = 0;
+
+void setup()
+{
+  pinMode(speaker_pin, OUTPUT);
+  pinMode(piano_pin, INPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  sensorValue = (analogRead(piano_pin));
+  Serial.println(sensorValue);
+  if (sensorValue > 820)                          //bekijk de Seriële monitor !!
+  {
+    tone(speaker_pin, 175);
+    delay(250);
+    noTone(speaker_pin);
+    delay(250);
+  }
+  else if (sensorValue > 680)                          //bekijk de Seriële monitor !!
+  {
+    tone(speaker_pin, 196);
+    delay(250);
+    noTone(speaker_pin);
+    delay(250);
+  }
+  else if (sensorValue > 510)                          //bekijk de Seriële monitor !!
+  {
+    tone(speaker_pin, 220);
+    delay(250);
+    noTone(speaker_pin);
+    delay(250);
+  }
+  else if (sensorValue > 410)                          //bekijk de Seriële monitor !!
+  {
+    tone(speaker_pin, 247);
+    delay(250);
+    noTone(speaker_pin);
+    delay(250);
+  }
+  else if (sensorValue > 310)                          //bekijk de Seriële monitor !!
+  {
+    tone(speaker_pin, 262);
+    delay(250);
+    noTone(speaker_pin);
+    delay(250);
+  }
+    delay(250);
+  }
+  else if (sensorValue > 210)                          //bekijk de Seriële monitor !!
+  {
+    tone(speaker_pin, 294);
+    delay(250);
+    noTone(speaker_pin);
+    delay(250);
+  }
+    delay(250);
+  }
+
+}
+```
 ## Eindopdracht
 
 Maak een piano van zeven toetsen af door nog 2 knoppen rechts bij te zetten.
@@ -313,7 +392,7 @@ Maak een piano van zeven toetsen af door nog 2 knoppen rechts bij te zetten.
 
 # De schakeling
 
-![Een pin](19_fig_5_bb.png)
+![Een pin](19_fig_7_bb.png)
 
 # De code
 
