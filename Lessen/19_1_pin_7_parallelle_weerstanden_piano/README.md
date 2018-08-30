@@ -106,8 +106,9 @@ void loop()
 
 ## Opdracht 3
 
-[derde toets, links van de vorige, met 4 parallele voorschakelweerstanden, nu ook zelf code schrijven]
+Bouw nu een derde toets, links van de vorige. 
 
+Gebruik nu 3 parallele weerstanden.
 ## Oplossing 3
 
 [code en schema hiero]
