@@ -109,9 +109,54 @@ void loop()
 Bouw nu een derde toets, links van de vorige. 
 
 Gebruik nu 3 parallele weerstanden.
+
+![denk](EmojiThinking.png) | Gebruik de seriële mionitor om de waarde van de nieuwe knop te bepalen.
+:-------------:|:----------------------------------------: 
+
+![denk](EmojiThinking.png) | Welke frequentie krijgt deze toets?
+:-------------:|:----------------------------------------: 
 ## Oplossing 3
 
-[code en schema hiero]
+
+```c++
+int speaker_pin = 8;
+int piano_pin = A0;
+int sensorValue = 0;
+
+void setup()
+{
+  pinMode(speaker_pin, OUTPUT);
+  pinMode(piano_pin, INPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  sensorValue = (analogRead(piano_pin));
+  Serial.println(sensorValue);
+  if (sensorValue > 820)                          //bekijk de Seriële monitor !!
+  {
+    tone(speaker_pin, 220);
+    delay(250);
+    noTone(speaker_pin);
+    delay(250);
+  }
+  else if (sensorValue > 680)                          //bekijk de Seriële monitor !!
+  {
+    tone(speaker_pin, 247);
+    delay(250);
+    noTone(speaker_pin);
+    delay(250);
+  }
+  else if (sensorValue > 510)                          //bekijk de Seriële monitor !!
+  {
+    tone(speaker_pin, 247);
+    delay(250);
+    noTone(speaker_pin);
+    delay(250);
+  }
+}
+``
 
 ## Opdracht 4
 
@@ -119,7 +164,29 @@ Gebruik nu 3 parallele weerstanden.
 
 ## Oplossing 4
 
-[code en schema hiero]
+```c++
+const int speaker_pin = 8;
+const int piano_pin = A0;
+
+void setup()
+{
+  pinMode(speaker_pin, OUTPUT);
+  pinMode(piano_pin, INPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  Serial.println(analogRead(piano_pin));
+  if (analogRead(piano_pin) > 510)                          //bekijk de Seriële monitor !!
+  {
+    tone(speaker_pin, 247);
+    delay(250);
+    noTone(speaker_pin);
+    delay(250);
+  }
+}
+```
 
 ## Opdracht 5
 
@@ -128,9 +195,29 @@ Gebruik nu 3 parallele weerstanden.
 [smiley: tip: de nieuwe waardes worden hoger dan ?384. Het nieuwe if statement moet nu eerst!]
 
 ## Oplossing 5
+```c++
+const int speaker_pin = 8;
+const int piano_pin = A0;
 
-[code en schema hiero]
+void setup()
+{
+  pinMode(speaker_pin, OUTPUT);
+  pinMode(piano_pin, INPUT);
+  Serial.begin(9600);
+}
 
+void loop()
+{
+  Serial.println(analogRead(piano_pin));
+  if (analogRead(piano_pin) > 510)                          //bekijk de Seriële monitor !!
+  {
+    tone(speaker_pin, 247);
+    delay(250);
+    noTone(speaker_pin);
+    delay(250);
+  }
+}
+```
 ## Eindopdracht
 
 Maak een piano van zeven toetsen. Zie figuur 'Frequenties' voor de andere getallen.
