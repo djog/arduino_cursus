@@ -156,8 +156,7 @@ void loop()
     delay(250);
   }
 }
-``
-
+```
 ## Opdracht 4
 
 [vierde toets, links van de vorige, met 8 parallele voorschakelweerstanden, nu weer zelf code schrijven]
