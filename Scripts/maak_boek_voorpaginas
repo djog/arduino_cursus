@@ -27,6 +27,7 @@ pandoc VoorpaginaLed.md -o ../../Boek/VoorpaginaLed.pdf
 pandoc VoorpaginaSensor.md -o ../../Boek/VoorpaginaSensor.pdf
 pandoc VoorpaginaActuatorenLaag.md -o ../../Boek/VoorpaginaActuatorenLaag.pdf
 pandoc VoorpaginaActuatorenHoog.md -o ../../Boek/VoorpaginaActuatorenHoog.pdf
+pandoc VoorpaginaMuziek.md -o ../../Boek/VoorpaginaMuziek.pdf
 pandoc VoorpaginaNeoPixel.md -o ../../Boek/VoorpaginaNeoPixel.pdf
 
 
