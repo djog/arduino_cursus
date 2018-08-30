@@ -172,6 +172,7 @@ Gebruik nu 4 parallele weerstanden.
 
 ## Oplossing 4
 ![Een pin](19_fig_4_bb.png)
+
 ```c++
 int speaker_pin = 8;
 int piano_pin = A0;
