@@ -66,25 +66,33 @@ Gebruik deze code:
 :-------------:|:----------------------------------------: 
 
 ```c++
-const int speaker_pin = 8;
-const int piano_pin = A0;
+int speaker_pin = 8;
+int piano_pin = A0;
+int sensorValue = 0;
 
 void setup()
 {
   pinMode(speaker_pin, OUTPUT);
   pinMode(piano_pin, INPUT);
+  Serial.begin(9600);
 }
 
 void loop()
 {
-  if (analogRead(piano_pin) > 384)
+  sensorValue = (analogRead(piano_pin));
+  Serial.println(sensorValue);
+  if (sensorValue > 680)                          //bekijk de Seriële monitor !!
   {
-    tone(piano_pin, ?247, 250);
+    tone(speaker_pin, 220);
+    delay(250);
+    noTone(speaker_pin);
     delay(250);
   }
-  else if (analogRead(piano_pin) > ?192)
+  else if (sensorValue > 510)                          //bekijk de Seriële monitor !!
   {
-    tone(piano_pin, 175, 250);
+    tone(speaker_pin, 247);
+    delay(250);
+    noTone(speaker_pin);
     delay(250);
   }
 }
