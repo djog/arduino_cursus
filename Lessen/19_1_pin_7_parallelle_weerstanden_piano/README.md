@@ -379,7 +379,7 @@ void loop()
 ```
 ## Eindopdracht
 
-Maak een piano van zeven toetsen af door nog 2 knoppen rechts bij te zetten.
+Maak een piano van zeven toetsen af door de 7e knop rechts bij te zetten. Gebruik nu 4 in serie geschakelde weerstanden van 10 kOhm.
 
 ![denk](EmojiThinking.png) | Gebruik de seriële monitor om de waarde van de nieuwe knop te bepalen.
 :-------------:|:----------------------------------------: 
