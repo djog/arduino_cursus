@@ -137,14 +137,14 @@ void loop()
   Serial.println(sensorValue);
   if (sensorValue > 820)                          //bekijk de Seriële monitor !!
   {
-    tone(speaker_pin, 220);
+    tone(speaker_pin, 196);
     delay(250);
     noTone(speaker_pin);
     delay(250);
   }
   else if (sensorValue > 680)                          //bekijk de Seriële monitor !!
   {
-    tone(speaker_pin, 247);
+    tone(speaker_pin, 220);
     delay(250);
     noTone(speaker_pin);
     delay(250);
@@ -160,10 +160,18 @@ void loop()
 ```
 ## Opdracht 4
 
-[vierde toets, links van de vorige, met 8 parallele voorschakelweerstanden, nu weer zelf code schrijven]
+Bouw nu een vierde toets, links van de vorige. 
+
+Gebruik nu 4 parallele weerstanden.
+
+![denk](EmojiThinking.png) | Gebruik de seriële monitor om de waarde van de nieuwe knop te bepalen.
+:-------------:|:----------------------------------------: 
+
+![denk](EmojiThinking.png) | Welke frequentie krijgt de nieuwe knop?
+:-------------:|:----------------------------------------: 
 
 ## Oplossing 4
-
+![Een pin](19_fig_4_bb.png)
 ```c++
 int speaker_pin = 8;
 int piano_pin = A0;
