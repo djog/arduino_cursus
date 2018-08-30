@@ -7,7 +7,7 @@ We bouwen de piano stap voor stap op en testen elke stap apart.
 Het uitlezen van de knoppen hebben we al eerder gezien in lesboekje 2, bladzijde 16.
 Het afspelen van een geluidje hebben we al eerder gezien in lesboekje 3, bladzijde 17.
 
-![Piano](EmojiSunglasses.png) | De 'Pull Down' weerstand zorgt dat pin 2 verbonden is met GND als de knop niet ingedrukt is
+![Piano](18_frequenties.png) | We beginnen met de middelste toets met frequentie 247. Dan bouwen we naar links 3 toetsen erbij. Daarna bouwen we rechts 3 toetsen erbij. De frequenties staan in dit plaatje,
 :-------------:|:----------------------------------------: 
 
 ## Opdracht 1
