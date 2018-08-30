@@ -232,9 +232,17 @@ void loop()
 
 ## Opdracht 5
 
-[vijfde toets, rechts van de vorige, met 2 serie voorschakelweerstanden, nu weer zelf code schrijven]
+Bouw nu de 5e toets rechts van de vorige toetsen. Gebruik nu geen parallele weerstanden, maar 2 in serie geschakelde weerstanden van10k Ohm.
 
-[smiley: tip: de nieuwe waardes worden hoger dan ?384. Het nieuwe if statement moet nu eerst!]
+![denk](EmojiThinking.png) | Gebruik de seriële monitor om de waarde van de nieuwe knop te bepalen.
+:-------------:|:----------------------------------------: 
+
+![denk](EmojiThinking.png) | Welke frequentie krijgt de nieuwe knop?
+:-------------:|:----------------------------------------: 
+
+De schakeling komt er zo uit te zien.
+
+![Een pin](19_fig_6_bb.png)
 
 ## Oplossing 5
 ```c++
