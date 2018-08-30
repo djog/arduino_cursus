@@ -52,7 +52,8 @@ Krijg je een geluid als je op de knop drukt? Dan kun je door naar opdracht 2.
 
 ## Opdracht 2
 
-Sluit een tweede knop aan **links** van de eerste, met twee weerstanden ervoor die parallel staan [dus 5k], zie plaatje
+Sluit een tweede knop aan **links** van de eerste, met twee weerstanden ervoor die parallel staan [dus 5k], zie plaatje.
+
 ![parallel](parallel.PNG) | Twee parallele weerstanden van 10k geeft een weerstand van 5k.
 :-------------:|:----------------------------------------: 
 
