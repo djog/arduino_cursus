@@ -318,50 +318,72 @@ Maak een piano van zeven toetsen af door nog 2 knoppen rechts bij te zetten.
 # De code
 
 ```c++
-const int speaker_pin = 8;
-const int piano_pin = A0;
+int speaker_pin = 8;
+int piano_pin = A0;
+int sensorValue = 0;
 
 void setup()
 {
   pinMode(speaker_pin, OUTPUT);
   pinMode(piano_pin, INPUT);
+  Serial.begin(9600);
 }
 
 void loop()
 {
-  if (analogRead(piano_pin) > ?32)
+  sensorValue = (analogRead(piano_pin));
+  Serial.println(sensorValue);
+  if (sensorValue > 820)                          //bekijk de Seriële monitor !!
   {
-    tone(piano_pin, ?280, 250); 
+    tone(speaker_pin, 175);
+    delay(250);
+    noTone(speaker_pin);
     delay(250);
   }
-  else if (analogRead(piano_pin) > ?64)
+  else if (sensorValue > 680)                          //bekijk de Seriële monitor !!
   {
-    tone(piano_pin, ?270, 250); 
+    tone(speaker_pin, 196);
+    delay(250);
+    noTone(speaker_pin);
     delay(250);
   }
-  else if (analogRead(piano_pin) > ?128)
+  else if (sensorValue > 510)                          //bekijk de Seriële monitor !!
   {
-    tone(piano_pin, ?260, 250); 
+    tone(speaker_pin, 220);
+    delay(250);
+    noTone(speaker_pin);
     delay(250);
   }
-  else if (analogRead(piano_pin) > ?384)
+  else if (sensorValue > 410)                          //bekijk de Seriële monitor !!
   {
-    tone(piano_pin, 247, 250); 
+    tone(speaker_pin, 247);
+    delay(250);
+    noTone(speaker_pin);
     delay(250);
   }
-  else if (analogRead(piano_pin) > ?192)
+  else if (sensorValue > 310)                          //bekijk de Seriële monitor !!
   {
-    tone(piano_pin, ?230, 250);
+    tone(speaker_pin, 262);
+    delay(250);
+    noTone(speaker_pin);
     delay(250);
   }
-  else if (analogRead(piano_pin) > ?96)
-  {
-    tone(piano_pin, ?220, 250);
     delay(250);
   }
-  else if (analogRead(piano_pin) > ?48) 
+  else if (sensorValue > 210)                          //bekijk de Seriële monitor !!
   {
-    tone(piano_pin, ?200, 250);
+    tone(speaker_pin, 294);
+    delay(250);
+    noTone(speaker_pin);
+    delay(250);
+  }
+    delay(250);
+  }
+  else if (sensorValue > 110)                          //bekijk de Seriële monitor !!
+  {
+    tone(speaker_pin, 330);
+    delay(250);
+    noTone(speaker_pin);
     delay(250);
   }
 }
