@@ -246,8 +246,9 @@ De schakeling komt er zo uit te zien.
 
 ## Oplossing 5
 ```c++
-const int speaker_pin = 8;
-const int piano_pin = A0;
+int speaker_pin = 8;
+int piano_pin = A0;
+int sensorValue = 0;
 
 void setup()
 {
@@ -258,10 +259,39 @@ void setup()
 
 void loop()
 {
-  Serial.println(analogRead(piano_pin));
-  if (analogRead(piano_pin) > 510)                          //bekijk de Seriële monitor !!
+  sensorValue = (analogRead(piano_pin));
+  Serial.println(sensorValue);
+  if (sensorValue > 820)                          //bekijk de Seriële monitor !!
+  {
+    tone(speaker_pin, 175);
+    delay(250);
+    noTone(speaker_pin);
+    delay(250);
+  }
+  else if (sensorValue > 680)                          //bekijk de Seriële monitor !!
+  {
+    tone(speaker_pin, 196);
+    delay(250);
+    noTone(speaker_pin);
+    delay(250);
+  }
+  else if (sensorValue > 510)                          //bekijk de Seriële monitor !!
+  {
+    tone(speaker_pin, 220);
+    delay(250);
+    noTone(speaker_pin);
+    delay(250);
+  }
+  else if (sensorValue > 410)                          //bekijk de Seriële monitor !!
   {
     tone(speaker_pin, 247);
+    delay(250);
+    noTone(speaker_pin);
+    delay(250);
+  }
+  else if (sensorValue > 310)                          //bekijk de Seriële monitor !!
+  {
+    tone(speaker_pin, 262);
     delay(250);
     noTone(speaker_pin);
     delay(250);
