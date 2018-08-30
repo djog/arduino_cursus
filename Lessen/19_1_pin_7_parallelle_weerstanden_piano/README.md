@@ -300,15 +300,22 @@ void loop()
 ```
 ## Eindopdracht
 
-Maak een piano van zeven toetsen. Zie figuur 'Frequenties' voor de andere getallen.
+Maak een piano van zeven toetsen af door nog 2 knoppen rechts bij te zetten.
 
-![Frequenties](18_frequenties.png)
+![denk](EmojiThinking.png) | Gebruik de seriële monitor om de waarde van de nieuwe knop te bepalen.
+:-------------:|:----------------------------------------: 
 
-```
-Eindopdracht schets oplossing
-juiste analogReads uitproberen/berekenen
-juiste toonhoogten uit figuur 18_frequenties
-```
+![denk](EmojiThinking.png) | Welke frequentie krijgt de nieuwe knop?
+:-------------:|:----------------------------------------: 
+
+
+## Eindoplossing
+
+# De schakeling
+
+![Een pin](19_fig_5_bb.png)
+
+# De code
 
 ```c++
 const int speaker_pin = 8;
