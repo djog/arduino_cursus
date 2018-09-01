@@ -1,8 +1,10 @@
-# Les 18: 7-pin piano
+# Les 18: 7-Pin Piano
 
 In deze les gaan we een simpele piano maken, die 7 pinnen gebruikt.
 
-## Opdracht 1
+\pagebreak
+
+## Les 18: 7-Pin Piano: Opdracht 1
 
 Sluit figuur 'Een pin' aan.
 
@@ -33,7 +35,9 @@ void loop()
 We maken een piano. Dit is de eerste toets met een toonhoogte van 175 Hertz.
 Maar er zit een fout in de code! Repareer de code.
 
-## Oplossing 1
+\pagebreak
+
+## Les 18: 7-Pin Piano: Oplossing 1
 
 ```c++
 const int speaker_pin = 8;
@@ -55,13 +59,17 @@ void loop()
 }
 ```
 
-## Opdracht 2
+\pagebreak
+
+## Les 18: 7-Pin Piano: Opdracht 2
 
 Bouw een tweede toets erbij, op pin 3. 
 Deze heeft ook een eigen weestandje nodig. 
 Deze moet een toonhoogte krijgen van 196 Hertz.
 
-## Oplossing 2
+\pagebreak
+
+## Les 18: 7-Pin Piano: Oplossing 2
 
 ![Oplossing 2](18_7_pin_piano_2.png)
 
@@ -92,13 +100,17 @@ void loop()
 }
 ```
 
-## Opdracht 3
+\pagebreak
+
+## Les 18: 7-Pin Piano: Opdracht 3
 
 Bouw een derde toets erbij, op pin 4. 
 Deze heeft ook een eigen weerstandje nodig. 
 De toets moet een toonhoogte krijgen van 220 Hertz.
 
-## Oplossing 3
+\pagebreak
+
+## Les 18: 7-Pin Piano: Oplossing 3
 
 ![Oplossing 3](18_7_pin_piano_3.png)
 
@@ -136,7 +148,9 @@ void loop()
 }
 ```
 
-## Eindopdracht
+\pagebreak
+
+## Les 18: 7-Pin Piano: Eindopdracht
 
 Maak een piano van zeven toetsen. Zie figuur 'Frequenties' voor de andere getallen.
 

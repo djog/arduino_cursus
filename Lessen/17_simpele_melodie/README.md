@@ -1,10 +1,12 @@
-# Les 17: simpele melodie
+# Les 17: Simpele Melodie
 
 In deze les gaan we een simpele melodie maken, namelijk Vader Jacob!
 
 ![Vader Jacob](17_compleet.png)
 
-## Opdracht 1
+\pagebreak
+
+## Les 17: Simpele Melodie: Opdracht 1
 
 Sluit figuur 'Aansluiten van een speaker' aan.
 
@@ -31,7 +33,9 @@ Let op: de `250` moet in zowel `tone` als `delay`!
 
 Wat hoor je?
 
-## Oplossing 1
+\pagebreak
+
+## Les 17: Simpele Melodie: Oplossing 1
 
 Je hoort de eerste noot van Vader Jacob!
 
@@ -40,7 +44,9 @@ Onder de noot staat de tekst, daaronder de toonhoogte in Hertz.
 
 ![De eerste noot van Vader Jacob](17_va.png)
 
-## Opdracht 2
+\pagebreak
+
+## Les 17: Simpele Melodie: Opdracht 2
 
 De eerste noot van Vader Jacob heeft een toonhoogte van 131 Hertz.
 De tweede noot van Vader Jacob heeft een toonhoogte van 147 Hertz.
@@ -48,7 +54,9 @@ Programmeer de eerste twee noten van Vader Jacob.
 
 ![De eerste twee noten van Vader Jacob](17_vader.png)
 
-## Oplossing 2
+\pagebreak
+
+## Les 17: Simpele Melodie: Oplossing 2
 
 ```c++
 const int speaker_pin = 8;
@@ -67,14 +75,18 @@ void loop()
 }
 ```
 
-## Opdracht 3
+\pagebreak
+
+## Les 17: Simpele Melodie: Opdracht 3
 
 De derde noot van Vader Jacob heeft een toonhoogte van 165 Hertz.
 Programmeer de eerste drie noten van Vader Jacob.
 
 ![De eerste drie noten van Vader Jacob](17_vader_ja.png)
 
-## Oplossing 3
+\pagebreak
+
+## Les 17: Simpele Melodie: Oplossing 3
 
 ```c++
 const int speaker_pin = 8;
@@ -95,12 +107,16 @@ void loop()
 }
 ```
 
-## Opdracht 4
+\pagebreak
+
+## Les 17: Simpele Melodie: Opdracht 4
 
 De vierde noot van Vader Jacob heeft dezelfde toonhoogte als de eerste.
 Programmeer de vierde noot van Vader Jacob.
 
 ![De eerste vier noten van Vader Jacob](17_vader_jacob.png)
+
+\pagebreak
 
 ## Oplossing 4
 
@@ -125,13 +141,17 @@ void loop()
 }
 ```
 
-## Opdracht 5
+\pagebreak
+
+## Les 17: Simpele Melodie: Opdracht 5
 
 De vijfde, zesde, zevende en achtste noot zijn dezelfde als de eerste vier. Programmeer dit.
 
 ![De eerste acht noten van Vader Jacob](17_vader_jacob_2x.png)
 
-## Oplossing 5
+\pagebreak
+
+## Les 17: Simpele Melodie: Oplossing 5
 
 ```c++
 const int speaker_pin = 8;
@@ -162,7 +182,9 @@ void loop()
 }
 ```
 
-## Opdracht 6
+\pagebreak
+
+## Les 17: Simpele Melodie: Opdracht 6
 
 Nu komt twee keer 'Slaapt gij nog'. 'Slaapt' dezelfde hoogte als 'Ja', 'gij' is 175 Hertz, 'nog' is 196 Hertz.
 Tot nu toe duurden alle noten 250 milliseconden.
@@ -170,7 +192,9 @@ De derde noot, 'nog' moet 500 milliseconden duren.
 
 ![Slaapt gij nog](17_slaapt_gij_nog_2x.png)
 
-## Oplossing 6
+\pagebreak
+
+## Les 17: Simpele Melodie: Oplossing 6
 
 In de code staat nu `//...`. Dit betekent dat daar de oude code moet blijven staan.
 
@@ -200,7 +224,9 @@ void loop()
 }
 ```
 
-## Opdracht 7
+\pagebreak
+
+## Les 17: Simpele Melodie: Opdracht 7
 
 Nu komt twee keer 'Alle klokken luiden'. 
 In de figuur 'Alle klokken luiden' staan de toonhoogten.
@@ -208,7 +234,9 @@ De noten die aan elkaar vastzitten ('Alle klokken') duren elk 125 milliseconden.
 
 ![Alle klokken luiden](17_alle_klokken_2x.png)
 
-## Oplossing 7
+\pagebreak
+
+## Les 17: Simpele Melodie: Oplossing 7
 
 ```c++
 const int speaker_pin = 8;
@@ -236,7 +264,9 @@ void loop()
 }
 ```
 
-## Eindopdracht
+\pagebreak
+
+## Les 17: Simpele Melodie: Eindopdracht
 
 Maak het liedje Vader Jacob af. Zie figuur 'Bim bam bom' hoe de laatste noten moeten.
 

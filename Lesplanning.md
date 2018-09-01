@@ -10,6 +10,7 @@ Les|Datum|Les Nano's|Les Uno's
 39|28 september|-|-
 --|Zaterdag 29 september|10:00-15:00 @ [modelspoorbeurs](http://mscrailrunners.eu/events/event/modelspoorbeurs-groningen-29-september-2018-hanze-plaza-10-00-16-00/)|idem
 40|5 oktober|-|20:15 expert: Winand Slingenberg, generative design
+  |6 oktober|Zpannend Zernike @ DJO|Zpannend Zernike @ DJO
 41|12 oktober|Codeweek|Codeweek
 42|19 oktober|Codeweek|Codeweek
 43|26 oktober|-|-
@@ -19,7 +20,7 @@ Les|Datum|Les Nano's|Les Uno's
 47|23 november|-|-
 48|30 november|-|-
 49|7 december|-|20:15 expert
- - |8 december|-|?hackathon
+ - |9 december|-|9:00-17:00 hackathon @ DJO
 50|14 december|-|Eindpresentaties
 51|21 december|-|Laatste les
  -|22 december|Orbitfest|Orbitfest

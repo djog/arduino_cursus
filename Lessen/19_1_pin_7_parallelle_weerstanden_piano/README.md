@@ -1,4 +1,4 @@
-# Les 19: 1-pin-7-parallelle_weerstanden-piano
+# Les 19: 1-Pin-7-Parallelle-Weerstanden-Piano
 
 In deze les gaan we een simpele piano maken, die 1 pin gebruikt en 7 parallelle weerstanden.
 
@@ -10,7 +10,9 @@ Het afspelen van een geluidje hebben we al eerder gezien in lesboekje 3, bladzij
 ![Piano](18_frequenties.png) | We beginnen met de middelste toets met frequentie 247. Dan bouwen we naar links 3 toetsen erbij. Daarna bouwen we rechts 3 toetsen erbij. De frequenties staan in dit plaatje,
 :-------------:|:----------------------------------------: 
 
-## Opdracht 1
+\pagebreak
+
+## Les 19: 1-Pin-7-Parallelle-Weerstanden-Piano: Opdracht 1
 
 Sluit de eerste knop aan volgens het plaatje. Zet de knop in het midden van je breadboard!
 
@@ -50,7 +52,9 @@ void loop()
 
 Krijg je een geluid als je op de knop drukt? Dan kun je door naar opdracht 2.
 
-## Opdracht 2
+\pagebreak
+
+## Les 19: 1-Pin-7-Parallelle-Weerstanden-Piano: Opdracht 2
 
 Sluit een tweede knop aan **links** van de eerste, met twee weerstanden ervoor die parallel staan [dus 5k], zie plaatje.
 
@@ -113,8 +117,9 @@ void loop()
 }
 ```
 
+\pagebreak
 
-## Opdracht 3
+## Les 19: 1-Pin-7-Parallelle-Weerstanden-Piano: Opdracht 3
 
 Bouw nu een derde toets, links van de vorige. 
 
@@ -125,7 +130,10 @@ Gebruik nu 3 parallele weerstanden.
 
 ![denk](EmojiThinking.png) | Welke frequentie krijgt de nieuwe knop?
 :-------------:|:----------------------------------------: 
-## Oplossing 3
+
+\pagebreak
+
+## Les 19: 1-Pin-7-Parallelle-Weerstanden-Piano: Oplossing 3
 
 ![Een pin](19_fig_3_bb.png)
 
@@ -168,7 +176,10 @@ void loop()
   }
 }
 ```
-## Opdracht 4
+
+\pagebreak
+
+## Les 19: 1-Pin-7-Parallelle-Weerstanden-Piano: Opdracht 4
 
 Bouw nu een vierde toets, links van de vorige. 
 
@@ -180,7 +191,10 @@ Gebruik nu 4 parallele weerstanden.
 ![denk](EmojiThinking.png) | Welke frequentie krijgt de nieuwe knop?
 :-------------:|:----------------------------------------: 
 
-## Oplossing 4
+\pagebreak
+
+## Les 19: 1-Pin-7-Parallelle-Weerstanden-Piano: Oplossing 4
+
 ![Een pin](19_fig_4_bb.png)
 
 ```c++
@@ -229,7 +243,10 @@ void loop()
   }
 }
 ```
-## Opdracht 5
+
+\pagebreak
+
+## Les 19: 1-Pin-7-Parallelle-Weerstanden-Piano: Opdracht 5
 
 Bouw nu de 5e toets rechts van de vorige toetsen. Gebruik nu geen parallele weerstanden, maar 2 in serie geschakelde weerstanden van 10k Ohm.
 
@@ -243,7 +260,10 @@ De schakeling komt er zo uit te zien.
 
 ![Een pin](19_fig_5_bb.png)
 
-## Oplossing 5
+\pagebreak
+
+## Les 19: 1-Pin-7-Parallelle-Weerstanden-Piano: Oplossing 5
+
 ```c++
 int speaker_pin = 8;
 int piano_pin = A0;
@@ -297,7 +317,10 @@ void loop()
   }
 }
 ```
-## Opdracht 6
+
+\pagebreak
+
+## Les 19: 1-Pin-7-Parallelle-Weerstanden-Piano: Opdracht 6
 
 Bouw nu de 6e toets rechts van de vorige toetsen. Gebruik ook nu geen parallele weerstanden, maar 3 in serie geschakelde weerstanden van 10k Ohm.
 
@@ -311,7 +334,10 @@ De schakeling komt er zo uit te zien.
 
 ![Een pin](19_fig_6_bb.png)
 
-## Oplossing 6
+\pagebreak
+
+## Les 19: 1-Pin-7-Parallelle-Weerstanden-Piano: Oplossing 6
+
 ```c++
 int speaker_pin = 8;
 int piano_pin = A0;
@@ -363,8 +389,6 @@ void loop()
     noTone(speaker_pin);
     delay(250);
   }
-    delay(250);
-  }
   else if (sensorValue > 210)                          //bekijk de Seriële monitor !!
   {
     tone(speaker_pin, 294);
@@ -372,12 +396,12 @@ void loop()
     noTone(speaker_pin);
     delay(250);
   }
-    delay(250);
-  }
-
 }
 ```
-## Eindopdracht
+
+\pagebreak
+
+## Les 19: 1-Pin-7-Parallelle-Weerstanden-Piano: Eindopdracht
 
 Maak een piano van zeven toetsen af door de 7e knop rechts bij te zetten. Gebruik nu 4 in serie geschakelde weerstanden van 10 kOhm.
 
@@ -386,84 +410,3 @@ Maak een piano van zeven toetsen af door de 7e knop rechts bij te zetten. Gebrui
 
 ![denk](EmojiThinking.png) | Welke frequentie krijgt de nieuwe knop?
 :-------------:|:----------------------------------------: 
-
-
-## Eindoplossing
-
-# De schakeling
-
-![Een pin](19_fig_7_bb.png)
-
-# De code
-
-```c++
-int speaker_pin = 8;
-int piano_pin = A0;
-int sensorValue = 0;
-
-void setup()
-{
-  pinMode(speaker_pin, OUTPUT);
-  pinMode(piano_pin, INPUT);
-  Serial.begin(9600);
-}
-
-void loop()
-{
-  sensorValue = (analogRead(piano_pin));
-  Serial.println(sensorValue);
-  if (sensorValue > 820)                          //bekijk de Seriële monitor !!
-  {
-    tone(speaker_pin, 175);
-    delay(250);
-    noTone(speaker_pin);
-    delay(250);
-  }
-  else if (sensorValue > 680)                          //bekijk de Seriële monitor !!
-  {
-    tone(speaker_pin, 196);
-    delay(250);
-    noTone(speaker_pin);
-    delay(250);
-  }
-  else if (sensorValue > 510)                          //bekijk de Seriële monitor !!
-  {
-    tone(speaker_pin, 220);
-    delay(250);
-    noTone(speaker_pin);
-    delay(250);
-  }
-  else if (sensorValue > 410)                          //bekijk de Seriële monitor !!
-  {
-    tone(speaker_pin, 247);
-    delay(250);
-    noTone(speaker_pin);
-    delay(250);
-  }
-  else if (sensorValue > 310)                          //bekijk de Seriële monitor !!
-  {
-    tone(speaker_pin, 262);
-    delay(250);
-    noTone(speaker_pin);
-    delay(250);
-  }
-    delay(250);
-  }
-  else if (sensorValue > 210)                          //bekijk de Seriële monitor !!
-  {
-    tone(speaker_pin, 294);
-    delay(250);
-    noTone(speaker_pin);
-    delay(250);
-  }
-    delay(250);
-  }
-  else if (sensorValue > 110)                          //bekijk de Seriële monitor !!
-  {
-    tone(speaker_pin, 330);
-    delay(250);
-    noTone(speaker_pin);
-    delay(250);
-  }
-}
-```

@@ -1,7 +1,14 @@
-# Les 20: 1-pin-7-weerstanden-in-serie-piano
+# Les 20: 1-Pin-7-Weerstanden-In-Serie-Piano
 
+...
 
+\pagebreak
 
+## Les 20: 1-Pin-7-Weerstanden-In-Serie-Piano: Opdracht 1
+
+\pagebreak
+
+## Les 20: 1-Pin-7-Weerstanden-In-Serie-Piano: Oplossing 1
 
 ```c++
 void setup()
