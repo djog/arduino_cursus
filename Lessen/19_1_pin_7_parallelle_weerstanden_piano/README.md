@@ -258,7 +258,7 @@ Bouw nu de 5e toets rechts van de vorige toetsen. Gebruik nu geen parallele weer
 
 De schakeling komt er zo uit te zien.
 
-![Een pin](19_fig__bb.png)
+![Een pin](19_fig_5_bb.png)
 
 \pagebreak
 
