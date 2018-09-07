@@ -61,6 +61,12 @@ void loop()
 }
 ```
 
+![Bowtie](EmojiBowtie.png) | Ah, `digitalRead` moet `HIGH` zijn, inplaats van `LOW`!
+:-------------:|:----------------------------------------: 
+
+![Sunglasses](EmojiSunglasses.png) | Als de code het *wel* deed, heb je GND en 5V omgedraaid
+:-------------:|:----------------------------------------: 
+
 \pagebreak
 
 ## Les 18: 7-Pin Piano: Opdracht 2
@@ -68,6 +74,12 @@ void loop()
 Bouw een tweede toets erbij, op pin 3. 
 Deze heeft ook een eigen weestandje nodig. 
 Deze moet een toonhoogte krijgen van 196 Hertz.
+
+![Bowtie](EmojiBowtie.png) | Een tweede knop bouwen gaat net als de eerste
+:-------------:|:----------------------------------------: 
+
+![Sunglasses](EmojiSunglasses.png) | De code voor de tweede knop gaat ook net als de eerste
+:-------------:|:----------------------------------------: 
 
 \pagebreak
 
@@ -109,6 +121,8 @@ void loop()
 Bouw een derde toets erbij, op pin 4. 
 Deze heeft ook een eigen weerstandje nodig. 
 De toets moet een toonhoogte krijgen van 220 Hertz.
+
+![Een echte Grunninger kan nu al los!](18_kim_feenstra_vader_ja.png)
 
 \pagebreak
 
@@ -157,3 +171,5 @@ void loop()
 Maak een piano van zeven toetsen. Zie figuur 'Frequenties' voor de andere getallen.
 
 ![Frequenties](18_frequenties.png)
+
+![Pianisten kunnen los op je piano!](18_jan_vayne.jpeg)

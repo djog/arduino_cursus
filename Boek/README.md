@@ -6,6 +6,7 @@ Dit zijn de vouwboekjes die we in de les gebruiken:
  * [Boek 2: Sensor](Boekje_sensor.pdf)
  * [Boek 3: Actuatoren met laag vermorgen](Boekje_actuatoren_laag.pdf)
  * [Boek 4: Actuatoren met hoog vermorgen](Boekje_actuatoren_hoog.pdf)
+ * [Boek 5: Muziek](Boekje_5_muziek.pdf)
 
 Dit zijn dezelfde boekjes in een standaard formaat:
 
@@ -13,6 +14,7 @@ Dit zijn dezelfde boekjes in een standaard formaat:
  * [Boek 2: Sensor](Boek_sensor.pdf)
  * [Boek 3: Actuatoren met laag vermorgen](Boek_actuatoren_laag.pdf)
  * [Boek 4: Actuatoren met hoog vermorgen](Boek_actuatoren_hoog.pdf)
+ * [Boek 5: Muziek](Boek_5_muziek.pdf)
 
 ## Historie
 
