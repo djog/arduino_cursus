@@ -2,6 +2,8 @@
 
 In deze les gaan we een simpele piano maken, die 7 pinnen gebruikt.
 
+![Een pino](18_pino.jpg)
+
 \pagebreak
 
 ## Les 18: 7-Pin Piano: Opdracht 1
