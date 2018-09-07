@@ -37,7 +37,7 @@ void setup()
 void loop()
 {
   Serial.println(analogRead(piano_pin));
-  if (analogRead(piano_pin) > 510)                          //bekijk de Seriële monitor !!
+  if (analogRead(piano_pin) > 510)
   {
     tone(speaker_pin, 247);
     delay(250);
@@ -85,9 +85,8 @@ Gebruik deze code:
 
 
 ```c++
-int speaker_pin = 8;
-int piano_pin = A0;
-int sensorValue = 0;
+const int speaker_pin = 8;
+const int piano_pin = A0;
 
 void setup()
 {
@@ -98,16 +97,16 @@ void setup()
 
 void loop()
 {
-  sensorValue = (analogRead(piano_pin));
+  const int sensorValue = analogRead(piano_pin);
   Serial.println(sensorValue);
-  if (sensorValue > 680)                          //bekijk de Seriële monitor !!
+  if (sensorValue > 680)
   {
     tone(speaker_pin, 220);
     delay(250);
     noTone(speaker_pin);
     delay(250);
   }
-  else if (sensorValue > 510)                          //bekijk de Seriële monitor !!
+  else if (sensorValue > 510)
   {
     tone(speaker_pin, 247);
     delay(250);
@@ -138,9 +137,8 @@ Gebruik nu 3 parallele weerstanden.
 ![Een pin](19_fig_3_bb.png)
 
 ```c++
-int speaker_pin = 8;
-int piano_pin = A0;
-int sensorValue = 0;
+const int speaker_pin = 8;
+const int piano_pin = A0;
 
 void setup()
 {
@@ -151,23 +149,23 @@ void setup()
 
 void loop()
 {
-  sensorValue = (analogRead(piano_pin));
+  const int sensorValue = analogRead(piano_pin);
   Serial.println(sensorValue);
-  if (sensorValue > 820)                          //bekijk de Seriële monitor !!
+  if (sensorValue > 820)
   {
     tone(speaker_pin, 196);
     delay(250);
     noTone(speaker_pin);
     delay(250);
   }
-  else if (sensorValue > 680)                          //bekijk de Seriële monitor !!
+  else if (sensorValue > 680)
   {
     tone(speaker_pin, 220);
     delay(250);
     noTone(speaker_pin);
     delay(250);
   }
-  else if (sensorValue > 510)                          //bekijk de Seriële monitor !!
+  else if (sensorValue > 510)
   {
     tone(speaker_pin, 247);
     delay(250);
@@ -198,9 +196,8 @@ Gebruik nu 4 parallele weerstanden.
 ![Een pin](19_fig_4_bb.png)
 
 ```c++
-int speaker_pin = 8;
-int piano_pin = A0;
-int sensorValue = 0;
+const int speaker_pin = 8;
+const int piano_pin = A0;
 
 void setup()
 {
@@ -211,30 +208,30 @@ void setup()
 
 void loop()
 {
-  sensorValue = (analogRead(piano_pin));
+  const int sensorValue = analogRead(piano_pin);
   Serial.println(sensorValue);
-  if (sensorValue > 820)                          //bekijk de Seriële monitor !!
+  if (sensorValue > 820)
   {
     tone(speaker_pin, 175);
     delay(250);
     noTone(speaker_pin);
     delay(250);
   }
-  else if (sensorValue > 680)                          //bekijk de Seriële monitor !!
+  else if (sensorValue > 680)
   {
     tone(speaker_pin, 196);
     delay(250);
     noTone(speaker_pin);
     delay(250);
   }
-  else if (sensorValue > 510)                          //bekijk de Seriële monitor !!
+  else if (sensorValue > 510)
   {
     tone(speaker_pin, 220);
     delay(250);
     noTone(speaker_pin);
     delay(250);
   }
-  else if (sensorValue > 510)                          //bekijk de Seriële monitor !!
+  else if (sensorValue > 510)
   {
     tone(speaker_pin, 247);
     delay(250);
@@ -265,9 +262,8 @@ De schakeling komt er zo uit te zien.
 ## Les 19: 1-Pin-7-Parallelle-Weerstanden-Piano: Oplossing 5
 
 ```c++
-int speaker_pin = 8;
-int piano_pin = A0;
-int sensorValue = 0;
+const int speaker_pin = 8;
+const int piano_pin = A0;
 
 void setup()
 {
@@ -278,37 +274,37 @@ void setup()
 
 void loop()
 {
-  sensorValue = (analogRead(piano_pin));
+  const int sensorValue = analogRead(piano_pin);
   Serial.println(sensorValue);
-  if (sensorValue > 820)                          //bekijk de Seriële monitor !!
+  if (sensorValue > 820)
   {
     tone(speaker_pin, 175);
     delay(250);
     noTone(speaker_pin);
     delay(250);
   }
-  else if (sensorValue > 680)                          //bekijk de Seriële monitor !!
+  else if (sensorValue > 680)
   {
     tone(speaker_pin, 196);
     delay(250);
     noTone(speaker_pin);
     delay(250);
   }
-  else if (sensorValue > 510)                          //bekijk de Seriële monitor !!
+  else if (sensorValue > 510)
   {
     tone(speaker_pin, 220);
     delay(250);
     noTone(speaker_pin);
     delay(250);
   }
-  else if (sensorValue > 410)                          //bekijk de Seriële monitor !!
+  else if (sensorValue > 410)
   {
     tone(speaker_pin, 247);
     delay(250);
     noTone(speaker_pin);
     delay(250);
   }
-  else if (sensorValue > 310)                          //bekijk de Seriële monitor !!
+  else if (sensorValue > 310)
   {
     tone(speaker_pin, 262);
     delay(250);
@@ -339,9 +335,8 @@ De schakeling komt er zo uit te zien.
 ## Les 19: 1-Pin-7-Parallelle-Weerstanden-Piano: Oplossing 6
 
 ```c++
-int speaker_pin = 8;
-int piano_pin = A0;
-int sensorValue = 0;
+const int speaker_pin = 8;
+const int piano_pin = A0;
 
 void setup()
 {
@@ -352,44 +347,44 @@ void setup()
 
 void loop()
 {
-  sensorValue = (analogRead(piano_pin));
+  const int sensorValue = analogRead(piano_pin);
   Serial.println(sensorValue);
-  if (sensorValue > 820)                          //bekijk de Seriële monitor !!
+  if (sensorValue > 820)
   {
     tone(speaker_pin, 175);
     delay(250);
     noTone(speaker_pin);
     delay(250);
   }
-  else if (sensorValue > 680)                          //bekijk de Seriële monitor !!
+  else if (sensorValue > 680)
   {
     tone(speaker_pin, 196);
     delay(250);
     noTone(speaker_pin);
     delay(250);
   }
-  else if (sensorValue > 510)                          //bekijk de Seriële monitor !!
+  else if (sensorValue > 510)
   {
     tone(speaker_pin, 220);
     delay(250);
     noTone(speaker_pin);
     delay(250);
   }
-  else if (sensorValue > 410)                          //bekijk de Seriële monitor !!
+  else if (sensorValue > 410)
   {
     tone(speaker_pin, 247);
     delay(250);
     noTone(speaker_pin);
     delay(250);
   }
-  else if (sensorValue > 310)                          //bekijk de Seriële monitor !!
+  else if (sensorValue > 310)
   {
     tone(speaker_pin, 262);
     delay(250);
     noTone(speaker_pin);
     delay(250);
   }
-  else if (sensorValue > 210)                          //bekijk de Seriële monitor !!
+  else if (sensorValue > 210)
   {
     tone(speaker_pin, 294);
     delay(250);
