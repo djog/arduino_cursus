@@ -16,6 +16,10 @@ Dit zijn dezelfde boekjes in een standaard formaat:
  * [Boek 4: Actuatoren met hoog vermorgen](Boek_actuatoren_hoog.pdf)
  * [Boek 5: Muziek](Boek_5_muziek.pdf)
 
+## Leskaarten
+
+Zie [Lessen | Leskaarten](https://github.com/richelbilderbeek/ArduinoCourse/tree/master/Lessen/Leskaarten).
+
 ## Historie
 
 Als basis gebruikten we het boek '[Interactief Ontwerpen Met Arduino](https://sites.google.com/site/hwcontwerpen/interactief-ontwerpen-met-arduino)', 
