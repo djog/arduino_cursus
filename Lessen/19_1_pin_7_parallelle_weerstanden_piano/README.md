@@ -10,9 +10,11 @@ Het afspelen van een geluidje hebben we al eerder gezien in lesboekje 3, bladzij
 ![Piano](18_frequenties.png) | We beginnen met de middelste toets met frequentie 247. Dan bouwen we naar links 3 toetsen erbij. Daarna bouwen we rechts 3 toetsen erbij. De frequenties staan in dit plaatje,
 :-------------:|:----------------------------------------: 
 
+![In les 231763256 maken we een parallelle universa piano!](19_parallel-universes.jpg)
+
 \pagebreak
 
-## Les 19: 1-Pin-7-Parallelle-Weerstanden-Piano: Opdracht 1
+## Les 19: 1-Pin-7-Parallelle-Weerstanden-Piano: Opdracht 1 aansluiten
 
 Sluit de eerste knop aan volgens het plaatje. Zet de knop in het midden van je breadboard!
 
@@ -20,6 +22,10 @@ Sluit de eerste knop aan volgens het plaatje. Zet de knop in het midden van je b
 
 ![Bowtie](EmojiSunglasses.png) | De 'Pull Down' weerstand zorgt dat pin 2 verbonden is met GND als de knop niet ingedrukt is
 :-------------:|:----------------------------------------: 
+
+\pagebreak
+
+## Les 19: 1-Pin-7-Parallelle-Weerstanden-Piano: Opdracht 1 code
 
 Zet deze code op je Arduino:
 
@@ -208,29 +214,7 @@ void setup()
 
 void loop()
 {
-  const int sensorValue = analogRead(piano_pin);
-  Serial.println(sensorValue);
-  if (sensorValue > 820)
-  {
-    tone(speaker_pin, 175);
-    delay(250);
-    noTone(speaker_pin);
-    delay(250);
-  }
-  else if (sensorValue > 680)
-  {
-    tone(speaker_pin, 196);
-    delay(250);
-    noTone(speaker_pin);
-    delay(250);
-  }
-  else if (sensorValue > 510)
-  {
-    tone(speaker_pin, 220);
-    delay(250);
-    noTone(speaker_pin);
-    delay(250);
-  }
+  //... vorige code hier
   else if (sensorValue > 510)
   {
     tone(speaker_pin, 247);
@@ -274,36 +258,7 @@ void setup()
 
 void loop()
 {
-  const int sensorValue = analogRead(piano_pin);
-  Serial.println(sensorValue);
-  if (sensorValue > 820)
-  {
-    tone(speaker_pin, 175);
-    delay(250);
-    noTone(speaker_pin);
-    delay(250);
-  }
-  else if (sensorValue > 680)
-  {
-    tone(speaker_pin, 196);
-    delay(250);
-    noTone(speaker_pin);
-    delay(250);
-  }
-  else if (sensorValue > 510)
-  {
-    tone(speaker_pin, 220);
-    delay(250);
-    noTone(speaker_pin);
-    delay(250);
-  }
-  else if (sensorValue > 410)
-  {
-    tone(speaker_pin, 247);
-    delay(250);
-    noTone(speaker_pin);
-    delay(250);
-  }
+  //... vorige code hier
   else if (sensorValue > 310)
   {
     tone(speaker_pin, 262);
@@ -313,6 +268,8 @@ void loop()
   }
 }
 ```
+
+![Nu kan elk lid van de succesvolle boyband 5ive een knop van je piano bespelen!](19_5ive.jpeg)
 
 \pagebreak
 
@@ -347,43 +304,7 @@ void setup()
 
 void loop()
 {
-  const int sensorValue = analogRead(piano_pin);
-  Serial.println(sensorValue);
-  if (sensorValue > 820)
-  {
-    tone(speaker_pin, 175);
-    delay(250);
-    noTone(speaker_pin);
-    delay(250);
-  }
-  else if (sensorValue > 680)
-  {
-    tone(speaker_pin, 196);
-    delay(250);
-    noTone(speaker_pin);
-    delay(250);
-  }
-  else if (sensorValue > 510)
-  {
-    tone(speaker_pin, 220);
-    delay(250);
-    noTone(speaker_pin);
-    delay(250);
-  }
-  else if (sensorValue > 410)
-  {
-    tone(speaker_pin, 247);
-    delay(250);
-    noTone(speaker_pin);
-    delay(250);
-  }
-  else if (sensorValue > 310)
-  {
-    tone(speaker_pin, 262);
-    delay(250);
-    noTone(speaker_pin);
-    delay(250);
-  }
+  //... vorige code hier
   else if (sensorValue > 210)
   {
     tone(speaker_pin, 294);
@@ -393,6 +314,8 @@ void loop()
   }
 }
 ```
+
+![Het subphylum van de zespotigen (hexapoda) kan nu met een poot per toets op jouw piano spelen!](19_hexapod.jpg)
 
 \pagebreak
 
@@ -405,3 +328,5 @@ Maak een piano van zeven toetsen af door de 7e knop rechts bij te zetten. Gebrui
 
 ![denk](EmojiThinking.png) | Welke frequentie krijgt de nieuwe knop?
 :-------------:|:----------------------------------------: 
+
+![Wibi Soerjadi gebruikt meestal meer dan zeven toetsen](19_wibi_soerjadi.png)
