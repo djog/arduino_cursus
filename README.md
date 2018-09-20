@@ -2,8 +2,6 @@
 
 ## Binnenkort ...
 
- * Vrijdag 7 september: eerste les na de zomervakantie
- * Woensdag 12 september: lezing Studium Generale: Is the internet killing democracy?
  * Zaterdag 29 september 10:00-15:00 @ [modelspoorbeurs](http://mscrailrunners.eu/events/event/modelspoorbeurs-groningen-29-september-2018-hanze-plaza-10-00-16-00/): lesgeven!
  * Vrijdag 5 oktober 20:15-21:00: lezing over generative design, door Winand Slingenberg
  * Zaterdag 6 oktober ?12:00-16:00: Zpannend Zernike @ DJO
