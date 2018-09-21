@@ -20,7 +20,7 @@ const int speaker_pin = 8;
 void setup()
 {
   tone(speaker_pin, 131, 250); // Va
-  delay(250);
+  delay(300);
 }
 
 void loop()
@@ -28,8 +28,6 @@ void loop()
 
 }
 ```
-
-Let op: de `250` moet in zowel `tone` als `delay`!
 
 Wat hoor je?
 
@@ -73,9 +71,9 @@ const int speaker_pin = 8;
 void setup()
 {
   tone(speaker_pin, 131, 250); // Va
-  delay(250);
+  delay(300);
   tone(speaker_pin, 147, 250); // der
-  delay(250);
+  delay(300);
 }
 
 void loop()
@@ -112,11 +110,11 @@ const int speaker_pin = 8;
 void setup()
 {
   tone(speaker_pin, 131, 250); // Va
-  delay(250);
+  delay(300);
   tone(speaker_pin, 147, 250); // der
-  delay(250);
+  delay(300);
   tone(speaker_pin, 165, 250); // Ja
-  delay(250);
+  delay(300);
 }
 
 void loop()
@@ -153,13 +151,13 @@ const int speaker_pin = 8;
 void setup()
 {
   tone(speaker_pin, 131, 250); // Va
-  delay(250);
+  delay(300);
   tone(speaker_pin, 147, 250); // der
-  delay(250);
+  delay(300);
   tone(speaker_pin, 165, 250); // Ja
-  delay(250);
+  delay(300);
   tone(speaker_pin, 131, 250); // cob
-  delay(250);
+  delay(300);
 }
 
 void loop()
@@ -192,21 +190,21 @@ const int speaker_pin = 8;
 void setup()
 {
   tone(speaker_pin, 131, 250); // Va
-  delay(250);
+  delay(300);
   tone(speaker_pin, 147, 250); // der
-  delay(250);
+  delay(300);
   tone(speaker_pin, 165, 250); // Ja
-  delay(250);
+  delay(300);
   tone(speaker_pin, 131, 250); // cob
-  delay(250);
+  delay(300);
   tone(speaker_pin, 131, 250); // Va
-  delay(250);
+  delay(300);
   tone(speaker_pin, 147, 250); // der
-  delay(250);
+  delay(300);
   tone(speaker_pin, 165, 250); // Ja
-  delay(250);
+  delay(300);
   tone(speaker_pin, 131, 250); // cob
-  delay(250);
+  delay(300);
 }
 
 void loop()
@@ -247,15 +245,15 @@ void setup()
 {
   //...
   tone(speaker_pin, 165, 250); // Slaapt
-  delay(250);
+  delay(300);
   tone(speaker_pin, 175, 250); // gij
-  delay(250);
+  delay(300);
   tone(speaker_pin, 196, 500); // nog
   delay(500);
   tone(speaker_pin, 165, 250); // Slaapt
-  delay(250);
+  delay(300);
   tone(speaker_pin, 175, 250); // gij
-  delay(250);
+  delay(300);
   tone(speaker_pin, 196, 500); // nog
   delay(500);
 }
@@ -300,9 +298,9 @@ void setup()
   tone(speaker_pin, 131, 125); // ken
   delay(125);
   tone(speaker_pin, 131, 250); // lui
-  delay(250);
+  delay(300);
   tone(speaker_pin, 147, 250); // den
-  delay(250);
+  delay(300);
 }
 
 void loop()
