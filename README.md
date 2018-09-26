@@ -12,7 +12,6 @@
  * Zondag 9 december: 9:00-17:00: hackathon @ DJO
  * Vrijdag 14 december: eindpresentaties
  * Vrijdag 21 december: laatste les voor kerstvakantie
- * Zaterdag 22 december: OrbitFest
 
 ![DJOG logo](Djog.png)
 

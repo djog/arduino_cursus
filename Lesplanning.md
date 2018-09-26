@@ -23,8 +23,7 @@ Les|Datum|Les Nano's|Les Uno's
  - |9 december|-|9:00-17:00 hackathon @ DJO
 50|14 december|-|Eindpresentaties
 51|21 december|-|Laatste les
- -|22 december|Orbitfest|Orbitfest
-52|28 december|-|-
+52|28 december|-|Vakantie
 
  * 31 okt-3 nov: ?LetsGro
  * 1 jun-10 jul: ?Zpannend Zernike
