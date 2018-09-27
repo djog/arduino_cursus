@@ -49,6 +49,7 @@ Leermateriaal:
 
  * [Lessen](Lessen/README.md)
  * [Boeken](Boek/README.md)
+ * [Project van de tieners: Nature Zen](https://github.com/richelbilderbeek/djog_unos_2018)
  * [Python cursus Uno's](http://www.goo.gl/GiszJh)
  * Plek waar je je code kunt opslaan: [http://www.codechamps.nl/jorik/Codedump](http://www.codechamps.nl/jorik/Codedump)
 
