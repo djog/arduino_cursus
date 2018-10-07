@@ -131,6 +131,14 @@ De missie van De Jonge Onderzoekers is: '[Het] exploiteren van een activiteitenc
 
 Jazeker! Klik [hier](Publiciteit/README.md) voor de plaatsen waar we zijn geweest en foto's van hebben.
 
+## In de Arduino IDE is de 'Serial Port' menu-optie grijs. Ik heb Lubuntu Bionic Beaver
+
+```
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt update
+sudo apt install oracle-java8-set-default
+```
+
 ## In de Arduino IDE is de 'Serial Port' menu-optie grijs. Ik heb Debian
 
 Word super-user:
