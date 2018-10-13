@@ -7,7 +7,7 @@
  * Zaterdag 6 oktober ?12:00-16:00: Zpannend Zernike @ DJO
  * Vrijdag 12 oktober: Codeweek
  * Vrijdag 19 oktober: Codeweek
- * Vrijdag 2 november 20:15-21:00: expert lezing
+ * Vrijdag 2 november 20:15-21:00: expert lezing door Willy Bakker: ruimtelijke data: van OpenStreetMap en R naar aardbevingen en politiek
  * Vrijdag 7 december 20:15-21:00: expert lezing
  * Zondag 9 december: 9:00-17:00: hackathon @ DJO
  * Vrijdag 14 december: eindpresentaties
