@@ -7,7 +7,24 @@ In deze les gaan we een theremin maken met potmeters.
 
 
 
+```c++
+#include "Volume.h"
 
+Volume vol; // Piezo in pin 5
+
+void setup()
+{
+  pinMode(A0, INPUT);
+  pinMode(A1, INPUT);
+  vol.begin();
+}
+
+void loop()
+{
+  vol.tone(analogRead(A0), analogRead(A1) / 4); // pa
+  vol.delay(100);
+}
+```
 
 
 
