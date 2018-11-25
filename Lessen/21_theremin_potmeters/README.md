@@ -1,4 +1,8 @@
-# Les 21: Theremin met potmeters
+# 21: Theremin met potmeters
+
+In deze les gaan we een theremin met potmeters maken.
+
+## 21.1  
 
 ```c++
 #include "Volume.h"

@@ -49,7 +49,7 @@ Arduino lessen die je zo kunt doen.
 
 ### 6. Theremin
 
- * Les 21 Theremin met potmeters
+ * Les 21 [Theremin met potmeters](21_theremin_potmeters/README.md)
  * Les 22 [Theremin met LDR](Theremin_ldr/README.md)
  * Les 23 [Theremin met infrarode afstandssensor](Theremin_infrarood/README.md)
  * Les 24 [Theremin met ultrasone afstandssensor](Theremin_ultrasoon/README.md)
