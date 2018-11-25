@@ -1,9 +1,12 @@
-# Volume installeren.
+# 'Volume' installeren.
 
+'Volume' is een bibliotheek, te downloaden op:
+
+```
 https://github.com/connornishijima/arduino-volume1
+```
 
-
-Deze les is meer voor de cursusleiders.
+Een goede versie van 'Volume' staat in de mappen van de Arduino cursus.
 
 Kies 'Sketch | Import Library | Add library':
 
