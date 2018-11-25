@@ -53,7 +53,7 @@ Sluit een infrarood afstandssensor aan op A0.
 
 ## 23.3: oplossing: aansluiten infrarood afstandssensor
 
-![Aansluiten infrarood afstandssensor](23_een_infrarood afstandssensor.png)
+![Aansluiten infrarood afstandssensor](23_een_infrarood.png)
 
 \pagebreak
 
