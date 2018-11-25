@@ -54,7 +54,7 @@ Je hebt een LDR en een weerstand van 10k Ohm (bruin-zwart-oranje-goud) nodig.
 
 ## 22.3: oplossing: aansluiten LDR
 
-![Aansluiten LDR](22_een_LDR.png)
+![Aansluiten LDR](22_een_ldr.png)
 
 \pagebreak
 
