@@ -2,7 +2,7 @@
 
 ## Binnenkort ...
 
- * Vrijdag 7 december 20:15-21:00: expert lezing door Marina Papadopoulou
+ * Vrijdag 7 december 20:15-21:00: expert lezing door Marina Papadopoulou: 'Computational models of collective escape of bird flocks'
  * Zondag 9 december: 9:00-17:00: hackathon @ DJO
  * Vrijdag 14 december: eindpresentaties
  * Vrijdag 21 december: laatste les voor kerstvakantie
