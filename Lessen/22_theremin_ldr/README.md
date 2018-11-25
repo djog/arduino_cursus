@@ -1,12 +1,10 @@
-# 21: Theremin met potmeters
+# 22: Theremin met LDRs
 
-In deze les gaan we een theremin met potmeters maken.
-
-![Een theremin](Etherwave_Theremin_Kit.jpg)
+In deze les gaan we een theremin met LDRs maken.
 
 \pagebreak
 
-## 21.1: opdracht: aansluiten piezo
+## 22.1: opdracht: aansluiten piezo
 
  * Sluit een piezo aan op pin 5.
  * Gebruik een weerstand van tienduizend Ohm,
@@ -14,13 +12,13 @@ In deze les gaan we een theremin met potmeters maken.
 
 \pagebreak
 
-## 21.1: oplossing: aansluiten piezo
+## 22.1: oplossing: aansluiten piezo
 
-![Aansluiten piezo](21_piezo.png)
+![Aansluiten piezo](22_piezo.png)
 
 \pagebreak
 
-## 21.2: opdracht: de `volume` bibliotheek
+## 22.2: opdracht: de `volume` bibliotheek
 
 Upload de volgende code:
 
@@ -47,21 +45,22 @@ Doet de 'Volume' bibliotheek het niet, ga dan naar de les 'Volume installeren'.
 
 \pagebreak
 
-## 21.3: opdracht: aansluiten potmeter
+## 22.3: opdracht: aansluiten LDR
 
-Sluit een potmeter aan op A0.
-
-\pagebreak
-
-## 21.3: oplossing: aansluiten potmeter
-
-![Aansluiten potmeter](21_een_potmeter.png)
+Sluit een LDR aan op A0. 
+Je hebt een LDR en een weerstand van 10k Ohm (bruin-zwart-oranje-goud) nodig. 
 
 \pagebreak
 
-## 21.4: opdracht: toon hoogte lineair
+## 22.3: oplossing: aansluiten LDR
 
-Lees de potmeter.
+![Aansluiten LDR](22_een_LDR.png)
+
+\pagebreak
+
+## 22.4: opdracht: toon hoogte lineair
+
+Lees de LDR.
 
 Gebruik:
 
@@ -75,7 +74,7 @@ const int toon_hoogte = input_toon_hoogte;
 
 \pagebreak
 
-## 21.4: oplossing: toon hoogte lineair
+## 22.4: oplossing: toon hoogte lineair
 
 ```c++
 #include "Volume.h"
@@ -100,7 +99,7 @@ void loop()
 
 \pagebreak
 
-## 21.5: opdracht: toonhoogte exponentieel
+## 22.5: opdracht: toonhoogte exponentieel
 
 De toonhoogte klinkt nog niet mooi. 
 Dat komt omdat hogere tonen steeds verder van elkaar af gaan zitten.
@@ -121,7 +120,7 @@ const int toon_hoogte = 110.0 * pow(2.0, 0.002 * input_toon_hoogte);
 
 \pagebreak
 
-## 21.5: oplossing: toonhoogte exponentieel
+## 22.5: oplossing: toonhoogte exponentieel
 
 ```c++
 #include "Volume.h"
@@ -146,9 +145,9 @@ void loop()
 
 \pagebreak
 
-## 21.6: eindopdracht
+## 22.6: eindopdracht
 
- * Sluit een tweede potmeter aan op A1.
+ * Sluit een tweede LDR aan op A1.
  * Gebruik:
 
 ```c++
