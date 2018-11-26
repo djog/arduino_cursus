@@ -40,7 +40,7 @@ pandoc README.md -o boek.pdf --toc --toc-depth=1 --highlight-style=tango -V geom
 cp boek.pdf ../../Boek/Boek_6_theremin_zonder_voorpagina.pdf
 
 cd ../../Boek
-pdfunite VoorpaginaMuziek.pdf Boek_6_theremin_zonder_voorpagina.pdf Boek_6_theremin.pdf
+pdfunite VoorpaginaTheremin.pdf Boek_6_theremin_zonder_voorpagina.pdf Boek_6_theremin.pdf
 
 # Make booklet
 bookletimposer -a Boek_6_theremin.pdf -o Boekje_6_theremin.pdf
