@@ -1,0 +1,49 @@
+#!/bin/bash
+
+# Concatenate all Markdown files first, convert those to one PDF
+
+my_script_path=`realpath $0`
+my_folder_path=`dirname $my_script_path`
+build_folder=$my_folder_path/build
+#echo $build_folder
+
+rm -rf build
+mkdir build
+
+if [ ! -d $build_folder ]; then 
+  echo "Error: failed to create build folder"
+  exit 1
+fi
+
+cd ..
+cd Lessen
+cd Voorwoord            ; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_00.md; cd ..
+cd 21_theremin_potmeters; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_01.md; cd ..
+cd 22_theremin_ldr      ; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_02.md; cd ..
+cd 23_theremin_infrarood; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_03.md; cd ..
+cd 24_theremin_joystick ; cp *.* $build_folder; mv $build_folder/README.md $build_folder/README_04.md; cd ..
+
+cd $build_folder
+
+cat README_00.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
+cat README_01.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
+cat README_02.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
+cat README_03.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
+cat README_04.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
+
+# Table of Content
+# Code has highlights following the tango color scheme
+# Thinner margin of 0.5 inch
+# Do not cut code blocks
+pandoc README.md -o boek.pdf --toc --toc-depth=1 --highlight-style=tango -V geometry:margin=0.5in
+
+cp boek.pdf ../../Boek/Boek_6_theremin_zonder_voorpagina.pdf
+
+cd ../../Boek
+pdfunite VoorpaginaMuziek.pdf Boek_6_theremin_zonder_voorpagina.pdf Boek_6_theremin.pdf
+
+# Make booklet
+bookletimposer -a Boek_6_theremin.pdf -o Boekje_6_theremin.pdf
+
+# Cleanup
+rm Boek_6_theremin_zonder_voorpagina.pdf
