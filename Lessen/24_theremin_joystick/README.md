@@ -14,7 +14,7 @@ In deze les gaan we een theremin met joystick maken.
 
 ## 24.1: oplossing: aansluiten piezo
 
-![Aansluiten piezo](24_piezo.png)
+![Aansluiten piezo](24_theremin_joystick_piezo.png)
 
 \pagebreak
 
@@ -59,7 +59,7 @@ VRx of VER  |A0
 
 ## 24.3: oplossing: aansluiten joystick
 
-![Aansluiten joystick](24_een_joystick.png)
+![Aansluiten joystick](24_theremin_joystick_een.png)
 
 \pagebreak
 
