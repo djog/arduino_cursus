@@ -1,5 +1,20 @@
 # Lesplanning
 
+## Zomervakantie 2019
+
+Les|Datum|Les|Crew
+---|---|---|---
+1|19 jul|~~Anko~~, Anton, Martin, ~~Richel~~ 
+2|26 jul|Anko, ~~Anton~~, ~~Martin~~, Richel
+3|02 aug|Anko, ~~Anton~~, ~~Martin~~, Richel
+4|09 aug|Anko, ~~Anton~~, ~~Martin~~, Richel
+5|16 aug|~~Anko~~, Anton, Martin, ~~Richel~~
+6|23 aug|~~Anko~~, Anton, Martin, ~~Richel~~
+
+## Begin 2019
+
+Geen formele lespanning.
+
 ## Eind 2018
 
 Les|Datum|Les Nano's|Les Uno's
