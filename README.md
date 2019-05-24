@@ -1,11 +1,10 @@
 # Arduino cursus bij De Jonge Onderzoekers
 
-## Binnenkort ...
+## Agenda
 
- * Vrijdag 7 december 20:15-21:00: expert lezing door Marina Papadopoulou: 'Computational models of collective escape of bird flocks'
- * Zondag 9 december: 9:00-17:00: hackathon @ DJO
- * Vrijdag 14 december: eindpresentaties
- * Vrijdag 21 december: laatste les voor kerstvakantie
+ * 31 mei: geen les ivm Hemelvaart
+ * 5 juli: eindpresentaties!
+ * 12 juli: laatste les voor de zomervakantie
 
 ![DJOG logo](Djog.png)
 
