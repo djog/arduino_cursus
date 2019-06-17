@@ -1,5 +1,9 @@
 # Arduino cursus bij De Jonge Onderzoekers
 
+Branch|[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.org)
+---|---
+`master`|[![Build Status](https://travis-ci.org/richelbilderbeek/ArduinoCourse.svg?branch=master)](https://travis-ci.org/richelbilderbeek/ArduinoCourse)
+
 ## Agenda
 
  * 31 mei: geen les ivm Hemelvaart
