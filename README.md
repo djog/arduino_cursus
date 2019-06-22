@@ -6,9 +6,9 @@ Branch|[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.org)
 
 ## Agenda
 
- * 31 mei: geen les ivm Hemelvaart
- * 5 juli: eindpresentaties!
- * 12 juli: laatste les voor de zomervakantie
+ * Vrijdag 5 juli: eindpresentaties!
+ * Vrijdag 12 juli: laatste les voor de zomervakantie
+ * Maandag 22 juli: [Pi Benaderingsdag](https://github.com/richelbilderbeek/pi_approximation_day)
 
 ![DJOG logo](Djog.png)
 
