@@ -4,7 +4,7 @@
 
 Les|Datum|Crew
 ---|---|---
-1|19 jul|~~Anko~~, Anton, Martin, ~~Richel~~ 
+1|19 jul|Anko, Anton, ~~Martin~~, ~~Richel~~ 
 2|26 jul|Anko, ~~Anton~~, ~~Martin~~, Richel
 3|02 aug|Anko, ~~Anton~~, ~~Martin~~, Richel
 4|09 aug|Anko, ~~Anton~~, ~~Martin~~, Richel
